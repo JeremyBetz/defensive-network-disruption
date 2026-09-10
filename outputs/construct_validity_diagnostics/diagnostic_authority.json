@@ -1,0 +1,72 @@
+{
+  "counts": {
+    "development_01": 885,
+    "development_02": 801,
+    "development_03": 952,
+    "development_04": 877,
+    "development_05": 861,
+    "development_06": 629,
+    "development_07": 764,
+    "development_08": 734,
+    "development_09": 724
+  },
+  "cuts": {
+    "absolute_lateral": [
+      6.690000000000001,
+      13.76,
+      23.34
+    ],
+    "attenuation": [
+      1.393919706997837,
+      2.058794264047246,
+      2.7377363679631332
+    ],
+    "distance": [
+      14.649027271460723,
+      23.26955521706421,
+      33.91231339793851
+    ],
+    "longitudinal": [
+      -10.25,
+      3.38,
+      15.189999999999998
+    ],
+    "nonnearest_mass": [
+      1.0019373869174868,
+      1.3106310584299465,
+      1.7241066647046506
+    ],
+    "receiver_distance": [
+      3.6001388862098085,
+      6.305870280936644,
+      11.495151151681304
+    ],
+    "segment_distance": [
+      0.7101435227866348,
+      1.506345829195991,
+      2.769094968019554
+    ]
+  },
+  "environment": {
+    "numpy": "2.5.3",
+    "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+    "python": "3.13.15",
+    "scipy": "1.18.1",
+    "uv_lock_sha256": "831e43041d47bbf05d614ee47d87e09f67654de5f7ec44a42bdc0807c36386a7"
+  },
+  "implementation_commit": "b9bcc78d9ab0e5107e7d240221caa3fb8d66dd5c",
+  "implementation_sha256": {
+    "scripts/session_07_construct_validity.py": "434a6a0610c6a9d4d3b57bd36ae21a283a358359f9fc2f9d7ecb69b17e94cf9b",
+    "src/defensive_network_disruption/validation/construct_diagnostics.py": "61fb9a44af816c83334f91628b9a112f123cb9e6c720eb56133f5b73cb26faa7",
+    "tests/test_session7_construct.py": "047dcf8fdda108478f9a1122fcda56e03f77652240612b5c7f12cddca9ef1c68"
+  },
+  "model_sha256": "0383561e45bcd9f8d84eccc7e9733b2409536f61c39193fa87d08c36c6f6fd65",
+  "population_sha256": "cd706f9f4621efcf659fbe890d9a6a0ebfff97c3407095a6db5ea05044c1264d",
+  "protocol_commit": "b1555135d2bee5a76d86e67a4a022b1fa5e14575",
+  "protocol_sha256": "9069a5656b3943f2a57dc59e2e6643513ae24d8552efe71a9051d2e01df67c5e",
+  "schema_version": "1",
+  "starting_commit": "68617d1f94f54707c9cd8d4547f09f894818cbc3",
+  "status": "feature_only_authority",
+  "target_access_in_cutpoints": false,
+  "total": 7227
+}
