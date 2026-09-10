@@ -1,16 +1,24 @@
 # Test scope
 
-Run `uv sync --locked`, then
-`uv run --locked python -m unittest discover -s tests -v` from the root.
+Run the active suite from the repository root:
 
-Two smoke tests check installed namespace imports from an empty working
-directory, including a guard against local data reads and network connections.
-They run without competition data. Python's standard library provides the test
-runner; no scientific or testing dependency is required.
+```sh
+uv sync --locked
+uv run --locked python -m unittest discover -s tests -v
+```
 
-Three tests are deliberately SKIPPED, one each for coordinates, line/segment
-geometry, and deterministic graph construction. Their reasons identify missing
-contracts. They are not passing tests or scientific validation. Replace a
-placeholder only after the associated interface and expected behavior are
-specified; then test meaningful edge cases using clearly synthetic geometry.
-No real match fixtures or unspecific numerical assumptions belong here.
+The suite covers package/import firewalls, data and identity contracts, timing,
+coordinates, finite-segment geometry, conditional-choice fitting, ranking and tie
+rules, attenuation, Git/LFS transport integrity, execution-state gates,
+publication checks, and synthetic session lifecycles. Tests use synthetic
+fixtures and do not download or require competition data.
+
+Three original scaffold placeholder tests remain deliberately skipped for their
+initial coordinate, line/segment, and generic-network contracts. Their presence
+does not negate the later session-specific production tests, and neither passed
+nor skipped software tests are scientific validation.
+
+Add a test only after its interface and expected behavior are specified. Use
+clearly synthetic geometry for numerical cases; do not copy real match rows into
+the repository. Protocol-specific tests preserve historical behavior and should
+not be rewritten merely because a later authority took a different path.

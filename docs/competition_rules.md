@@ -80,7 +80,9 @@ and log them.
 ## Current delivery status
 
 Original code and documentation use MIT. No data is included or relicensed.
-Raw and derived competition records stay local. Current README has no figures
-or tables. Public GitHub publication, a pitch, and an empirical clean-environment
-reproduction run are outstanding submission tasks; the initial local commit
-does not satisfy those deliverables by itself.
+Raw and reconstructive competition records stay local; reviewed aggregate
+receiver-ranking results are committed under the repository's publication
+rules. The GitHub repository and governed empirical pipeline now exist. The
+current README has no figures or tables and remains below the recorded word
+limit. A final clean-environment empirical reproduction, submission-ready public
+audit, one-minute pitch, and submission-portal action remain outstanding.

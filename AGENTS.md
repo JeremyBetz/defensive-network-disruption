@@ -258,18 +258,15 @@ required checks, commit, push, verify a clean synchronized repository, stop, and
 return the results and one authorized recommendation. Start a new session only
 from a new explicit handoff.
 
-## Known documentation drift
+## Documentation alignment
 
-Some older top-level documents describe the initialization state rather than the
-current frontier. [README.md](README.md) still says no model has been validated
-or implemented. [The claim ledger](docs/claim_status.md) still begins with the
-initial “all claims untested/no data inspected” state. The
-[project charter](docs/project_charter.md) and
-[research roadmap](docs/research_roadmap.md) retain useful framing and gates but
-include planning-era status language.
+The public [README](README.md), [claim ledger](docs/claim_status.md),
+[project charter](docs/project_charter.md), and
+[research roadmap](docs/research_roadmap.md) were aligned after Session 6e and
+Phase 07a. They summarize the current frontier but remain secondary to frozen
+protocols, decision briefs, manifests, and later research-log entries.
 
-Do not silently use those stale status statements to override the later Session
-6e brief, Phase 07/07a authorities, output manifests, or research-log entries.
-Do not silently edit the older documents while doing unrelated work. Handle
-their alignment as a separate, explicit documentation task that preserves the
-historical record.
+Public summaries can drift again as research advances. If a summary conflicts
+with later committed scientific authority, preserve the historical record and
+handle alignment as a separate explicit documentation task. Never alter a
+protocol, result, or prior log entry merely to make the public narrative cleaner.

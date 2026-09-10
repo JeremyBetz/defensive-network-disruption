@@ -478,3 +478,20 @@ prospective continuation using only the already closed aggregate diagnostics.
 This entry authorizes no scientific execution, response import, reveal, fitting,
 protected access, new diagnostics, or model change. Accessibility remains PROXY
 ONLY and suppression NOT SUPPORTABLE.
+
+
+## L018 — Public documentation aligned after protected evaluation
+
+Public and status-facing documentation was aligned with the already closed
+Session 6e receiver-ranking evidence and the Phase 07a Session 7 reframe. The
+claim ledger now distinguishes two narrow SUPPORTED WITHIN SCOPE ranking
+associations from broader edge, accessibility, suppression, network,
+attribution, and value claims that remain in progress or untested.
+
+This was documentation alignment only. No new scientific claim was created from
+new evidence; no model, metric, diagnostic, provider record, protected-data
+record, ignored output, or review response was opened or executed. Only the
+already committed public aggregate authorities were consulted. No scientific
+artifact or prior log entry was changed. The README, charter, roadmap,
+governance status, competition delivery status, agent guide, and public directory
+indexes were brought current without beginning a new research session.

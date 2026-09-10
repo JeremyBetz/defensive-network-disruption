@@ -1,8 +1,10 @@
 # Local competition data
 
-No competition data is committed, downloaded automatically, or required for
-package imports and scaffold tests. Raw files, derived tables, metadata manifests,
-and pose artifacts belong here and remain ignored by Git.
+Competition data has been acquired locally for governed development and protected
+evaluations, but none is committed, downloaded automatically on import, or
+required for software tests. Raw files, reconstructed tables, detailed manifests,
+and pose artifacts belong in protocol-specific ignored storage under this
+directory. The protected and withheld boundaries remain in force.
 
 ## Obtain and place eligible data
 
@@ -11,27 +13,25 @@ and pose artifacts belong here and remain ignored by Git.
    Use the [Cup 2.0 dataset description](https://pysport.org/analytics-cup/editions/analytics-cup2/datasets)
    and current rules to verify the eligible release. Public availability alone
    does not authorize extra data for the competition.
-2. Finalize the [metadata inventory protocol](../docs/protocols/phase_01_inventory.md)
-   before opening records. Select a source commit/release and record its terms
-   and acquisition method. The full acquisition command and exact file manifest
-   will be written after release identity is resolved; there is no bulk downloader.
-3. Put authorized source files under `data/raw/skillcorner/<release>/`, retaining
-   their original names and internal structure. Do not flatten different
-   products into one directory. Keep source bytes immutable.
-4. Put local coverage, checksums, and exposure/split manifests under
-   `data/manifests/`. Record source URL/commit, acquisition date, relative path,
-   product, size, checksum, and permitted use. Derived intermediate/final inputs
-   go under `data/interim/` and `data/processed/`; diagnostics go under `outputs/`.
-5. Audit metadata and prior exposure before selecting development/validation
-   partitions. Downloading files is not permission to inspect their outcomes.
-   Reserve match passages, event tables, aggregate performance values, and pose
-   examples for their protocol-defined phase.
+2. Read the current [research log](../docs/research_log.md), relevant protocol,
+   and later amendment before any request or file open. Phase 01 resolved the
+   selected source identity; later session protocols govern actual acquisition,
+   products, partitions, and access boundaries.
+3. Retain authorized source bytes under the session-specific ignored location
+   named by that protocol. Do not flatten products, substitute revisions, or
+   reuse an old downloader outside its authority. Keep verified source bytes
+   immutable.
+4. Keep detailed identities, checksums, access ledgers, exposure mappings, and
+   derived records ignored. Only compact publication-reviewed aggregates and
+   provenance summaries may be committed under `outputs/`.
+5. Treat downloading, parsing, viewing, and aggregate inspection as distinct
+   access events. The former protected set was spent by Session 6e; the remaining
+   withheld match and pose data cannot be opened without new prospective
+   authority.
 
-These are proposed local storage locations, not confirmed provider schemas.
-Create subdirectories only when needed. The source overview and official
-competition description differ on tracking coverage; the unresolved release
-inventory and documented schema clues are in
-[data_dictionary_notes.md](../docs/data_dictionary_notes.md).
+Verified schema and convention facts are in
+[data_dictionary_notes.md](../docs/data_dictionary_notes.md). Historical storage
+proposals in early protocols do not override later session-specific authority.
 
 Local machine path overrides may live in `configs/paths.local.toml` (ignored).
 The committed [example configuration](../configs/paths.example.toml) is
@@ -40,11 +40,11 @@ committed configuration.
 
 ## Public reproducibility boundary
 
-The eventual public workflow must identify the permitted input release,
-acquisition/placement instructions, checksums where allowed, and a command that
-reproduces every reported result. Until that exists, only the software scaffold
-is reproducible. Do not substitute external providers or pretrained artifacts
-to make an example run.
+The governed session records identify the permitted release, verified source
+identities, acquisition methods, environment, and commands behind reported
+results. Submission hardening still requires reproducing that workflow in a clean
+environment using separately obtained permitted inputs. Do not substitute
+external providers or pretrained artifacts to make an example run.
 
 Original project software uses MIT; SkillCorner retains rights to its datasets.
 Preserve provider attribution and terms. The public repository excludes data

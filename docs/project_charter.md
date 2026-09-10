@@ -1,7 +1,9 @@
 # Project charter
 
-Status: exploratory foundation, 2026-09-09. Public documentation reviewed; no
-competition data files accessed or empirical construct, estimand, or result established.
+Status: active research, aligned 2026-09-10. The original conceptual foundation
+below is preserved. Subsequent governed sessions established a narrow
+receiver-ranking benchmark and protected replication; broader attacking-edge,
+accessibility, network, attribution, and value claims remain unresolved.
 
 ## Context and problem
 
@@ -27,12 +29,20 @@ interpretably attenuates those connections. The initial question is:
 > At a given moment, what does it mean for two attacking players to have a viable
 > connection, and how can defender positioning continuously weaken it?
 
-The candidate observable is a directed connection strength `w_ij(t)`. Its
-semantics, units, scale, support, time horizon, and validation target are all
-undecided. A current ball-carrier-to-receiver connection and a hypothetical
-connection between two off-ball attackers are different constructs. Success on
-the former would not establish validity of the latter. The estimand must be
-specified prospectively before outcome evaluation.
+The implemented empirical object is currently narrower than the proposed
+`w_ij(t)`: a ball-carrier-to-candidate receiver ranking from transparent attacking
+and defensive geometry. The defensive features improved Tier B vendor-target
+ranking in development and in a protected ten-match evaluation. Its units are
+fitted utility/rank rather than calibrated accessibility, and it does not define
+hypothetical connections between two off-ball attackers. Success on the former
+does not establish validity of the latter. Any broader edge estimand must still
+be specified prospectively before evaluation.
+
+The [Session 6e result](session_06e_corrected_reserved_evaluation_decision_brief.md)
+is the protected empirical foundation. The current
+[Session 7 direction](protocols/phase_07a_human_review_withdrawal.md) is a
+development-only construct/model-behavior audit of the frozen geometry, without
+human-review evidence.
 
 ## Two spatial networks
 
@@ -75,11 +85,14 @@ a lightly adapted prior study.
 
 ## Scope, unknowns, and non-claims
 
-Unknowns include dataset access and permitted release, cross-product match
-overlap, coordinate and time conventions, ball/possession reliability, tracking
-quality and missingness, event semantics and synchronization, pose coverage,
-feasible reference outcomes, sampling units, and viable validation partitions.
-All proposed dataset counts are expectations from the brief, not audit results.
+The permitted release, product identities, development/protected partitions,
+coordinate conventions, event/tracking alignment, receiver-label limitations,
+and benchmark population have been audited for the completed receiver-ranking
+work. Remaining unknowns concern the football meaning of the edge, unchosen
+options, provider extrapolation causality, pose/orientation, dynamics, network
+aggregation, defensive structure, attribution, and value. Consult the research
+log and session briefs rather than treating the original expected dataset counts
+as current inventory authority.
 
 No claim is made that:
 
@@ -95,12 +108,15 @@ No claim is made that:
 ## Open-source objective and completion standard
 
 Original code and documentation use MIT licensing. Competition data is local
-and separately governed. The eventual method should be reusable from Python
-without proprietary software, but this scaffold promises no public model API.
-Only a validated construct should motivate interfaces for connections,
-attenuation, topology, or structure.
+and separately governed. The intended software contribution is a reusable,
+provider-independent Python library/API without proprietary software. Existing
+code supplies governed data, geometry, choice-model, validation, integrity, and
+diagnostic primitives, but no stable public scientific API is promised yet.
+Only a sufficiently supported construct should motivate interfaces for
+connections, attenuation, topology, or structure; a web service is a later
+optional layer.
 
-Early success can be a well-supported negative result or a clearly bounded
-measurement. Initialization is complete when the research gates, data boundary,
-claim ledger, importable empty modules, and no-data checks are in place; it is
-not evidence of scientific success.
+Success may still be a well-supported negative result or a clearly bounded
+measurement. The completed receiver-ranking association is scientific evidence
+within its stated scope, while initialization checks and software tests alone
+remain insufficient evidence for football claims.

@@ -1,17 +1,26 @@
 # References and provenance
 
-The user-supplied ecosystem has been reviewed at the documentation/repository
-overview level in [library_review.md](library_review.md). That file records every
-provided link, possible integration roles, limitations, and adoption gates.
-No listed analytics package or model has been installed or vendored into this
-scaffold. The authoritative data source is linked in [data/README.md](../data/README.md).
+The user-supplied ecosystem and closest prior mathematical objects have been
+reviewed in [library_review.md](library_review.md). That file records provided
+links, conceptual neighbors, integration roles, limitations, and adoption gates.
+No third-party model, weights, or external match data were adopted as scientific
+evidence.
 
-## Phase 2 literature review queue
+Kloppy 3.19.0 was evaluated on a bounded development sample and classified
+**SAFE WITH NATIVE SIDECAR**: coordinates and player/ball presence matched the
+native reader, while native detection flags, possession-player identity, and
+image projection require sidecar retention. Kloppy is a development dependency;
+mplsoccer, matplotvideo, and other ecosystem integrations remain conditional or
+planned rather than implemented. The authoritative data source and local-use
+boundary are described in [data/README.md](../data/README.md).
 
-This is a planned review, not a completed literature synthesis. Use primary
-papers, official documentation, and source code for substantive claims. Library
-examples and published results on other datasets are not evidence for this
-project's measurement.
+## Continuing literature and reuse review
+
+The bounded originality and failure-mode reviews are complete for the frozen
+receiver-ranking ladder, but the wider literature program remains selective and
+ongoing. Use primary papers, official documentation, and source code for
+substantive claims. Library examples and published results on other datasets are
+not evidence for this project's measurement.
 
 | Topic | Questions to extract from primary work |
 | --- | --- |

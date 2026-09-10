@@ -1,8 +1,24 @@
 # Research roadmap
 
-Status: provisional. Phase 0 scaffolding is initialized; the data contract
-is unverified. No empirical phase has run. Dependencies below are scientific
-gates, not a commitment to implement all phases before submission.
+Status: active and conditional, aligned 2026-09-10. The numbered phases below
+remain scientific gates rather than a claim that later governed sessions mapped
+one-to-one onto the original sequence.
+
+Completed work includes provenance and compatibility audits, a frozen
+ball-carrier receiver-choice population, transparent M0/M1/M2 development
+comparisons, and one protected ten-match evaluation. The major replicated result
+is the M1 defensive-geometry receiver-ranking increment; M2 is a smaller,
+metric-dependent refinement. Accessibility remains a proxy and suppression is
+not supportable.
+
+The current frontier is the unfinished Session 7 development-only construct and
+model-behavior audit under [Phase 07a](protocols/phase_07a_human_review_withdrawal.md).
+Human review was withdrawn before responses, and no continuation is authorized
+automatically. Future optional work includes a simple attacking-option network
+only if edge semantics become defensible, provider-independent software/API
+integration, practitioner visualization and storytelling, separately validated
+defensive structure, and submission/package hardening. Listing future work here
+does not authorize it.
 
 **Do not add PageRank, graph neural networks, community detection, or similar
 machinery simply because players can be drawn as a graph. The project first
@@ -67,6 +83,7 @@ Preserve negative, mixed, invalid, and stopped runs. A scientific stop does not
 justify silently replacing metrics or reusing a spent holdout as untouched.
 
 The supplied submission deadline is 18 December 2026. Work backward from that
-date once access and scope are known; protect time for reproduction and honest
-communication. The roadmap can end at measurement validation or a documented
-failure rather than promise a defensive-value model.
+date and protect time for clean-environment reproduction, package hardening,
+visual communication, and honest claim review. The roadmap can end at a bounded
+receiver-ranking contribution, measurement validation, or a documented failure
+rather than promise a defensive-value model.

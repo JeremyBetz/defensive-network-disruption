@@ -1,9 +1,11 @@
 # Research governance
 
 Effective 2026-09-09. Applies to exploratory and confirmatory work, including
-negative results. Current status: public documentation and reference overviews
-reviewed; no competition data files accessed, no split chosen, and no empirical
-protocol executed. Prior published-result exposure is recorded in the log.
+negative results. Current status aligned 2026-09-10: governed development and
+protected receiver-ranking work has been completed through Session 6e, and
+Session 7 construct diagnostics remain unfinished under a later amendment.
+Exposure, partitions, protocols, results, failures, and current non-claims are
+recorded in the research log and linked authorities.
 
 ## Prospective protocols
 
@@ -127,8 +129,9 @@ records, credentials, private paths, or notebook outputs containing them.
 before committing; never force-add competition data. Record sources and retain
 third-party attribution and license notices where appropriate.
 
-Public GitHub publication, the video, and final submission are separate future
-steps. Before release, audit claim wording, data provenance, README limits, and
-license scope. Reproduce the exact documented workflow in a new environment
-using only open-source tools and permitted inputs. Until an analysis exists,
-environment and import checks demonstrate scaffold reproducibility only.
+Public release hardening, the video, and final submission are separate future
+steps. Before submission, audit claim wording, data provenance, README limits,
+and license scope. Reproduce the exact documented workflow in a new environment
+using only open-source tools and permitted inputs. Software checks demonstrate
+implementation behavior; scientific evidence comes only from the governed
+empirical protocols and results within their stated scope.
