@@ -1,0 +1,48 @@
+{
+  "counts": {
+    "development_01": 885,
+    "development_02": 801,
+    "development_03": 952,
+    "development_04": 877,
+    "development_05": 861,
+    "development_06": 629,
+    "development_07": 764,
+    "development_08": 734,
+    "development_09": 724
+  },
+  "detail_sha256": "4155d6cde4c9f7a8288b368f565bf5166733f0af079bce28f4dda4ae7a469ceb",
+  "diagnostic_authority_sha256": "14fd08544b61c463b925994e1decb35dc3780f8f4a6a1ea4a3460ade82ed2ec0",
+  "interpretation": "in_sample_development_diagnostics",
+  "m1_target_rank_change": {
+    "count": 7227,
+    "maximum": 8.0,
+    "mean": -0.5365424937790699,
+    "minimum": -9.0,
+    "quantiles": {
+      "q05": -4.0,
+      "q25": -1.0,
+      "q50": 0.0,
+      "q75": 0.0,
+      "q95": 2.0
+    }
+  },
+  "m2_target_rank_change": {
+    "count": 7227,
+    "maximum": 4.0,
+    "mean": -0.013451652987074042,
+    "minimum": -5.0,
+    "quantiles": {
+      "q05": -1.0,
+      "q25": 0.0,
+      "q50": 0.0,
+      "q75": 0.0,
+      "q95": 1.0
+    }
+  },
+  "match_count": 9,
+  "primary_classification": null,
+  "schema_version": "1",
+  "secondary_classification": null,
+  "states": 7227,
+  "status": "diagnostics_closed"
+}

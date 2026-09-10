@@ -1,0 +1,18 @@
+{
+  "detail_sha256": "4155d6cde4c9f7a8288b368f565bf5166733f0af079bce28f4dda4ae7a469ceb",
+  "fitting": false,
+  "implementation_sha256": {
+    "scripts/session_07_construct_validity.py": "434a6a0610c6a9d4d3b57bd36ae21a283a358359f9fc2f9d7ecb69b17e94cf9b",
+    "src/defensive_network_disruption/validation/construct_diagnostics.py": "61fb9a44af816c83334f91628b9a112f123cb9e6c720eb56133f5b73cb26faa7",
+    "tests/test_session7_construct.py": "047dcf8fdda108478f9a1122fcda56e03f77652240612b5c7f12cddca9ef1c68"
+  },
+  "in_sample": true,
+  "max_utility_reconstruction_residual": 3.552713678800501e-15,
+  "model_sha256": "0383561e45bcd9f8d84eccc7e9733b2409536f61c39193fa87d08c36c6f6fd65",
+  "population_sha256": "cd706f9f4621efcf659fbe890d9a6a0ebfff97c3407095a6db5ea05044c1264d",
+  "raw_provider_access": false,
+  "reserved_detail_access": false,
+  "schema_version": "1",
+  "states": 7227,
+  "withheld_access": false
+}

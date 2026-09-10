@@ -1,0 +1,42 @@
+{
+  "case_ids": [
+    "case_01",
+    "case_02",
+    "case_03",
+    "case_04",
+    "case_05",
+    "case_06",
+    "case_07",
+    "case_08",
+    "case_09",
+    "case_10",
+    "case_11",
+    "case_12"
+  ],
+  "category_counts": {
+    "agreement": 3,
+    "failure": 3,
+    "feature_disagreement": 3,
+    "m2_ordering_change": 3
+  },
+  "detail_sha256": "4155d6cde4c9f7a8288b368f565bf5166733f0af079bce28f4dda4ae7a469ceb",
+  "diagnostic_authority_sha256": "14fd08544b61c463b925994e1decb35dc3780f8f4a6a1ea4a3460ade82ed2ec0",
+  "implementation_sha256": {
+    "scripts/session_07_construct_validity.py": "434a6a0610c6a9d4d3b57bd36ae21a283a358359f9fc2f9d7ecb69b17e94cf9b",
+    "src/defensive_network_disruption/validation/construct_diagnostics.py": "61fb9a44af816c83334f91628b9a112f123cb9e6c720eb56133f5b73cb26faa7",
+    "tests/test_session7_construct.py": "047dcf8fdda108478f9a1122fcda56e03f77652240612b5c7f12cddca9ef1c68"
+  },
+  "maximum_per_match": 2,
+  "model_sha256": "0383561e45bcd9f8d84eccc7e9733b2409536f61c39193fa87d08c36c6f6fd65",
+  "population_sha256": "cd706f9f4621efcf659fbe890d9a6a0ebfff97c3407095a6db5ea05044c1264d",
+  "schema_version": "1",
+  "selected_count": 12,
+  "selection_sha256": "1f22c24781ec49a3a4c74c20a89a78c1db0ffa3bebc1b4d9efd2d63f2ee7b67a",
+  "shortfalls": {
+    "agreement": 0,
+    "failure": 0,
+    "feature_disagreement": 0,
+    "m2_ordering_change": 0
+  },
+  "status": "selected_before_rendering"
+}
