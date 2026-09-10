@@ -1,6 +1,6 @@
 # P01 — Metadata inventory and convention verification
 
-Version: 1.0, 2026-09-10. Status: **FROZEN BEFORE STAGE A EXECUTION**.
+Version: 1.1, 2026-09-10. Status: **STAGE A1 COMPLETE; STAGE A2 FROZEN**.
 This version authorizes only the two Stage A access steps below after this file
 is committed. Public documentation and repository-tree review performed while
 planning are recorded separately in the research log.
@@ -67,6 +67,27 @@ aggregate-performance values, pose values, and free-text notes are prohibited.
 
 If the schema does not permit exact paths to be frozen without exposing values,
 Stage A2 is blocked. Session 1 may finish with Stage A1 findings and the blocker.
+
+Stage A1 found four metadata-schema variants without emitting values. The exact
+Stage A2 allowlist is:
+
+- `$.id`, `$.date_time`, `$.pitch_length`, `$.pitch_width`;
+- `$.home_team.id`, `$.home_team.name`, `$.home_team.short_name`,
+  `$.home_team.acronym`;
+- `$.away_team.id`, `$.away_team.name`, `$.away_team.short_name`,
+  `$.away_team.acronym`;
+- `$.competition_edition.id`, `$.competition_edition.name`;
+- `$.competition_edition.competition.id`,
+  `$.competition_edition.competition.name`;
+- `$.competition_edition.season.id`, `$.competition_edition.season.name`,
+  `$.competition_edition.season.start_year`, and
+  `$.competition_edition.season.end_year`.
+
+No parent object may be printed or retained wholesale. The parser must address
+each path directly, emit `null` for an absent path, and reject unexpected scalar
+types. It may retain these values only in the two ignored local JSON artifacts.
+The publication-safe summary contains counts and verification statuses, not
+match, team, date, or competition identifiers.
 
 1. Verify the frozen release and reconcile the official 20-game description
    with the repository overview and tree without assuming usable record coverage.
