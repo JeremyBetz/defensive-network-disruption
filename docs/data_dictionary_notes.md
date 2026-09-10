@@ -109,3 +109,25 @@ Candidate validity requires same-team metadata, active playing interval, current
 finite tracking coordinate, and exclusion of the carrier. Goalkeeper and backward
 options remain included, no distance limit is applied, and offside filtering is
 deferred. These are development-feasibility rules, not model-selected choices.
+
+## Session 3 frozen benchmark fields
+
+The following contract was executed only on the nine development matches.
+
+| Derived field | Inputs | Role | Verified handling |
+| --- | --- | --- | --- |
+| decision frame | period and integer-microsecond event/tracking clocks | offline feature-state key | latest strictly earlier same-period frame, age ≤100 ms; no interpolation or offset tuning |
+| attacking x/y | native x/y plus verified team-period direction | feature coordinate | `x'=s*x`, `y'=y`; unknown direction blocks state |
+| candidate membership | roster team, carrier ID, exact period interval, current finite coordinate | choice-set construction | label/vendor-option independent; keeper/backward included; no distance/offside filter |
+| defender membership | opponent team, exact period interval, current finite coordinate | M1 geometry | empty set blocks common comparison population |
+| M0 distance/dx/dy | carrier and candidate attacking coordinates | predictor | exact three-column defender-free baseline |
+| nearest receiver-defender distance | candidate and active opponents | M1 predictor | decision-state geometry only |
+| finite-segment defender distance | carrier, candidate, active opponents | M1 predictor | analytic clipped projection; `1e-9` m is an implementation tolerance only |
+| target player ID | Dynamic Events | label only | self-target is unusable; candidate admission never uses target |
+
+The finalized development population contains 7,227 fit/evaluation states from
+7,292 pass attempts. Fifty-six attempts have an unusable target label and nine
+have an invalid carrier state under the frozen waterfall. No target-outside state
+remains. These counts supersede Session 2's preliminary ten mismatch descriptions
+for the frozen benchmark population; they do not change the Tier B provenance of
+the vendor target.

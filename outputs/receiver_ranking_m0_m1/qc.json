@@ -1,0 +1,907 @@
+{
+  "corrective_rerun": false,
+  "degenerate_segments": 0,
+  "development_match_count": 9,
+  "folds": {
+    "development_01": {
+      "m0": {
+        "feature_names": [
+          "distance",
+          "longitudinal_displacement",
+          "lateral_displacement"
+        ],
+        "fit": {
+          "columns": 3,
+          "complete_separation": false,
+          "iterations": 7,
+          "max_abs_gradient": 2.1318562689904424e-09,
+          "objective": 1.9608995042510953,
+          "quasi_separation": false,
+          "rank": 3,
+          "svd_tolerance": 4.213209385284127e-09
+        },
+        "heldout_evaluation_eligible": 885,
+        "heldout_fit_eligible": 885,
+        "parameters": {
+          "coefficients": [
+            -1.19625889825525,
+            0.26354092171412546,
+            -0.02806097865964484
+          ],
+          "mean": [
+            25.2796865642158,
+            1.549177249870057,
+            0.14743942095905452
+          ],
+          "scale": [
+            13.56091211334393,
+            20.59025175539291,
+            19.914334893387778
+          ]
+        },
+        "standardization_zero_variance": [
+          false,
+          false,
+          false
+        ],
+        "training_evaluation_eligible": 6342,
+        "training_fit_eligible": 6342
+      },
+      "m1": {
+        "feature_names": [
+          "distance",
+          "longitudinal_displacement",
+          "lateral_displacement",
+          "nearest_receiver_defender_distance",
+          "minimum_segment_defender_distance"
+        ],
+        "fit": {
+          "columns": 5,
+          "complete_separation": false,
+          "iterations": 13,
+          "max_abs_gradient": 5.579622325800615e-09,
+          "objective": 1.740823170944124,
+          "quasi_separation": false,
+          "rank": 5,
+          "svd_tolerance": 5.426533226142615e-09
+        },
+        "heldout_evaluation_eligible": 885,
+        "heldout_fit_eligible": 885,
+        "parameters": {
+          "coefficients": [
+            -1.6235807707253773,
+            1.5662743920501359,
+            -0.025472758822639486,
+            1.2327267366772536,
+            0.4734065512423164
+          ],
+          "mean": [
+            25.2796865642158,
+            1.549177249870057,
+            0.14743942095905452,
+            9.113268136470868,
+            2.1525043614490835
+          ],
+          "scale": [
+            13.56091211334393,
+            20.59025175539291,
+            19.914334893387778,
+            8.698097062938245,
+            2.2185377433603235
+          ]
+        },
+        "standardization_zero_variance": [
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "training_evaluation_eligible": 6342,
+        "training_fit_eligible": 6342
+      }
+    },
+    "development_02": {
+      "m0": {
+        "feature_names": [
+          "distance",
+          "longitudinal_displacement",
+          "lateral_displacement"
+        ],
+        "fit": {
+          "columns": 3,
+          "complete_separation": false,
+          "iterations": 7,
+          "max_abs_gradient": 3.068888051546855e-09,
+          "objective": 1.9644525196640648,
+          "quasi_separation": false,
+          "rank": 3,
+          "svd_tolerance": 4.288736253271998e-09
+        },
+        "heldout_evaluation_eligible": 801,
+        "heldout_fit_eligible": 801,
+        "parameters": {
+          "coefficients": [
+            -1.1845088297337372,
+            0.21576548500164555,
+            -0.04035186474911778
+          ],
+          "mean": [
+            25.316311622738187,
+            1.9036437335028036,
+            0.2444424515987211
+          ],
+          "scale": [
+            13.475186864955246,
+            20.453143439229855,
+            20.012036555610514
+          ]
+        },
+        "standardization_zero_variance": [
+          false,
+          false,
+          false
+        ],
+        "training_evaluation_eligible": 6426,
+        "training_fit_eligible": 6426
+      },
+      "m1": {
+        "feature_names": [
+          "distance",
+          "longitudinal_displacement",
+          "lateral_displacement",
+          "nearest_receiver_defender_distance",
+          "minimum_segment_defender_distance"
+        ],
+        "fit": {
+          "columns": 5,
+          "complete_separation": false,
+          "iterations": 13,
+          "max_abs_gradient": 3.247733197739994e-08,
+          "objective": 1.742926020784508,
+          "quasi_separation": false,
+          "rank": 5,
+          "svd_tolerance": 5.553146351510929e-09
+        },
+        "heldout_evaluation_eligible": 801,
+        "heldout_fit_eligible": 801,
+        "parameters": {
+          "coefficients": [
+            -1.5956768232573515,
+            1.5146116194394268,
+            -0.02791283106286664,
+            1.1938659213845149,
+            0.4926145920742049
+          ],
+          "mean": [
+            25.316311622738187,
+            1.9036437335028036,
+            0.2444424515987211,
+            9.075544997255825,
+            2.1656157262537965
+          ],
+          "scale": [
+            13.475186864955246,
+            20.453143439229855,
+            20.012036555610514,
+            8.671948912288402,
+            2.2403527208008915
+          ]
+        },
+        "standardization_zero_variance": [
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "training_evaluation_eligible": 6426,
+        "training_fit_eligible": 6426
+      }
+    },
+    "development_03": {
+      "m0": {
+        "feature_names": [
+          "distance",
+          "longitudinal_displacement",
+          "lateral_displacement"
+        ],
+        "fit": {
+          "columns": 3,
+          "complete_separation": false,
+          "iterations": 7,
+          "max_abs_gradient": 7.172098017479284e-10,
+          "objective": 1.9557040403082195,
+          "quasi_separation": false,
+          "rank": 3,
+          "svd_tolerance": 4.162548700431055e-09
+        },
+        "heldout_evaluation_eligible": 952,
+        "heldout_fit_eligible": 952,
+        "parameters": {
+          "coefficients": [
+            -1.2033320853407552,
+            0.2651619783889743,
+            -0.013419086944272378
+          ],
+          "mean": [
+            25.253995416092685,
+            1.5065881951591895,
+            -0.040103834097205054
+          ],
+          "scale": [
+            13.528525248628922,
+            20.415494878771504,
+            20.042989607999402
+          ]
+        },
+        "standardization_zero_variance": [
+          false,
+          false,
+          false
+        ],
+        "training_evaluation_eligible": 6275,
+        "training_fit_eligible": 6275
+      },
+      "m1": {
+        "feature_names": [
+          "distance",
+          "longitudinal_displacement",
+          "lateral_displacement",
+          "nearest_receiver_defender_distance",
+          "minimum_segment_defender_distance"
+        ],
+        "fit": {
+          "columns": 5,
+          "complete_separation": false,
+          "iterations": 11,
+          "max_abs_gradient": 2.243710048484282e-09,
+          "objective": 1.7406397596467158,
+          "quasi_separation": false,
+          "rank": 5,
+          "svd_tolerance": 5.298639670327067e-09
+        },
+        "heldout_evaluation_eligible": 952,
+        "heldout_fit_eligible": 952,
+        "parameters": {
+          "coefficients": [
+            -1.6236912112365136,
+            1.5294159890979713,
+            -0.016278546514131836,
+            1.2022780806325026,
+            0.4701202150904047
+          ],
+          "mean": [
+            25.253995416092685,
+            1.5065881951591895,
+            -0.040103834097205054,
+            9.079166409472723,
+            2.1151792842005954
+          ],
+          "scale": [
+            13.528525248628922,
+            20.415494878771504,
+            20.042989607999402,
+            8.645347960050314,
+            2.1632962611935875
+          ]
+        },
+        "standardization_zero_variance": [
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "training_evaluation_eligible": 6275,
+        "training_fit_eligible": 6275
+      }
+    },
+    "development_04": {
+      "m0": {
+        "feature_names": [
+          "distance",
+          "longitudinal_displacement",
+          "lateral_displacement"
+        ],
+        "fit": {
+          "columns": 3,
+          "complete_separation": false,
+          "iterations": 7,
+          "max_abs_gradient": 5.638212092844673e-10,
+          "objective": 1.9659935157817914,
+          "quasi_separation": false,
+          "rank": 3,
+          "svd_tolerance": 4.211146883261313e-09
+        },
+        "heldout_evaluation_eligible": 877,
+        "heldout_fit_eligible": 877,
+        "parameters": {
+          "coefficients": [
+            -1.1810225956290015,
+            0.23407889342565374,
+            -0.03052241078310093
+          ],
+          "mean": [
+            25.333805844688502,
+            1.6465214118823095,
+            0.06237616989127723
+          ],
+          "scale": [
+            13.527422841474577,
+            20.51918618507145,
+            20.026007142324623
+          ]
+        },
+        "standardization_zero_variance": [
+          false,
+          false,
+          false
+        ],
+        "training_evaluation_eligible": 6350,
+        "training_fit_eligible": 6350
+      },
+      "m1": {
+        "feature_names": [
+          "distance",
+          "longitudinal_displacement",
+          "lateral_displacement",
+          "nearest_receiver_defender_distance",
+          "minimum_segment_defender_distance"
+        ],
+        "fit": {
+          "columns": 5,
+          "complete_separation": false,
+          "iterations": 12,
+          "max_abs_gradient": 3.6133878250632634e-09,
+          "objective": 1.7471638613673244,
+          "quasi_separation": false,
+          "rank": 5,
+          "svd_tolerance": 5.461380576152709e-09
+        },
+        "heldout_evaluation_eligible": 877,
+        "heldout_fit_eligible": 877,
+        "parameters": {
+          "coefficients": [
+            -1.594349076342677,
+            1.5487546666124483,
+            -0.02423704832768657,
+            1.2150262752813135,
+            0.49268227990110297
+          ],
+          "mean": [
+            25.333805844688502,
+            1.6465214118823095,
+            0.06237616989127723,
+            9.172841171940597,
+            2.1679682700038523
+          ],
+          "scale": [
+            13.527422841474577,
+            20.51918618507145,
+            20.026007142324623,
+            8.802254227518691,
+            2.246387458574354
+          ]
+        },
+        "standardization_zero_variance": [
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "training_evaluation_eligible": 6350,
+        "training_fit_eligible": 6350
+      }
+    },
+    "development_05": {
+      "m0": {
+        "feature_names": [
+          "distance",
+          "longitudinal_displacement",
+          "lateral_displacement"
+        ],
+        "fit": {
+          "columns": 3,
+          "complete_separation": false,
+          "iterations": 8,
+          "max_abs_gradient": 1.696980181802889e-09,
+          "objective": 1.9636945205153766,
+          "quasi_separation": false,
+          "rank": 3,
+          "svd_tolerance": 4.236938643262247e-09
+        },
+        "heldout_evaluation_eligible": 861,
+        "heldout_fit_eligible": 861,
+        "parameters": {
+          "coefficients": [
+            -1.1899415892284222,
+            0.287210899948083,
+            -0.028711476295016698
+          ],
+          "mean": [
+            25.093115903454436,
+            1.3493228541142346,
+            0.23883005561721712
+          ],
+          "scale": [
+            13.493368895788018,
+            20.505188950634665,
+            19.73309362570112
+          ]
+        },
+        "standardization_zero_variance": [
+          false,
+          false,
+          false
+        ],
+        "training_evaluation_eligible": 6366,
+        "training_fit_eligible": 6366
+      },
+      "m1": {
+        "feature_names": [
+          "distance",
+          "longitudinal_displacement",
+          "lateral_displacement",
+          "nearest_receiver_defender_distance",
+          "minimum_segment_defender_distance"
+        ],
+        "fit": {
+          "columns": 5,
+          "complete_separation": false,
+          "iterations": 12,
+          "max_abs_gradient": 4.324004668990883e-08,
+          "objective": 1.740575529622058,
+          "quasi_separation": false,
+          "rank": 5,
+          "svd_tolerance": 5.422172884750585e-09
+        },
+        "heldout_evaluation_eligible": 861,
+        "heldout_fit_eligible": 861,
+        "parameters": {
+          "coefficients": [
+            -1.6040472174684641,
+            1.577425207708453,
+            -0.03405944689780684,
+            1.2207882553331515,
+            0.5013196293735459
+          ],
+          "mean": [
+            25.093115903454436,
+            1.3493228541142346,
+            0.23883005561721712,
+            9.124720837322915,
+            2.135621619283017
+          ],
+          "scale": [
+            13.493368895788018,
+            20.505188950634665,
+            19.73309362570112,
+            8.794311246262161,
+            2.2175297070970137
+          ]
+        },
+        "standardization_zero_variance": [
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "training_evaluation_eligible": 6366,
+        "training_fit_eligible": 6366
+      }
+    },
+    "development_06": {
+      "m0": {
+        "feature_names": [
+          "distance",
+          "longitudinal_displacement",
+          "lateral_displacement"
+        ],
+        "fit": {
+          "columns": 3,
+          "complete_separation": false,
+          "iterations": 7,
+          "max_abs_gradient": 1.3558679062310175e-09,
+          "objective": 1.9541471638309378,
+          "quasi_separation": false,
+          "rank": 3,
+          "svd_tolerance": 4.476852347551081e-09
+        },
+        "heldout_evaluation_eligible": 629,
+        "heldout_fit_eligible": 629,
+        "parameters": {
+          "coefficients": [
+            -1.205914764921007,
+            0.22155786309185418,
+            -0.03319431738700717
+          ],
+          "mean": [
+            25.428707335092003,
+            1.9179818010812877,
+            0.12662391544855903
+          ],
+          "scale": [
+            13.4813584974022,
+            20.48244735067438,
+            20.12811085002389
+          ]
+        },
+        "standardization_zero_variance": [
+          false,
+          false,
+          false
+        ],
+        "training_evaluation_eligible": 6598,
+        "training_fit_eligible": 6598
+      },
+      "m1": {
+        "feature_names": [
+          "distance",
+          "longitudinal_displacement",
+          "lateral_displacement",
+          "nearest_receiver_defender_distance",
+          "minimum_segment_defender_distance"
+        ],
+        "fit": {
+          "columns": 5,
+          "complete_separation": false,
+          "iterations": 14,
+          "max_abs_gradient": 8.549416224122065e-09,
+          "objective": 1.7287021838150751,
+          "quasi_separation": false,
+          "rank": 5,
+          "svd_tolerance": 5.768607812018373e-09
+        },
+        "heldout_evaluation_eligible": 629,
+        "heldout_fit_eligible": 629,
+        "parameters": {
+          "coefficients": [
+            -1.6319753300009465,
+            1.5481818494981665,
+            -0.027170662567833685,
+            1.221786143770561,
+            0.4979233744897987
+          ],
+          "mean": [
+            25.428707335092003,
+            1.9179818010812877,
+            0.12662391544855903,
+            9.16507050614413,
+            2.1879296571335747
+          ],
+          "scale": [
+            13.4813584974022,
+            20.48244735067438,
+            20.12811085002389,
+            8.702599184073744,
+            2.249017614301873
+          ]
+        },
+        "standardization_zero_variance": [
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "training_evaluation_eligible": 6598,
+        "training_fit_eligible": 6598
+      }
+    },
+    "development_07": {
+      "m0": {
+        "feature_names": [
+          "distance",
+          "longitudinal_displacement",
+          "lateral_displacement"
+        ],
+        "fit": {
+          "columns": 3,
+          "complete_separation": false,
+          "iterations": 7,
+          "max_abs_gradient": 1.4976598866991465e-08,
+          "objective": 1.9502509465014999,
+          "quasi_separation": false,
+          "rank": 3,
+          "svd_tolerance": 4.3485670730810935e-09
+        },
+        "heldout_evaluation_eligible": 764,
+        "heldout_fit_eligible": 764,
+        "parameters": {
+          "coefficients": [
+            -1.2174410876971038,
+            0.23976288422067266,
+            -0.03065929748525247
+          ],
+          "mean": [
+            25.289173267356205,
+            1.4480899323396632,
+            0.09221363340026503
+          ],
+          "scale": [
+            13.539349628966537,
+            20.447761673437785,
+            20.065887661943087
+          ]
+        },
+        "standardization_zero_variance": [
+          false,
+          false,
+          false
+        ],
+        "training_evaluation_eligible": 6463,
+        "training_fit_eligible": 6463
+      },
+      "m1": {
+        "feature_names": [
+          "distance",
+          "longitudinal_displacement",
+          "lateral_displacement",
+          "nearest_receiver_defender_distance",
+          "minimum_segment_defender_distance"
+        ],
+        "fit": {
+          "columns": 5,
+          "complete_separation": false,
+          "iterations": 12,
+          "max_abs_gradient": 3.0929783131385113e-08,
+          "objective": 1.730079158424046,
+          "quasi_separation": false,
+          "rank": 5,
+          "svd_tolerance": 5.576584806149483e-09
+        },
+        "heldout_evaluation_eligible": 764,
+        "heldout_fit_eligible": 764,
+        "parameters": {
+          "coefficients": [
+            -1.6293610070837818,
+            1.530903115526029,
+            -0.028318723787187677,
+            1.2127415443019516,
+            0.4889492607012566
+          ],
+          "mean": [
+            25.289173267356205,
+            1.4480899323396632,
+            0.09221363340026503,
+            9.137959623867435,
+            2.1327879495001154
+          ],
+          "scale": [
+            13.539349628966537,
+            20.447761673437785,
+            20.065887661943087,
+            8.755702484866797,
+            2.1920800131888223
+          ]
+        },
+        "standardization_zero_variance": [
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "training_evaluation_eligible": 6463,
+        "training_fit_eligible": 6463
+      }
+    },
+    "development_08": {
+      "m0": {
+        "feature_names": [
+          "distance",
+          "longitudinal_displacement",
+          "lateral_displacement"
+        ],
+        "fit": {
+          "columns": 3,
+          "complete_separation": false,
+          "iterations": 7,
+          "max_abs_gradient": 2.1685040429986202e-08,
+          "objective": 1.9524192455507072,
+          "quasi_separation": false,
+          "rank": 3,
+          "svd_tolerance": 4.384123275768572e-09
+        },
+        "heldout_evaluation_eligible": 734,
+        "heldout_fit_eligible": 734,
+        "parameters": {
+          "coefficients": [
+            -1.2154975302148692,
+            0.2598391393822089,
+            -0.0297758053869296
+          ],
+          "mean": [
+            25.261806758606014,
+            1.315345755966209,
+            0.26839017893716377
+          ],
+          "scale": [
+            13.553777333822671,
+            20.547478971163212,
+            19.946495955623742
+          ]
+        },
+        "standardization_zero_variance": [
+          false,
+          false,
+          false
+        ],
+        "training_evaluation_eligible": 6493,
+        "training_fit_eligible": 6493
+      },
+      "m1": {
+        "feature_names": [
+          "distance",
+          "longitudinal_displacement",
+          "lateral_displacement",
+          "nearest_receiver_defender_distance",
+          "minimum_segment_defender_distance"
+        ],
+        "fit": {
+          "columns": 5,
+          "complete_separation": false,
+          "iterations": 12,
+          "max_abs_gradient": 9.169503236566845e-09,
+          "objective": 1.7338675042764857,
+          "quasi_separation": false,
+          "rank": 5,
+          "svd_tolerance": 5.59519241983002e-09
+        },
+        "heldout_evaluation_eligible": 734,
+        "heldout_fit_eligible": 734,
+        "parameters": {
+          "coefficients": [
+            -1.6492320028934628,
+            1.5508524771673513,
+            -0.029030701433964176,
+            1.253600219487804,
+            0.4552607182766068
+          ],
+          "mean": [
+            25.261806758606014,
+            1.315345755966209,
+            0.26839017893716377,
+            9.175810680148398,
+            2.1380463978218933
+          ],
+          "scale": [
+            13.553777333822671,
+            20.547478971163212,
+            19.946495955623742,
+            8.826523396609248,
+            2.211487569420369
+          ]
+        },
+        "standardization_zero_variance": [
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "training_evaluation_eligible": 6493,
+        "training_fit_eligible": 6493
+      }
+    },
+    "development_09": {
+      "m0": {
+        "feature_names": [
+          "distance",
+          "longitudinal_displacement",
+          "lateral_displacement"
+        ],
+        "fit": {
+          "columns": 3,
+          "complete_separation": false,
+          "iterations": 7,
+          "max_abs_gradient": 8.559043770955824e-09,
+          "objective": 1.9595925408542199,
+          "quasi_separation": false,
+          "rank": 3,
+          "svd_tolerance": 4.375288223773998e-09
+        },
+        "heldout_evaluation_eligible": 724,
+        "heldout_fit_eligible": 724,
+        "parameters": {
+          "coefficients": [
+            -1.1927762659015821,
+            0.20431018861002387,
+            -0.032386548333406893
+          ],
+          "mean": [
+            25.452807388638327,
+            1.8580419802989354,
+            0.3437745623580619
+          ],
+          "scale": [
+            13.501766507617123,
+            20.545663498153043,
+            20.110900359250866
+          ]
+        },
+        "standardization_zero_variance": [
+          false,
+          false,
+          false
+        ],
+        "training_evaluation_eligible": 6503,
+        "training_fit_eligible": 6503
+      },
+      "m1": {
+        "feature_names": [
+          "distance",
+          "longitudinal_displacement",
+          "lateral_displacement",
+          "nearest_receiver_defender_distance",
+          "minimum_segment_defender_distance"
+        ],
+        "fit": {
+          "columns": 5,
+          "complete_separation": false,
+          "iterations": 14,
+          "max_abs_gradient": 1.4664263718686815e-08,
+          "objective": 1.739666342117515,
+          "quasi_separation": false,
+          "rank": 5,
+          "svd_tolerance": 5.6475188638564275e-09
+        },
+        "heldout_evaluation_eligible": 724,
+        "heldout_fit_eligible": 724,
+        "parameters": {
+          "coefficients": [
+            -1.6074757466569503,
+            1.5061725844836564,
+            -0.025343592171111425,
+            1.1919329906383314,
+            0.4923785339958189
+          ],
+          "mean": [
+            25.452807388638327,
+            1.8580419802989354,
+            0.3437745623580619,
+            9.157720328608349,
+            2.175533476603145
+          ],
+          "scale": [
+            13.501766507617123,
+            20.545663498153043,
+            20.110900359250866,
+            8.674148827985494,
+            2.227327690131004
+          ]
+        },
+        "standardization_zero_variance": [
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "training_evaluation_eligible": 6503,
+        "training_fit_eligible": 6503
+      }
+    }
+  },
+  "initial_scored_output_sha256": {
+    "aggregate_metrics.json": "95ca3e4e83234760adf0d992427dadab11c38e33b1162712365564660b80f42a",
+    "m0_match_metrics.csv": "757584b49ce6e882ff0e702f7cbf03c38d005e680bad000d1b09537e69797387",
+    "m1_match_metrics.csv": "f93ff7ab73eb4ecc2aee6e3e226bb73f02b22aebbff6fb7e4c86b478f4126778",
+    "manifest.json": "77859ff7baf7bd4e7894a0b563ce20eb0b4b04bb61143afdca1525e6049b4c0d",
+    "paired_comparison.csv": "c3e15ce4bdd8df8b9db6d53a2c31daa171fdfed1a3a2037db61f5a7d8b3601a1",
+    "qc.json": "0e7edc71964c431001f272e012750829a4fa36655ffd8c9097d9d6751bb6af83"
+  },
+  "optimizer": {
+    "ftol": 1e-12,
+    "gtol": 1e-08,
+    "maxiter": 2000,
+    "maxls": 50,
+    "method": "L-BFGS-B",
+    "regularization": null
+  },
+  "population_sha256": "cd706f9f4621efcf659fbe890d9a6a0ebfff97c3407095a6db5ea05044c1264d",
+  "tie_tolerance": 1e-12
+}

@@ -1,0 +1,64 @@
+{
+  "authority_commit": "5fcef6b8b141d636ca5bcf7c41f9e536dd755f03",
+  "development_match_aliases": [
+    "development_01",
+    "development_02",
+    "development_03",
+    "development_04",
+    "development_05",
+    "development_06",
+    "development_07",
+    "development_08",
+    "development_09"
+  ],
+  "environment": {
+    "numpy": "2.5.3",
+    "python": "3.13.15",
+    "scipy": "1.18.1"
+  },
+  "execution_commit": "54dc4f81d29b9532e4e0c41a95d4f33980360891",
+  "execution_file_sha256": {
+    "scripts/session_03_benchmark.py": "893668a144459bcbf166b35bb2c2781692dfeb446f5d60541fd596bc79657554",
+    "src/defensive_network_disruption/data/receiver_choices.py": "f4be2b5665c6d8033fadaee92e2889dc1e393ea5122d5dd18c079dd78be3ce06",
+    "src/defensive_network_disruption/validation/choice_model.py": "c5d8f9169552e37476526d195f1f0f89c4e9e3efcfc697fc80dc5cff45a5d2d3",
+    "src/defensive_network_disruption/validation/ranking_features.py": "fe2d2f8aa704fbd7dd467217866ed3ace0000952314aa4db5164c1045ad2d6a3",
+    "src/defensive_network_disruption/validation/ranking_metrics.py": "682bd3281579c02efb00ba3a8c770e6d553d705a3e959e0e44a3e37b000b90db"
+  },
+  "initial_scored_output_sha256": {
+    "aggregate_metrics.json": "95ca3e4e83234760adf0d992427dadab11c38e33b1162712365564660b80f42a",
+    "m0_match_metrics.csv": "757584b49ce6e882ff0e702f7cbf03c38d005e680bad000d1b09537e69797387",
+    "m1_match_metrics.csv": "f93ff7ab73eb4ecc2aee6e3e226bb73f02b22aebbff6fb7e4c86b478f4126778",
+    "manifest.json": "77859ff7baf7bd4e7894a0b563ce20eb0b4b04bb61143afdca1525e6049b4c0d",
+    "paired_comparison.csv": "c3e15ce4bdd8df8b9db6d53a2c31daa171fdfed1a3a2037db61f5a7d8b3601a1",
+    "qc.json": "0e7edc71964c431001f272e012750829a4fa36655ffd8c9097d9d6751bb6af83"
+  },
+  "model_specification": {
+    "conditional_softmax": "unregularized",
+    "folding": "leave_one_match_out",
+    "m0": [
+      "distance",
+      "longitudinal_displacement",
+      "lateral_displacement"
+    ],
+    "m0_plus": "omitted",
+    "m1": [
+      "distance",
+      "longitudinal_displacement",
+      "lateral_displacement",
+      "nearest_receiver_defender_distance",
+      "minimum_segment_defender_distance"
+    ]
+  },
+  "output_sha256": {
+    "aggregate_metrics.json": "6cbbc351561e4b3b837067952e3ef0cf67cbd7f6389d7ae6adafd1ba0385a941",
+    "m0_match_metrics.csv": "0f43a2d83e66f3dbe2f42406fafe42a8ba4d7a9ffbe9e5c1de4bd0256fc72adb",
+    "m1_match_metrics.csv": "f8a76aa640f7c59b04911898b0a98d1c95e4a8d9fb0f52e5e55ddd4fb46dbcb3",
+    "paired_comparison.csv": "a23f62f36602a1d6ea7fc365fefae4e6f240b9b35d485e2abb7ad17d82841106",
+    "qc.json": "4cd1f4d9b46b4700538fd358d13be32625eea55f37b5aea2c50c03be589be22c"
+  },
+  "population_sha256": "cd706f9f4621efcf659fbe890d9a6a0ebfff97c3407095a6db5ea05044c1264d",
+  "postscore_completion": "aggregate/metadata completion only; no refit or rescore",
+  "protocol_sha256": "150cd2f1d949dfbcfca96481f400abeca40da5db5066023102481f60c066d27a",
+  "schema_version": "1.0.0",
+  "source_commit": "02a396ffd09b283c9f092fdedeff11da6d535b66"
+}

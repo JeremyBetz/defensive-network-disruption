@@ -1,0 +1,47 @@
+{
+  "comparison": "development_only_leave_one_match_out",
+  "interpretation_constraints": {
+    "accessibility": "PROXY ONLY",
+    "m2": "deferred pending a specific prospective hypothesis",
+    "practical_effect_threshold": null,
+    "significance_test": null,
+    "suppression": "NOT SUPPORTABLE"
+  },
+  "m1_minus_m0": {
+    "hit_at_1": 0.10219321723715619,
+    "hit_at_3": 0.1022133461829729,
+    "mrr": 0.08601798616855943,
+    "negative_matches": 0,
+    "paired_mrr_mean": 0.08601798616855943,
+    "paired_mrr_median": 0.083733297462111,
+    "positive_matches": 9,
+    "tied_matches": 0
+  },
+  "models": {
+    "m0": {
+      "match_macro": {
+        "hit_at_1": 0.25244711375557216,
+        "hit_at_3": 0.6250978647156276,
+        "mrr": 0.4817670216018729
+      },
+      "pooled_descriptive": {
+        "hit_at_1": 0.25349384253493845,
+        "hit_at_3": 0.6266777362667774,
+        "mrr": 0.48271819082321366
+      }
+    },
+    "m1": {
+      "match_macro": {
+        "hit_at_1": 0.35464033099272835,
+        "hit_at_3": 0.7273112108986005,
+        "mrr": 0.5677850077704323
+      },
+      "pooled_descriptive": {
+        "hit_at_1": 0.35630275356302754,
+        "hit_at_3": 0.7289331672893317,
+        "mrr": 0.5691381635445562
+      }
+    }
+  },
+  "postscore_completion": "Pooled summaries and public preprocessing/model parameters were derived from preserved outputs; no model was refit or rescored."
+}

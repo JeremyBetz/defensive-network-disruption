@@ -201,3 +201,34 @@ ledger change; artifacts; next decision.
 - **Protected data/deviation:** no reserved or unresolved value was requested or
   opened. Session 1's A verdict and L004 qualification remain in force. No Session
   2 access deviation occurred.
+
+## 2026-09-10 — L006: Session 3 frozen M0/M1 development comparison
+
+- **Chronology:** P03 was committed as `1dddb6f`; the score-free population,
+  environment, production implementation, and tests were committed as `54dc4f8`
+  before fitting. The pinned provider revision and nine-match development
+  allowlist were unchanged.
+- **Population:** 7,292 pass attempts yielded 7,227 common evaluation/fit states.
+  The waterfall excluded 56 unusable target labels and nine invalid carriers.
+  The former single target/candidate mismatch was a provider self-target and is
+  included in the 56 unusable labels. Population SHA-256:
+  `cd706f9f4621efcf659fbe890d9a6a0ebfff97c3407095a6db5ea05044c1264d`.
+- **Execution:** unregularized conditional softmax, nine leave-one-match-out
+  folds, equal match weighting, analytic gradients, training-only preprocessing,
+  and identical M0/M1 populations. All rank, separation, finite-value,
+  optimization, and gradient gates passed.
+- **Results:** match-macro MRR was 0.48177 for M0 and 0.56779 for M1. The mean
+  paired difference was 0.08602, median 0.08373, with 9/0/0 positive/negative/tied
+  matches. Match-macro Hit@1 and Hit@3 differences were 0.10219 and 0.10221.
+- **Interpretation:** consistent development-only incremental ranking information;
+  no practical-effect or external-validity claim. Accessibility remains PROXY
+  ONLY; suppression remains NOT SUPPORTABLE; M2 is deferred pending a specific
+  prospective hypothesis.
+- **Post-score record:** the initial formatter omitted pooled descriptive metrics
+  and a public parameter record. Initial scored files were hash-preserved locally;
+  the missing summaries were derived without refitting or rescoring. No scored
+  football passage was inspected. Future corrective reruns are blocked while
+  scored outputs exist.
+- **Protection:** reserved and unresolved value-level products remained unopened.
+  Session 1's A verdict with the L004 mechanical over-read qualification remains
+  in force. No new access-boundary deviation occurred.

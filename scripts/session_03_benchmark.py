@@ -7,12 +7,14 @@ import argparse
 import csv
 import hashlib
 import json
+import re
 import statistics
 import subprocess
 import sys
 from pathlib import Path
 
 import numpy as np
+import scipy
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "src"))
@@ -33,6 +35,13 @@ ALIASES = {match_id: f"development_{index:02d}" for index, match_id in enumerate
 PUBLIC_FILES = (
     "m0_match_metrics.csv", "m1_match_metrics.csv", "paired_comparison.csv",
     "aggregate_metrics.json", "qc.json", "manifest.json",
+)
+EXECUTION_FILES = (
+    "scripts/session_03_benchmark.py",
+    "src/defensive_network_disruption/data/receiver_choices.py",
+    "src/defensive_network_disruption/validation/choice_model.py",
+    "src/defensive_network_disruption/validation/ranking_features.py",
+    "src/defensive_network_disruption/validation/ranking_metrics.py",
 )
 
 
@@ -123,6 +132,13 @@ def sha256(path):
     return hashlib.sha256(path.read_bytes()).hexdigest()
 
 
+def committed_sha256(commit, path):
+    content = subprocess.run(
+        ["git", "show", f"{commit}:{path}"], cwd=ROOT, check=True, capture_output=True,
+    ).stdout
+    return hashlib.sha256(content).hexdigest()
+
+
 def standardize_group(features, mean, scale):
     return {match: [(x - mean) / scale for x in rows] for match, rows in features.items()}
 
@@ -144,7 +160,7 @@ def metric_row(alias, credits, fit_eligible, target_outside):
 
 def write_csv(path, rows, fields):
     with path.open("w", newline="", encoding="utf-8") as handle:
-        writer = csv.DictWriter(handle, fieldnames=fields)
+        writer = csv.DictWriter(handle, fieldnames=fields, lineterminator="\n")
         writer.writeheader()
         writer.writerows(rows)
 
@@ -160,6 +176,8 @@ def run():
     status = git("status", "--porcelain")
     if status:
         raise RuntimeError("benchmark execution requires a clean committed implementation")
+    if any((OUTPUT_ROOT / name).exists() for name in PUBLIC_FILES):
+        raise RuntimeError("scored outputs already exist; corrective reruns are prohibited")
 
     choices = load_population()
     by_match = {match_id: [] for match_id in DEVELOPMENT_MATCHES}
@@ -226,6 +244,7 @@ def run():
             heldout_rows[model] = row
             fold_details[model] = {
                 "feature_names": list(names), "fit": fit_qc,
+                "parameters": {"coefficients": beta.tolist(), "mean": mean.tolist(), "scale": scale.tolist()},
                 "training_evaluation_eligible": sum(len(by_match[item]) for item in training),
                 "training_fit_eligible": sum(len(fit_indices[item]) for item in training),
                 "heldout_evaluation_eligible": len(by_match[heldout]),
@@ -251,11 +270,17 @@ def run():
     write_csv(OUTPUT_ROOT / "m1_match_metrics.csv", model_rows["m1"], metric_fields)
     write_csv(OUTPUT_ROOT / "paired_comparison.csv", paired_rows, list(paired_rows[0]))
     differences = [row["mrr_difference_m1_minus_m0"] for row in paired_rows]
+    def pooled(rows, field):
+        denominator = sum(row["evaluation_eligible"] for row in rows)
+        return sum(row[field] * row["evaluation_eligible"] for row in rows) / denominator
     aggregate = {
         "comparison": "development_only_leave_one_match_out",
         "models": {
-            model: {field: match_macro({row["match_alias"]: row for row in rows}, field)
-                    for field in ("mrr", "hit_at_1", "hit_at_3")}
+            model: {
+                "match_macro": {field: match_macro({row["match_alias"]: row for row in rows}, field)
+                                for field in ("mrr", "hit_at_1", "hit_at_3")},
+                "pooled_descriptive": {field: pooled(rows, field) for field in ("mrr", "hit_at_1", "hit_at_3")},
+            }
             for model, rows in model_rows.items()
         },
         "m1_minus_m0": {
@@ -290,24 +315,114 @@ def run():
     (LOCAL_ROOT / "fitted_parameters.json").write_text(json.dumps(local_parameters, indent=2, sort_keys=True) + "\n")
 
     output_hashes = {name: sha256(OUTPUT_ROOT / name) for name in PUBLIC_FILES if name != "manifest.json"}
+    execution_commit = git("rev-parse", "HEAD")
     manifest = {
-        "schema_version": "1.0.0", "authority_commit": AUTHORITY, "execution_commit": git("rev-parse", "HEAD"),
+        "schema_version": "1.0.0", "authority_commit": AUTHORITY, "execution_commit": execution_commit,
         "source_commit": SOURCE_COMMIT, "protocol_sha256": sha256(PROTOCOL),
         "population_sha256": freeze["population_sha256"], "development_match_aliases": sorted(ALIASES.values()),
         "model_specification": {"m0": list(M0_NAMES), "m1": list(M1_NAMES), "m0_plus": "omitted",
                                 "conditional_softmax": "unregularized", "folding": "leave_one_match_out"},
-        "environment": {"python": sys.version.split()[0], "numpy": np.__version__},
+        "environment": {"python": sys.version.split()[0], "numpy": np.__version__, "scipy": scipy.__version__},
+        "execution_file_sha256": {path: committed_sha256(execution_commit, path) for path in EXECUTION_FILES},
         "output_sha256": output_hashes,
     }
     (OUTPUT_ROOT / "manifest.json").write_text(json.dumps(manifest, indent=2, sort_keys=True) + "\n")
     print(json.dumps(aggregate["m1_minus_m0"], sort_keys=True))
 
 
+def finalize_existing():
+    """Complete required aggregate metadata from the preserved scored outputs; never refit."""
+    archive = LOCAL_ROOT / "initial_scored_outputs"
+    if not archive.is_dir() or not (LOCAL_ROOT / "fitted_parameters.json").is_file():
+        raise RuntimeError("preserved initial outputs and fitted parameters are required")
+    initial_hashes = {path.name: sha256(path) for path in sorted(archive.iterdir()) if path.is_file()}
+    rows_by_model = {}
+    for model in ("m0", "m1"):
+        with (OUTPUT_ROOT / f"{model}_match_metrics.csv").open(newline="", encoding="utf-8") as handle:
+            rows_by_model[model] = list(csv.DictReader(handle))
+    aggregate = json.loads((OUTPUT_ROOT / "aggregate_metrics.json").read_text())
+    if "postscore_completion" in aggregate:
+        raise RuntimeError("existing outputs were already finalized")
+    for model, rows in rows_by_model.items():
+        macro = aggregate["models"][model]
+        denominator = sum(int(row["evaluation_eligible"]) for row in rows)
+        pooled = {
+            field: sum(float(row[field]) * int(row["evaluation_eligible"]) for row in rows) / denominator
+            for field in ("mrr", "hit_at_1", "hit_at_3")
+        }
+        aggregate["models"][model] = {"match_macro": macro, "pooled_descriptive": pooled}
+    aggregate["postscore_completion"] = (
+        "Pooled summaries and public preprocessing/model parameters were derived from preserved outputs; "
+        "no model was refit or rescored."
+    )
+    (OUTPUT_ROOT / "aggregate_metrics.json").write_text(json.dumps(aggregate, indent=2, sort_keys=True) + "\n")
+
+    parameters = json.loads((LOCAL_ROOT / "fitted_parameters.json").read_text())
+    qc = json.loads((OUTPUT_ROOT / "qc.json").read_text())
+    for alias, fold in qc["folds"].items():
+        for model in ("m0", "m1"):
+            fold[model]["parameters"] = parameters[f"{alias}_{model}"]
+    qc["initial_scored_output_sha256"] = initial_hashes
+    qc["corrective_rerun"] = False
+    (OUTPUT_ROOT / "qc.json").write_text(json.dumps(qc, indent=2, sort_keys=True) + "\n")
+
+    manifest_path = OUTPUT_ROOT / "manifest.json"
+    manifest = json.loads(manifest_path.read_text())
+    manifest["environment"]["scipy"] = scipy.__version__
+    execution_commit = manifest["execution_commit"]
+    manifest["execution_file_sha256"] = {
+        path: committed_sha256(execution_commit, path) for path in EXECUTION_FILES
+    }
+    manifest["postscore_completion"] = "aggregate/metadata completion only; no refit or rescore"
+    manifest["initial_scored_output_sha256"] = initial_hashes
+    manifest["output_sha256"] = {
+        name: sha256(OUTPUT_ROOT / name) for name in PUBLIC_FILES if name != "manifest.json"
+    }
+    manifest_path.write_text(json.dumps(manifest, indent=2, sort_keys=True) + "\n")
+    print("existing scored outputs finalized without refit or rescore")
+
+
+def publication_check():
+    """Validate compact outputs and reject reconstructive provider material."""
+    expected_aliases = set(ALIASES.values())
+    forbidden_headers = {"match_id", "event_id", "player_id", "candidate_id", "timestamp", "x", "y", "score", "rank"}
+    for name in ("m0_match_metrics.csv", "m1_match_metrics.csv", "paired_comparison.csv"):
+        path = OUTPUT_ROOT / name
+        with path.open(newline="", encoding="utf-8") as handle:
+            reader = csv.DictReader(handle)
+            if forbidden_headers.intersection(reader.fieldnames or []):
+                raise RuntimeError(f"reconstructive field in {name}")
+            rows = list(reader)
+        if {row["match_alias"] for row in rows} != expected_aliases:
+            raise RuntimeError(f"incomplete or unexpected aliases in {name}")
+        if any(re.search(r"\b\d{7}\b", json.dumps(row)) for row in rows):
+            raise RuntimeError(f"provider match identifier in {name}")
+    manifest = json.loads((OUTPUT_ROOT / "manifest.json").read_text())
+    for name, digest in manifest["output_sha256"].items():
+        if sha256(OUTPUT_ROOT / name) != digest:
+            raise RuntimeError(f"closed output hash mismatch: {name}")
+    freeze = json.loads((OUTPUT_ROOT / "population_freeze.json").read_text())
+    if freeze["performance_computed"] is not False or freeze["population_sha256"] != manifest["population_sha256"]:
+        raise RuntimeError("population freeze integrity failure")
+    for name in PUBLIC_FILES:
+        text = (OUTPUT_ROOT / name).read_text()
+        if "/Users/" in text or "data/session_02" in text:
+            raise RuntimeError(f"private path in {name}")
+    print("publication check passed")
+
+
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument("command", choices=("prepare", "run"))
+    parser.add_argument("command", choices=("prepare", "run", "finalize-existing", "publication-check"))
     args = parser.parse_args()
-    prepare() if args.command == "prepare" else run()
+    if args.command == "prepare":
+        prepare()
+    elif args.command == "run":
+        run()
+    elif args.command == "finalize-existing":
+        finalize_existing()
+    else:
+        publication_check()
 
 
 if __name__ == "__main__":
