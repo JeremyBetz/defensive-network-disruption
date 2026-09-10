@@ -1,0 +1,183 @@
+{
+  "development_population": {
+    "byte_equal_session3": true,
+    "evaluation_eligible": 7227,
+    "fit_eligible": 7227,
+    "population_sha256": "cd706f9f4621efcf659fbe890d9a6a0ebfff97c3407095a6db5ea05044c1264d"
+  },
+  "environment": {
+    "numpy": "2.5.3",
+    "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+    "python": "3.13.15",
+    "scipy": "1.18.1",
+    "uv_lock_sha256": "831e43041d47bbf05d614ee47d87e09f67654de5f7ec44a42bdc0807c36386a7"
+  },
+  "implementation_sha256": {
+    "scripts/session_06_reserved.py": "8ec5fbec41a74761703b502c1b2fbd85111ae4f694e5e9ca1560fc3187471a49",
+    "src/defensive_network_disruption/data/identity_compatibility.py": "fc7727939c1937a2385a7193f440106bed5ad8a62eb1745a40a52a43ebc39dfd",
+    "src/defensive_network_disruption/data/receiver_choices.py": "f4be2b5665c6d8033fadaee92e2889dc1e393ea5122d5dd18c079dd78be3ce06",
+    "src/defensive_network_disruption/data/session6_population.py": "1b035cb400d5fa02adea1fb14a03cead624530ce1740df12bd2018716a7ca250",
+    "src/defensive_network_disruption/data/session6_source.py": "b06a66381ef96d3ec94028f4a419149ba04b7c23aad307d821e65d4525503d33",
+    "src/defensive_network_disruption/geometry/attenuation.py": "76efef4fd14e1010f8b20a4077ec2e55ac646ee5b8d8da57dde55333a6e0fec8",
+    "src/defensive_network_disruption/geometry/segment.py": "19b4bc62567d54ea7e88f3f0ae36a3853636934d1aab140357aead8c0bd4eaad",
+    "src/defensive_network_disruption/validation/choice_model.py": "c5d8f9169552e37476526d195f1f0f89c4e9e3efcfc697fc80dc5cff45a5d2d3",
+    "src/defensive_network_disruption/validation/ranking_features.py": "fe2d2f8aa704fbd7dd467217866ed3ace0000952314aa4db5164c1045ad2d6a3",
+    "src/defensive_network_disruption/validation/ranking_metrics.py": "682bd3281579c02efb00ba3a8c770e6d553d705a3e959e0e44a3e37b000b90db",
+    "src/defensive_network_disruption/validation/session5.py": "91b09a18863ad9b1634a5f784730f749ce2e28a35bbd4bfa9248dc349c75af3f",
+    "tests/test_session6_reserved.py": "5ff4f61c582ce399980c76ce25a42bf0f96566c9b70c0a082eae5d2663ed4139"
+  },
+  "model_class": "unregularized conditional softmax",
+  "models": {
+    "m0": {
+      "coefficients": [
+        -1.1985040111781344,
+        0.24326611075105795,
+        -0.029674551325892296
+      ],
+      "feature_names": [
+        "distance",
+        "longitudinal_displacement",
+        "lateral_displacement"
+      ],
+      "fit_qc": {
+        "columns": 3,
+        "complete_separation": false,
+        "complete_solver_status": 2,
+        "iterations": 7,
+        "max_abs_gradient": 2.837928658950797e-10,
+        "objective": 1.9586875349132948,
+        "quasi_separation": false,
+        "quasi_solver_status": 0,
+        "rank": 3,
+        "svd_tolerance": 5.129083113627944e-09
+      },
+      "mean": [
+        25.301045566764685,
+        1.6105236571349653,
+        0.16488739490145718
+      ],
+      "scale": [
+        13.51835781284903,
+        20.501994092159787,
+        19.998404153071192
+      ],
+      "training_evaluation_eligible": 7227,
+      "training_fit_eligible": 7227,
+      "training_match_count": 9
+    },
+    "m1": {
+      "coefficients": [
+        -1.6176698801805967,
+        1.5414103002102004,
+        -0.02639753228532444,
+        1.2160570288697239,
+        0.48501136537301515
+      ],
+      "feature_names": [
+        "distance",
+        "longitudinal_displacement",
+        "lateral_displacement",
+        "nearest_receiver_defender_distance",
+        "minimum_segment_defender_distance"
+      ],
+      "fit_qc": {
+        "columns": 5,
+        "complete_separation": false,
+        "complete_solver_status": 2,
+        "iterations": 12,
+        "max_abs_gradient": 1.2598530568901553e-08,
+        "objective": 1.7383621608483277,
+        "quasi_separation": false,
+        "quasi_solver_status": 0,
+        "rank": 5,
+        "svd_tolerance": 6.5943506844713056e-09
+      },
+      "mean": [
+        25.301045566764685,
+        1.6105236571349653,
+        0.16488739490145718,
+        9.13356696569236,
+        2.1523540824721192
+      ],
+      "scale": [
+        13.51835781284903,
+        20.501994092159787,
+        19.998404153071192,
+        8.730399581812383,
+        2.218710044931026
+      ],
+      "training_evaluation_eligible": 7227,
+      "training_fit_eligible": 7227,
+      "training_match_count": 9
+    },
+    "m2": {
+      "coefficients": [
+        -1.46179386248879,
+        1.5560773994715769,
+        -0.025059075590532286,
+        1.0887015789149397,
+        0.4342136536191952,
+        -0.2565750239734332
+      ],
+      "feature_names": [
+        "distance",
+        "longitudinal_displacement",
+        "lateral_displacement",
+        "nearest_receiver_defender_distance",
+        "minimum_segment_defender_distance",
+        "summed_segment_attenuation"
+      ],
+      "fit_qc": {
+        "columns": 6,
+        "complete_separation": false,
+        "complete_solver_status": 2,
+        "iterations": 15,
+        "max_abs_gradient": 2.472682857850788e-09,
+        "objective": 1.7343972128861895,
+        "quasi_separation": false,
+        "quasi_solver_status": 0,
+        "rank": 6,
+        "svd_tolerance": 7.539885907137657e-09
+      },
+      "mean": [
+        25.301045566764685,
+        1.6105236571349653,
+        0.16488739490145718,
+        9.13356696569236,
+        2.1523540824721192,
+        2.1038266154580025
+      ],
+      "scale": [
+        13.51835781284903,
+        20.501994092159787,
+        19.998404153071192,
+        8.730399581812383,
+        2.218710044931026,
+        1.0067311522575564
+      ],
+      "training_evaluation_eligible": 7227,
+      "training_fit_eligible": 7227,
+      "training_match_count": 9
+    }
+  },
+  "nesting": {
+    "preprocessing_nesting": true,
+    "raw_nesting": true,
+    "standardized_nesting": true
+  },
+  "objective_weighting": "equal match then attempt",
+  "optimizer": {
+    "ftol": 1e-12,
+    "gtol": 1e-08,
+    "maxiter": 2000,
+    "maxls": 50,
+    "method": "L-BFGS-B"
+  },
+  "performance_computed": false,
+  "preprocessing_weighting": "equal match then attempt then candidate",
+  "protocol_commit": "903b8a02fdcbff2ef0d2a35a480f6358d8bbd358",
+  "protocol_sha256": "672457c8b563cd048889ae81bc68a950958d3224611cc3231046799469e54e28",
+  "schema_version": "1.0.0",
+  "source_commit": "02a396ffd09b283c9f092fdedeff11da6d535b66",
+  "starting_authority": "74ff7b2d29caf1b1f1cb57e3c8770f6f36075849"
+}
