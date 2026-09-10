@@ -1,0 +1,8 @@
+# Documentation only. No configuration loader or data processing exists yet.
+# Paths are relative to the repository root; never commit personal overrides.
+[paths]
+raw = "data/raw/skillcorner"
+manifests = "data/manifests"
+interim = "data/interim"
+processed = "data/processed"
+outputs = "outputs"

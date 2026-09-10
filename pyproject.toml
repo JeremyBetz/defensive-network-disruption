@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools==80.9.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "defensive-network-disruption"
+version = "0.0.0"
+description = "Exploratory research scaffold for off-ball defensive positioning"
+readme = "README.md"
+requires-python = ">=3.11"
+license = "MIT"
+license-files = ["LICENSE", "LICENSE.md"]
+dependencies = []
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["defensive_network_disruption*"]
+
+[tool.setuptools]
+include-package-data = false
