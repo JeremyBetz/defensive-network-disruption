@@ -1,9 +1,9 @@
 # P01 — Metadata inventory and convention verification
 
-Version: draft 0.1, 2026-09-09. Status: **DRAFT — NOT EXECUTED**.
-This protocol defines the next step; its unresolved gates must be completed
-and the relevant version committed before empirical access. Public documentation
-review during initialization is recorded separately in the research log.
+Version: 1.0, 2026-09-10. Status: **FROZEN BEFORE STAGE A EXECUTION**.
+This version authorizes only the two Stage A access steps below after this file
+is committed. Public documentation and repository-tree review performed while
+planning are recorded separately in the research log.
 
 ## Question and construct
 
@@ -15,9 +15,61 @@ This supports feasibility for C01, not evidence that C01 is true.
 
 ## Stage A — Metadata only
 
-1. Confirm current competition terms and choose the permitted release/commit.
-   Source: `https://github.com/SkillCorner/opendata`. Reconcile the official
-   20-game description with the repository overview's 10-game description.
+### Frozen source, operator, and outputs
+
+- **Source:** `https://github.com/SkillCorner/opendata` at commit
+  `02a396ffd09b283c9f092fdedeff11da6d535b66` (tree
+  `44fd5081d0e6a441dbafadd12c51d6ffca8ab98b`). There are no repository tags or
+  releases at the freeze point. The competition terms source is the rendered
+  [Cup 2.0 page](https://pysport.org/analytics-cup/editions/analytics-cup2/rules),
+  checked 2026-09-09.
+- **Operator/start:** Codex for Jeremy Betz, 2026-09-10 America/Chicago.
+- **Detailed local manifest:**
+  `data/manifests/skillcorner_opendata_02a396f.local.json`.
+- **Detailed diagnostics:**
+  `outputs/metadata_inventory/skillcorner_opendata_02a396f_inventory.local.json`.
+- **Publication-safe summary:**
+  `outputs/metadata_inventory/skillcorner_opendata_02a396f_summary.json`.
+- **Decision brief:** `docs/session_01_decision_brief.md`.
+
+No other durable output is authorized. The two `.local.json` files and all raw
+or mixed-content competition records remain ignored. The compact summary may be
+committed only after publication-boundary review.
+
+### Stage A1 — schema and repository inventory
+
+The following access is allowed across all 20 repository match directories:
+
+- Git paths, object types, object hashes, pointer sizes, and Git LFS pointer
+  content (`version`, payload OID, and declared payload size only);
+- JSON key paths and value types, without retaining or printing values; and
+- CSV header names, without reading, retaining, or printing data rows.
+
+Use `gh api` against the frozen tree/blob identifiers. Where content is required,
+download it only to a temporary ignored directory. A temporary Python standard-
+library parser may enumerate JSON key paths/types and read only the first CSV
+record as a header. It must fail if asked to emit values or if a CSV header spans
+more than one physical line. Hash every acquired payload before parsing.
+
+Stage A1 does not spend a reserved match. Value-level event/tracking inspection,
+receiver-label completeness or joins, football passages, animations, outcome-
+bearing metadata, football summaries, performance, and example selection are
+prohibited for the reserved group.
+
+### Stage A2 — allowlisted metadata values
+
+After Stage A1 records the schema, amend and commit this protocol with exact JSON
+key paths before reading any mixed-content metadata values. Permitted semantic
+categories are limited to source/release identity, match identifier,
+competition/season, date, team identities, product membership, and documented
+pitch dimensions. Scores, outcomes, lineups/player identities, event values,
+aggregate-performance values, pose values, and free-text notes are prohibited.
+
+If the schema does not permit exact paths to be frozen without exposing values,
+Stage A2 is blocked. Session 1 may finish with Stage A1 findings and the blocker.
+
+1. Verify the frozen release and reconcile the official 20-game description
+   with the repository overview and tree without assuming usable record coverage.
 2. Select metadata fields before parsing any metadata file. Allow only release
    paths/types/sizes, product availability, match identifiers, competition/season,
    dates, team identities, documented dimensions, and schema descriptions.
@@ -47,9 +99,9 @@ allowlist before accessing it; do not inspect the whole file interactively.
 - If eligible release identity or product overlap remains unresolved, stop
   split assignment and record the blocker.
 
-Before execution fill: selected release SHA; eligible metadata paths and exact
-field allowlist; terms source; inventory script/command and version; local
-manifest/output names; operator and start time. None is currently selected.
+The selected revision, Stage A1 access, commands, outputs, operator, and start
+date are frozen above. Stage A2 remains conditional on a committed exact-path
+amendment derived solely from Stage A1 schema output.
 
 ## Stage B — Bounded development-only convention checks
 
@@ -76,3 +128,7 @@ sample size. No inferential test or accuracy claim is appropriate in Stage A.
 Stop on ambiguous permissions, unexpected outcome access, unresolved joins,
 or unknown conventions required by an intended computation. Record exposure
 and revise the protocol as necessary; do not erase the original decision.
+
+Session 1 stops after the metadata/provenance package and decision brief. It does
+not authorize candidate construction, receiver-label completeness checks, M0,
+model fitting, passage review, or dependency installation.
