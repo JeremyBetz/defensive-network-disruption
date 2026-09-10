@@ -1,0 +1,181 @@
+{
+  "batch_flow": {
+    "development_01": {
+      "action_headers_present": false,
+      "authentication_category": "signed_query",
+      "delivery_head": {
+        "body_read": false,
+        "hostname_validated": true,
+        "http_status": 200,
+        "origin": "https://github-cloud.githubusercontent.com",
+        "status": "verified"
+      },
+      "delivery_origin": "https://github-cloud.githubusercontent.com",
+      "delivery_tls": {
+        "certificate_issuer": [
+          [
+            "countryName",
+            "US"
+          ],
+          [
+            "organizationName",
+            "Let's Encrypt"
+          ],
+          [
+            "commonName",
+            "YR1"
+          ]
+        ],
+        "certificate_san": [
+          [
+            "DNS",
+            "*.github.com"
+          ],
+          [
+            "DNS",
+            "*.github.io"
+          ],
+          [
+            "DNS",
+            "*.githubusercontent.com"
+          ],
+          [
+            "DNS",
+            "github.com"
+          ],
+          [
+            "DNS",
+            "github.io"
+          ],
+          [
+            "DNS",
+            "githubusercontent.com"
+          ]
+        ],
+        "certificate_subject": [
+          [
+            "commonName",
+            "*.github.io"
+          ]
+        ],
+        "hostname": "github-cloud.githubusercontent.com",
+        "hostname_validated": true,
+        "route": "direct_socket_without_proxy",
+        "sni": "github-cloud.githubusercontent.com",
+        "status": "verified",
+        "tls_version": "TLSv1.3"
+      },
+      "expiry_metadata_present": true,
+      "identity_matches": true,
+      "signed_query_present": true,
+      "status": "official_action_returned"
+    },
+    "reserved_01": {
+      "action_headers_present": false,
+      "authentication_category": "signed_query",
+      "delivery_head": {
+        "body_read": false,
+        "hostname_validated": true,
+        "http_status": 200,
+        "origin": "https://github-cloud.githubusercontent.com",
+        "status": "verified"
+      },
+      "delivery_origin": "https://github-cloud.githubusercontent.com",
+      "delivery_tls": {
+        "certificate_issuer": [
+          [
+            "countryName",
+            "US"
+          ],
+          [
+            "organizationName",
+            "Let's Encrypt"
+          ],
+          [
+            "commonName",
+            "YR1"
+          ]
+        ],
+        "certificate_san": [
+          [
+            "DNS",
+            "*.github.com"
+          ],
+          [
+            "DNS",
+            "*.github.io"
+          ],
+          [
+            "DNS",
+            "*.githubusercontent.com"
+          ],
+          [
+            "DNS",
+            "github.com"
+          ],
+          [
+            "DNS",
+            "github.io"
+          ],
+          [
+            "DNS",
+            "githubusercontent.com"
+          ]
+        ],
+        "certificate_subject": [
+          [
+            "commonName",
+            "*.github.io"
+          ]
+        ],
+        "hostname": "github-cloud.githubusercontent.com",
+        "hostname_validated": true,
+        "route": "direct_socket_without_proxy",
+        "sni": "github-cloud.githubusercontent.com",
+        "status": "verified",
+        "tls_version": "TLSv1.3"
+      },
+      "expiry_metadata_present": true,
+      "identity_matches": true,
+      "signed_query_present": true,
+      "status": "official_action_returned"
+    }
+  },
+  "certificate_failures_retryable": false,
+  "classification": "B",
+  "classification_basis": "secure_official_batch_origins_and_exact_object_agreement",
+  "documentation": [
+    {
+      "sha256": "eafbead6a8752ea778f9d25451f7676c00885e3f643e773ce8b910bc97f2d96a",
+      "status": "retrieved",
+      "url": "https://raw.githubusercontent.com/git-lfs/git-lfs/main/docs/api/batch.md"
+    },
+    {
+      "sha256": "72c293217d844f25d1be1d7ff3daa0e61c4ee042ebabff1bd84541527fdd26c9",
+      "status": "retrieved",
+      "url": "https://raw.githubusercontent.com/git-lfs/git-lfs/main/docs/api/basic-transfers.md"
+    },
+    {
+      "sha256": "a178c7497548f3134f6ea2ac9e6ce137e22c656f78ee4a0124b937f4bfb0dc44",
+      "status": "retrieved",
+      "url": "https://raw.githubusercontent.com/git-lfs/git-lfs/main/docs/man/git-lfs-fetch.adoc"
+    }
+  ],
+  "environment_repair_required": "not_established",
+  "evidence_category": "current_official_protocol_comparison",
+  "exact_object_identity_enforceable": true,
+  "git_lfs": {
+    "available": false,
+    "version": "unavailable"
+  },
+  "git_lfs_live_delivery": "unavailable",
+  "historical_cause_limit": "current reproduction cannot identify historical certificate SAN without retained evidence",
+  "independent_payload_hash_and_size_required": true,
+  "normal_tls_preserved": true,
+  "protected_rerun_authorized": false,
+  "python_specific_cause": "not_established",
+  "request_budget_used": 15,
+  "retained_query_secrets": false,
+  "schema_version": "1",
+  "tracking_payload_downloaded": false
+}

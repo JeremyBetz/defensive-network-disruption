@@ -403,3 +403,28 @@ ledger change; artifacts; next decision.
 - **Claims:** targets retain Tier B limitations; accessibility remains PROXY ONLY;
   suppression remains NOT SUPPORTABLE; no passage, pose, orientation, or network
   work occurred.
+
+## 2026-09-10 — L014: Session 6d official LFS delivery / TLS audit
+
+- **Chronology:** protocol `a38638d` and tested audit implementation `9181062`
+  preceded network diagnostics. Historical Session 6/6b/6c artifacts remained
+  unchanged. This audit used only frozen reserved_01/development_01 identity
+  tuples, transport configuration projections, TLS/HEAD probes, and LFS metadata.
+- **Reproduction:** the hand-built media hostname failed certificate hostname
+  validation in venv Python, system Python, and curl for both tuples. A
+  Python-only cause is not supported. Failed-host SAN/issuer remain unavailable;
+  no insecure handshake was used to obtain them. No configured proxy, custom CA,
+  Git override, or relevant local hosts override was found.
+- **Official flow:** both official batch responses matched their frozen OID and
+  size and supplied signed actions on github-cloud.githubusercontent.com. Both
+  actions passed ordinary TLS verification and HEAD returned 200 without reading
+  payload bodies. Signed query values and credentials were not retained.
+- **Decision:** **B — OFFICIAL GIT LFS PROTOCOL IS THE APPROPRIATE SECURE TRANSPORT
+  PATH**. The client binary is unavailable, so no live git-lfs client success is
+  claimed. Full downloaded-byte integrity is still untested and remains mandatory
+  before any later parsing.
+- **Next recommendation:** separately authorize a Session 6e protocol for official
+  transport, including client/tooling availability, exact-object rehearsal, and
+  independent actual SHA/size verification. No installation, environment repair,
+  payload acquisition, population preparation, empirical scoring, or passage work
+  was performed. Certificate errors remain non-retryable.

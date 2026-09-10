@@ -1,0 +1,87 @@
+{
+  "actual_historical_stack": "urllib.request with Python default SSL context",
+  "certifi": {
+    "applies_to_urllib": false,
+    "installed": false,
+    "version": "unavailable"
+  },
+  "curl": {
+    "available": true,
+    "version": "curl 8.7.1 (x86_64-apple-darwin25.0) libcurl/8.7.1 (SecureTransport) LibreSSL/3.3.6 zlib/1.2.12 nghttp2/1.68.1"
+  },
+  "curl_tls_backend": "SecureTransport (reported by installed curl)",
+  "environment": {
+    "ALL_PROXY": {
+      "category": "proxy_routing",
+      "present": false
+    },
+    "CURL_CA_BUNDLE": {
+      "category": "custom_trust_path",
+      "present": false
+    },
+    "GIT_SSL_CAINFO": {
+      "category": "custom_trust_path",
+      "present": false
+    },
+    "HTTPS_PROXY": {
+      "category": "proxy_routing",
+      "present": false
+    },
+    "HTTP_PROXY": {
+      "category": "proxy_routing",
+      "present": false
+    },
+    "NO_PROXY": {
+      "category": "proxy_routing",
+      "present": false
+    },
+    "REQUESTS_CA_BUNDLE": {
+      "category": "custom_trust_path",
+      "present": false
+    },
+    "SSL_CERT_DIR": {
+      "category": "custom_trust_path",
+      "present": false
+    },
+    "SSL_CERT_FILE": {
+      "category": "custom_trust_path",
+      "present": false
+    }
+  },
+  "git": {
+    "available": true,
+    "version": "git version 2.50.1 (Apple Git-155)"
+  },
+  "git_config_categories": {
+    "other_http": 0,
+    "proxy": 0,
+    "ssl": 0,
+    "url_rewrite": 0
+  },
+  "git_insecure_override_observed": false,
+  "git_lfs": {
+    "available": false,
+    "version": "unavailable"
+  },
+  "git_tls_backend": "not_exposed_by_version",
+  "private_ca_paths_published": false,
+  "proxy_presence_proves_interception": false,
+  "relevant_hosts_overrides": 0,
+  "schema_version": "1",
+  "system_ca_source": "system_trust_store_for_SecureTransport; Python_runtime_defaults_for_SSL",
+  "system_python": {
+    "default_cafile_present": true,
+    "default_capath_present": true,
+    "python": "3.9.6",
+    "runtime_default_ca": true,
+    "ssl": "LibreSSL 2.8.3"
+  },
+  "trust_roots_equivalence": "not_established_by_path_categories_alone",
+  "venv_python": {
+    "default_cafile_present": true,
+    "default_capath_present": true,
+    "python": "3.13.15",
+    "runtime_default_ca": true,
+    "ssl": "OpenSSL 3.5.8 25 Aug 2026"
+  }
+}

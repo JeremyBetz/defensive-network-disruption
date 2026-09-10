@@ -1,0 +1,28 @@
+{
+  "empirical_model_fitted_or_scored": false,
+  "historical_ledger_status": {
+    "session6": "matches_committed_hash",
+    "session6b": "not_assigned_new_retrospective_byte_authority",
+    "session6c": "matches_committed_hash"
+  },
+  "implementation_commit": "918106232ac809aaa3d8eff60f850b4055b8e4f1",
+  "implementation_sha256": {
+    "scripts/session_06d_lfs_tls_integrity.py": "82a34c6edbfa6d7cb9007bb1931b651e21eb389060e0ecedc41340f95d7c5ab3",
+    "src/defensive_network_disruption/data/session6d_tls.py": "1cafb84f7500c3fbf077bf83ffca63cf0b918166c5006f5a20abae7240804549",
+    "tests/test_session6d_tls.py": "15d8753a2406c6ef539ef781e13b27934d5de87a418ce18cd868275b856fab7f"
+  },
+  "ledger_sha256": "cf72fe406ef97a445ea2560a62c81118c38aa0f8c5aad9ed94075d889745a3f7",
+  "output_sha256": {
+    "endpoint_summary.json": "b9ccffc08e745eea1c5face18689863b6a023fd615850286aecc9092acbb11ae",
+    "environment_summary.json": "8a027552566168ac630cf014b8ff8cafc9875dc824f836ec6f9b5ebb3deb3362",
+    "transport_comparison.json": "f3c86dceab0d4078639149625a5552029aad3047a81c249306db1c1b20d99be0"
+  },
+  "population_prepared": false,
+  "probe_budget_reserved": 15,
+  "protocol_commit": "a38638dc20dddb38a0e49ec1da0ce1d611dc86bd",
+  "protocol_sha256": "21a93732d7ebaa057d1587396f6932788f60622f0e1588dbee94a6e4ff6e38f1",
+  "reserved_payload_downloaded_or_parsed": false,
+  "schema_version": "1",
+  "starting_authority": "72908fe5cab983e6c30f99fc63fea7fa3bb61589",
+  "status": "closed"
+}

@@ -1,0 +1,74 @@
+{
+  "evidence_category": "current_reproduction",
+  "git_host_comparison": {
+    "message": "",
+    "payload_downloaded": false,
+    "scope": "git_host_only",
+    "status": "verified"
+  },
+  "historical_host": "media.githubusercontent.com",
+  "historical_url_source": "locally_constructed_without_LFS_batch",
+  "probes": {
+    "development_01": {
+      "curl": {
+        "body_read": false,
+        "exit_code": 60,
+        "http_status_lines": [],
+        "message": "curl: (60) SSL: no alternative certificate subject name matches target host name 'media.githubusercontent.com'\nMore details here: https://curl.se\n\ncurl failed to verify the legitimacy of the server and therefore could not\nestablish a secure connection to it. To learn more about this situation and\nhow to fix it, please visit the web page mentioned above.\n",
+        "redirect_followed": false,
+        "status": "failed"
+      },
+      "system_python": {
+        "category": "hostname_mismatch",
+        "exception_class": "SSLCertVerificationError",
+        "message": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'media.githubusercontent.com'. (_ssl.c:1129)",
+        "retryable": false,
+        "status": "failed",
+        "verification_code": 62
+      },
+      "venv_python": {
+        "category": "hostname_mismatch",
+        "exception_class": "SSLCertVerificationError",
+        "message": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'media.githubusercontent.com'. (_ssl.c:1032)",
+        "retryable": false,
+        "status": "failed",
+        "verification_code": 62
+      }
+    },
+    "reserved_01": {
+      "curl": {
+        "body_read": false,
+        "exit_code": 60,
+        "http_status_lines": [],
+        "message": "curl: (60) SSL: no alternative certificate subject name matches target host name 'media.githubusercontent.com'\nMore details here: https://curl.se\n\ncurl failed to verify the legitimacy of the server and therefore could not\nestablish a secure connection to it. To learn more about this situation and\nhow to fix it, please visit the web page mentioned above.\n",
+        "redirect_followed": false,
+        "status": "failed"
+      },
+      "system_python": {
+        "category": "hostname_mismatch",
+        "exception_class": "SSLCertVerificationError",
+        "message": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'media.githubusercontent.com'. (_ssl.c:1129)",
+        "retryable": false,
+        "status": "failed",
+        "verification_code": 62
+      },
+      "venv_python": {
+        "category": "hostname_mismatch",
+        "exception_class": "SSLCertVerificationError",
+        "message": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'media.githubusercontent.com'. (_ssl.c:1032)",
+        "retryable": false,
+        "status": "failed",
+        "verification_code": 62
+      }
+    }
+  },
+  "schema_version": "1",
+  "verified_certificate_probe": {
+    "category": "hostname_mismatch",
+    "exception_class": "SSLCertVerificationError",
+    "message": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'media.githubusercontent.com'. (_ssl.c:1032)",
+    "retryable": false,
+    "status": "failed",
+    "verification_code": 62
+  }
+}
