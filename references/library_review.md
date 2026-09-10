@@ -142,3 +142,15 @@ Session 4 selected multi-defender aggregation as the next prospective question.
 Reuse should begin by benchmarking conceptual behavior against DataBallPy's summed
 influence, while retaining the project's finite-connection semantics. No library
 choice, kernel, or parameter is authorized by this review.
+
+## Session 5 bounded primitive review
+
+Reviewed prospectively before implementation. DataBallPy documents Voronoi and
+Gaussian player/team influence over pitch locations; that is a useful conceptual
+neighbor but not the frozen sum of exponential distances to a finite passing
+segment. Floodlight's relevant primitives concern spatial containers and
+kinematics, mplsoccer provides presentation and pitch geometry, and UnravelSports
+focuses on learned graph representations. None exposes an exact dependency-light
+primitive with the required finite-segment semantics. Session 5 therefore uses
+the existing local segment projection plus a small local `math.exp`/`math.fsum`
+implementation. No package, parameter, code, or alternate model was adopted.
