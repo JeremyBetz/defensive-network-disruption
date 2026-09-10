@@ -9,7 +9,7 @@ description = "Exploratory research scaffold for off-ball defensive positioning"
 readme = "README.md"
 requires-python = ">=3.11"
 license = "MIT"
-license-files = ["LICENSE", "LICENSE.md"]
+license-files = ["LICENSE.md"]
 dependencies = []
 
 [tool.setuptools.packages.find]

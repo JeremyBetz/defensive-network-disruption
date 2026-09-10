@@ -265,3 +265,17 @@ ledger change; artifacts; next decision.
 - **Protection/claims:** no reserved, withheld, pose, vendor-score, passage, error,
   or new model access. Accessibility remains PROXY ONLY; suppression remains NOT
   SUPPORTABLE; the Session 3 result is unchanged.
+
+## 2026-09-10 — L008: License-file housekeeping amendment
+
+- **Scope:** repository housekeeping only; no Session 4 science or Session 5
+  planning was changed.
+- **Audit:** no CI, build tool, packaging workflow, repository instruction, or
+  competition rule independently required a root file named `LICENSE`. The
+  competition rules specifically require `LICENSE.md`.
+- **Change:** retained `LICENSE.md` as the canonical MIT license, removed the
+  byte-identical bare `LICENSE`, updated the README link, and limited package
+  license metadata to `LICENSE.md`.
+- **Historical note:** earlier entries describing both files remain unchanged
+  under this log's append-only policy. This entry supersedes their instruction
+  to retain the duplicate.

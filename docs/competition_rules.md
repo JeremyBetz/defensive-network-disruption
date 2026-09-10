@@ -38,8 +38,9 @@ verified counts or evidence that the products overlap completely.
   events, is prohibited. This does not automatically make all SkillCorner open
   data eligible; record the permitted source release.
 - The public repository must include all relevant code/resources except data
-  and a `LICENSE.md` file. Both `LICENSE` (requested scaffold filename) and
-  `LICENSE.md` contain the same MIT text; keep them identical.
+  and a `LICENSE.md` file. `LICENSE.md` is the canonical project license. An
+  initially duplicated bare `LICENSE` file was removed after confirming that no
+  repository tool, rule, workflow, or package requirement depended on that name.
 - The one-minute pitch must be presented and voiced by the entrant or teammate.
 - Choose one region; entry may be individual or a pair. Finalists must attend
   in person. No registration or submission has been performed by this scaffold.

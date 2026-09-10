@@ -72,7 +72,7 @@ and tables combined. The deadline is **18 December 2026**; the USA final
 is **24 February 2027 in Boston**. See the
 [rules and verification status](docs/competition_rules.md) before submission.
 
-Code and original documentation are released under the [MIT License](LICENSE).
+Code and original documentation are released under the [MIT License](LICENSE.md).
 SkillCorner data remains subject to its own terms and is not included or
 relicensed. Obtain and place eligible data as described in
 [data/README.md](data/README.md). This scaffold is local; public GitHub publication
