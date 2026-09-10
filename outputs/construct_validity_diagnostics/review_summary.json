@@ -1,0 +1,11 @@
+{
+  "packet_hashes_sha256": "7f09a7fcbdd5ec6c8ac740c9bab1528f70f040a8c62b33e7a1ea9bea9b82a9ad",
+  "primary_classification": null,
+  "schema_version": "1",
+  "secondary_classification": null,
+  "selected_cases": 12,
+  "stage_a_locked": false,
+  "stage_b_locked": false,
+  "stage_b_revealed": false,
+  "status": "AWAITING INDEPENDENT REVIEW"
+}
