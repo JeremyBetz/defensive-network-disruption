@@ -5,6 +5,13 @@ Authority: Session 3 commit `3e7e517108a782ede32e7bf55e2dfb020f3c841f`.
 Source: SkillCorner Open Data commit
 `02a396ffd09b283c9f092fdedeff11da6d535b66`.
 
+Amendment 1, committed before new event-row access: the closed population omits
+decision-frame keys, so the runner may project `event_id`, `event_type`,
+`pass_outcome`, `period`, `time_end`, `player_id`,
+`player_in_possession_id`, and `player_targeted_id` from the same nine development
+Dynamic Events files solely to reproduce the frozen population and recover its
+decision-frame key. No other event field or event-derived diagnostic is permitted.
+
 ## Question and claim boundary
 
 Determine whether the closed static M1 representation has one specific,
@@ -27,8 +34,9 @@ before file open. In particular, the ten reserved matches and withheld match
 `1953632` remain prohibited.
 
 Permitted local inputs are the closed Session 3 population and QC artifacts plus
-the pinned development metadata and `tracking_extrapolated.jsonl` products already
-acquired in Session 2. Event rows are not required. Permitted tracking fields are
+the pinned development metadata, projected Dynamic Events fields listed in
+Amendment 1, and `tracking_extrapolated.jsonl` products already acquired in
+Session 2. Permitted tracking fields are
 `frame`, `period`, `timestamp`, and player `player_id`, `x`, `y`, and
 `is_detected`, solely for aggregate past-frame availability and provenance.
 
