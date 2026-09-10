@@ -1,0 +1,47 @@
+{
+  "coverage": {
+    "documented_official_dynamic_event_games_for_new_games": 10,
+    "documented_official_new_tracking_games": 10,
+    "documented_official_tracking_games": 20,
+    "usable_record_coverage": "unverified",
+    "verified_file_entries_by_product": {
+      "dynamic_events": 20,
+      "match_metadata": 20,
+      "phases_of_play": 20,
+      "tracking_lfs_pointer": 20
+    },
+    "verified_repository_match_directories": 20
+  },
+  "exposure_and_partition": {
+    "partition_status": "provisional_candidate_a",
+    "previously_analyzed_sister_matches": 9,
+    "prospectively_reserved_matches_prior_exposure_unverified": 10,
+    "withheld_pending_metadata_review": 1
+  },
+  "generated_date": "2026-09-10",
+  "schema": {
+    "receiver_label_fields_present_all_headers": true,
+    "receiver_label_values_completeness_and_joins": "blocked_by_session_1_scope",
+    "tracking_payload_schema": "unverified_payload_not_downloaded",
+    "verified_dynamic_events_header_variants": 2,
+    "verified_match_metadata_schema_variants": 4,
+    "verified_phases_of_play_header_variants": 1
+  },
+  "schema_version": "1.0.0",
+  "scientific_decision": {
+    "accessibility": "separate construct requiring synthetic and football validation",
+    "behavioral_question": "Does transparent defensive geometry improve receiver ranking beyond a credible defender-free comparator?",
+    "likely_contribution": "transparent benchmark and geometric reformulation with analyst-facing diagnostic",
+    "novel_mathematical_construct": "not_established",
+    "suppression": "unsupported stronger claim"
+  },
+  "source_commit": "02a396ffd09b283c9f092fdedeff11da6d535b66",
+  "source_repository": "https://github.com/SkillCorner/opendata",
+  "source_tree": "44fd5081d0e6a441dbafadd12c51d6ffca8ab98b",
+  "status_vocabulary": [
+    "verified",
+    "documented",
+    "unverified",
+    "blocked"
+  ]
+}

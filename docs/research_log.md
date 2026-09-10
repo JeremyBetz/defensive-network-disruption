@@ -90,6 +90,42 @@ metadata; reconcile coverage and sister-project exposure, then choose deliberate
 development/validation partitions. Stage B passage inspection and all behavioral
 validation remain pending their own frozen decisions.
 
+## 2026-09-10 — L003: Session 1 metadata and originality audit
+
+- **Protocols:** Stage A1 ran after commit `23b9359`; the exact Stage A2 value
+  allowlist ran after commit `b60d079`. Source revision
+  `02a396ffd09b283c9f092fdedeff11da6d535b66`, tree
+  `44fd5081d0e6a441dbafadd12c51d6ffca8ab98b`.
+- **Access:** public repository paths/object metadata, LFS pointer identities,
+  JSON field paths/types, CSV headers, and only the committed match-metadata
+  values. No tracking payload, event row, aggregate row, pose record, passage,
+  animation, label value, completeness result, join, or performance was viewed.
+- **Inventory:** 20 unique match directories each expose metadata, tracking,
+  Dynamic Events, and phases file entries. Four metadata schema variants, two
+  Dynamic Events header variants, and one phases header were found. File
+  presence is not usable record coverage.
+- **Exposure:** nine matches were previously analyzed in the sister project;
+  ten additions are prospectively reserved from this stage with prior exposure
+  unverified; one prior match remains withheld for metadata review. Exact local
+  membership is untracked. Published sister-project summaries were already
+  visible during provenance review.
+- **Receiver schema:** six target/receipt/outcome fields are present in every
+  Dynamic Events header. Values, completeness, joins, and timing were not
+  inspected. Vendor Passing Option events remain model-derived comparison
+  evidence, not availability truth or candidate membership.
+- **Scientific decision:** the project is currently a transparent receiver-
+  ranking benchmark and geometric reformulation. Accessibility requires separate
+  construct validation; suppression is unsupported; mathematical novelty is not
+  established. No claim status changed.
+- **Local artifacts:** detailed manifest SHA-256
+  `44c6f495344b27b51ac5b153633722a3d61c2705dc167342bc2e9d749c5cacb0`;
+  detailed inventory SHA-256
+  `cd575389290bd9e0f384fccbd5c9f50d70f0f1c83e90b0000f1a1cbb5ff97b62`.
+  Both are ignored. Compact summary SHA-256
+  `650943d0c904ddf3b5e4da43e7228bbddfcdcb4e41d21b1fac39bd32bb59cbed`.
+- **Deviation/status:** no reserved value-level exposure and no protocol
+  deviation. Session 1 closed before payload acquisition or model development.
+
 ## Future run record template
 
 Record ID and timestamp; question/claim IDs; protocol version/SHA; code SHA;

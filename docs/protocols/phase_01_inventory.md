@@ -1,6 +1,6 @@
 # P01 — Metadata inventory and convention verification
 
-Version: 1.1, 2026-09-10. Status: **STAGE A1 COMPLETE; STAGE A2 FROZEN**.
+Version: 1.1, 2026-09-10. Status: **STAGE A COMPLETE — CLOSED**.
 This version authorizes only the two Stage A access steps below after this file
 is committed. Public documentation and repository-tree review performed while
 planning are recorded separately in the research log.
@@ -153,3 +153,23 @@ and revise the protocol as necessary; do not erase the original decision.
 Session 1 stops after the metadata/provenance package and decision brief. It does
 not authorize candidate construction, receiver-label completeness checks, M0,
 model fitting, passage review, or dependency installation.
+
+## Stage A execution closure
+
+Stage A1 ran from committed protocol `23b9359`; Stage A2 ran after the exact
+allowlist was frozen in commit `b60d079`. The repository tree was complete and
+untruncated: 20 unique match directories each contained entries for match
+metadata, tracking, Dynamic Events, and phases of play. Schema-only checks found
+four match-metadata schema variants, two Dynamic Events header variants, and one
+phases-of-play header variant.
+
+All tracking entries were Git LFS pointers. Pointer identities, payload SHA-256
+values, and declared payload sizes were recorded; no tracking payload was
+downloaded, so payload integrity and tracking schema remain **UNVERIFIED**.
+Allowlisted metadata paths were extracted without retaining parent objects.
+
+The six planned receiver-related columns were present in every Dynamic Events
+header. Their values, completeness, joins, and timing were not inspected and are
+**BLOCKED BY SESSION 1 SCOPE**. No reserved value-level record was accessed and
+no deviation occurred. Detailed identifiers remain in ignored local artifacts;
+the compact summary was reviewed for publication safety.

@@ -87,3 +87,31 @@ record its license and citation, examine relevant source/defaults, verify a clea
 install on the chosen Python version, and add a narrowly scoped adapter test.
 Use only permissible SkillCorner inputs. Package availability, pre-existing code
 permission, and scientific suitability are three separate questions.
+
+## Session 1 closest-prior-work audit
+
+Reviewed 2026-09-10 as a bounded originality check; no paper code, weights, or
+external match data were executed or imported.
+
+| Prior object | Relationship to this project |
+| --- | --- |
+| [Physics-Based Modeling of Pass Probabilities in Soccer](https://www.researchgate.net/publication/315166647_Physics-Based_Modeling_of_Pass_Probabilities_in_Soccer), Spearman et al. (2017) | Establishes time-to-intercept/time-to-control pass probabilities and hypothetical-pass analysis. A reachability model is not itself novel here. |
+| [Who can receive the pass?](https://link.springer.com/article/10.1007/s10618-022-00827-2), Dick, Link, and Brefeld (2022) | Closest mathematical object: receiver Availability aggregates pass success across trajectories using ball dynamics, receiver reachability, opponent interception, and technical skill. |
+| [SoccerMap](https://www.lukebornn.com/papers/fernandez_ecml_2020.pdf) and [un-xPass](https://github.com/ML-KULeuven/un-xPass) | Separate pass selection, success, and value. Their target separation is a design requirement; external data and learned models are not adopted. |
+| [Temporal Graph Network reception model](https://link.springer.com/article/10.1007/s10994-025-06935-6) | Jointly predicts which teammate or opponent receives a pass against defensive structures. It makes raw receiver-ranking novelty implausible. |
+| [GAPP](https://github.com/Sentient-Sports/EvaluatingDefensiveInfluenceUsingGATs) | Uses reception prediction and defender masking/attention for defensive influence. Model perturbation is a comparison point, not identified causation. |
+| [DEFCON](https://arxiv.org/abs/2512.10355) | Combines action selection, success, value, and defender responsibility into defensive credit. Its scope and attribution assumptions bound our narrower diagnostic. |
+
+### Originality decision
+
+The likely contribution is a transparent benchmark and geometric reformulation
+with an analyst-facing passage diagnostic. It asks how much incremental receiver-
+ranking information simple defensive geometry adds beyond a credible defender-
+free comparator, and whether a graded representation adds more than elementary
+distances. A new mathematical construct is not established.
+
+Behavioral ranking is not construct validation. The term accessibility requires
+synthetic and structured football validation; suppression requires evidence that
+distinguishes an unavailable option from one that was merely unchosen. Vendor
+Passing Option events are model-derived and cannot provide independent ground
+truth for that distinction.

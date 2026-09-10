@@ -1,8 +1,8 @@
 # Data dictionary notes
 
-Status: documentation-level notes, **not a verified local data contract**.
-No competition files have been downloaded or opened. Distinguish BRIEF EXPECTATION,
-DOCUMENTED, and VERIFIED IN SELECTED RELEASE; nothing is in the last category.
+Status: Stage A schema and metadata inventory complete; **not yet a verified
+tracking/event data contract**. Distinguish BRIEF EXPECTATION, DOCUMENTED,
+VERIFIED IN SELECTED RELEASE, UNVERIFIED, and BLOCKED.
 
 ## Availability and release identity
 
@@ -13,6 +13,17 @@ Dynamic Events for those 10 games, and 2 Body Pose games. The user-supplied
 describes 10 tracking games. Reconcile the release, product coverage, and previous
 edition overlap through metadata; do not resolve this by assuming all 20 have
 events or that the root README is a complete inventory.
+
+Selected release: commit `02a396ffd09b283c9f092fdedeff11da6d535b66`,
+tree `44fd5081d0e6a441dbafadd12c51d6ffca8ab98b`.
+
+| Stage A finding | Status |
+| --- | --- |
+| 20 unique match directories; metadata, tracking, Dynamic Events, and phases entries for every directory | VERIFIED FILE PRESENCE |
+| Four metadata schema variants; two Dynamic Events header variants; one phases header variant | VERIFIED SCHEMA/HEADER |
+| Tracking entries are LFS pointers with recorded payload SHA-256 and declared size | VERIFIED POINTER IDENTITY |
+| Tracking payload hashes, payload schema, usable event rows, product joins, and record coverage | UNVERIFIED |
+| Official 20 tracking games including 10 new; Dynamic Events for those 10 | DOCUMENTED, NOT A LOCAL COVERAGE CLAIM |
 
 ## Documented clues requiring release-specific checks
 
@@ -29,6 +40,19 @@ reviewed 2026-09-09. These facts guide verification; no loader defaults follow.
 | Events | Event IDs are match-scoped; event coordinates need scaling attention. | Composite keys, exact units, timestamps, pass/receipt semantics. |
 | Pose | 25 fps, 29 joints, detected players only; XY/pose misalignment is possible. | Orientation derivation, uncertainty, interpolation and synchronization. |
 | Vendor model labels | EPV, pressure, and passing-option fields are described. | Provenance, decision-time availability, leakage, and validation independence. |
+
+## Receiver-related event schema
+
+Every Dynamic Events header in the selected release contains
+`targeted_passing_option_event_id`, `player_targeted_id`, `targeted`, `received`,
+`pass_outcome`, and `pass_outcome_id` (**VERIFIED PRESENCE ONLY**). The vendor
+documentation describes distinct targeting, receipt, and outcome semantics.
+
+Passing Option events are partly generated using a vendor receiver model and a
+score/duration rule; targeted receivers receive an event independently of that
+threshold. Therefore they are not independent availability labels and cannot
+define this project's candidate set. Values, completeness, joins, and timing are
+**BLOCKED BY SESSION 1 SCOPE**.
 
 ## Contract still to specify
 
