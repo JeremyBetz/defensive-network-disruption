@@ -13,7 +13,7 @@
     "uv_lock_sha256": "831e43041d47bbf05d614ee47d87e09f67654de5f7ec44a42bdc0807c36386a7"
   },
   "implementation_sha256": {
-    "scripts/session_06_reserved.py": "8ec5fbec41a74761703b502c1b2fbd85111ae4f694e5e9ca1560fc3187471a49",
+    "scripts/session_06_reserved.py": "60583c0c3254bafad967257065ec1e15ded5689d35be04ebf5647651522e6f83",
     "src/defensive_network_disruption/data/identity_compatibility.py": "fc7727939c1937a2385a7193f440106bed5ad8a62eb1745a40a52a43ebc39dfd",
     "src/defensive_network_disruption/data/receiver_choices.py": "f4be2b5665c6d8033fadaee92e2889dc1e393ea5122d5dd18c079dd78be3ce06",
     "src/defensive_network_disruption/data/session6_population.py": "1b035cb400d5fa02adea1fb14a03cead624530ce1740df12bd2018716a7ca250",

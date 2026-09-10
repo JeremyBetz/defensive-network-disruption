@@ -411,7 +411,18 @@ def verify_final_authority() -> dict:
         if any(float(value) <= 0 for value in authority["scale"]):
             raise RuntimeError(f"invalid final preprocessing scale: {model}")
         fit_qc = authority.get("fit_qc", {})
-        if not fit_qc.get("success") or float(fit_qc.get("max_abs_gradient", math.inf)) > 1e-6:
+        if (
+            fit_qc.get("rank") != len(names)
+            or fit_qc.get("columns") != len(names)
+            or fit_qc.get("complete_separation") is not False
+            or fit_qc.get("quasi_separation") is not False
+            or fit_qc.get("complete_solver_status") not in {0, 2}
+            or fit_qc.get("quasi_solver_status") != 0
+            or not math.isfinite(float(fit_qc.get("objective", math.inf)))
+            or float(fit_qc.get("max_abs_gradient", math.inf)) > 1e-6
+            or not isinstance(fit_qc.get("iterations"), int)
+            or fit_qc["iterations"] < 0
+        ):
             raise RuntimeError(f"final fitting gate invalid: {model}")
     if (
         artifact["models"]["m0"]["mean"] != artifact["models"]["m1"]["mean"][:3]
