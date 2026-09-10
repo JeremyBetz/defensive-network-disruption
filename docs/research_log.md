@@ -329,3 +329,27 @@ ledger change; artifacts; next decision.
 - **Protection/claims:** no reserved/withheld provider product, pose, passage,
   feature, score, ranking, or performance was accessed. Accessibility remains
   PROXY ONLY; suppression remains NOT SUPPORTABLE.
+
+## 2026-09-10 — L011: Session 6 protected evaluation stopped on source integrity
+
+- **Chronology:** Phase 6 was committed as `903b8a02`; implementation and final
+  development models were committed as `0659515`. A wrapper validation error
+  stopped before provider access, then a validation-only correction was committed
+  separately as `48a4a48` without amending or squashing history.
+- **Development authority:** the separate Session 6 adapter reproduced all 7,227
+  evaluation-eligible and 7,227 fit-eligible development observations byte for
+  byte at SHA-256 `cd706f9f4621efcf659fbe890d9a6a0ebfff97c3407095a6db5ea05044c1264d`.
+  Final M0/M1/M2 full-development fits passed their frozen numerical gates.
+- **Protected access:** `reserved_01` metadata and Dynamic Events Git objects
+  verified and were stored as ignored opaque bytes. Tracking stopped before LFS
+  payload acquisition with `Git blob hash or size mismatch`. No reserved product
+  was parsed; no other reserved alias or withheld match was requested.
+- **Decision:** primary **D — EXECUTION INVALID** and secondary **4 — EXECUTION
+  INVALID**. No population or performance result exists. The frozen post-access
+  rule prohibits a correction or automatic rerun in this execution.
+- **Next question:** one bounded execution/integrity review of tracking Git-object
+  and LFS associations. Any protected rerun requires separate prospective
+  authorization.
+- **Claims:** target labels remain Tier B; accessibility remains PROXY ONLY;
+  suppression remains NOT SUPPORTABLE; no protected passage or score was
+  inspected.
