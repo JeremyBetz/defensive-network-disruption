@@ -1,0 +1,76 @@
+{
+  "fold_count": 9,
+  "interpretation": "standardized association coefficients; not causal importance",
+  "models": {
+    "m0": {
+      "distance": {
+        "maximum": -1.1810225956290015,
+        "median": -1.19625889825525,
+        "minimum": -1.2174410876971038,
+        "negative_folds": 9,
+        "positive_folds": 0,
+        "zero_folds": 0
+      },
+      "lateral_displacement": {
+        "maximum": -0.013419086944272378,
+        "median": -0.03052241078310093,
+        "minimum": -0.04035186474911778,
+        "negative_folds": 9,
+        "positive_folds": 0,
+        "zero_folds": 0
+      },
+      "longitudinal_displacement": {
+        "maximum": 0.287210899948083,
+        "median": 0.23976288422067266,
+        "minimum": 0.20431018861002387,
+        "negative_folds": 0,
+        "positive_folds": 9,
+        "zero_folds": 0
+      }
+    },
+    "m1": {
+      "distance": {
+        "maximum": -1.594349076342677,
+        "median": -1.6235807707253773,
+        "minimum": -1.6492320028934628,
+        "negative_folds": 9,
+        "positive_folds": 0,
+        "zero_folds": 0
+      },
+      "lateral_displacement": {
+        "maximum": -0.016278546514131836,
+        "median": -0.027170662567833685,
+        "minimum": -0.03405944689780684,
+        "negative_folds": 9,
+        "positive_folds": 0,
+        "zero_folds": 0
+      },
+      "longitudinal_displacement": {
+        "maximum": 1.577425207708453,
+        "median": 1.5481818494981665,
+        "minimum": 1.5061725844836564,
+        "negative_folds": 0,
+        "positive_folds": 9,
+        "zero_folds": 0
+      },
+      "minimum_segment_defender_distance": {
+        "maximum": 0.5013196293735459,
+        "median": 0.4923785339958189,
+        "minimum": 0.4552607182766068,
+        "negative_folds": 0,
+        "positive_folds": 9,
+        "zero_folds": 0
+      },
+      "nearest_receiver_defender_distance": {
+        "maximum": 1.253600219487804,
+        "median": 1.2150262752813135,
+        "minimum": 1.1919329906383314,
+        "negative_folds": 0,
+        "positive_folds": 9,
+        "zero_folds": 0
+      }
+    }
+  },
+  "schema_version": "1.0.0",
+  "source": "closed Session 3 QC parameters"
+}

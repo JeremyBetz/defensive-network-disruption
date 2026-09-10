@@ -1,0 +1,1351 @@
+{
+  "aggregate": {
+    "equal_match_feature_summary": {
+      "distance": {
+        "mean_match_population_variance": 182.11865025803388,
+        "mean_match_quantiles": {
+          "q05": 7.1960019435920675,
+          "q25": 14.657145946024379,
+          "q50": 23.290473596760602,
+          "q75": 33.877956137331104,
+          "q95": 49.98818434995542
+        }
+      },
+      "lateral_displacement": {
+        "mean_match_population_variance": 399.12486253205805,
+        "mean_match_quantiles": {
+          "q05": -32.81966666666667,
+          "q25": -13.543055555555556,
+          "q50": 0.325,
+          "q75": 13.938333333333333,
+          "q95": 32.70383333333332
+        }
+      },
+      "longitudinal_displacement": {
+        "mean_match_population_variance": 417.2077256459703,
+        "mean_match_quantiles": {
+          "q05": -35.528388888888884,
+          "q25": -10.186111111111112,
+          "q50": 3.4461111111111102,
+          "q75": 15.130833333333335,
+          "q95": 32.17788888888887
+        }
+      },
+      "minimum_segment_defender_distance": {
+        "mean_match_population_variance": 4.890872757294404,
+        "mean_match_quantiles": {
+          "q05": 0.13948649581981667,
+          "q25": 0.713921687894963,
+          "q50": 1.5130566412383855,
+          "q75": 2.778028386641928,
+          "q95": 6.627519468394479
+        }
+      },
+      "nearest_receiver_defender_distance": {
+        "mean_match_population_variance": 76.1364036924024,
+        "mean_match_quantiles": {
+          "q05": 1.472623291208193,
+          "q25": 3.610256081997248,
+          "q50": 6.309990155201844,
+          "q75": 11.484111945947785,
+          "q95": 29.1792342247626
+        }
+      },
+      "second_minus_first": {
+        "mean_match_population_variance": 5.512762820299354,
+        "mean_match_quantiles": {
+          "q05": 0.11932809724063409,
+          "q25": 0.6705597652793598,
+          "q50": 1.5735026539025967,
+          "q75": 3.1220091743518656,
+          "q95": 7.058217094762966
+        }
+      },
+      "second_segment_distance": {
+        "mean_match_population_variance": 11.71424082748188,
+        "mean_match_quantiles": {
+          "q05": 0.9343509641704532,
+          "q25": 2.144296968044756,
+          "q50": 3.4619068728708644,
+          "q75": 5.641657128317364,
+          "q95": 11.653869887945971
+        }
+      },
+      "third_minus_first": {
+        "mean_match_population_variance": 12.040163884216465,
+        "mean_match_quantiles": {
+          "q05": 0.866740597055685,
+          "q25": 2.312849020566229,
+          "q50": 4.057705366925051,
+          "q75": 6.695548728643865,
+          "q95": 11.58645358191476
+        }
+      },
+      "third_segment_distance": {
+        "mean_match_population_variance": 20.06695377638474,
+        "mean_match_quantiles": {
+          "q05": 1.997264935909346,
+          "q25": 3.832532710672862,
+          "q50": 5.813359045199139,
+          "q75": 9.140004545716792,
+          "q95": 16.211116987595254
+        }
+      }
+    },
+    "equal_match_ordering_disagreement": 0.3477597565217776,
+    "multiplicity_nondegenerate_all_matches": true,
+    "pooled_defensive_feature_correlation": {
+      "pearson": 0.3311592305795838,
+      "spearman": 0.3475539082614855
+    },
+    "within_choice_centered_defensive_pearson": 0.3881684096601134,
+    "within_choice_condition": {
+      "defensive_features": {
+        "columns": 2,
+        "condition_number": 2.2688733821163978,
+        "rank": 2,
+        "svd_tolerance": 6.164706121847777e-16
+      },
+      "m1": {
+        "columns": 5,
+        "condition_number": 15.999197153162525,
+        "rank": 5,
+        "svd_tolerance": 2.4533493912995435e-15
+      }
+    }
+  },
+  "per_match": {
+    "development_01": {
+      "attempts": 885,
+      "candidate_connections": 8850,
+      "defensive_feature_correlation": {
+        "pearson": 0.3408572725478871,
+        "spearman": 0.3546211445786566
+      },
+      "features": {
+        "distance": {
+          "population_variance": 173.49443593597044,
+          "quantiles": {
+            "q05": 7.3093487893289595,
+            "q25": 15.112286367431917,
+            "q50": 23.649360441158713,
+            "q75": 34.01610377888795,
+            "q95": 49.162558425036465
+          }
+        },
+        "lateral_displacement": {
+          "population_variance": 426.7577249689438,
+          "quantiles": {
+            "q05": -33.5055,
+            "q25": -14.245000000000001,
+            "q50": 0.344999999999999,
+            "q75": 14.957499999999998,
+            "q95": 33.920999999999985
+          }
+        },
+        "longitudinal_displacement": {
+          "population_variance": 391.04715350963517,
+          "quantiles": {
+            "q05": -34.2755,
+            "q25": -8.9975,
+            "q50": 3.9149999999999974,
+            "q75": 15.31,
+            "q95": 31.25
+          }
+        },
+        "minimum_segment_defender_distance": {
+          "population_variance": 4.928788995554473,
+          "quantiles": {
+            "q05": 0.1393453637476265,
+            "q25": 0.6938072668375056,
+            "q50": 1.4989663104953355,
+            "q75": 2.7764630810973703,
+            "q95": 6.7938608218773355
+          }
+        },
+        "nearest_receiver_defender_distance": {
+          "population_variance": 80.69408453495033,
+          "quantiles": {
+            "q05": 1.4202903957654467,
+            "q25": 3.527566416196862,
+            "q50": 6.3482950437707615,
+            "q75": 11.823269392214858,
+            "q95": 29.644082848148688
+          }
+        },
+        "second_minus_first": {
+          "population_variance": 6.119550218953668,
+          "quantiles": {
+            "q05": 0.11267531463069894,
+            "q25": 0.6370295160198038,
+            "q50": 1.5552594219207403,
+            "q75": 3.1442857694988264,
+            "q95": 7.469714909098952
+          }
+        },
+        "second_segment_distance": {
+          "population_variance": 12.908835800297656,
+          "quantiles": {
+            "q05": 0.8698924193409884,
+            "q25": 2.0711144036375697,
+            "q50": 3.3959396253380127,
+            "q75": 5.64184055345706,
+            "q95": 12.21632926577695
+          }
+        },
+        "third_minus_first": {
+          "population_variance": 13.071834374943144,
+          "quantiles": {
+            "q05": 0.8151924422482754,
+            "q25": 2.283192781574444,
+            "q50": 4.137217360214143,
+            "q75": 6.990011300714447,
+            "q95": 11.918571416963198
+          }
+        },
+        "third_segment_distance": {
+          "population_variance": 21.855119983998794,
+          "quantiles": {
+            "q05": 1.8354885553375826,
+            "q25": 3.8178349328972,
+            "q50": 5.812879614919508,
+            "q75": 9.48798051666888,
+            "q95": 16.982352596797277
+          }
+        }
+      },
+      "multiplicity_nondegenerate": {
+        "second_gap": true,
+        "second_tolerance": 5.082310998497881e-11,
+        "third_gap": true,
+        "third_tolerance": 5.5203369758361215e-11
+      },
+      "ordering_disagreement": {
+        "comparable_pairs": 38407,
+        "discordant_pairs": 13199,
+        "equal_attempt_fraction": 0.343774850195142
+      },
+      "pass_length_segment_correlation": {
+        "pearson": -0.09460431561047256,
+        "spearman": -0.10682677675385811
+      }
+    },
+    "development_02": {
+      "attempts": 801,
+      "candidate_connections": 8010,
+      "defensive_feature_correlation": {
+        "pearson": 0.3001706937043748,
+        "spearman": 0.31231495675058213
+      },
+      "features": {
+        "distance": {
+          "population_variance": 192.05191346476892,
+          "quantiles": {
+            "q05": 6.951314929263727,
+            "q25": 14.305172918694321,
+            "q50": 23.10359598898698,
+            "q75": 33.61320962187902,
+            "q95": 50.75874677665802
+          }
+        },
+        "lateral_displacement": {
+          "population_variance": 395.11697269412616,
+          "quantiles": {
+            "q05": -33.2755,
+            "q25": -14.25,
+            "q50": -0.5049999999999999,
+            "q75": 13.3475,
+            "q95": 31.980999999999987
+          }
+        },
+        "longitudinal_displacement": {
+          "population_variance": 430.1510481286719,
+          "quantiles": {
+            "q05": -38.629999999999995,
+            "q25": -12.407499999999997,
+            "q50": 0.7099999999999991,
+            "q75": 12.504999999999999,
+            "q95": 31.18
+          }
+        },
+        "minimum_segment_defender_distance": {
+          "population_variance": 4.137963136403823,
+          "quantiles": {
+            "q05": 0.14629311604958645,
+            "q25": 0.6815773533520898,
+            "q50": 1.4583536134079396,
+            "q75": 2.666027006614899,
+            "q95": 6.286087813576899
+          }
+        },
+        "nearest_receiver_defender_distance": {
+          "population_variance": 84.11491670913885,
+          "quantiles": {
+            "q05": 1.6574314699339854,
+            "q25": 3.840361211736474,
+            "q50": 6.748147871170917,
+            "q75": 12.00233712686535,
+            "q95": 30.42861182795997
+          }
+        },
+        "second_minus_first": {
+          "population_variance": 6.378291801459138,
+          "quantiles": {
+            "q05": 0.1287177276169471,
+            "q25": 0.7096419093994061,
+            "q50": 1.6197204992711,
+            "q75": 3.237151614229462,
+            "q95": 7.69169628313648
+          }
+        },
+        "second_segment_distance": {
+          "population_variance": 11.751179299184592,
+          "quantiles": {
+            "q05": 0.9716458701482317,
+            "q25": 2.1325336750805297,
+            "q50": 3.4455704718692903,
+            "q75": 5.7190908368376165,
+            "q95": 12.049728315048045
+          }
+        },
+        "third_minus_first": {
+          "population_variance": 13.865937515324655,
+          "quantiles": {
+            "q05": 0.8972053474280437,
+            "q25": 2.3792680116470626,
+            "q50": 4.105275253432301,
+            "q75": 6.940587759143566,
+            "q95": 12.216834799997809
+          }
+        },
+        "third_segment_distance": {
+          "population_variance": 20.693761465241277,
+          "quantiles": {
+            "q05": 2.022392980907388,
+            "q25": 3.8166066754632926,
+            "q50": 5.882108465507926,
+            "q75": 9.220004712983604,
+            "q95": 16.452010682555414
+          }
+        }
+      },
+      "multiplicity_nondegenerate": {
+        "second_gap": true,
+        "second_tolerance": 3.9456284657670825e-11,
+        "third_gap": true,
+        "third_tolerance": 5.352981569262214e-11
+      },
+      "ordering_disagreement": {
+        "comparable_pairs": 34364,
+        "discordant_pairs": 12313,
+        "equal_attempt_fraction": 0.3585432029803036
+      },
+      "pass_length_segment_correlation": {
+        "pearson": -0.0622517387969254,
+        "spearman": -0.06881708375181864
+      }
+    },
+    "development_03": {
+      "attempts": 952,
+      "candidate_connections": 9520,
+      "defensive_feature_correlation": {
+        "pearson": 0.36827661870510636,
+        "spearman": 0.4122219517619292
+      },
+      "features": {
+        "distance": {
+          "population_variance": 180.38663078279075,
+          "quantiles": {
+            "q05": 7.724211921528594,
+            "q25": 15.05998339951006,
+            "q50": 23.767649153985644,
+            "q75": 34.17757733491202,
+            "q95": 50.62090536190729
+          }
+        },
+        "lateral_displacement": {
+          "population_variance": 382.62851752961916,
+          "quantiles": {
+            "q05": -30.32,
+            "q25": -11.832500000000001,
+            "q50": 2.09,
+            "q75": 15.31,
+            "q95": 33.48199999999998
+          }
+        },
+        "longitudinal_displacement": {
+          "population_variance": 447.8686208549879,
+          "quantiles": {
+            "q05": -35.44199999999999,
+            "q25": -10.022499999999999,
+            "q50": 4.25,
+            "q75": 16.2025,
+            "q95": 33.97149999999998
+          }
+        },
+        "minimum_segment_defender_distance": {
+          "population_variance": 6.765761136637228,
+          "quantiles": {
+            "q05": 0.15209200115996896,
+            "q25": 0.7757244509304992,
+            "q50": 1.6229073089102295,
+            "q75": 3.103868553917835,
+            "q95": 8.014168702990972
+          }
+        },
+        "nearest_receiver_defender_distance": {
+          "population_variance": 87.82948264299479,
+          "quantiles": {
+            "q05": 1.5120218004181654,
+            "q25": 3.6618881716277305,
+            "q50": 6.436314912030513,
+            "q75": 12.17554305684732,
+            "q95": 30.092774437143383
+          }
+        },
+        "second_minus_first": {
+          "population_variance": 5.267462991684365,
+          "quantiles": {
+            "q05": 0.11786825988242974,
+            "q25": 0.6870998380746091,
+            "q50": 1.6343246703986958,
+            "q75": 3.2260679046270853,
+            "q95": 7.071570666381127
+          }
+        },
+        "second_segment_distance": {
+          "population_variance": 14.14690032267482,
+          "quantiles": {
+            "q05": 0.9629339268821429,
+            "q25": 2.204700980186023,
+            "q50": 3.6350977043343464,
+            "q75": 6.157904754273735,
+            "q95": 12.573129937773166
+          }
+        },
+        "third_minus_first": {
+          "population_variance": 11.518333910993851,
+          "quantiles": {
+            "q05": 0.8873230381220834,
+            "q25": 2.3614939748432993,
+            "q50": 4.228756487393754,
+            "q75": 6.87995051430326,
+            "q95": 11.521238870896502
+          }
+        },
+        "third_segment_distance": {
+          "population_variance": 23.135598952469305,
+          "quantiles": {
+            "q05": 1.9996193004699039,
+            "q25": 3.910780443174264,
+            "q50": 6.052637459291225,
+            "q75": 9.824823950649266,
+            "q95": 17.484769189962677
+          }
+        }
+      },
+      "multiplicity_nondegenerate": {
+        "second_gap": true,
+        "second_tolerance": 3.7853806178971095e-11,
+        "third_gap": true,
+        "third_tolerance": 4.521569174825852e-11
+      },
+      "ordering_disagreement": {
+        "comparable_pairs": 41291,
+        "discordant_pairs": 13169,
+        "equal_attempt_fraction": 0.3184512764413671
+      },
+      "pass_length_segment_correlation": {
+        "pearson": -0.06762178668173012,
+        "spearman": -0.08204702821517144
+      }
+    },
+    "development_04": {
+      "attempts": 877,
+      "candidate_connections": 8770,
+      "defensive_feature_correlation": {
+        "pearson": 0.29342619730963543,
+        "spearman": 0.29653510112272047
+      },
+      "features": {
+        "distance": {
+          "population_variance": 180.70735877126725,
+          "quantiles": {
+            "q05": 7.244278526600769,
+            "q25": 14.342726370415033,
+            "q50": 22.898980326634934,
+            "q75": 33.486179483509005,
+            "q95": 49.55069235422352
+          }
+        },
+        "lateral_displacement": {
+          "population_variance": 390.3412058204605,
+          "quantiles": {
+            "q05": -30.97,
+            "q25": -12.45,
+            "q50": 1.0199999999999996,
+            "q75": 14.3375,
+            "q95": 33.665499999999994
+          }
+        },
+        "longitudinal_displacement": {
+          "population_variance": 414.5965418526008,
+          "quantiles": {
+            "q05": -36.0265,
+            "q25": -10.340000000000003,
+            "q50": 3.2849999999999993,
+            "q75": 15.040000000000003,
+            "q95": 31.72
+          }
+        },
+        "minimum_segment_defender_distance": {
+          "population_variance": 3.916461653615469,
+          "quantiles": {
+            "q05": 0.13940744723655427,
+            "q25": 0.7051187710215387,
+            "q50": 1.4911624943894948,
+            "q75": 2.6715532180509998,
+            "q95": 5.977287981174266
+          }
+        },
+        "nearest_receiver_defender_distance": {
+          "population_variance": 66.03039848012034,
+          "quantiles": {
+            "q05": 1.429866151615772,
+            "q25": 3.567842445356142,
+            "q50": 6.333711392205264,
+            "q75": 11.079766320556075,
+            "q95": 27.628178609451567
+          }
+        },
+        "second_minus_first": {
+          "population_variance": 4.935898417532382,
+          "quantiles": {
+            "q05": 0.12377751600529946,
+            "q25": 0.6739971080680307,
+            "q50": 1.565071255367984,
+            "q75": 3.0987988432097646,
+            "q95": 6.763161070871901
+          }
+        },
+        "second_segment_distance": {
+          "population_variance": 9.553023932090689,
+          "quantiles": {
+            "q05": 0.9697983062211746,
+            "q25": 2.188305241403926,
+            "q50": 3.4559123279308315,
+            "q75": 5.4224117864237815,
+            "q95": 10.698065462772316
+          }
+        },
+        "third_minus_first": {
+          "population_variance": 10.528125896561724,
+          "quantiles": {
+            "q05": 0.8773060223196609,
+            "q25": 2.271516941789077,
+            "q50": 3.98448440292353,
+            "q75": 6.349174226473735,
+            "q95": 10.957053079233187
+          }
+        },
+        "third_segment_distance": {
+          "population_variance": 16.227590156710285,
+          "quantiles": {
+            "q05": 2.064912697567294,
+            "q25": 3.865114805059279,
+            "q50": 5.731519069417303,
+            "q75": 8.632960491412815,
+            "q95": 14.73720641026015
+          }
+        }
+      },
+      "multiplicity_nondegenerate": {
+        "second_gap": true,
+        "second_tolerance": 3.19091274940781e-11,
+        "third_gap": true,
+        "third_tolerance": 4.859657975567443e-11
+      },
+      "ordering_disagreement": {
+        "comparable_pairs": 38038,
+        "discordant_pairs": 14120,
+        "equal_attempt_fraction": 0.36989385842030914
+      },
+      "pass_length_segment_correlation": {
+        "pearson": -0.1157837235689626,
+        "spearman": -0.13039604798508045
+      }
+    },
+    "development_05": {
+      "attempts": 861,
+      "candidate_connections": 8610,
+      "defensive_feature_correlation": {
+        "pearson": 0.3560906680905034,
+        "spearman": 0.34854714354614164
+      },
+      "features": {
+        "distance": {
+          "population_variance": 185.0330467117199,
+          "quantiles": {
+            "q05": 8.018927315126925,
+            "q25": 16.240372347454986,
+            "q50": 25.256858474476772,
+            "q75": 35.80293108529691,
+            "q95": 51.98084262087762
+          }
+        },
+        "lateral_displacement": {
+          "population_variance": 483.8719844713815,
+          "quantiles": {
+            "q05": -37.521,
+            "q25": -15.7075,
+            "q50": -0.38499999999999984,
+            "q75": 14.84,
+            "q95": 36.100999999999985
+          }
+        },
+        "longitudinal_displacement": {
+          "population_variance": 414.3714027008488,
+          "quantiles": {
+            "q05": -32.726499999999994,
+            "q25": -8.740000000000002,
+            "q50": 5.930000000000003,
+            "q75": 17.76,
+            "q95": 33.58549999999999
+          }
+        },
+        "minimum_segment_defender_distance": {
+          "population_variance": 4.944406133083399,
+          "quantiles": {
+            "q05": 0.15490332460606157,
+            "q25": 0.7991596244583177,
+            "q50": 1.640392770348505,
+            "q75": 3.0386288988483017,
+            "q95": 6.753090102977505
+          }
+        },
+        "nearest_receiver_defender_distance": {
+          "population_variance": 67.25397506685034,
+          "quantiles": {
+            "q05": 1.4501396402303504,
+            "q25": 3.8804251974686106,
+            "q50": 6.800169017561235,
+            "q75": 11.680839002490575,
+            "q95": 28.031295768853134
+          }
+        },
+        "second_minus_first": {
+          "population_variance": 6.1651819413645965,
+          "quantiles": {
+            "q05": 0.13305013784995304,
+            "q25": 0.7283338095455392,
+            "q50": 1.7127384548254518,
+            "q75": 3.4062019001045347,
+            "q95": 7.630362226751072
+          }
+        },
+        "second_segment_distance": {
+          "population_variance": 12.495118625148363,
+          "quantiles": {
+            "q05": 1.0386142417200257,
+            "q25": 2.3445962504931543,
+            "q50": 3.758324094593228,
+            "q75": 6.056337832744196,
+            "q95": 12.177512657548588
+          }
+        },
+        "third_minus_first": {
+          "population_variance": 13.000443238643543,
+          "quantiles": {
+            "q05": 0.9087550860015712,
+            "q25": 2.484367037886212,
+            "q50": 4.395586951923085,
+            "q75": 7.205652664346784,
+            "q95": 12.329027883897973
+          }
+        },
+        "third_segment_distance": {
+          "population_variance": 20.974446203120742,
+          "quantiles": {
+            "q05": 2.1805909764103877,
+            "q25": 4.198236798979013,
+            "q50": 6.329059961795271,
+            "q75": 9.659163880158925,
+            "q95": 16.873938485131443
+          }
+        }
+      },
+      "multiplicity_nondegenerate": {
+        "second_gap": true,
+        "second_tolerance": 3.993446043135588e-11,
+        "third_gap": true,
+        "third_tolerance": 5.852321986665114e-11
+      },
+      "ordering_disagreement": {
+        "comparable_pairs": 37296,
+        "discordant_pairs": 12878,
+        "equal_attempt_fraction": 0.34525633850873244
+      },
+      "pass_length_segment_correlation": {
+        "pearson": -0.11402376655059215,
+        "spearman": -0.11814876820209187
+      }
+    },
+    "development_06": {
+      "attempts": 629,
+      "candidate_connections": 6290,
+      "defensive_feature_correlation": {
+        "pearson": 0.2867576613148083,
+        "spearman": 0.3095891810620614
+      },
+      "features": {
+        "distance": {
+          "population_variance": 189.56434417146085,
+          "quantiles": {
+            "q05": 6.355398843096871,
+            "q25": 13.59831880161814,
+            "q50": 22.02102225438047,
+            "q75": 32.41026532023781,
+            "q95": 49.94921410434316
+          }
+        },
+        "lateral_displacement": {
+          "population_variance": 358.19333214147167,
+          "quantiles": {
+            "q05": -31.400000000000002,
+            "q25": -12.1675,
+            "q50": 1.1450000000000011,
+            "q75": 13.63,
+            "q95": 30.37
+          }
+        },
+        "longitudinal_displacement": {
+          "population_variance": 419.93446326932747,
+          "quantiles": {
+            "q05": -39.4965,
+            "q25": -11.78,
+            "q50": 1.3299999999999983,
+            "q75": 12.584999999999997,
+            "q95": 29.46049999999992
+          }
+        },
+        "minimum_segment_defender_distance": {
+          "population_variance": 3.7483017868803197,
+          "quantiles": {
+            "q05": 0.12048154631850153,
+            "q25": 0.6426483987773506,
+            "q50": 1.3475624309039356,
+            "q75": 2.4204621742820986,
+            "q95": 5.480061587198169
+          }
+        },
+        "nearest_receiver_defender_distance": {
+          "population_variance": 80.02557319346892,
+          "quantiles": {
+            "q05": 1.310526609510775,
+            "q25": 3.267368944606538,
+            "q50": 5.715360684066368,
+            "q75": 11.12562694090456,
+            "q95": 30.339388502898913
+          }
+        },
+        "second_minus_first": {
+          "population_variance": 5.388017329516298,
+          "quantiles": {
+            "q05": 0.11435911373820995,
+            "q25": 0.6240313871162138,
+            "q50": 1.4118069460582983,
+            "q75": 2.8190972966159595,
+            "q95": 6.611989123027562
+          }
+        },
+        "second_segment_distance": {
+          "population_variance": 10.250468188498862,
+          "quantiles": {
+            "q05": 0.8534235524935232,
+            "q25": 1.9284246623720218,
+            "q50": 3.1317477674136915,
+            "q75": 4.893140895802452,
+            "q95": 10.640391412567814
+          }
+        },
+        "third_minus_first": {
+          "population_variance": 11.550448428500284,
+          "quantiles": {
+            "q05": 0.7802332194102766,
+            "q25": 2.0687659477967166,
+            "q50": 3.60746673230601,
+            "q75": 5.886021696031759,
+            "q95": 10.977269444339584
+          }
+        },
+        "third_segment_distance": {
+          "population_variance": 17.739958450374907,
+          "quantiles": {
+            "q05": 1.8001252270579473,
+            "q25": 3.461277500673377,
+            "q50": 5.1272864818309065,
+            "q75": 8.003544062652322,
+            "q95": 15.132660197966148
+          }
+        }
+      },
+      "multiplicity_nondegenerate": {
+        "second_gap": true,
+        "second_tolerance": 2.7091950243626674e-11,
+        "third_gap": true,
+        "third_tolerance": 3.725869079569942e-11
+      },
+      "ordering_disagreement": {
+        "comparable_pairs": 27158,
+        "discordant_pairs": 9921,
+        "equal_attempt_fraction": 0.36320304408539705
+      },
+      "pass_length_segment_correlation": {
+        "pearson": -0.0252809374390943,
+        "spearman": -0.04520430454833392
+      }
+    },
+    "development_07": {
+      "attempts": 764,
+      "candidate_connections": 7640,
+      "defensive_feature_correlation": {
+        "pearson": 0.3480598286252774,
+        "spearman": 0.37041400308361166
+      },
+      "features": {
+        "distance": {
+          "population_variance": 178.19192609526297,
+          "quantiles": {
+            "q05": 7.580384186058554,
+            "q25": 14.897603825589195,
+            "q50": 23.310107165964947,
+            "q75": 33.99401750794335,
+            "q95": 49.557863269623155
+          }
+        },
+        "lateral_displacement": {
+          "population_variance": 377.926470488446,
+          "quantiles": {
+            "q05": -31.511999999999997,
+            "q25": -12.3025,
+            "q50": 1.1649999999999991,
+            "q75": 14.149999999999999,
+            "q95": 31.942999999999955
+          }
+        },
+        "longitudinal_displacement": {
+          "population_variance": 436.19849668843887,
+          "quantiles": {
+            "q05": -34.0005,
+            "q25": -9.455000000000002,
+            "q50": 4.539999999999999,
+            "q75": 16.865000000000002,
+            "q95": 34.49
+          }
+        },
+        "minimum_segment_defender_distance": {
+          "population_variance": 5.834786081242811,
+          "quantiles": {
+            "q05": 0.13124059620274245,
+            "q25": 0.7369380576387232,
+            "q50": 1.592011306492514,
+            "q75": 2.930169936543857,
+            "q95": 7.314743710640226
+          }
+        },
+        "nearest_receiver_defender_distance": {
+          "population_variance": 72.67889442286733,
+          "quantiles": {
+            "q05": 1.6015164676796785,
+            "q25": 3.728659271839255,
+            "q50": 6.366698498770999,
+            "q75": 11.500503160167584,
+            "q95": 27.95674766404317
+          }
+        },
+        "second_minus_first": {
+          "population_variance": 4.986602893253073,
+          "quantiles": {
+            "q05": 0.11567736265529073,
+            "q25": 0.6631946373353479,
+            "q50": 1.563501870843828,
+            "q75": 3.039830978570426,
+            "q95": 6.695350401016428
+          }
+        },
+        "second_segment_distance": {
+          "population_variance": 12.063152680189159,
+          "quantiles": {
+            "q05": 0.9148210809945716,
+            "q25": 2.18870928108721,
+            "q50": 3.499057015825836,
+            "q75": 5.760276480604108,
+            "q95": 12.052140861918787
+          }
+        },
+        "third_minus_first": {
+          "population_variance": 12.162537826813665,
+          "quantiles": {
+            "q05": 0.8913428131033352,
+            "q25": 2.355842418192354,
+            "q50": 4.06610718668532,
+            "q75": 6.717770641473596,
+            "q95": 11.628121025588836
+          }
+        },
+        "third_segment_distance": {
+          "population_variance": 21.616834837156727,
+          "quantiles": {
+            "q05": 2.0236142493011906,
+            "q25": 3.899569829706862,
+            "q50": 5.896927210053634,
+            "q75": 9.52956210659286,
+            "q95": 16.47847258986447
+          }
+        }
+      },
+      "multiplicity_nondegenerate": {
+        "second_gap": true,
+        "second_tolerance": 3.768651402660333e-11,
+        "third_gap": true,
+        "third_tolerance": 5.247474163271611e-11
+      },
+      "ordering_disagreement": {
+        "comparable_pairs": 33194,
+        "discordant_pairs": 11268,
+        "equal_attempt_fraction": 0.33901820619752554
+      },
+      "pass_length_segment_correlation": {
+        "pearson": -0.11867381060322417,
+        "spearman": -0.12686635543179675
+      }
+    },
+    "development_08": {
+      "attempts": 734,
+      "candidate_connections": 7340,
+      "defensive_feature_correlation": {
+        "pearson": 0.3628838960157822,
+        "spearman": 0.3703107731469331
+      },
+      "features": {
+        "distance": {
+          "population_variance": 174.96408423445428,
+          "quantiles": {
+            "q05": 7.518908383934191,
+            "q25": 14.926983075937606,
+            "q50": 23.611841308857358,
+            "q75": 34.82752143243798,
+            "q95": 49.09645981934576
+          }
+        },
+        "lateral_displacement": {
+          "population_variance": 415.75258727063647,
+          "quantiles": {
+            "q05": -34.690999999999995,
+            "q25": -14.532500000000002,
+            "q50": -0.6199999999999992,
+            "q75": 13.3425,
+            "q95": 32.780999999999985
+          }
+        },
+        "longitudinal_displacement": {
+          "population_variance": 399.1213597110733,
+          "quantiles": {
+            "q05": -31.703999999999997,
+            "q25": -8.4025,
+            "q50": 5.799999999999999,
+            "q75": 17.15,
+            "q95": 34.71149999999998
+          }
+        },
+        "minimum_segment_defender_distance": {
+          "population_variance": 5.163911105210389,
+          "quantiles": {
+            "q05": 0.14698134608395652,
+            "q25": 0.7400450138872402,
+            "q50": 1.6215351034898742,
+            "q75": 2.9192266717396,
+            "q95": 7.121610589335564
+          }
+        },
+        "nearest_receiver_defender_distance": {
+          "population_variance": 62.590283294269724,
+          "quantiles": {
+            "q05": 1.534468963501566,
+            "q25": 3.694039051424688,
+            "q50": 6.221085113930503,
+            "q75": 11.172608112972373,
+            "q95": 27.53756706755337
+          }
+        },
+        "second_minus_first": {
+          "population_variance": 4.578430505159032,
+          "quantiles": {
+            "q05": 0.12127498298414986,
+            "q25": 0.6807614686758126,
+            "q50": 1.5745437033687497,
+            "q75": 3.099722311863395,
+            "q95": 6.586993215798201
+          }
+        },
+        "second_segment_distance": {
+          "population_variance": 10.641450904038793,
+          "quantiles": {
+            "q05": 0.9530451657344149,
+            "q25": 2.2480349217279145,
+            "q50": 3.600105283390194,
+            "q75": 5.786414752640711,
+            "q95": 11.408124756165787
+          }
+        },
+        "third_minus_first": {
+          "population_variance": 10.284501719790406,
+          "quantiles": {
+            "q05": 0.9381534596344945,
+            "q25": 2.3940142735833723,
+            "q50": 4.113739453639113,
+            "q75": 6.845744315803122,
+            "q95": 11.009591583733535
+          }
+        },
+        "third_segment_distance": {
+          "population_variance": 18.364166980893614,
+          "quantiles": {
+            "q05": 2.1728534920085267,
+            "q25": 3.9577606064327835,
+            "q50": 5.944711158306577,
+            "q75": 9.270207227761261,
+            "q95": 15.851659992382801
+          }
+        }
+      },
+      "multiplicity_nondegenerate": {
+        "second_gap": true,
+        "second_tolerance": 2.6102024017410314e-11,
+        "third_gap": true,
+        "third_tolerance": 3.5565626761672537e-11
+      },
+      "ordering_disagreement": {
+        "comparable_pairs": 31835,
+        "discordant_pairs": 10881,
+        "equal_attempt_fraction": 0.3415879727207664
+      },
+      "pass_length_segment_correlation": {
+        "pearson": -0.12422145820358303,
+        "spearman": -0.13111213342529984
+      }
+    },
+    "development_09": {
+      "attempts": 724,
+      "candidate_connections": 7240,
+      "defensive_feature_correlation": {
+        "pearson": 0.3030072466889671,
+        "spearman": 0.32582620281478525
+      },
+      "features": {
+        "distance": {
+          "population_variance": 184.6741121546094,
+          "quantiles": {
+            "q05": 6.061244597390015,
+            "q25": 13.430866407568155,
+            "q50": 21.994847256399595,
+            "q75": 32.573799670875914,
+            "q95": 49.21637641758378
+          }
+        },
+        "lateral_displacement": {
+          "population_variance": 361.53496740343707,
+          "quantiles": {
+            "q05": -32.181999999999995,
+            "q25": -14.400000000000002,
+            "q50": -1.3299999999999996,
+            "q75": 11.53,
+            "q95": 30.09
+          }
+        },
+        "longitudinal_displacement": {
+          "population_variance": 401.58044409814835,
+          "quantiles": {
+            "q05": -37.454,
+            "q25": -11.530000000000001,
+            "q50": 1.254999999999999,
+            "q75": 12.759999999999998,
+            "q95": 29.23199999999997
+          }
+        },
+        "minimum_segment_defender_distance": {
+          "population_variance": 4.577474787021724,
+          "quantiles": {
+            "q05": 0.12463372097335196,
+            "q25": 0.6502762541514021,
+            "q50": 1.3446184327076418,
+            "q75": 2.4758559386823937,
+            "q95": 5.906763905779381
+          }
+        },
+        "nearest_receiver_defender_distance": {
+          "population_variance": 84.0100248869609,
+          "quantiles": {
+            "q05": 1.3373481222179961,
+            "q25": 3.3241540277189308,
+            "q50": 5.820128863310037,
+            "q75": 10.79651440051137,
+            "q95": 30.95446129681122
+          }
+        },
+        "second_minus_first": {
+          "population_variance": 5.795429283771633,
+          "quantiles": {
+            "q05": 0.10655245980272793,
+            "q25": 0.6309482132794751,
+            "q50": 1.5245570630685226,
+            "q75": 3.026925950447339,
+            "q95": 7.003115956784974
+          }
+        },
+        "second_segment_distance": {
+          "population_variance": 11.618037695214005,
+          "quantiles": {
+            "q05": 0.874984113999006,
+            "q25": 1.9922532964144557,
+            "q50": 3.235407565142352,
+            "q75": 5.337496262072614,
+            "q95": 11.06940632194229
+          }
+        },
+        "third_minus_first": {
+          "population_variance": 12.379312046376926,
+          "quantiles": {
+            "q05": 0.8051539452334243,
+            "q25": 2.2171797977835253,
+            "q50": 3.8807144738081982,
+            "q75": 6.445025439504514,
+            "q95": 11.72037413258222
+          }
+        },
+        "third_segment_distance": {
+          "population_variance": 19.995106957496997,
+          "quantiles": {
+            "q05": 1.8757869441238937,
+            "q25": 3.565612803669683,
+            "q50": 5.543101985669903,
+            "q75": 8.631793962571198,
+            "q95": 15.906982743436918
+          }
+        }
+      },
+      "multiplicity_nondegenerate": {
+        "second_gap": true,
+        "second_tolerance": 5.4041964477620895e-11,
+        "third_gap": true,
+        "third_tolerance": 6.163835387766826e-11
+      },
+      "ordering_disagreement": {
+        "comparable_pairs": 31019,
+        "discordant_pairs": 10794,
+        "equal_attempt_fraction": 0.3501090591464553
+      },
+      "pass_length_segment_correlation": {
+        "pearson": -0.0322766163118057,
+        "spearman": -0.053825191584624905
+      }
+    }
+  },
+  "schema_version": "1.0.0",
+  "tracking_provenance": {
+    "development_01": {
+      "current_defender_instances": 9735,
+      "current_detected": 6596,
+      "current_extrapolated": 3139,
+      "decision_states": 885,
+      "detected_detected": 6544,
+      "detected_extrapolated": 52,
+      "elapsed_microseconds": {
+        "q05": 100000.0,
+        "q25": 100000.0,
+        "q50": 100000.0,
+        "q75": 100000.0,
+        "q95": 100000.0
+      },
+      "extrapolated_detected": 15,
+      "extrapolated_extrapolated": 3124,
+      "past_availability_rate": 1.0,
+      "past_available": 9735,
+      "past_unavailable": 0
+    },
+    "development_02": {
+      "current_defender_instances": 8811,
+      "current_detected": 5839,
+      "current_extrapolated": 2972,
+      "decision_states": 801,
+      "detected_detected": 5803,
+      "detected_extrapolated": 36,
+      "elapsed_microseconds": {
+        "q05": 100000.0,
+        "q25": 100000.0,
+        "q50": 100000.0,
+        "q75": 100000.0,
+        "q95": 100000.0
+      },
+      "extrapolated_detected": 12,
+      "extrapolated_extrapolated": 2949,
+      "past_availability_rate": 0.9987515605493134,
+      "past_available": 8800,
+      "past_unavailable": 11
+    },
+    "development_03": {
+      "current_defender_instances": 10472,
+      "current_detected": 6827,
+      "current_extrapolated": 3645,
+      "decision_states": 952,
+      "detected_detected": 6796,
+      "detected_extrapolated": 31,
+      "elapsed_microseconds": {
+        "q05": 100000.0,
+        "q25": 100000.0,
+        "q50": 100000.0,
+        "q75": 100000.0,
+        "q95": 100000.0
+      },
+      "extrapolated_detected": 37,
+      "extrapolated_extrapolated": 3597,
+      "past_availability_rate": 0.9989495798319328,
+      "past_available": 10461,
+      "past_unavailable": 11
+    },
+    "development_04": {
+      "current_defender_instances": 9647,
+      "current_detected": 7438,
+      "current_extrapolated": 2209,
+      "decision_states": 877,
+      "detected_detected": 7420,
+      "detected_extrapolated": 18,
+      "elapsed_microseconds": {
+        "q05": 100000.0,
+        "q25": 100000.0,
+        "q50": 100000.0,
+        "q75": 100000.0,
+        "q95": 100000.0
+      },
+      "extrapolated_detected": 8,
+      "extrapolated_extrapolated": 2201,
+      "past_availability_rate": 1.0,
+      "past_available": 9647,
+      "past_unavailable": 0
+    },
+    "development_05": {
+      "current_defender_instances": 9471,
+      "current_detected": 7240,
+      "current_extrapolated": 2231,
+      "decision_states": 861,
+      "detected_detected": 7215,
+      "detected_extrapolated": 25,
+      "elapsed_microseconds": {
+        "q05": 100000.0,
+        "q25": 100000.0,
+        "q50": 100000.0,
+        "q75": 100000.0,
+        "q95": 100000.0
+      },
+      "extrapolated_detected": 18,
+      "extrapolated_extrapolated": 2202,
+      "past_availability_rate": 0.9988385598141696,
+      "past_available": 9460,
+      "past_unavailable": 11
+    },
+    "development_06": {
+      "current_defender_instances": 6919,
+      "current_detected": 4265,
+      "current_extrapolated": 2654,
+      "decision_states": 629,
+      "detected_detected": 4230,
+      "detected_extrapolated": 35,
+      "elapsed_microseconds": {
+        "q05": 100000.0,
+        "q25": 100000.0,
+        "q50": 100000.0,
+        "q75": 100000.0,
+        "q95": 100000.0
+      },
+      "extrapolated_detected": 25,
+      "extrapolated_extrapolated": 2629,
+      "past_availability_rate": 1.0,
+      "past_available": 6919,
+      "past_unavailable": 0
+    },
+    "development_07": {
+      "current_defender_instances": 8404,
+      "current_detected": 5542,
+      "current_extrapolated": 2862,
+      "decision_states": 764,
+      "detected_detected": 5496,
+      "detected_extrapolated": 46,
+      "elapsed_microseconds": {
+        "q05": 100000.0,
+        "q25": 100000.0,
+        "q50": 100000.0,
+        "q75": 100000.0,
+        "q95": 100000.0
+      },
+      "extrapolated_detected": 21,
+      "extrapolated_extrapolated": 2830,
+      "past_availability_rate": 0.9986910994764397,
+      "past_available": 8393,
+      "past_unavailable": 11
+    },
+    "development_08": {
+      "current_defender_instances": 8074,
+      "current_detected": 5298,
+      "current_extrapolated": 2776,
+      "decision_states": 734,
+      "detected_detected": 5256,
+      "detected_extrapolated": 42,
+      "elapsed_microseconds": {
+        "q05": 100000.0,
+        "q25": 100000.0,
+        "q50": 100000.0,
+        "q75": 100000.0,
+        "q95": 100000.0
+      },
+      "extrapolated_detected": 19,
+      "extrapolated_extrapolated": 2746,
+      "past_availability_rate": 0.9986376021798365,
+      "past_available": 8063,
+      "past_unavailable": 11
+    },
+    "development_09": {
+      "current_defender_instances": 7964,
+      "current_detected": 4834,
+      "current_extrapolated": 3130,
+      "decision_states": 724,
+      "detected_detected": 4802,
+      "detected_extrapolated": 32,
+      "elapsed_microseconds": {
+        "q05": 100000.0,
+        "q25": 100000.0,
+        "q50": 100000.0,
+        "q75": 100000.0,
+        "q95": 100000.0
+      },
+      "extrapolated_detected": 29,
+      "extrapolated_extrapolated": 3101,
+      "past_availability_rate": 1.0,
+      "past_available": 7964,
+      "past_unavailable": 0
+    }
+  },
+  "tracking_provenance_aggregate": {
+    "current_defender_instances": 79497,
+    "current_detected": 53879,
+    "current_detected_rate": 0.6777488458683976,
+    "current_extrapolated": 25618,
+    "decision_states": 7227,
+    "detected_detected": 53562,
+    "detected_extrapolated": 317,
+    "extrapolated_detected": 184,
+    "extrapolated_extrapolated": 25379,
+    "past_availability_rate": 0.9993081499930815,
+    "past_available": 79442,
+    "past_unavailable": 55
+  }
+}

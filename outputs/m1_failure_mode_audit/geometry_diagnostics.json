@@ -1,0 +1,223 @@
+{
+  "backward_velocity_structurally_available": true,
+  "decision": "B \u2014 SPECIFIC MULTI-DEFENDER FAILURE MODE IDENTIFIED",
+  "prospective_m2_family": "one continuous summed-defender attenuation over the finite connection; kernel and scale remain unset",
+  "provider_causal_processing": "NOT ESTABLISHED",
+  "reachability_status": "algorithmically past-only feasibility; strict causal gate blocked",
+  "schema_version": "1.0.0",
+  "session_5_question": "Does one prospectively specified continuous multi-defender attenuation summary add receiver-ranking information beyond the frozen M1 minima?",
+  "synthetic": {
+    "joint_utility_change": {
+      "receiver_0_segment_0": {
+        "maximum": -6.957765142023558,
+        "median": -7.151049132940243,
+        "minimum": -7.297737755625549
+      },
+      "receiver_10_segment_0": {
+        "maximum": -5.537500148482181,
+        "median": -5.774350615156343,
+        "minimum": -5.9095810016193475
+      },
+      "receiver_10_segment_1": {
+        "maximum": -5.331638390735141,
+        "median": -5.554468010287721,
+        "minimum": -5.68350978923869
+      },
+      "receiver_10_segment_10": {
+        "maximum": -3.478882571011779,
+        "median": -3.575524566470122,
+        "minimum": -3.6488688778127734
+      },
+      "receiver_10_segment_2": {
+        "maximum": -5.125776632988101,
+        "median": -5.334585405419099,
+        "minimum": -5.457438576858033
+      },
+      "receiver_10_segment_5": {
+        "maximum": -4.50819135974698,
+        "median": -4.674937590813233,
+        "minimum": -4.779224939716061
+      },
+      "receiver_1_segment_0": {
+        "maximum": -6.8157386426694195,
+        "median": -7.013379281161853,
+        "minimum": -7.158922080224929
+      },
+      "receiver_1_segment_1": {
+        "maximum": -6.60987688492238,
+        "median": -6.793496676293231,
+        "minimum": -6.932850867844271
+      },
+      "receiver_20_segment_0": {
+        "maximum": -4.117235154940805,
+        "median": -4.3976520973724424,
+        "minimum": -4.521424247613146
+      },
+      "receiver_20_segment_1": {
+        "maximum": -3.9113733971937643,
+        "median": -4.1777694925038205,
+        "minimum": -4.295353035232488
+      },
+      "receiver_20_segment_10": {
+        "maximum": -2.058617577470403,
+        "median": -2.1988260486862217,
+        "minimum": -2.260712123806572
+      },
+      "receiver_20_segment_2": {
+        "maximum": -3.7055116394467245,
+        "median": -3.9578868876351985,
+        "minimum": -4.069281822851831
+      },
+      "receiver_20_segment_20": {
+        "maximum": 0.0,
+        "median": 0.0,
+        "minimum": 0.0
+      },
+      "receiver_20_segment_5": {
+        "maximum": -3.087926366205604,
+        "median": -3.2982390730293325,
+        "minimum": -3.3910681857098584
+      },
+      "receiver_2_segment_0": {
+        "maximum": -6.673712143315282,
+        "median": -6.875709429383463,
+        "minimum": -7.020106404824309
+      },
+      "receiver_2_segment_1": {
+        "maximum": -6.4678503855682425,
+        "median": -6.655826824514841,
+        "minimum": -6.794035192443651
+      },
+      "receiver_2_segment_2": {
+        "maximum": -6.261988627821202,
+        "median": -6.435944219646219,
+        "minimum": -6.567963980062994
+      },
+      "receiver_40_segment_0": {
+        "maximum": -1.2767051678580525,
+        "median": -1.6257246369826408,
+        "minimum": -1.7451107396007437
+      },
+      "receiver_40_segment_1": {
+        "maximum": -1.0708434101110118,
+        "median": -1.4064025970466725,
+        "minimum": -1.5190395272200856
+      },
+      "receiver_40_segment_10": {
+        "maximum": 0.7819124096123495,
+        "median": 0.5674957623770425,
+        "minimum": 0.51560138420583
+      },
+      "receiver_40_segment_2": {
+        "maximum": -0.864981652363972,
+        "median": -1.1870805571107041,
+        "minimum": -1.2929683148394275
+      },
+      "receiver_40_segment_20": {
+        "maximum": 2.8405299870827516,
+        "median": 2.7763135080124037,
+        "minimum": 2.748241964197769
+      },
+      "receiver_40_segment_40": {
+        "maximum": 7.297737755625551,
+        "median": 7.151049132940242,
+        "minimum": 6.957765142023556
+      },
+      "receiver_40_segment_5": {
+        "maximum": -0.2473963791228515,
+        "median": -0.5291144373027992,
+        "minimum": -0.6147546776974568
+      },
+      "receiver_5_segment_0": {
+        "maximum": -6.247632645252869,
+        "median": -6.462699874048293,
+        "minimum": -6.6036593786224485
+      },
+      "receiver_5_segment_1": {
+        "maximum": -6.0417708875058285,
+        "median": -6.242817269179671,
+        "minimum": -6.377588166241791
+      },
+      "receiver_5_segment_2": {
+        "maximum": -5.835909129758789,
+        "median": -6.022934664311049,
+        "minimum": -6.151516953861133
+      },
+      "receiver_5_segment_5": {
+        "maximum": -5.218323856517668,
+        "median": -5.363286849705182,
+        "minimum": -5.473303316719162
+      }
+    },
+    "length_5m_vs_30m_utility_change": {
+      "maximum": -1.0487151174017386,
+      "median": -1.1276338222445643,
+      "minimum": -1.1551021231708423
+    },
+    "length_case_defensive_component_identical": true,
+    "monotonic_receiver_distance": true,
+    "monotonic_segment_distance": true,
+    "one_vs_three_features_identical": true,
+    "one_vs_three_utility_identical": true,
+    "receiver_pressure_utility_change": {
+      "10": {
+        "maximum": -1.374120982098884,
+        "median": -1.3881567540062019,
+        "minimum": -1.4202649935413763
+      },
+      "2": {
+        "maximum": -2.473417767777992,
+        "median": -2.4986821572111637,
+        "minimum": -2.5564769883744773
+      },
+      "20": {
+        "maximum": 0.0,
+        "median": 0.0,
+        "minimum": 0.0
+      },
+      "40": {
+        "maximum": 2.8405299870827525,
+        "median": 2.7763135080124033,
+        "minimum": 2.748241964197769
+      },
+      "5": {
+        "maximum": -2.0611814731483262,
+        "median": -2.082235131009303,
+        "minimum": -2.130397490312064
+      }
+    },
+    "segment_obstruction_utility_change": {
+      "0": {
+        "maximum": -4.117235154940805,
+        "median": -4.3976520973724424,
+        "minimum": -4.521424247613146
+      },
+      "1": {
+        "maximum": -3.9113733971937643,
+        "median": -4.1777694925038205,
+        "minimum": -4.295353035232488
+      },
+      "10": {
+        "maximum": -2.058617577470403,
+        "median": -2.1988260486862217,
+        "minimum": -2.260712123806572
+      },
+      "2": {
+        "maximum": -3.7055116394467245,
+        "median": -3.9578868876351985,
+        "minimum": -4.069281822851831
+      },
+      "20": {
+        "maximum": 0.0,
+        "median": 0.0,
+        "minimum": 0.0
+      },
+      "5": {
+        "maximum": -3.087926366205604,
+        "median": -3.2982390730293325,
+        "minimum": -3.3910681857098584
+      }
+    },
+    "velocity_toward_away_static_utility_identical": true
+  }
+}

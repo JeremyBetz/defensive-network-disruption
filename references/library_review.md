@@ -115,3 +115,30 @@ synthetic and structured football validation; suppression requires evidence that
 distinguishes an unavailable option from one that was merely unchosen. Vendor
 Passing Option events are model-derived and cannot provide independent ground
 truth for that distinction.
+
+## Session 4 bounded failure-mode reuse audit
+
+Reviewed 2026-09-10. No package was installed, imported, or run; no external data,
+weights, parameters, or code were adopted.
+
+- [Floodlight `VelocityModel`](https://floodlight.readthedocs.io/en/latest/modules/models/kinematics.html)
+  supports central and backward differences. Backward difference is a candidate
+  primitive for a future timestamp-causal implementation; central difference is
+  incompatible with the project's decision-time firewall.
+- [DataBallPy space occupation](https://databallpy.readthedocs.io/en/latest/features/space_occupation.html)
+  documents player influence using position, velocity, and ball distance, followed
+  by summed team influence. It is a useful comparison for continuous aggregation,
+  not an established finite-pass-route or receiver-selection implementation.
+- [Dick, Link and Brefeld](https://link.springer.com/article/10.1007/s10618-022-00827-2)
+  combines ball dynamics, player movement/reachability, opponent interception,
+  and technical skill. It remains the closest prior mathematical object if a later
+  reachability branch becomes causally supportable.
+- [DEFCON](https://github.com/hyunsungkim-ds/defcon) combines learned action,
+  outcome, value, and defender-responsibility components. It is a broader
+  downstream framework rather than a reusable primitive for the selected
+  multi-defender geometry question.
+
+Session 4 selected multi-defender aggregation as the next prospective question.
+Reuse should begin by benchmarking conceptual behavior against DataBallPy's summed
+influence, while retaining the project's finite-connection semantics. No library
+choice, kernel, or parameter is authorized by this review.

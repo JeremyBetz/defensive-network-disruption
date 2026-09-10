@@ -131,3 +131,22 @@ have an invalid carrier state under the frozen waterfall. No target-outside stat
 remains. These counts supersede Session 2's preliminary ten mismatch descriptions
 for the frozen benchmark population; they do not change the Tier B provenance of
 the vendor target.
+
+## Session 4 diagnostic fields
+
+Session 4 added no model inputs. It computed feature-only audit quantities from
+the frozen development population:
+
+| Diagnostic | Definition | Status / limitation |
+| --- | --- | --- |
+| second/third segment distance | second/third order statistic of defender distance to the same finite carrier-receiver segment | DESCRIPTIVE ONLY; absent from M1 |
+| distance gaps | second or third order statistic minus the M1 minimum | DESCRIPTIVE ONLY; no football cutoff |
+| prior-frame availability | same identity, immediately prior same-period frame, finite coordinates, positive elapsed time | STRUCTURALLY AVAILABLE for 99.93% of audited defender instances |
+| current/prior detection | provider `is_detected` combinations | QUALITY/PROVENANCE ONLY |
+| backward velocity | difference between current and immediately prior coordinate divided by elapsed time | FUTURE CANDIDATE; not calculated; provider-causal processing unverified |
+
+The numerical multiplicity test uses only floating-point non-degeneracy. It is not
+a minimum football-relevant separation. Provider documentation recommends speed
+or acceleration smoothing but does not establish that supplied extrapolated
+coordinates are free from future-aware processing. Any future velocity remains
+offline and blocked from a causal-input claim until that provenance is resolved.

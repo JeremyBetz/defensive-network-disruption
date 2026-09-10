@@ -232,3 +232,36 @@ ledger change; artifacts; next decision.
 - **Protection:** reserved and unresolved value-level products remained unopened.
   Session 1's A verdict with the L004 mechanical over-read qualification remains
   in force. No new access-boundary deviation occurred.
+
+## 2026-09-10 — L007: Session 4 M1 failure-mode audit
+
+- **Protocol/access:** P04 was committed as `8fc0630`. Before new event-row
+  access, Amendment 1 was committed as `212a223` to permit eight projected event
+  fields needed to recover closed decision-frame keys. The public Session 3
+  coefficients had already been inspected during planning; no new row-level
+  development values were opened before the amendment.
+- **Stopped attempt:** the first aggregate run stopped during JSON serialization
+  on a NumPy boolean after diagnostics were computed in memory. Only a local
+  coefficient summary duplicating closed QC values was written; no new feature or
+  geometry result was displayed. Atomic serialization and the scalar conversion
+  were fixed before rerunning the unchanged audit.
+- **Coefficient behavior:** both defensive coefficients were positive in all nine
+  folds. This is conditional model behavior, not causal importance.
+- **Complementarity:** defensive-feature pooled Pearson correlation was 0.3312,
+  within-choice centered correlation 0.3882, and equal-match candidate-order
+  disagreement 34.78%. The two-feature condition number was 2.27 with full rank.
+- **Failure modes:** M1 cannot distinguish toward/away velocity under identical
+  static geometry, has no length-by-obstruction interaction, and exactly collapses
+  one versus three defenders when their two minima match. Second/third segment-
+  distance gap distributions were non-degenerate in all nine matches.
+- **Velocity feasibility:** a prior same-identity frame existed for 79,442/79,497
+  defender instances, but only 67.77% of current instances were detected and
+  provider-causal processing remains unestablished. The strict reachability gate
+  therefore failed.
+- **Decision:** **B — SPECIFIC MULTI-DEFENDER FAILURE MODE IDENTIFIED.** The sole
+  next question is whether one prospectively specified continuous multi-defender
+  attenuation summary adds ranking information beyond frozen M1 minima. No kernel,
+  parameter, model, or evaluation was selected or run.
+- **Protection/claims:** no reserved, withheld, pose, vendor-score, passage, error,
+  or new model access. Accessibility remains PROXY ONLY; suppression remains NOT
+  SUPPORTABLE; the Session 3 result is unchanged.
