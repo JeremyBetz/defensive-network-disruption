@@ -1,0 +1,76 @@
+{
+  "access_ledger_sha256": "12e4faaada16fbe7e76439f3647cc91534b947a4787f41d7d735aa05067c9d51",
+  "environment": {
+    "numpy": "2.5.3",
+    "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+    "python": "3.13.15",
+    "scipy": "1.18.1",
+    "uv_lock_sha256": "831e43041d47bbf05d614ee47d87e09f67654de5f7ec44a42bdc0807c36386a7"
+  },
+  "final_development_models_sha256": "0383561e45bcd9f8d84eccc7e9733b2409536f61c39193fa87d08c36c6f6fd65",
+  "implementation_sha256": {
+    "scripts/session_06e_reserved.py": "979f22e5d6a8c3a82862cb73c156a0eae64b14cbbac6791fa754987f6dd34d49",
+    "src/defensive_network_disruption/data/session6e_transport.py": "27b61d0ea6d95e046a81225613697d19fe967a95206bf0a47e914bedccbf5db4",
+    "tests/test_session6e_reserved.py": "9aef85a940c9a42f59f1f1d446de9df4bb281dc4f016e33e13425fbc8425651e"
+  },
+  "metrics": [
+    "mrr",
+    "hit_at_1",
+    "hit_at_3"
+  ],
+  "model_features": {
+    "m0": [
+      "distance",
+      "longitudinal_displacement",
+      "lateral_displacement"
+    ],
+    "m1": [
+      "distance",
+      "longitudinal_displacement",
+      "lateral_displacement",
+      "nearest_receiver_defender_distance",
+      "minimum_segment_defender_distance"
+    ],
+    "m2": [
+      "distance",
+      "longitudinal_displacement",
+      "lateral_displacement",
+      "nearest_receiver_defender_distance",
+      "minimum_segment_defender_distance",
+      "summed_segment_attenuation"
+    ]
+  },
+  "output_sha256": {
+    "aggregate_metrics.json": "97ff79b2d6b8a2a3ee5b7d675fc8767e40bccd9a4b1c6778488dfaae532be907",
+    "m0_match_metrics.csv": "62e471be3d0727d4e3a4bc62140705726048f09f5e1bfa45050ad4439d194c1f",
+    "m1_m0_paired.csv": "65d25fcf91b720f566b3c1110481679c92128f8181696c8c4e26737254bdd7f3",
+    "m1_match_metrics.csv": "9f4c3c90b8e0aa36cfd890c6dd0daca3004d33d2bb8dd3f823b5e53750c8ec91",
+    "m2_m1_paired.csv": "922c55555cc3a1ca55f9df05dfa2dfc521c45561944bea9aebdbc526fc8867c6",
+    "m2_match_metrics.csv": "f759420867150df68fb5040be2fe1a8bc83cea1b2484d797b5223f1720cff2b2",
+    "qc.json": "b1b518f9ae61019308ef56388f44308c882d17144e5c8cf06535357090ae7c96"
+  },
+  "population_authority_commit": "0da14cff08e43d7175da3e289cf5b8f8c4faf35d",
+  "population_summary_sha256": "eb0eb5aa97bb22a1f4f31cdd5cc96a98d4145d5931deaea9132e9bf90e368d7b",
+  "protocol_commit": "d8112ad",
+  "protocol_sha256": "38a310efff155095fe8612b4a949ded92e224fc118fdcfbdb0ea0c3ac22e511d",
+  "reserved_match_aliases": [
+    "reserved_01",
+    "reserved_02",
+    "reserved_03",
+    "reserved_04",
+    "reserved_05",
+    "reserved_06",
+    "reserved_07",
+    "reserved_08",
+    "reserved_09",
+    "reserved_10"
+  ],
+  "reserved_population_sha256": "85090ae5a7da4d0d9c275e37a199150855b669d38be7d060ecd6f8855fe85b99",
+  "schema_version": "1.0.0",
+  "source_commit": "02a396ffd09b283c9f092fdedeff11da6d535b66",
+  "source_receipts_sha256": "c2ae612d7982de57a8f200793f39fb22d58980622316dd94fc0dfd986849da9e",
+  "starting_authority": "aecdb860f6a3b354c4eb9631aff54b694fefe88f",
+  "status": "closed",
+  "transport_authority_commit": "1693f8f7c5a261954e99de4375b840850971bf4f",
+  "transport_authority_sha256": "543ad3938526003f4c75150188f3e86f366b8a12d7a3c33d95242b16244d2f79"
+}

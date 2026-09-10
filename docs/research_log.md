@@ -428,3 +428,14 @@ ledger change; artifacts; next decision.
   independent actual SHA/size verification. No installation, environment repair,
   payload acquisition, population preparation, empirical scoring, or passage work
   was performed. Certificate errors remain non-retryable.
+
+
+## L015 — Session 6e official LFS transport and protected evaluation
+
+The prospective protocol, tested transport implementation, source authority and structural population were committed in that order before the corresponding access/scoring stages. All thirty reserved products verified against the original pinned Git/LFS identities; ten tracking payloads total 907,710,720 bytes. Official batch/download transport used normal TLS and no retries, redirects or dependency installation. All thirty verified before projected structural inspection. The withheld match remained unopened.
+
+The unchanged strict reader retained 8,169 evaluation-eligible and 8,169 fit-eligible observations from 8,177 raw attempts: two missing targets and six untracked carriers excluded, no target-outside observations. The frozen final models scored once after population-authority commit; generated aggregates were validated and hash-closed before performance display. No code/science changes followed acquisition.
+
+Primary A: M1 MRR 0.579003393 versus M0 0.487333389, gain 0.091670004, positive in all ten matches with Hit@1/3 agreement. Secondary 1: M2 MRR 0.585853527, gain over M1 0.006850134, positive MRR in all ten; Hit@1 positive nine/ten and Hit@3 split five/five. These are descriptive receiver-ranking results with Tier B vendor targets; accessibility PROXY ONLY, suppression NOT SUPPORTABLE, offline extrapolated tracking. Historical Session 6/6c invalid outcomes and qualified reservation are preserved.
+
+Closed manifest SHA-256: eb7f44be01ae8de3d997d727f26e52d702f6df64217d72a8bef98c336ead5bb1. Evidence and exact chronology: [Session 6e brief](session_06e_corrected_reserved_evaluation_decision_brief.md). Tests: focused 24 passed/0 skipped; full active 157 passed/3 existing scaffold skips. Recommend only a separately governed development-only construct-validity/practitioner diagnostic review; not executed. Session 6e stopped after closure.

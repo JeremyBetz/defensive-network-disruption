@@ -1,0 +1,23 @@
+{
+  "evaluation_eligible": 8169,
+  "fit_eligible": 8169,
+  "identical_model_populations": true,
+  "network_or_gnn_work": false,
+  "pose_or_orientation_access": false,
+  "post_access_tuning": false,
+  "reserved_fitting": false,
+  "reserved_match_count": 10,
+  "schema_version": "1.0.0",
+  "scored_passage_inspection": false,
+  "target_outside_zero_credit": 0,
+  "tie_policy": {
+    "absolute_tolerance": 1e-12,
+    "block_reference": "highest score in block",
+    "expected_credit": true
+  },
+  "tied_target_blocks": {
+    "m0": 0,
+    "m1": 0,
+    "m2": 0
+  }
+}
