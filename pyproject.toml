@@ -19,6 +19,8 @@ include = ["defensive_network_disruption*"]
 [dependency-groups]
 dev = [
     "kloppy>=3.19.0",
+    "numpy>=2.4.6",
+    "scipy>=1.17.1",
 ]
 
 [tool.setuptools]
