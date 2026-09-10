@@ -20,6 +20,7 @@ import numpy as np
 import scipy
 
 ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(ROOT))
 sys.path.insert(0, str(ROOT / "src"))
 
 import scripts.session_06_reserved as frozen  # noqa: E402
