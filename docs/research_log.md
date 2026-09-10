@@ -303,3 +303,29 @@ ledger change; artifacts; next decision.
 - **Protection/claims:** no reserved, withheld, pose, velocity, reachability,
   network, vendor-score, or passage access. Accessibility remains PROXY ONLY;
   suppression remains NOT SUPPORTABLE.
+
+## 2026-09-10 — L010: Session 6a identity compatibility audit
+
+- **Chronology:** Phase 6a was committed as `6f08ffa` before new development-
+  value inspection. The audit used only the nine development matches and pinned
+  SkillCorner source revision.
+- **Reader contract:** the separate reader projected only authorized identity,
+  timing, interval, direction, and coordinate fields. Existing carrier
+  precedence and match-wide duplicate-event invalidation were frozen explicitly;
+  no trimming, repair, mapping, or new population rule was introduced.
+- **Identity findings:** there were no padded, whitespace-only, malformed, or
+  duplicate identity keys; no unknown roster teams or unresolved tracking
+  identities; and no conflicting or fallback carrier references among 7,292
+  pass attempts. Fifty-five targets were missing and one was self-targeted. Nine
+  otherwise labelled attempts lacked the carrier in the decision frame and
+  remained excluded by the existing invalid-carrier rule.
+- **Replay:** evaluation and fit eligibility independently reproduced at 7,227
+  each. All per-match counts, exclusions, target-outside records, and hashes
+  matched, and replay bytes equalled the frozen population at SHA-256
+  `cd706f9f4621efcf659fbe890d9a6a0ebfff97c3407095a6db5ea05044c1264d`.
+- **Decision:** **PASS — Identity contract compatible.** Planning and freezing a
+  protected Session 6 protocol is now permitted; this entry does not itself
+  authorize reserved access.
+- **Protection/claims:** no reserved/withheld provider product, pose, passage,
+  feature, score, ranking, or performance was accessed. Accessibility remains
+  PROXY ONLY; suppression remains NOT SUPPORTABLE.

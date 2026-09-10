@@ -1,0 +1,35 @@
+{
+  "authority_commit": "3cd72c1509bf2ca08d6b41a236b80e065156668d",
+  "decision": "PASS \u2014 Identity contract compatible",
+  "development_match_aliases": [
+    "development_01",
+    "development_02",
+    "development_03",
+    "development_04",
+    "development_05",
+    "development_06",
+    "development_07",
+    "development_08",
+    "development_09"
+  ],
+  "environment": {
+    "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+    "python": "3.13.15",
+    "uv_lock_sha256": "831e43041d47bbf05d614ee47d87e09f67654de5f7ec44a42bdc0807c36386a7"
+  },
+  "implementation_sha256": {
+    "scripts/session_06a_identity.py": "bb9280521c43921c00c2f6cde86a8034f8743cf16d2031b3a19728491b03fa41",
+    "src/defensive_network_disruption/data/identity_compatibility.py": "fc7727939c1937a2385a7193f440106bed5ad8a62eb1745a40a52a43ebc39dfd",
+    "src/defensive_network_disruption/data/receiver_choices.py": "f4be2b5665c6d8033fadaee92e2889dc1e393ea5122d5dd18c079dd78be3ce06",
+    "tests/test_session6a_identity_compatibility.py": "5bbd4e58446318f85a7cc72f1d83cdadb005f96b11da9db702bc20efb7ca3215"
+  },
+  "output_sha256": {
+    "summary.json": "7afc6add167d7d1c4737bbc8271a408d742f138bad68d2aa626a14d4ef9005b9"
+  },
+  "population_authority_sha256": "cd706f9f4621efcf659fbe890d9a6a0ebfff97c3407095a6db5ea05044c1264d",
+  "population_replay_sha256": "cd706f9f4621efcf659fbe890d9a6a0ebfff97c3407095a6db5ea05044c1264d",
+  "protocol_commit": "6f08ffa119c2641f436dea9ab0b221cfe90d47ea",
+  "protocol_sha256": "9afcbadb14675b9a5566becc2316e2111954f315a5032f11875fe47ab758b7b9",
+  "schema_version": "1.0.0",
+  "source_commit": "02a396ffd09b283c9f092fdedeff11da6d535b66"
+}

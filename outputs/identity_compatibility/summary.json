@@ -1,0 +1,927 @@
+{
+  "authority_commit": "3cd72c1509bf2ca08d6b41a236b80e065156668d",
+  "byte_equal_authoritative_population": true,
+  "combined_population_sha256": "cd706f9f4621efcf659fbe890d9a6a0ebfff97c3407095a6db5ea05044c1264d",
+  "decision": "PASS \u2014 Identity contract compatible",
+  "development_match_count": 9,
+  "evaluation_and_fit_are_separate": true,
+  "exact_per_match_authority": true,
+  "matches": {
+    "development_01": {
+      "authority_match": {
+        "evaluation_eligible": true,
+        "exclusions": true,
+        "fit_eligible": true,
+        "population_sha256": true,
+        "target_outside": true,
+        "target_outside_reasons": true
+      },
+      "evaluation_eligible": 885,
+      "exclusions": {
+        "empty_candidate_set": 0,
+        "empty_defender_set_or_geometry": 0,
+        "invalid_carrier": 2,
+        "invalid_decision_frame": 0,
+        "invalid_event_or_transition": 0,
+        "missing_or_unusable_target": 15
+      },
+      "fit_eligible": 885,
+      "identity_audit": {
+        "carrier": {
+          "both_missing": 0,
+          "conflict": 0,
+          "fallback_used": 0,
+          "selected_absent_roster": 0,
+          "selected_inactive": 0,
+          "selected_untracked": 2
+        },
+        "duplicates": {
+          "declared_team": 0,
+          "event_nonempty": 0,
+          "roster": 0,
+          "tracking_frames": 0,
+          "tracking_occurrences": 0
+        },
+        "identity_forms": {
+          "declared_team": {
+            "empty": 0,
+            "malformed": 0,
+            "null": 0,
+            "padded": 0,
+            "whitespace_only": 0
+          },
+          "event_id": {
+            "empty": 0,
+            "malformed": 0,
+            "null": 0,
+            "padded": 0,
+            "whitespace_only": 0
+          },
+          "event_player": {
+            "empty": 4254,
+            "malformed": 0,
+            "null": 0,
+            "padded": 0,
+            "whitespace_only": 0
+          },
+          "roster_player": {
+            "empty": 0,
+            "malformed": 0,
+            "null": 0,
+            "padded": 0,
+            "whitespace_only": 0
+          },
+          "roster_team": {
+            "empty": 0,
+            "malformed": 0,
+            "null": 0,
+            "padded": 0,
+            "whitespace_only": 0
+          },
+          "tracking_player": {
+            "empty": 0,
+            "malformed": 0,
+            "null": 0,
+            "padded": 0,
+            "whitespace_only": 0
+          }
+        },
+        "membership": {
+          "roster_unknown_team": 0,
+          "tracking_player_absent_roster": 0
+        },
+        "period_contract": {
+          "malformed_intervals": 0,
+          "unknown_direction": 0
+        },
+        "target": {
+          "inactive": 0,
+          "missing": 15,
+          "not_assessed_invalid_state": 2,
+          "other_team": 0,
+          "self": 0,
+          "unresolved": 0,
+          "untracked": 0,
+          "valid_current_state": 885
+        }
+      },
+      "raw_pass_attempts": 902,
+      "target_outside": 0
+    },
+    "development_02": {
+      "authority_match": {
+        "evaluation_eligible": true,
+        "exclusions": true,
+        "fit_eligible": true,
+        "population_sha256": true,
+        "target_outside": true,
+        "target_outside_reasons": true
+      },
+      "evaluation_eligible": 801,
+      "exclusions": {
+        "empty_candidate_set": 0,
+        "empty_defender_set_or_geometry": 0,
+        "invalid_carrier": 1,
+        "invalid_decision_frame": 0,
+        "invalid_event_or_transition": 0,
+        "missing_or_unusable_target": 18
+      },
+      "fit_eligible": 801,
+      "identity_audit": {
+        "carrier": {
+          "both_missing": 0,
+          "conflict": 0,
+          "fallback_used": 0,
+          "selected_absent_roster": 0,
+          "selected_inactive": 0,
+          "selected_untracked": 1
+        },
+        "duplicates": {
+          "declared_team": 0,
+          "event_nonempty": 0,
+          "roster": 0,
+          "tracking_frames": 0,
+          "tracking_occurrences": 0
+        },
+        "identity_forms": {
+          "declared_team": {
+            "empty": 0,
+            "malformed": 0,
+            "null": 0,
+            "padded": 0,
+            "whitespace_only": 0
+          },
+          "event_id": {
+            "empty": 0,
+            "malformed": 0,
+            "null": 0,
+            "padded": 0,
+            "whitespace_only": 0
+          },
+          "event_player": {
+            "empty": 3911,
+            "malformed": 0,
+            "null": 0,
+            "padded": 0,
+            "whitespace_only": 0
+          },
+          "roster_player": {
+            "empty": 0,
+            "malformed": 0,
+            "null": 0,
+            "padded": 0,
+            "whitespace_only": 0
+          },
+          "roster_team": {
+            "empty": 0,
+            "malformed": 0,
+            "null": 0,
+            "padded": 0,
+            "whitespace_only": 0
+          },
+          "tracking_player": {
+            "empty": 0,
+            "malformed": 0,
+            "null": 0,
+            "padded": 0,
+            "whitespace_only": 0
+          }
+        },
+        "membership": {
+          "roster_unknown_team": 0,
+          "tracking_player_absent_roster": 0
+        },
+        "period_contract": {
+          "malformed_intervals": 0,
+          "unknown_direction": 0
+        },
+        "target": {
+          "inactive": 0,
+          "missing": 18,
+          "not_assessed_invalid_state": 1,
+          "other_team": 0,
+          "self": 0,
+          "unresolved": 0,
+          "untracked": 0,
+          "valid_current_state": 801
+        }
+      },
+      "raw_pass_attempts": 820,
+      "target_outside": 0
+    },
+    "development_03": {
+      "authority_match": {
+        "evaluation_eligible": true,
+        "exclusions": true,
+        "fit_eligible": true,
+        "population_sha256": true,
+        "target_outside": true,
+        "target_outside_reasons": true
+      },
+      "evaluation_eligible": 952,
+      "exclusions": {
+        "empty_candidate_set": 0,
+        "empty_defender_set_or_geometry": 0,
+        "invalid_carrier": 0,
+        "invalid_decision_frame": 0,
+        "invalid_event_or_transition": 0,
+        "missing_or_unusable_target": 11
+      },
+      "fit_eligible": 952,
+      "identity_audit": {
+        "carrier": {
+          "both_missing": 0,
+          "conflict": 0,
+          "fallback_used": 0,
+          "selected_absent_roster": 0,
+          "selected_inactive": 0,
+          "selected_untracked": 0
+        },
+        "duplicates": {
+          "declared_team": 0,
+          "event_nonempty": 0,
+          "roster": 0,
+          "tracking_frames": 0,
+          "tracking_occurrences": 0
+        },
+        "identity_forms": {
+          "declared_team": {
+            "empty": 0,
+            "malformed": 0,
+            "null": 0,
+            "padded": 0,
+            "whitespace_only": 0
+          },
+          "event_id": {
+            "empty": 0,
+            "malformed": 0,
+            "null": 0,
+            "padded": 0,
+            "whitespace_only": 0
+          },
+          "event_player": {
+            "empty": 4400,
+            "malformed": 0,
+            "null": 0,
+            "padded": 0,
+            "whitespace_only": 0
+          },
+          "roster_player": {
+            "empty": 0,
+            "malformed": 0,
+            "null": 0,
+            "padded": 0,
+            "whitespace_only": 0
+          },
+          "roster_team": {
+            "empty": 0,
+            "malformed": 0,
+            "null": 0,
+            "padded": 0,
+            "whitespace_only": 0
+          },
+          "tracking_player": {
+            "empty": 0,
+            "malformed": 0,
+            "null": 0,
+            "padded": 0,
+            "whitespace_only": 0
+          }
+        },
+        "membership": {
+          "roster_unknown_team": 0,
+          "tracking_player_absent_roster": 0
+        },
+        "period_contract": {
+          "malformed_intervals": 0,
+          "unknown_direction": 0
+        },
+        "target": {
+          "inactive": 0,
+          "missing": 11,
+          "not_assessed_invalid_state": 0,
+          "other_team": 0,
+          "self": 0,
+          "unresolved": 0,
+          "untracked": 0,
+          "valid_current_state": 952
+        }
+      },
+      "raw_pass_attempts": 963,
+      "target_outside": 0
+    },
+    "development_04": {
+      "authority_match": {
+        "evaluation_eligible": true,
+        "exclusions": true,
+        "fit_eligible": true,
+        "population_sha256": true,
+        "target_outside": true,
+        "target_outside_reasons": true
+      },
+      "evaluation_eligible": 877,
+      "exclusions": {
+        "empty_candidate_set": 0,
+        "empty_defender_set_or_geometry": 0,
+        "invalid_carrier": 1,
+        "invalid_decision_frame": 0,
+        "invalid_event_or_transition": 0,
+        "missing_or_unusable_target": 0
+      },
+      "fit_eligible": 877,
+      "identity_audit": {
+        "carrier": {
+          "both_missing": 0,
+          "conflict": 0,
+          "fallback_used": 0,
+          "selected_absent_roster": 0,
+          "selected_inactive": 0,
+          "selected_untracked": 1
+        },
+        "duplicates": {
+          "declared_team": 0,
+          "event_nonempty": 0,
+          "roster": 0,
+          "tracking_frames": 0,
+          "tracking_occurrences": 0
+        },
+        "identity_forms": {
+          "declared_team": {
+            "empty": 0,
+            "malformed": 0,
+            "null": 0,
+            "padded": 0,
+            "whitespace_only": 0
+          },
+          "event_id": {
+            "empty": 0,
+            "malformed": 0,
+            "null": 0,
+            "padded": 0,
+            "whitespace_only": 0
+          },
+          "event_player": {
+            "empty": 4273,
+            "malformed": 0,
+            "null": 0,
+            "padded": 0,
+            "whitespace_only": 0
+          },
+          "roster_player": {
+            "empty": 0,
+            "malformed": 0,
+            "null": 0,
+            "padded": 0,
+            "whitespace_only": 0
+          },
+          "roster_team": {
+            "empty": 0,
+            "malformed": 0,
+            "null": 0,
+            "padded": 0,
+            "whitespace_only": 0
+          },
+          "tracking_player": {
+            "empty": 0,
+            "malformed": 0,
+            "null": 0,
+            "padded": 0,
+            "whitespace_only": 0
+          }
+        },
+        "membership": {
+          "roster_unknown_team": 0,
+          "tracking_player_absent_roster": 0
+        },
+        "period_contract": {
+          "malformed_intervals": 0,
+          "unknown_direction": 0
+        },
+        "target": {
+          "inactive": 0,
+          "missing": 0,
+          "not_assessed_invalid_state": 1,
+          "other_team": 0,
+          "self": 0,
+          "unresolved": 0,
+          "untracked": 0,
+          "valid_current_state": 877
+        }
+      },
+      "raw_pass_attempts": 878,
+      "target_outside": 0
+    },
+    "development_05": {
+      "authority_match": {
+        "evaluation_eligible": true,
+        "exclusions": true,
+        "fit_eligible": true,
+        "population_sha256": true,
+        "target_outside": true,
+        "target_outside_reasons": true
+      },
+      "evaluation_eligible": 861,
+      "exclusions": {
+        "empty_candidate_set": 0,
+        "empty_defender_set_or_geometry": 0,
+        "invalid_carrier": 0,
+        "invalid_decision_frame": 0,
+        "invalid_event_or_transition": 0,
+        "missing_or_unusable_target": 0
+      },
+      "fit_eligible": 861,
+      "identity_audit": {
+        "carrier": {
+          "both_missing": 0,
+          "conflict": 0,
+          "fallback_used": 0,
+          "selected_absent_roster": 0,
+          "selected_inactive": 0,
+          "selected_untracked": 0
+        },
+        "duplicates": {
+          "declared_team": 0,
+          "event_nonempty": 0,
+          "roster": 0,
+          "tracking_frames": 0,
+          "tracking_occurrences": 0
+        },
+        "identity_forms": {
+          "declared_team": {
+            "empty": 0,
+            "malformed": 0,
+            "null": 0,
+            "padded": 0,
+            "whitespace_only": 0
+          },
+          "event_id": {
+            "empty": 0,
+            "malformed": 0,
+            "null": 0,
+            "padded": 0,
+            "whitespace_only": 0
+          },
+          "event_player": {
+            "empty": 4141,
+            "malformed": 0,
+            "null": 0,
+            "padded": 0,
+            "whitespace_only": 0
+          },
+          "roster_player": {
+            "empty": 0,
+            "malformed": 0,
+            "null": 0,
+            "padded": 0,
+            "whitespace_only": 0
+          },
+          "roster_team": {
+            "empty": 0,
+            "malformed": 0,
+            "null": 0,
+            "padded": 0,
+            "whitespace_only": 0
+          },
+          "tracking_player": {
+            "empty": 0,
+            "malformed": 0,
+            "null": 0,
+            "padded": 0,
+            "whitespace_only": 0
+          }
+        },
+        "membership": {
+          "roster_unknown_team": 0,
+          "tracking_player_absent_roster": 0
+        },
+        "period_contract": {
+          "malformed_intervals": 0,
+          "unknown_direction": 0
+        },
+        "target": {
+          "inactive": 0,
+          "missing": 0,
+          "not_assessed_invalid_state": 0,
+          "other_team": 0,
+          "self": 0,
+          "unresolved": 0,
+          "untracked": 0,
+          "valid_current_state": 861
+        }
+      },
+      "raw_pass_attempts": 861,
+      "target_outside": 0
+    },
+    "development_06": {
+      "authority_match": {
+        "evaluation_eligible": true,
+        "exclusions": true,
+        "fit_eligible": true,
+        "population_sha256": true,
+        "target_outside": true,
+        "target_outside_reasons": true
+      },
+      "evaluation_eligible": 629,
+      "exclusions": {
+        "empty_candidate_set": 0,
+        "empty_defender_set_or_geometry": 0,
+        "invalid_carrier": 1,
+        "invalid_decision_frame": 0,
+        "invalid_event_or_transition": 0,
+        "missing_or_unusable_target": 0
+      },
+      "fit_eligible": 629,
+      "identity_audit": {
+        "carrier": {
+          "both_missing": 0,
+          "conflict": 0,
+          "fallback_used": 0,
+          "selected_absent_roster": 0,
+          "selected_inactive": 0,
+          "selected_untracked": 1
+        },
+        "duplicates": {
+          "declared_team": 0,
+          "event_nonempty": 0,
+          "roster": 0,
+          "tracking_frames": 0,
+          "tracking_occurrences": 0
+        },
+        "identity_forms": {
+          "declared_team": {
+            "empty": 0,
+            "malformed": 0,
+            "null": 0,
+            "padded": 0,
+            "whitespace_only": 0
+          },
+          "event_id": {
+            "empty": 0,
+            "malformed": 0,
+            "null": 0,
+            "padded": 0,
+            "whitespace_only": 0
+          },
+          "event_player": {
+            "empty": 3353,
+            "malformed": 0,
+            "null": 0,
+            "padded": 0,
+            "whitespace_only": 0
+          },
+          "roster_player": {
+            "empty": 0,
+            "malformed": 0,
+            "null": 0,
+            "padded": 0,
+            "whitespace_only": 0
+          },
+          "roster_team": {
+            "empty": 0,
+            "malformed": 0,
+            "null": 0,
+            "padded": 0,
+            "whitespace_only": 0
+          },
+          "tracking_player": {
+            "empty": 0,
+            "malformed": 0,
+            "null": 0,
+            "padded": 0,
+            "whitespace_only": 0
+          }
+        },
+        "membership": {
+          "roster_unknown_team": 0,
+          "tracking_player_absent_roster": 0
+        },
+        "period_contract": {
+          "malformed_intervals": 0,
+          "unknown_direction": 0
+        },
+        "target": {
+          "inactive": 0,
+          "missing": 0,
+          "not_assessed_invalid_state": 1,
+          "other_team": 0,
+          "self": 0,
+          "unresolved": 0,
+          "untracked": 0,
+          "valid_current_state": 629
+        }
+      },
+      "raw_pass_attempts": 630,
+      "target_outside": 0
+    },
+    "development_07": {
+      "authority_match": {
+        "evaluation_eligible": true,
+        "exclusions": true,
+        "fit_eligible": true,
+        "population_sha256": true,
+        "target_outside": true,
+        "target_outside_reasons": true
+      },
+      "evaluation_eligible": 764,
+      "exclusions": {
+        "empty_candidate_set": 0,
+        "empty_defender_set_or_geometry": 0,
+        "invalid_carrier": 2,
+        "invalid_decision_frame": 0,
+        "invalid_event_or_transition": 0,
+        "missing_or_unusable_target": 0
+      },
+      "fit_eligible": 764,
+      "identity_audit": {
+        "carrier": {
+          "both_missing": 0,
+          "conflict": 0,
+          "fallback_used": 0,
+          "selected_absent_roster": 0,
+          "selected_inactive": 0,
+          "selected_untracked": 2
+        },
+        "duplicates": {
+          "declared_team": 0,
+          "event_nonempty": 0,
+          "roster": 0,
+          "tracking_frames": 0,
+          "tracking_occurrences": 0
+        },
+        "identity_forms": {
+          "declared_team": {
+            "empty": 0,
+            "malformed": 0,
+            "null": 0,
+            "padded": 0,
+            "whitespace_only": 0
+          },
+          "event_id": {
+            "empty": 0,
+            "malformed": 0,
+            "null": 0,
+            "padded": 0,
+            "whitespace_only": 0
+          },
+          "event_player": {
+            "empty": 3946,
+            "malformed": 0,
+            "null": 0,
+            "padded": 0,
+            "whitespace_only": 0
+          },
+          "roster_player": {
+            "empty": 0,
+            "malformed": 0,
+            "null": 0,
+            "padded": 0,
+            "whitespace_only": 0
+          },
+          "roster_team": {
+            "empty": 0,
+            "malformed": 0,
+            "null": 0,
+            "padded": 0,
+            "whitespace_only": 0
+          },
+          "tracking_player": {
+            "empty": 0,
+            "malformed": 0,
+            "null": 0,
+            "padded": 0,
+            "whitespace_only": 0
+          }
+        },
+        "membership": {
+          "roster_unknown_team": 0,
+          "tracking_player_absent_roster": 0
+        },
+        "period_contract": {
+          "malformed_intervals": 0,
+          "unknown_direction": 0
+        },
+        "target": {
+          "inactive": 0,
+          "missing": 0,
+          "not_assessed_invalid_state": 2,
+          "other_team": 0,
+          "self": 0,
+          "unresolved": 0,
+          "untracked": 0,
+          "valid_current_state": 764
+        }
+      },
+      "raw_pass_attempts": 766,
+      "target_outside": 0
+    },
+    "development_08": {
+      "authority_match": {
+        "evaluation_eligible": true,
+        "exclusions": true,
+        "fit_eligible": true,
+        "population_sha256": true,
+        "target_outside": true,
+        "target_outside_reasons": true
+      },
+      "evaluation_eligible": 734,
+      "exclusions": {
+        "empty_candidate_set": 0,
+        "empty_defender_set_or_geometry": 0,
+        "invalid_carrier": 2,
+        "invalid_decision_frame": 0,
+        "invalid_event_or_transition": 0,
+        "missing_or_unusable_target": 0
+      },
+      "fit_eligible": 734,
+      "identity_audit": {
+        "carrier": {
+          "both_missing": 0,
+          "conflict": 0,
+          "fallback_used": 0,
+          "selected_absent_roster": 0,
+          "selected_inactive": 0,
+          "selected_untracked": 2
+        },
+        "duplicates": {
+          "declared_team": 0,
+          "event_nonempty": 0,
+          "roster": 0,
+          "tracking_frames": 0,
+          "tracking_occurrences": 0
+        },
+        "identity_forms": {
+          "declared_team": {
+            "empty": 0,
+            "malformed": 0,
+            "null": 0,
+            "padded": 0,
+            "whitespace_only": 0
+          },
+          "event_id": {
+            "empty": 0,
+            "malformed": 0,
+            "null": 0,
+            "padded": 0,
+            "whitespace_only": 0
+          },
+          "event_player": {
+            "empty": 3894,
+            "malformed": 0,
+            "null": 0,
+            "padded": 0,
+            "whitespace_only": 0
+          },
+          "roster_player": {
+            "empty": 0,
+            "malformed": 0,
+            "null": 0,
+            "padded": 0,
+            "whitespace_only": 0
+          },
+          "roster_team": {
+            "empty": 0,
+            "malformed": 0,
+            "null": 0,
+            "padded": 0,
+            "whitespace_only": 0
+          },
+          "tracking_player": {
+            "empty": 0,
+            "malformed": 0,
+            "null": 0,
+            "padded": 0,
+            "whitespace_only": 0
+          }
+        },
+        "membership": {
+          "roster_unknown_team": 0,
+          "tracking_player_absent_roster": 0
+        },
+        "period_contract": {
+          "malformed_intervals": 0,
+          "unknown_direction": 0
+        },
+        "target": {
+          "inactive": 0,
+          "missing": 0,
+          "not_assessed_invalid_state": 2,
+          "other_team": 0,
+          "self": 0,
+          "unresolved": 0,
+          "untracked": 0,
+          "valid_current_state": 734
+        }
+      },
+      "raw_pass_attempts": 736,
+      "target_outside": 0
+    },
+    "development_09": {
+      "authority_match": {
+        "evaluation_eligible": true,
+        "exclusions": true,
+        "fit_eligible": true,
+        "population_sha256": true,
+        "target_outside": true,
+        "target_outside_reasons": true
+      },
+      "evaluation_eligible": 724,
+      "exclusions": {
+        "empty_candidate_set": 0,
+        "empty_defender_set_or_geometry": 0,
+        "invalid_carrier": 0,
+        "invalid_decision_frame": 0,
+        "invalid_event_or_transition": 0,
+        "missing_or_unusable_target": 12
+      },
+      "fit_eligible": 724,
+      "identity_audit": {
+        "carrier": {
+          "both_missing": 0,
+          "conflict": 0,
+          "fallback_used": 0,
+          "selected_absent_roster": 0,
+          "selected_inactive": 0,
+          "selected_untracked": 0
+        },
+        "duplicates": {
+          "declared_team": 0,
+          "event_nonempty": 0,
+          "roster": 0,
+          "tracking_frames": 0,
+          "tracking_occurrences": 0
+        },
+        "identity_forms": {
+          "declared_team": {
+            "empty": 0,
+            "malformed": 0,
+            "null": 0,
+            "padded": 0,
+            "whitespace_only": 0
+          },
+          "event_id": {
+            "empty": 0,
+            "malformed": 0,
+            "null": 0,
+            "padded": 0,
+            "whitespace_only": 0
+          },
+          "event_player": {
+            "empty": 3481,
+            "malformed": 0,
+            "null": 0,
+            "padded": 0,
+            "whitespace_only": 0
+          },
+          "roster_player": {
+            "empty": 0,
+            "malformed": 0,
+            "null": 0,
+            "padded": 0,
+            "whitespace_only": 0
+          },
+          "roster_team": {
+            "empty": 0,
+            "malformed": 0,
+            "null": 0,
+            "padded": 0,
+            "whitespace_only": 0
+          },
+          "tracking_player": {
+            "empty": 0,
+            "malformed": 0,
+            "null": 0,
+            "padded": 0,
+            "whitespace_only": 0
+          }
+        },
+        "membership": {
+          "roster_unknown_team": 0,
+          "tracking_player_absent_roster": 0
+        },
+        "period_contract": {
+          "malformed_intervals": 0,
+          "unknown_direction": 0
+        },
+        "target": {
+          "inactive": 0,
+          "missing": 11,
+          "not_assessed_invalid_state": 0,
+          "other_team": 0,
+          "self": 1,
+          "unresolved": 0,
+          "untracked": 0,
+          "valid_current_state": 724
+        }
+      },
+      "raw_pass_attempts": 736,
+      "target_outside": 0
+    }
+  },
+  "schema_version": "1.0.0",
+  "source_commit": "02a396ffd09b283c9f092fdedeff11da6d535b66",
+  "totals": {
+    "evaluation_eligible": 7227,
+    "fit_eligible": 7227,
+    "raw_pass_attempts": 7292
+  }
+}

@@ -150,3 +150,29 @@ a minimum football-relevant separation. Provider documentation recommends speed
 or acceleration smoothing but does not establish that supplied extrapolated
 coordinates are free from future-aware processing. Any future velocity remains
 offline and blocked from a causal-input claim until that provenance is resolved.
+
+## Session 6a verified identity contract
+
+The restricted development reader verified the following without changing the
+Session 3 population:
+
+| Identity rule | Verified handling |
+| --- | --- |
+| Raw identity form | Preserve exactly; do not trim, case-fold, repair, or map blank, whitespace, padded, or malformed values |
+| Carrier precedence | Populated event `player_id` wins; use `player_in_possession_id` only when the primary field is empty; report conflicts separately |
+| Declared teams | Require two distinct match teams; roster team IDs are audited against both |
+| Roster identity | String-coerce under frozen production behavior; duplicate identity is a hard failure |
+| Tracking identity | Current-frame identity must resolve to roster; duplicate within a frame is a hard failure; no carry-forward |
+| Event identity | Duplicate nonempty event IDs invalidate all otherwise labelled pass attempts in that match under frozen behavior |
+| Target identity | Label only; missing, self, unresolved, other-team, inactive, and untracked states are audited without changing candidates |
+| Eligibility | Evaluation and fit eligibility are represented independently even though both equal 7,227 in the frozen development population |
+
+Across the nine development matches, all declared-team, roster, event-key, and
+tracking identity keys were ordinary and unique. Optional Dynamic Event player
+references may be empty. For frozen pass attempts, 55 targets were missing, one
+was self-targeted, and nine carrier identities were absent from the selected
+decision frame. Those cases map uniquely to the existing Session 3 waterfall.
+The restricted replay is byte-identical to the authoritative population at
+SHA-256 `cd706f9f4621efcf659fbe890d9a6a0ebfff97c3407095a6db5ea05044c1264d`.
+These are development-only facts and do not describe protected-match identity
+quality.
