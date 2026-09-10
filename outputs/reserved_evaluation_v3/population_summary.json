@@ -1,0 +1,904 @@
+{
+  "candidate_count_summary": {
+    "count": 8169,
+    "maximum": 10,
+    "mean": 10.0,
+    "median": 10,
+    "minimum": 10
+  },
+  "carrier_qc": {
+    "both_missing": 0,
+    "fallback_used": 0,
+    "nonfinite_coordinate": 0,
+    "selected_absent_roster": 0,
+    "selected_inactive": 0,
+    "selected_untracked": 6
+  },
+  "defender_count_summary": {
+    "count": 8169,
+    "maximum": 11,
+    "mean": 11.0,
+    "median": 11,
+    "minimum": 11
+  },
+  "evaluation_eligible": 8169,
+  "exclusions": {
+    "empty_candidate_set": 0,
+    "empty_defender_set_or_geometry": 0,
+    "invalid_carrier": 6,
+    "invalid_decision_frame": 0,
+    "invalid_event_or_transition": 0,
+    "missing_or_unusable_target": 2
+  },
+  "final_development_models_sha256": "0383561e45bcd9f8d84eccc7e9733b2409536f61c39193fa87d08c36c6f6fd65",
+  "fit_eligible": 8169,
+  "implementation_sha256": {
+    "scripts/session_06e_reserved.py": "979f22e5d6a8c3a82862cb73c156a0eae64b14cbbac6791fa754987f6dd34d49",
+    "src/defensive_network_disruption/data/session6e_transport.py": "27b61d0ea6d95e046a81225613697d19fe967a95206bf0a47e914bedccbf5db4",
+    "tests/test_session6e_reserved.py": "9aef85a940c9a42f59f1f1d446de9df4bb281dc4f016e33e13425fbc8425651e"
+  },
+  "matches": {
+    "reserved_01": {
+      "candidate_count_summary": {
+        "count": 835,
+        "maximum": 10,
+        "mean": 10.0,
+        "median": 10,
+        "minimum": 10
+      },
+      "carrier_qc": {
+        "both_missing": 0,
+        "fallback_used": 0,
+        "nonfinite_coordinate": 0,
+        "selected_absent_roster": 0,
+        "selected_inactive": 0,
+        "selected_untracked": 2
+      },
+      "defender_count_summary": {
+        "count": 835,
+        "maximum": 11,
+        "mean": 11.0,
+        "median": 11,
+        "minimum": 11
+      },
+      "evaluation_eligible": 835,
+      "exclusions": {
+        "empty_candidate_set": 0,
+        "empty_defender_set_or_geometry": 0,
+        "invalid_carrier": 2,
+        "invalid_decision_frame": 0,
+        "invalid_event_or_transition": 0,
+        "missing_or_unusable_target": 0
+      },
+      "fit_eligible": 835,
+      "input_contract": {
+        "carrier_conflict_count": 0,
+        "carrier_fallback_count": 0,
+        "declared_team_count": 2,
+        "duplicate_nonempty_event_ids": 0,
+        "event_identity_form_counts": {
+          "empty": 4159,
+          "ordinary": 15501
+        },
+        "ignored_non_playing_period_records": 19,
+        "optional_event_reference_blanks": 4159,
+        "pass_attempt_count": 837,
+        "roster_player_count": 36,
+        "tracking_coordinate_missing": 0,
+        "tracking_identity_form_counts": {
+          "ordinary": 973368
+        },
+        "tracking_player_records": 973368,
+        "tracking_records": 60301
+      },
+      "population_sha256": "d98f8f3f8786dda427ac98a107bccf40428e223f24b0a412a6496b89ef13b2c0",
+      "raw_pass_attempts": 837,
+      "target_completeness": {
+        "denominator_raw_attempts": 837,
+        "missing": 0,
+        "present": 837,
+        "unusable_self_or_unresolved": 0,
+        "usable_reference": 837
+      },
+      "target_outside": 0,
+      "target_outside_reasons": {},
+      "target_qc": {
+        "inactive": 0,
+        "missing": 0,
+        "not_assessed_invalid_state": 2,
+        "other_team": 0,
+        "self": 0,
+        "unresolved": 0,
+        "untracked": 0,
+        "valid_current_state": 835
+      }
+    },
+    "reserved_02": {
+      "candidate_count_summary": {
+        "count": 996,
+        "maximum": 10,
+        "mean": 10.0,
+        "median": 10.0,
+        "minimum": 10
+      },
+      "carrier_qc": {
+        "both_missing": 0,
+        "fallback_used": 0,
+        "nonfinite_coordinate": 0,
+        "selected_absent_roster": 0,
+        "selected_inactive": 0,
+        "selected_untracked": 0
+      },
+      "defender_count_summary": {
+        "count": 996,
+        "maximum": 11,
+        "mean": 11.0,
+        "median": 11.0,
+        "minimum": 11
+      },
+      "evaluation_eligible": 996,
+      "exclusions": {
+        "empty_candidate_set": 0,
+        "empty_defender_set_or_geometry": 0,
+        "invalid_carrier": 0,
+        "invalid_decision_frame": 0,
+        "invalid_event_or_transition": 0,
+        "missing_or_unusable_target": 0
+      },
+      "fit_eligible": 996,
+      "input_contract": {
+        "carrier_conflict_count": 0,
+        "carrier_fallback_count": 0,
+        "declared_team_count": 2,
+        "duplicate_nonempty_event_ids": 0,
+        "event_identity_form_counts": {
+          "empty": 4885,
+          "ordinary": 17739
+        },
+        "ignored_non_playing_period_records": 19,
+        "optional_event_reference_blanks": 4885,
+        "pass_attempt_count": 996,
+        "roster_player_count": 36,
+        "tracking_coordinate_missing": 0,
+        "tracking_identity_form_counts": {
+          "ordinary": 984698
+        },
+        "tracking_player_records": 984698,
+        "tracking_records": 59070
+      },
+      "population_sha256": "9faa31de005deaf183082eb6d75f20f7a1bbf0731b901081e682765ede9a72cd",
+      "raw_pass_attempts": 996,
+      "target_completeness": {
+        "denominator_raw_attempts": 996,
+        "missing": 0,
+        "present": 996,
+        "unusable_self_or_unresolved": 0,
+        "usable_reference": 996
+      },
+      "target_outside": 0,
+      "target_outside_reasons": {},
+      "target_qc": {
+        "inactive": 0,
+        "missing": 0,
+        "not_assessed_invalid_state": 0,
+        "other_team": 0,
+        "self": 0,
+        "unresolved": 0,
+        "untracked": 0,
+        "valid_current_state": 996
+      }
+    },
+    "reserved_03": {
+      "candidate_count_summary": {
+        "count": 814,
+        "maximum": 10,
+        "mean": 10.0,
+        "median": 10.0,
+        "minimum": 10
+      },
+      "carrier_qc": {
+        "both_missing": 0,
+        "fallback_used": 0,
+        "nonfinite_coordinate": 0,
+        "selected_absent_roster": 0,
+        "selected_inactive": 0,
+        "selected_untracked": 1
+      },
+      "defender_count_summary": {
+        "count": 814,
+        "maximum": 11,
+        "mean": 11.0,
+        "median": 11.0,
+        "minimum": 11
+      },
+      "evaluation_eligible": 814,
+      "exclusions": {
+        "empty_candidate_set": 0,
+        "empty_defender_set_or_geometry": 0,
+        "invalid_carrier": 1,
+        "invalid_decision_frame": 0,
+        "invalid_event_or_transition": 0,
+        "missing_or_unusable_target": 0
+      },
+      "fit_eligible": 814,
+      "input_contract": {
+        "carrier_conflict_count": 0,
+        "carrier_fallback_count": 0,
+        "declared_team_count": 2,
+        "duplicate_nonempty_event_ids": 0,
+        "event_identity_form_counts": {
+          "empty": 3930,
+          "ordinary": 14746
+        },
+        "ignored_non_playing_period_records": 9,
+        "optional_event_reference_blanks": 3930,
+        "pass_attempt_count": 815,
+        "roster_player_count": 36,
+        "tracking_coordinate_missing": 0,
+        "tracking_identity_form_counts": {
+          "ordinary": 940258
+        },
+        "tracking_player_records": 940258,
+        "tracking_records": 58541
+      },
+      "population_sha256": "906a834c95cd01b73f8a55bbef6f21da4759aeab189203e0ea612894605e6227",
+      "raw_pass_attempts": 815,
+      "target_completeness": {
+        "denominator_raw_attempts": 815,
+        "missing": 0,
+        "present": 815,
+        "unusable_self_or_unresolved": 0,
+        "usable_reference": 815
+      },
+      "target_outside": 0,
+      "target_outside_reasons": {},
+      "target_qc": {
+        "inactive": 0,
+        "missing": 0,
+        "not_assessed_invalid_state": 1,
+        "other_team": 0,
+        "self": 0,
+        "unresolved": 0,
+        "untracked": 0,
+        "valid_current_state": 814
+      }
+    },
+    "reserved_04": {
+      "candidate_count_summary": {
+        "count": 765,
+        "maximum": 10,
+        "mean": 10.0,
+        "median": 10,
+        "minimum": 10
+      },
+      "carrier_qc": {
+        "both_missing": 0,
+        "fallback_used": 0,
+        "nonfinite_coordinate": 0,
+        "selected_absent_roster": 0,
+        "selected_inactive": 0,
+        "selected_untracked": 1
+      },
+      "defender_count_summary": {
+        "count": 765,
+        "maximum": 11,
+        "mean": 11.0,
+        "median": 11,
+        "minimum": 11
+      },
+      "evaluation_eligible": 765,
+      "exclusions": {
+        "empty_candidate_set": 0,
+        "empty_defender_set_or_geometry": 0,
+        "invalid_carrier": 1,
+        "invalid_decision_frame": 0,
+        "invalid_event_or_transition": 0,
+        "missing_or_unusable_target": 0
+      },
+      "fit_eligible": 765,
+      "input_contract": {
+        "carrier_conflict_count": 0,
+        "carrier_fallback_count": 0,
+        "declared_team_count": 2,
+        "duplicate_nonempty_event_ids": 0,
+        "event_identity_form_counts": {
+          "empty": 3774,
+          "ordinary": 13962
+        },
+        "ignored_non_playing_period_records": 19,
+        "optional_event_reference_blanks": 3774,
+        "pass_attempt_count": 766,
+        "roster_player_count": 36,
+        "tracking_coordinate_missing": 0,
+        "tracking_identity_form_counts": {
+          "ordinary": 947672
+        },
+        "tracking_player_records": 947672,
+        "tracking_records": 59090
+      },
+      "population_sha256": "15e7296d8d69209c54aa4e8234a8732e11aef5ea942dcfddd8d5f5e4388daab2",
+      "raw_pass_attempts": 766,
+      "target_completeness": {
+        "denominator_raw_attempts": 766,
+        "missing": 0,
+        "present": 766,
+        "unusable_self_or_unresolved": 0,
+        "usable_reference": 766
+      },
+      "target_outside": 0,
+      "target_outside_reasons": {},
+      "target_qc": {
+        "inactive": 0,
+        "missing": 0,
+        "not_assessed_invalid_state": 1,
+        "other_team": 0,
+        "self": 0,
+        "unresolved": 0,
+        "untracked": 0,
+        "valid_current_state": 765
+      }
+    },
+    "reserved_05": {
+      "candidate_count_summary": {
+        "count": 659,
+        "maximum": 10,
+        "mean": 10.0,
+        "median": 10,
+        "minimum": 10
+      },
+      "carrier_qc": {
+        "both_missing": 0,
+        "fallback_used": 0,
+        "nonfinite_coordinate": 0,
+        "selected_absent_roster": 0,
+        "selected_inactive": 0,
+        "selected_untracked": 1
+      },
+      "defender_count_summary": {
+        "count": 659,
+        "maximum": 11,
+        "mean": 11.0,
+        "median": 11,
+        "minimum": 11
+      },
+      "evaluation_eligible": 659,
+      "exclusions": {
+        "empty_candidate_set": 0,
+        "empty_defender_set_or_geometry": 0,
+        "invalid_carrier": 1,
+        "invalid_decision_frame": 0,
+        "invalid_event_or_transition": 0,
+        "missing_or_unusable_target": 0
+      },
+      "fit_eligible": 659,
+      "input_contract": {
+        "carrier_conflict_count": 0,
+        "carrier_fallback_count": 0,
+        "declared_team_count": 2,
+        "duplicate_nonempty_event_ids": 0,
+        "event_identity_form_counts": {
+          "empty": 3295,
+          "ordinary": 12397
+        },
+        "ignored_non_playing_period_records": 19,
+        "optional_event_reference_blanks": 3295,
+        "pass_attempt_count": 660,
+        "roster_player_count": 35,
+        "tracking_coordinate_missing": 0,
+        "tracking_identity_form_counts": {
+          "ordinary": 947452
+        },
+        "tracking_player_records": 947452,
+        "tracking_records": 60280
+      },
+      "population_sha256": "d9e0028e37deb7026ae9fa2cf0563242f31cc31d5defa7fb30c8ade167562fdc",
+      "raw_pass_attempts": 660,
+      "target_completeness": {
+        "denominator_raw_attempts": 660,
+        "missing": 0,
+        "present": 660,
+        "unusable_self_or_unresolved": 0,
+        "usable_reference": 660
+      },
+      "target_outside": 0,
+      "target_outside_reasons": {},
+      "target_qc": {
+        "inactive": 0,
+        "missing": 0,
+        "not_assessed_invalid_state": 1,
+        "other_team": 0,
+        "self": 0,
+        "unresolved": 0,
+        "untracked": 0,
+        "valid_current_state": 659
+      }
+    },
+    "reserved_06": {
+      "candidate_count_summary": {
+        "count": 844,
+        "maximum": 10,
+        "mean": 10.0,
+        "median": 10.0,
+        "minimum": 10
+      },
+      "carrier_qc": {
+        "both_missing": 0,
+        "fallback_used": 0,
+        "nonfinite_coordinate": 0,
+        "selected_absent_roster": 0,
+        "selected_inactive": 0,
+        "selected_untracked": 0
+      },
+      "defender_count_summary": {
+        "count": 844,
+        "maximum": 11,
+        "mean": 11.0,
+        "median": 11.0,
+        "minimum": 11
+      },
+      "evaluation_eligible": 844,
+      "exclusions": {
+        "empty_candidate_set": 0,
+        "empty_defender_set_or_geometry": 0,
+        "invalid_carrier": 0,
+        "invalid_decision_frame": 0,
+        "invalid_event_or_transition": 0,
+        "missing_or_unusable_target": 1
+      },
+      "fit_eligible": 844,
+      "input_contract": {
+        "carrier_conflict_count": 0,
+        "carrier_fallback_count": 0,
+        "declared_team_count": 2,
+        "duplicate_nonempty_event_ids": 0,
+        "event_identity_form_counts": {
+          "empty": 4179,
+          "ordinary": 15737
+        },
+        "ignored_non_playing_period_records": 29,
+        "optional_event_reference_blanks": 4179,
+        "pass_attempt_count": 845,
+        "roster_player_count": 36,
+        "tracking_coordinate_missing": 0,
+        "tracking_identity_form_counts": {
+          "ordinary": 975634
+        },
+        "tracking_player_records": 975634,
+        "tracking_records": 59101
+      },
+      "population_sha256": "88e9dcd36edd44a27875e7b9241d889647162833f697b9c6997769e277fbc3b5",
+      "raw_pass_attempts": 845,
+      "target_completeness": {
+        "denominator_raw_attempts": 845,
+        "missing": 1,
+        "present": 844,
+        "unusable_self_or_unresolved": 0,
+        "usable_reference": 844
+      },
+      "target_outside": 0,
+      "target_outside_reasons": {},
+      "target_qc": {
+        "inactive": 0,
+        "missing": 1,
+        "not_assessed_invalid_state": 0,
+        "other_team": 0,
+        "self": 0,
+        "unresolved": 0,
+        "untracked": 0,
+        "valid_current_state": 844
+      }
+    },
+    "reserved_07": {
+      "candidate_count_summary": {
+        "count": 751,
+        "maximum": 10,
+        "mean": 10.0,
+        "median": 10,
+        "minimum": 10
+      },
+      "carrier_qc": {
+        "both_missing": 0,
+        "fallback_used": 0,
+        "nonfinite_coordinate": 0,
+        "selected_absent_roster": 0,
+        "selected_inactive": 0,
+        "selected_untracked": 1
+      },
+      "defender_count_summary": {
+        "count": 751,
+        "maximum": 11,
+        "mean": 11.0,
+        "median": 11,
+        "minimum": 11
+      },
+      "evaluation_eligible": 751,
+      "exclusions": {
+        "empty_candidate_set": 0,
+        "empty_defender_set_or_geometry": 0,
+        "invalid_carrier": 1,
+        "invalid_decision_frame": 0,
+        "invalid_event_or_transition": 0,
+        "missing_or_unusable_target": 0
+      },
+      "fit_eligible": 751,
+      "input_contract": {
+        "carrier_conflict_count": 0,
+        "carrier_fallback_count": 0,
+        "declared_team_count": 2,
+        "duplicate_nonempty_event_ids": 0,
+        "event_identity_form_counts": {
+          "empty": 3637,
+          "ordinary": 13603
+        },
+        "ignored_non_playing_period_records": 19,
+        "optional_event_reference_blanks": 3637,
+        "pass_attempt_count": 752,
+        "roster_player_count": 36,
+        "tracking_coordinate_missing": 0,
+        "tracking_identity_form_counts": {
+          "ordinary": 974226
+        },
+        "tracking_player_records": 974226,
+        "tracking_records": 58081
+      },
+      "population_sha256": "f96ae192667301eebb6427c54a7621af5e0920139bd592077525241d6a162c26",
+      "raw_pass_attempts": 752,
+      "target_completeness": {
+        "denominator_raw_attempts": 752,
+        "missing": 0,
+        "present": 752,
+        "unusable_self_or_unresolved": 0,
+        "usable_reference": 752
+      },
+      "target_outside": 0,
+      "target_outside_reasons": {},
+      "target_qc": {
+        "inactive": 0,
+        "missing": 0,
+        "not_assessed_invalid_state": 1,
+        "other_team": 0,
+        "self": 0,
+        "unresolved": 0,
+        "untracked": 0,
+        "valid_current_state": 751
+      }
+    },
+    "reserved_08": {
+      "candidate_count_summary": {
+        "count": 847,
+        "maximum": 10,
+        "mean": 10.0,
+        "median": 10,
+        "minimum": 10
+      },
+      "carrier_qc": {
+        "both_missing": 0,
+        "fallback_used": 0,
+        "nonfinite_coordinate": 0,
+        "selected_absent_roster": 0,
+        "selected_inactive": 0,
+        "selected_untracked": 0
+      },
+      "defender_count_summary": {
+        "count": 847,
+        "maximum": 11,
+        "mean": 11.0,
+        "median": 11,
+        "minimum": 11
+      },
+      "evaluation_eligible": 847,
+      "exclusions": {
+        "empty_candidate_set": 0,
+        "empty_defender_set_or_geometry": 0,
+        "invalid_carrier": 0,
+        "invalid_decision_frame": 0,
+        "invalid_event_or_transition": 0,
+        "missing_or_unusable_target": 0
+      },
+      "fit_eligible": 847,
+      "input_contract": {
+        "carrier_conflict_count": 0,
+        "carrier_fallback_count": 0,
+        "declared_team_count": 2,
+        "duplicate_nonempty_event_ids": 0,
+        "event_identity_form_counts": {
+          "empty": 4133,
+          "ordinary": 15191
+        },
+        "ignored_non_playing_period_records": 29,
+        "optional_event_reference_blanks": 4133,
+        "pass_attempt_count": 847,
+        "roster_player_count": 36,
+        "tracking_coordinate_missing": 0,
+        "tracking_identity_form_counts": {
+          "ordinary": 1018534
+        },
+        "tracking_player_records": 1018534,
+        "tracking_records": 57571
+      },
+      "population_sha256": "702129651950a5330bd06ab0281162863d4c4bed969cf8e39d67b686773a02c1",
+      "raw_pass_attempts": 847,
+      "target_completeness": {
+        "denominator_raw_attempts": 847,
+        "missing": 0,
+        "present": 847,
+        "unusable_self_or_unresolved": 0,
+        "usable_reference": 847
+      },
+      "target_outside": 0,
+      "target_outside_reasons": {},
+      "target_qc": {
+        "inactive": 0,
+        "missing": 0,
+        "not_assessed_invalid_state": 0,
+        "other_team": 0,
+        "self": 0,
+        "unresolved": 0,
+        "untracked": 0,
+        "valid_current_state": 847
+      }
+    },
+    "reserved_09": {
+      "candidate_count_summary": {
+        "count": 835,
+        "maximum": 10,
+        "mean": 10.0,
+        "median": 10,
+        "minimum": 10
+      },
+      "carrier_qc": {
+        "both_missing": 0,
+        "fallback_used": 0,
+        "nonfinite_coordinate": 0,
+        "selected_absent_roster": 0,
+        "selected_inactive": 0,
+        "selected_untracked": 0
+      },
+      "defender_count_summary": {
+        "count": 835,
+        "maximum": 11,
+        "mean": 11.0,
+        "median": 11,
+        "minimum": 11
+      },
+      "evaluation_eligible": 835,
+      "exclusions": {
+        "empty_candidate_set": 0,
+        "empty_defender_set_or_geometry": 0,
+        "invalid_carrier": 0,
+        "invalid_decision_frame": 0,
+        "invalid_event_or_transition": 0,
+        "missing_or_unusable_target": 1
+      },
+      "fit_eligible": 835,
+      "input_contract": {
+        "carrier_conflict_count": 0,
+        "carrier_fallback_count": 0,
+        "declared_team_count": 2,
+        "duplicate_nonempty_event_ids": 0,
+        "event_identity_form_counts": {
+          "empty": 3924,
+          "ordinary": 14608
+        },
+        "ignored_non_playing_period_records": 19,
+        "optional_event_reference_blanks": 3924,
+        "pass_attempt_count": 836,
+        "roster_player_count": 36,
+        "tracking_coordinate_missing": 0,
+        "tracking_identity_form_counts": {
+          "ordinary": 1001462
+        },
+        "tracking_player_records": 1001462,
+        "tracking_records": 58991
+      },
+      "population_sha256": "4664ca5e457f5812b3f3b23e78d086cc4d1999cca9dbbed326acd19c22368fef",
+      "raw_pass_attempts": 836,
+      "target_completeness": {
+        "denominator_raw_attempts": 836,
+        "missing": 1,
+        "present": 835,
+        "unusable_self_or_unresolved": 0,
+        "usable_reference": 835
+      },
+      "target_outside": 0,
+      "target_outside_reasons": {},
+      "target_qc": {
+        "inactive": 0,
+        "missing": 1,
+        "not_assessed_invalid_state": 0,
+        "other_team": 0,
+        "self": 0,
+        "unresolved": 0,
+        "untracked": 0,
+        "valid_current_state": 835
+      }
+    },
+    "reserved_10": {
+      "candidate_count_summary": {
+        "count": 823,
+        "maximum": 10,
+        "mean": 10.0,
+        "median": 10,
+        "minimum": 10
+      },
+      "carrier_qc": {
+        "both_missing": 0,
+        "fallback_used": 0,
+        "nonfinite_coordinate": 0,
+        "selected_absent_roster": 0,
+        "selected_inactive": 0,
+        "selected_untracked": 0
+      },
+      "defender_count_summary": {
+        "count": 823,
+        "maximum": 11,
+        "mean": 11.0,
+        "median": 11,
+        "minimum": 11
+      },
+      "evaluation_eligible": 823,
+      "exclusions": {
+        "empty_candidate_set": 0,
+        "empty_defender_set_or_geometry": 0,
+        "invalid_carrier": 0,
+        "invalid_decision_frame": 0,
+        "invalid_event_or_transition": 0,
+        "missing_or_unusable_target": 0
+      },
+      "fit_eligible": 823,
+      "input_contract": {
+        "carrier_conflict_count": 0,
+        "carrier_fallback_count": 0,
+        "declared_team_count": 2,
+        "duplicate_nonempty_event_ids": 0,
+        "event_identity_form_counts": {
+          "empty": 3948,
+          "ordinary": 14924
+        },
+        "ignored_non_playing_period_records": 11059,
+        "optional_event_reference_blanks": 3948,
+        "pass_attempt_count": 823,
+        "roster_player_count": 36,
+        "tracking_coordinate_missing": 0,
+        "tracking_identity_form_counts": {
+          "ordinary": 965426
+        },
+        "tracking_player_records": 965426,
+        "tracking_records": 71101
+      },
+      "population_sha256": "835149a02cdec53e2161bc6b9c604d786b3648f385bf5490e34f6431dc00a688",
+      "raw_pass_attempts": 823,
+      "target_completeness": {
+        "denominator_raw_attempts": 823,
+        "missing": 0,
+        "present": 823,
+        "unusable_self_or_unresolved": 0,
+        "usable_reference": 823
+      },
+      "target_outside": 0,
+      "target_outside_reasons": {},
+      "target_qc": {
+        "inactive": 0,
+        "missing": 0,
+        "not_assessed_invalid_state": 0,
+        "other_team": 0,
+        "self": 0,
+        "unresolved": 0,
+        "untracked": 0,
+        "valid_current_state": 823
+      }
+    }
+  },
+  "performance_computed": false,
+  "population_sha256": "85090ae5a7da4d0d9c275e37a199150855b669d38be7d060ecd6f8855fe85b99",
+  "raw_pass_attempts": 8177,
+  "reservation": "Prospectively reserved from this project stage forward. Session 1 schema inventory mechanically over-read post-header bytes into process memory, but no evidence indicates value-level content was surfaced, persisted, or used analytically.",
+  "reserved_aliases": [
+    "reserved_01",
+    "reserved_02",
+    "reserved_03",
+    "reserved_04",
+    "reserved_05",
+    "reserved_06",
+    "reserved_07",
+    "reserved_08",
+    "reserved_09",
+    "reserved_10"
+  ],
+  "reserved_match_count": 10,
+  "schema_version": "1.0.0",
+  "source_authority_sha256": "9aee253631f5732c70b0be5fdd0f22f00cd308bd6e8a34e39fe06316d2855d76",
+  "source_commit": "02a396ffd09b283c9f092fdedeff11da6d535b66",
+  "source_integrity": {
+    "lfs_payloads_verified": 10,
+    "lfs_pointer_objects_verified": 10,
+    "ordinary_git_objects_verified": 20,
+    "tracking": {
+      "reserved_01": {
+        "actual_bytes": 90729279,
+        "actual_sha256": "ea97f58f8eaad925feaeacc6395ec24860dd80027af8a89450276adebd29d265",
+        "expected_bytes": 90729279,
+        "expected_sha256": "ea97f58f8eaad925feaeacc6395ec24860dd80027af8a89450276adebd29d265",
+        "status": "verified"
+      },
+      "reserved_02": {
+        "actual_bytes": 91049828,
+        "actual_sha256": "858c7a756ca3d33017f864775af5999d2c0f364e58ab60ae040c8b9ebab17827",
+        "expected_bytes": 91049828,
+        "expected_sha256": "858c7a756ca3d33017f864775af5999d2c0f364e58ab60ae040c8b9ebab17827",
+        "status": "verified"
+      },
+      "reserved_03": {
+        "actual_bytes": 87710167,
+        "actual_sha256": "5ba2d87f6fd1ba3138301b369bd9266be69416a2d799a3fba5b5ec8a52e1284b",
+        "expected_bytes": 87710167,
+        "expected_sha256": "5ba2d87f6fd1ba3138301b369bd9266be69416a2d799a3fba5b5ec8a52e1284b",
+        "status": "verified"
+      },
+      "reserved_04": {
+        "actual_bytes": 88531597,
+        "actual_sha256": "630e946950fe459f5e48872b01a36e6dfc319cf9027e7b98156150bb6e2c30f6",
+        "expected_bytes": 88531597,
+        "expected_sha256": "630e946950fe459f5e48872b01a36e6dfc319cf9027e7b98156150bb6e2c30f6",
+        "status": "verified"
+      },
+      "reserved_05": {
+        "actual_bytes": 88945845,
+        "actual_sha256": "fab9d331e06f3042c83ac17798901b49bb259c99a8f3b319cd0146263cde65e7",
+        "expected_bytes": 88945845,
+        "expected_sha256": "fab9d331e06f3042c83ac17798901b49bb259c99a8f3b319cd0146263cde65e7",
+        "status": "verified"
+      },
+      "reserved_06": {
+        "actual_bytes": 90591887,
+        "actual_sha256": "61dfdbd83f8e654127b249b8503f062338c14ec0c9e65404bcf70fb7c1346bd4",
+        "expected_bytes": 90591887,
+        "expected_sha256": "61dfdbd83f8e654127b249b8503f062338c14ec0c9e65404bcf70fb7c1346bd4",
+        "status": "verified"
+      },
+      "reserved_07": {
+        "actual_bytes": 90025383,
+        "actual_sha256": "12d00d6e4257218812df6e4c4263c49387ba0313a83ff8d826c4416828f9c798",
+        "expected_bytes": 90025383,
+        "expected_sha256": "12d00d6e4257218812df6e4c4263c49387ba0313a83ff8d826c4416828f9c798",
+        "status": "verified"
+      },
+      "reserved_08": {
+        "actual_bytes": 92872706,
+        "actual_sha256": "fea913b8d4cbde8d85c6bdf5f1a4b3fd203b78227e976a171c8ab0946705d378",
+        "expected_bytes": 92872706,
+        "expected_sha256": "fea913b8d4cbde8d85c6bdf5f1a4b3fd203b78227e976a171c8ab0946705d378",
+        "status": "verified"
+      },
+      "reserved_09": {
+        "actual_bytes": 92516156,
+        "actual_sha256": "04562d9754b2977c80430535e9b5733426bc4ce910db56fe7a3760876211ac5a",
+        "expected_bytes": 92516156,
+        "expected_sha256": "04562d9754b2977c80430535e9b5733426bc4ce910db56fe7a3760876211ac5a",
+        "status": "verified"
+      },
+      "reserved_10": {
+        "actual_bytes": 94737872,
+        "actual_sha256": "d78555f9dfd7d1ce9de38066d3c98e6d54417c6d45d73b1f1ce7e26f07263d8f",
+        "expected_bytes": 94737872,
+        "expected_sha256": "d78555f9dfd7d1ce9de38066d3c98e6d54417c6d45d73b1f1ce7e26f07263d8f",
+        "status": "verified"
+      }
+    }
+  },
+  "source_receipts_sha256": "c2ae612d7982de57a8f200793f39fb22d58980622316dd94fc0dfd986849da9e",
+  "target_outside": 0,
+  "target_outside_reasons": {},
+  "target_qc": {
+    "inactive": 0,
+    "missing": 2,
+    "not_assessed_invalid_state": 6,
+    "other_team": 0,
+    "self": 0,
+    "unresolved": 0,
+    "untracked": 0,
+    "valid_current_state": 8169
+  },
+  "transport_authority_sha256": "543ad3938526003f4c75150188f3e86f366b8a12d7a3c33d95242b16244d2f79",
+  "withheld_access": false
+}
