@@ -353,3 +353,29 @@ ledger change; artifacts; next decision.
 - **Claims:** target labels remain Tier B; accessibility remains PROXY ONLY;
   suppression remains NOT SUPPORTABLE; no protected passage or score was
   inspected.
+
+## 2026-09-10 — L012: Session 6b tracking Git/LFS integrity review
+
+- **Scope:** metadata-only review of `reserved_01` and fixed comparator
+  `development_01` at the unchanged SkillCorner revision. No tracking payload,
+  population, score, model, or passage was accessed.
+- **Finding:** both Git tree records and blob envelopes identify 133-byte LFS
+  pointer blobs. The Contents API reports each pointer's declared payload size.
+  Session 6 compared that payload-size field with decoded pointer length, while
+  its Git hash comparison passed. The fixed comparator reproduces the same
+  relationship.
+- **Provenance:** the pinned commit/tree, exact path/OID associations, pointer
+  OIDs, LFS OIDs, declared payload sizes, and `.gitattributes` rule agree with the
+  contemporaneous Session 1 record. Session 1 provenance is correct. No local
+  source checkout was documented or found in the bounded candidate locations.
+- **Decision:** **B — PROVENANCE BUG RECOVERABLE WITH BOUNDED REPAIR.** The
+  intended reserved payload identity is unique; its bytes remain unverified and
+  undownloaded in this review. Neither the source revision nor scientific rules
+  need to change.
+- **History:** Session 6 failed correctly under its then-frozen verifier and
+  remains closed as primary D and secondary 4. The failed code, partial products,
+  ledger, and reports were not rewritten.
+- **Next authorization:** a separate prospective protocol must freeze pointer
+  size verification against Git tree/blob metadata, payload verification against
+  pointer metadata, a new ignored acquisition ledger/root, structural population
+  checkpoint, and one protected scoring execution.

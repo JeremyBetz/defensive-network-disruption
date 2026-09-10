@@ -30,6 +30,7 @@ from defensive_network_disruption.data.git_lfs_integrity import (  # noqa: E402
 
 START = "045d24ab014a2962d9da046bf0b2efc3eb805664"
 PROTOCOL_COMMIT = "bdae204fd294493f83b2bff075dcff533a56291b"
+REVIEW_COMMIT = "cbb956498c83b9379eb2e789fc36aed93ff6ddc9"
 SOURCE_COMMIT = "02a396ffd09b283c9f092fdedeff11da6d535b66"
 SOURCE_TREE = "44fd5081d0e6a441dbafadd12c51d6ffca8ab98b"
 OWNER_REPO = "SkillCorner/opendata"
@@ -437,13 +438,21 @@ def publication_check() -> None:
         raise RuntimeError("alias coverage invalid")
     if diagnostics["tracking_payload_requested"] is not False or diagnostics["population_prepared"] is not False or diagnostics["models_fitted_or_scored"] is not False:
         raise RuntimeError("scope firewall failed")
-    if manifest.get("status") != "closed" or manifest.get("source_commit") != SOURCE_COMMIT:
+    if (
+        manifest.get("status") != "closed"
+        or manifest.get("source_commit") != SOURCE_COMMIT
+        or manifest.get("implementation_commit") != REVIEW_COMMIT
+    ):
         raise RuntimeError("manifest authority invalid")
+    if manifest.get("implementation_sha256") != {
+        name: committed_sha(REVIEW_COMMIT, name) for name in IMPLEMENTATION_FILES
+    }:
+        raise RuntimeError("manifest implementation hashes invalid")
     for name, digest in manifest["output_sha256"].items():
         if sha(OUTPUT / name) != digest:
             raise RuntimeError(f"output hash mismatch: {name}")
     prohibited = re.compile(
-        r"(?i)(/users/|candidate|coordinate|timestamp|player_id|event_id|mrr|hit_at|"
+        r"(?i)(/users/|candidate_ids|candidate_xy|coordinate|timestamp|player_id|event_id|mrr|hit_at|"
         r"media\.githubusercontent|git-lfs.*objects/batch|tracking_extrapolated\.jsonl)"
     )
     for path in (IDENTITY_OUTPUT, DIAGNOSTICS_OUTPUT, MANIFEST_OUTPUT):

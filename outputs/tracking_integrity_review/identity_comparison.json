@@ -1,0 +1,34 @@
+{
+  "aliases": {
+    "development_01": {
+      "blob_envelope_reported_size": 133,
+      "contents_reported_size": 89280839,
+      "git_blob_oid": "6c1d01ae3bafa28cf94e4b7a581fb3779effe4bd",
+      "git_pointer_size": 133,
+      "identity_unique_at_pin": true,
+      "lfs_declared_payload_size": 89280839,
+      "lfs_payload_sha256": "3577e2803da95390f8b2f85d47829eb55fbbfee6211c94adc65db0dc78e46b41"
+    },
+    "reserved_01": {
+      "blob_envelope_reported_size": 133,
+      "contents_reported_size": 90729279,
+      "git_blob_oid": "7439f0ba7da6bc03625258b98fe84a5bf770b72e",
+      "git_pointer_size": 133,
+      "identity_unique_at_pin": true,
+      "lfs_declared_payload_size": 90729279,
+      "lfs_payload_sha256": "ea97f58f8eaad925feaeacc6395ec24860dd80027af8a89450276adebd29d265"
+    }
+  },
+  "evidence_sources": {
+    "local_source_checkout": "not_evaluated_no_documented_checkout",
+    "session_01_manifest": "contemporaneous",
+    "session_02_development_acquisition": "contemporaneous",
+    "session_06_failure_components": "unavailable",
+    "session_06a_development_verification": "contemporaneous",
+    "upstream_pinned_metadata": "reconstructed"
+  },
+  "schema_version": "1.0.0",
+  "source_commit": "02a396ffd09b283c9f092fdedeff11da6d535b66",
+  "source_tree": "44fd5081d0e6a441dbafadd12c51d6ffca8ab98b",
+  "upstream_tree_verified": true
+}

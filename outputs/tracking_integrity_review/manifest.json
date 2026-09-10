@@ -1,0 +1,23 @@
+{
+  "environment": {
+    "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+    "python": "3.13.15"
+  },
+  "implementation_commit": "cbb956498c83b9379eb2e789fc36aed93ff6ddc9",
+  "implementation_sha256": {
+    "scripts/session_06b_tracking_integrity.py": "8f740ec49cc6a004966236676a9b2cb56e6e6948feac9fbb3d5428c9da917f1f",
+    "src/defensive_network_disruption/data/git_lfs_integrity.py": "d208ed9b3aa76efca438f80d17b3107604e503c6ed53c462c7f6f51ebf5452ff",
+    "tests/test_session6b_tracking_integrity.py": "cb1ce2145bc619769daf8e2e36b4b69be8df03ae58aadbdc0f3c3d85fb84f4e6"
+  },
+  "output_sha256": {
+    "identity_comparison.json": "13d2cfe6ce79b3e85fa7631d453a4eb40266c369aec6818dfd06cd06ce7ec888",
+    "verifier_diagnostics.json": "bcd25a07da51026a7e4cb06905e1ab615a269edc8339fa94baed46f04081ab88"
+  },
+  "protocol_commit": "bdae204fd294493f83b2bff075dcff533a56291b",
+  "protocol_sha256": "c665a9ab073c78761056c7f5a514d860758bdf060b70d4b661b305ba970660b5",
+  "schema_version": "1.0.0",
+  "source_commit": "02a396ffd09b283c9f092fdedeff11da6d535b66",
+  "source_tree": "44fd5081d0e6a441dbafadd12c51d6ffca8ab98b",
+  "starting_authority": "045d24ab014a2962d9da046bf0b2efc3eb805664",
+  "status": "closed"
+}

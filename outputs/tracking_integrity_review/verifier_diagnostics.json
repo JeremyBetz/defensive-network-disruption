@@ -1,0 +1,62 @@
+{
+  "aliases": {
+    "development_01": {
+      "checks": {
+        "contents_size_matches_decoded": false,
+        "contents_size_matches_payload": true,
+        "decoded_blob_oid_matches": true,
+        "envelope_size_matches_decoded": true,
+        "path_matches": true,
+        "recorded_lfs_oid_matches_pointer": true,
+        "recorded_lfs_size_matches_pointer": true,
+        "tree_pointer_size_matches_decoded": true,
+        "tree_vs_contents_blob_oid": true,
+        "tree_vs_envelope_blob_oid": true
+      },
+      "frozen_session6_combined_check": false,
+      "frozen_session6_hash_check": true,
+      "frozen_session6_size_check": false
+    },
+    "reserved_01": {
+      "checks": {
+        "contents_size_matches_decoded": false,
+        "contents_size_matches_payload": true,
+        "decoded_blob_oid_matches": true,
+        "envelope_size_matches_decoded": true,
+        "path_matches": true,
+        "recorded_lfs_oid_matches_pointer": true,
+        "recorded_lfs_size_matches_pointer": true,
+        "tree_pointer_size_matches_decoded": true,
+        "tree_vs_contents_blob_oid": true,
+        "tree_vs_envelope_blob_oid": true
+      },
+      "frozen_session6_combined_check": false,
+      "frozen_session6_hash_check": true,
+      "frozen_session6_size_check": false
+    }
+  },
+  "cause": "contents_api_payload_size_compared_with_decoded_lfs_pointer_size",
+  "classification": "B \u2014 PROVENANCE BUG RECOVERABLE WITH BOUNDED REPAIR",
+  "git_lfs_rule_verified": true,
+  "historical_failure_components": {
+    "completed": 0,
+    "failed": 1,
+    "retained_comparison_components": false,
+    "started": 1
+  },
+  "issue_scope": "verifier_wide_for_tested_tracking_paths",
+  "local_checkout": {
+    "checked_candidate_count": 3,
+    "checkout_object_review": "not_evaluated_no_documented_checkout",
+    "documented_checkout_found": false,
+    "undocumented_candidate_present": false
+  },
+  "models_fitted_or_scored": false,
+  "passages_inspected": false,
+  "pointer_payload_semantics_conflated": true,
+  "population_prepared": false,
+  "schema_version": "1.0.0",
+  "session_01_tree_identity_correct": true,
+  "tracking_payload_integrity": "unverified_not_downloaded",
+  "tracking_payload_requested": false
+}
