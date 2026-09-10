@@ -1,0 +1,31 @@
+{
+  "comparison": "development_only_leave_one_match_out",
+  "interpretation_constraints": {
+    "accessibility": "PROXY ONLY",
+    "practical_effect_threshold": null,
+    "significance_test": null,
+    "suppression": "NOT SUPPORTABLE"
+  },
+  "m2_minus_m1": {
+    "hit_at_1": 0.006361355484238274,
+    "hit_at_3": 0.004459154782015973,
+    "mrr": 0.004839606812258923,
+    "negative_matches": 0,
+    "paired_mrr_mean": 0.004839606812258923,
+    "paired_mrr_median": 0.00462962962962965,
+    "positive_matches": 9,
+    "tied_matches": 0
+  },
+  "models": {
+    "m1": {
+      "hit_at_1": 0.35464033099272835,
+      "hit_at_3": 0.7273112108986005,
+      "mrr": 0.5677850077704323
+    },
+    "m2": {
+      "hit_at_1": 0.3610016864769666,
+      "hit_at_3": 0.7317703656806165,
+      "mrr": 0.5726246145826912
+    }
+  }
+}

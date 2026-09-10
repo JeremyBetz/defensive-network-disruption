@@ -279,3 +279,27 @@ ledger change; artifacts; next decision.
 - **Historical note:** earlier entries describing both files remain unchanged
   under this log's append-only policy. This entry supersedes their instruction
   to retain the duplicate.
+
+## 2026-09-10 — L009: Session 5 frozen M1/M2 development comparison
+
+- **Chronology:** Phase 5 was committed as `d4fd5da` before Session 5 population
+  access. The local attenuation primitive, fail-closed feasibility wrapper,
+  runner, library review, and tests were committed as `0133164` after score-free
+  preparation and before the single performance run.
+- **Population/model:** the unchanged 7,227-attempt Session 3 population and nine
+  development LOMO folds were used. M2 added only
+  `sum_j exp(-d_j / 5.0)` to frozen M1. No scale or kernel tuning occurred.
+- **Replay/QC:** authoritative M1 preprocessing, coefficients, match metrics, and
+  aggregates reproduced exactly. All M2 folds passed rank, fail-closed
+  separation, finite-value, convergence, gradient, and strict-nesting gates.
+- **Result:** MRR was `0.5677850` for M1 and `0.5726246` for M2. The paired mean
+  difference was `+0.0048396`, median `+0.0046296`, with 9/0/0 positive,
+  negative, and tied matches. Aggregate Hit@1 and Hit@3 differences were
+  `+0.0063614` and `+0.0044592`.
+- **Decision:** **A — distributed static defense adds incremental information**
+  as a descriptive development result. No practical-effect threshold or
+  generalization claim is made. Freeze the edge-level ladder and next write a
+  separate protected-evaluation protocol.
+- **Protection/claims:** no reserved, withheld, pose, velocity, reachability,
+  network, vendor-score, or passage access. Accessibility remains PROXY ONLY;
+  suppression remains NOT SUPPORTABLE.

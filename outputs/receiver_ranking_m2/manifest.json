@@ -1,0 +1,77 @@
+{
+  "attempt_count": 7227,
+  "development_match_aliases": [
+    "development_01",
+    "development_02",
+    "development_03",
+    "development_04",
+    "development_05",
+    "development_06",
+    "development_07",
+    "development_08",
+    "development_09"
+  ],
+  "environment": {
+    "numpy": "2.5.3",
+    "python": "3.13.15",
+    "scipy": "1.18.1"
+  },
+  "execution_commit": "01331646a3ed5d056de4cef7f09601eea5453a19",
+  "execution_file_sha256": {
+    "scripts/session_05_m2.py": "14c5e7e3584dd6ecfe78947a7a9c5995d5f878c1e32438d6f3744904ed53b473",
+    "src/defensive_network_disruption/geometry/attenuation.py": "76efef4fd14e1010f8b20a4077ec2e55ac646ee5b8d8da57dde55333a6e0fec8",
+    "src/defensive_network_disruption/validation/choice_model.py": "c5d8f9169552e37476526d195f1f0f89c4e9e3efcfc697fc80dc5cff45a5d2d3",
+    "src/defensive_network_disruption/validation/ranking_features.py": "fe2d2f8aa704fbd7dd467217866ed3ace0000952314aa4db5164c1045ad2d6a3",
+    "src/defensive_network_disruption/validation/ranking_metrics.py": "682bd3281579c02efb00ba3a8c770e6d553d705a3e959e0e44a3e37b000b90db",
+    "src/defensive_network_disruption/validation/session5.py": "91b09a18863ad9b1634a5f784730f749ce2e28a35bbd4bfa9248dc349c75af3f"
+  },
+  "feature": {
+    "formula": "sum_j exp(-d_j / 5.0)",
+    "name": "summed_segment_attenuation",
+    "scale_metres": 5.0
+  },
+  "firewalls": {
+    "alternate_m2": false,
+    "h_tuning": false,
+    "network_features": false,
+    "passage_inspection": false,
+    "pose_access": false,
+    "reserved_access": false,
+    "velocity_or_reachability": false,
+    "vendor_score_access": false
+  },
+  "folding": "leave_one_match_out",
+  "models": {
+    "conditional_softmax": "unregularized",
+    "m1": [
+      "distance",
+      "longitudinal_displacement",
+      "lateral_displacement",
+      "nearest_receiver_defender_distance",
+      "minimum_segment_defender_distance"
+    ],
+    "m2": [
+      "distance",
+      "longitudinal_displacement",
+      "lateral_displacement",
+      "nearest_receiver_defender_distance",
+      "minimum_segment_defender_distance",
+      "summed_segment_attenuation"
+    ]
+  },
+  "output_sha256": {
+    "aggregate_metrics.json": "27335311d05ee455ba0844fd84a28a093c18d2ac34a14b35009eeddec9781d89",
+    "m1_match_metrics.csv": "f8a76aa640f7c59b04911898b0a98d1c95e4a8d9fb0f52e5e55ddd4fb46dbcb3",
+    "m2_match_metrics.csv": "f1fb7774f7ac5d8e4e5ccf5c6305d5dc9c025fd805c18c6368bb325612d45fe4",
+    "paired_comparison.csv": "2e4286665142318a98112cab82deae136819b70bcb8092ef2c47d9108b260fdd",
+    "qc.json": "8ab5dff7519a0d608157b46f6ddeca688cfe3e16249fdea8772bf07e2e6bf3ac"
+  },
+  "population_sha256": "cd706f9f4621efcf659fbe890d9a6a0ebfff97c3407095a6db5ea05044c1264d",
+  "protocol_commit": "d4fd5da5044a8ce50495ad49d48cc53cbc965433",
+  "protocol_sha256": "d539f233e18a20be95c5fa0dceb06a17f931d54c7b951236456979b24ca6504c",
+  "schema_version": "1.0.0",
+  "session3_execution_commit": "54dc4f81d29b9532e4e0c41a95d4f33980360891",
+  "session4_manifest_sha256": "2c93869f9212b08a327c835a9888be73ad1af25e11b46e304278901da884dc46",
+  "source_commit": "02a396ffd09b283c9f092fdedeff11da6d535b66",
+  "starting_authority": "746357d0c358062df49ec6641a9ac20c7eba97fc"
+}
