@@ -20,7 +20,7 @@ tree `44fd5081d0e6a441dbafadd12c51d6ffca8ab98b`.
 | Stage A finding | Status |
 | --- | --- |
 | 20 unique match directories; metadata, tracking, Dynamic Events, and phases entries for every directory | VERIFIED FILE PRESENCE |
-| Four metadata schema variants; two Dynamic Events header variants; one phases header variant | VERIFIED SCHEMA/HEADER |
+| Four metadata schema variants; two Dynamic Events header variants; one phases header variant | VERIFIED OUTPUT; ACQUISITION DEVIATION RECORDED |
 | Tracking entries are LFS pointers with recorded payload SHA-256 and declared size | VERIFIED POINTER IDENTITY |
 | Tracking payload hashes, payload schema, usable event rows, product joins, and record coverage | UNVERIFIED |
 | Official 20 tracking games including 10 new; Dynamic Events for those 10 | DOCUMENTED, NOT A LOCAL COVERAGE CLAIM |
@@ -53,6 +53,11 @@ score/duration rule; targeted receivers receive an event independently of that
 threshold. Therefore they are not independent availability labels and cannot
 define this project's candidate set. Values, completeness, joins, and timing are
 **BLOCKED BY SESSION 1 SCOPE**.
+
+The original schema reader requested 65,536 bytes per CSV rather than stopping
+its application read at the header terminator. The column-presence finding is
+supported by the retained header-only output, but strict header-only acquisition
+is not verified and is superseded by the L004 deviation record.
 
 ## Contract still to specify
 

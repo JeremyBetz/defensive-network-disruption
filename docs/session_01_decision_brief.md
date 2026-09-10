@@ -1,6 +1,6 @@
 # Session 1 decision brief
 
-Date: 2026-09-10. Status: **COMPLETE — STOP BEFORE MODEL DEVELOPMENT**.
+Date: 2026-09-10. Status: **COMPLETE WITH RECORDED ACCESS DEVIATION — STOP BEFORE MODEL DEVELOPMENT**.
 
 ## Decision
 
@@ -52,8 +52,12 @@ before any reserved value-level access.
 
 The reservation permits path, object, schema, and header inspection. It prohibits
 reserved event/tracking values, receiver-label values or completeness, football
-passages, animations, outcomes, performance, and example selection. No such
-access occurred in Session 1.
+passages, animations, outcomes, performance, and example selection. The schema
+reader mechanically buffered post-header bytes from both CSV products for all 20
+matches. It emitted header names only, and the retained code and artifacts show no
+path that displayed, persisted, or analytically used the buffered values. This is
+a confirmed access-protocol deviation, not confirmed analytical contamination.
+The prospective reservation is assessed **A — PRESERVED** from this stage.
 
 ## Receiver-label feasibility
 
@@ -88,8 +92,10 @@ the name accessibility remains an empirical question.
 ## Artifacts and next gate
 
 The detailed local manifest and schema diagnostics are ignored and hash-bound in
-the research log. Raw data, event rows, tracking payloads, model outputs, and
-football passages were not acquired.
+the research log. No raw data, event rows, tracking payloads, model outputs, or
+football passages were committed. Post-header event bytes were temporarily
+acquired into process memory by the original schema reader; no evidence indicates
+that they were surfaced, persisted, or used analytically.
 
 The next phase requires a separately frozen development-only protocol for
 payload acquisition, integrity verification, compatibility checks, label joins,

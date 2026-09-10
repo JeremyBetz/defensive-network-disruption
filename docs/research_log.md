@@ -126,6 +126,45 @@ validation remain pending their own frozen decisions.
 - **Deviation/status:** no reserved value-level exposure and no protocol
   deviation. Session 1 closed before payload acquisition or model development.
 
+## 2026-09-10 06:53:44 CDT — L004: Session 1 access-boundary correction
+
+- **Supersedes:** L003's statement that no protocol deviation occurred. The
+  historical entry remains intact as the contemporaneous record.
+- **Protocol stage and intended boundary:** P01 Stage A1 allowed CSV header names
+  across all 20 matches without reading, retaining, or printing data rows.
+- **Actual behavior:** the retained reader issued `Range: bytes=0-65535`, called
+  `response.read(65536)`, partitioned the result at the first LF, and retained the
+  remainder in process memory. This affected Dynamic Events and phases-of-play
+  CSVs for all 20 matches: 18 files in the nine-match development group, 20 files
+  in the ten-match reserved group, and two files for the unresolved match.
+- **Emitted and persisted content:** only parsed column names and header hashes
+  entered the retained inventory. The reader source has no path that prints,
+  logs, serializes, or consumes the `remainder`; no retained output contains it.
+  The in-memory buffers ended with the process. Transport or OS buffering beyond
+  bytes returned to the application cannot be reconstructed.
+- **Known/unknown:** post-header bytes were mechanically acquired into process
+  memory. No evidence indicates that their values were displayed, persisted, or
+  used analytically. The original shell invocation was not retained verbatim;
+  execution order is reconstructed from the scripts, timestamps, artifacts and
+  earlier log. This limits provenance precision but does not create evidence of
+  analytical use.
+- **Reservation verdict:** **A — PRESERVED**. Reserved files were mechanically
+  over-read, but available code and artifact evidence supports that no value-level
+  content was surfaced, persisted, selected, or analyzed. Prior exposure remains
+  unverified, and prospective protection continues from 2026-09-10.
+- **Scientific effect:** none of the originality, product-presence, header-field,
+  or provisional-partition conclusions depends on post-header values. Strict
+  header-only acquisition is downgraded from VERIFIED to DEVIATION RECORDED.
+- **Corrective action:** preserved the exact original schema reader under
+  `docs/provenance/session_01/`; its SHA-256 is
+  `b20e34acc1d4ad794ad6f1aab39125246e1276e6779ed710bc00bd742cba8e7c`.
+  Added a future schema helper that requests one byte at a time and stops at LF,
+  plus synthetic sentinel tests. No provider request was made during repair.
+- **Repaired artifacts:** corrected ignored inventory SHA-256
+  `732db83cc1847870740fa1aa8a8ee6ffe0356363e0166ad54a4a5f7f18f7c027`;
+  corrected compact summary SHA-256
+  `6c5ceeb6da793daab01333a3d9daf0197997a7a81b0b4d6e5f2214c3815980f1`.
+
 ## Future run record template
 
 Record ID and timestamp; question/claim IDs; protocol version/SHA; code SHA;

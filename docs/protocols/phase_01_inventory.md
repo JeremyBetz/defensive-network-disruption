@@ -1,6 +1,6 @@
 # P01 — Metadata inventory and convention verification
 
-Version: 1.1, 2026-09-10. Status: **STAGE A COMPLETE — CLOSED**.
+Version: 1.2, 2026-09-10. Status: **STAGE A COMPLETE — CLOSED WITH RECORDED DEVIATION**.
 This version authorizes only the two Stage A access steps below after this file
 is committed. Public documentation and repository-tree review performed while
 planning are recorded separately in the research log.
@@ -170,6 +170,11 @@ Allowlisted metadata paths were extracted without retaining parent objects.
 
 The six planned receiver-related columns were present in every Dynamic Events
 header. Their values, completeness, joins, and timing were not inspected and are
-**BLOCKED BY SESSION 1 SCOPE**. No reserved value-level record was accessed and
-no deviation occurred. Detailed identifiers remain in ignored local artifacts;
-the compact summary was reviewed for publication safety.
+**BLOCKED BY SESSION 1 SCOPE**. The original reader emitted header information
+only, but requested 65,536 bytes from each CSV and retained post-header bytes in
+process memory. This was a confirmed deviation from the declared header-only
+access boundary. No evidence indicates that post-header values were displayed,
+persisted, or used analytically; the reservation verdict is **A — PRESERVED**.
+The correction and its evidentiary limits are recorded in L004. Detailed
+identifiers remain in ignored local artifacts; the compact summary was reviewed
+for publication safety.

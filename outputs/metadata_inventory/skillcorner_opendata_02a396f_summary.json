@@ -19,6 +19,13 @@
     "withheld_pending_metadata_review": 1
   },
   "generated_date": "2026-09-10",
+  "governance": {
+    "access_protocol": "deviation_recorded",
+    "analytical_contamination": "not_evidenced",
+    "csv_output_scope": "schema_header_names_only",
+    "reservation_boundary": "A_preserved",
+    "transport_note": "original reader requested 65536 bytes and retained post-header bytes in process memory"
+  },
   "schema": {
     "receiver_label_fields_present_all_headers": true,
     "receiver_label_values_completeness_and_joins": "blocked_by_session_1_scope",
@@ -27,7 +34,7 @@
     "verified_match_metadata_schema_variants": 4,
     "verified_phases_of_play_header_variants": 1
   },
-  "schema_version": "1.0.0",
+  "schema_version": "1.0.1",
   "scientific_decision": {
     "accessibility": "separate construct requiring synthetic and football validation",
     "behavioral_question": "Does transparent defensive geometry improve receiver ranking beyond a credible defender-free comparator?",
