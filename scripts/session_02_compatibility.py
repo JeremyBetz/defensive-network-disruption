@@ -38,8 +38,12 @@ def git(*args: str) -> str:
 
 
 def preflight() -> dict:
-    if git("rev-parse", "HEAD") != CHECKPOINT and not git("merge-base", "--is-ancestor", CHECKPOINT, "HEAD"):
-        raise RuntimeError("Session 1 checkpoint is not an ancestor of HEAD")
+    if git("rev-parse", "HEAD") != CHECKPOINT:
+        ancestor = subprocess.run(
+            ["git", "merge-base", "--is-ancestor", CHECKPOINT, "HEAD"], cwd=ROOT
+        )
+        if ancestor.returncode != 0:
+            raise RuntimeError("Session 1 checkpoint is not an ancestor of HEAD")
     if not PROTOCOL.is_file() or not MANIFEST.is_file():
         raise RuntimeError("protocol or ignored Session 1 manifest is missing")
     if subprocess.run(["git", "check-ignore", "-q", str(MANIFEST)], cwd=ROOT).returncode != 0:
