@@ -78,3 +78,34 @@ terms reference, relative product paths, file sizes/checksums, match/product
 membership, and prior exposure status. Keep manifests with identifiers in
 `data/manifests/` until public release eligibility is reviewed. Define the split
 only after metadata coverage and sister-project overlap are understood.
+
+## Session 2 verified development contract
+
+The following facts apply to the nine development matches at source commit
+`02a396ffd09b283c9f092fdedeff11da6d535b66`; they are not reserved-set findings.
+
+| Field or object | Source | Decision-time status | Future/vendor derived | Allowed role | Notes |
+| --- | --- | --- | --- | --- | --- |
+| frame, period, timestamp | tracking V3 | Yes, under strict prior-frame rule | No | Feature key | 10 Hz; same period required |
+| player x/y and identity | tracking V3 | Yes | Extrapolation provenance unresolved | Feature with native quality sidecar | Pitch-centred metres; do not clip |
+| player `is_detected` | tracking V3 | Yes | Provider quality flag | Quality/filter input | Lost by Kloppy |
+| ball x/y/z, `is_detected` | tracking V3 | Yes | Extrapolation provenance unresolved | Context/quality candidate | Lost detection flag in Kloppy |
+| possession player/group | tracking V3 | Yes | Provider-derived semantics | Audit/context candidate | Preserve native sidecar |
+| image projection | tracking V3 | Yes | Calibration product | Audit only | Lost by Kloppy |
+| pass event end frame/time | Dynamic Events | Observation key | Event derivation | Alignment/selection only | Operational pass transition |
+| `player_targeted_id` | Dynamic Events | No | Vendor target provenance limited | Label only | Present on 99.25% of passes |
+| `targeted_passing_option_event_id` | Dynamic Events | No | Vendor event linkage | Label audit only | Resolves on 92.66% of passes |
+| `targeted` | Dynamic Events | No | Vendor-derived | Label audit only | Never candidate membership |
+| `received`, `pass_outcome` | Dynamic Events | No | Outcome | Label/stratifier only | Prohibited predictor |
+| option ease/probability/score | Dynamic Events | No | Vendor model-derived | Comparison only | Never ground truth or predictor |
+| post-pass/future trajectory | tracking/events | No | Future-derived | Prohibited | Includes centred/future smoothing |
+
+Kloppy 3.19.0 is **SAFE WITH NATIVE SIDECAR**. It preserved player sets and
+player/ball coordinates in SkillCorner coordinates over the prespecified 5,400
+frames, but did not preserve detection flags, possession-player identity, or
+image-projection fields in frame `other_data`.
+
+Candidate validity requires same-team metadata, active playing interval, current
+finite tracking coordinate, and exclusion of the carrier. Goalkeeper and backward
+options remain included, no distance limit is applied, and offside filtering is
+deferred. These are development-feasibility rules, not model-selected choices.

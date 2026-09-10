@@ -173,3 +173,31 @@ environment/seed; planned comparisons and decision rules; observations and
 uncertainty; exclusions; deviations and access ledger update; result status
 (including negative/mixed/invalid/stopped); permitted interpretation; claim
 ledger change; artifacts; next decision.
+
+## 2026-09-10 — L005: Session 2 development compatibility
+
+- **Protocol/access:** P02 was committed as `d76068e` before value access. A
+  preflight implementation bug then stopped before any request; correction
+  `55a4e78` was committed before retry. Source was pinned to
+  `02a396ffd09b283c9f092fdedeff11da6d535b66`. Access was limited by code to the
+  nine development matches and metadata, Dynamic Events, and tracking products.
+- **Integrity/schema:** 27 files passed pinned Git/LFS identity and size checks.
+  Nine V3 JSONL tracking payloads contain 583,437 records at verified 10 Hz across
+  two periods. Two event schema widths occur, 294 and 322 columns.
+- **Compatibility:** Kloppy 3.19.0 matched native player sets and player/ball
+  coordinates on the fixed 5,400-frame comparison. Native detection, possession
+  player, and image-projection fields require a sidecar.
+- **Labels/alignment:** 7,292 structural pass attempts include successful,
+  unsuccessful, and offside outcomes. Target player ID is present on 7,237;
+  6,757 option links resolve uniquely. All attempts map to an equal same-frame
+  timestamp; the strictly prior frame is 100 ms earlier. The tolerance remains a
+  prospective cadence-based draft.
+- **Candidates:** independent candidates contain the target for 7,227/7,237
+  labeled attempts. Ten labeled targets fall outside for missing coordinate or
+  validity reasons; 55 attempts lack a target label. No rule was tuned to coverage.
+- **Decision:** Tier B, useful vendor target with limitations. Accessibility is
+  proxy only; suppression is not supportable. No M0/M1/M2, model fit, ranking,
+  metric, or scored passage was produced.
+- **Protected data/deviation:** no reserved or unresolved value was requested or
+  opened. Session 1's A verdict and L004 qualification remain in force. No Session
+  2 access deviation occurred.

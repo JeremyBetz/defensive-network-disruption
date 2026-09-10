@@ -1,0 +1,34 @@
+{
+  "backward_targets": 2926,
+  "candidate_count": {
+    "count": 7292,
+    "maximum": 10,
+    "median": 10.0,
+    "minimum": 0
+  },
+  "candidate_count_frequency": {
+    "0": 9,
+    "10": 7283
+  },
+  "development_match_count": 9,
+  "goalkeeper_targets": 298,
+  "rules": [
+    "same_team",
+    "not_carrier",
+    "active_by_metadata",
+    "finite_coordinate",
+    "goalkeepers_included",
+    "backward_included",
+    "no_distance_limit",
+    "offside_deferred"
+  ],
+  "schema_version": "1.0.0",
+  "source_commit": "02a396ffd09b283c9f092fdedeff11da6d535b66",
+  "target_in_candidate": 7227,
+  "target_outside_candidate": 10,
+  "target_outside_reasons": {
+    "target_coordinate_missing": 9,
+    "team_or_other_validity_mismatch": 1
+  },
+  "zero_candidate_cases": 9
+}

@@ -16,5 +16,10 @@ dependencies = []
 where = ["src"]
 include = ["defensive_network_disruption*"]
 
+[dependency-groups]
+dev = [
+    "kloppy>=3.19.0",
+]
+
 [tool.setuptools]
 include-package-data = false

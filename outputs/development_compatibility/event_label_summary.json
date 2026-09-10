@@ -1,0 +1,26 @@
+{
+  "development_match_count": 9,
+  "duplicate_event_ids": 0,
+  "event_schema_column_counts": [
+    294,
+    322
+  ],
+  "label_classification": "useful_vendor_target_label_with_limitations",
+  "pass_attempts": 7292,
+  "pass_outcomes": {
+    "offside": 28,
+    "successful": 5849,
+    "unsuccessful": 1415
+  },
+  "schema_version": "1.0.0",
+  "source_commit": "02a396ffd09b283c9f092fdedeff11da6d535b66",
+  "target_option_link_present": 6757,
+  "target_option_link_resolved": 6757,
+  "target_player_id_present": 7237,
+  "target_present_by_outcome": {
+    "offside": 28,
+    "successful": 5835,
+    "unsuccessful": 1374
+  },
+  "unresolved_target_player_ids": 0
+}

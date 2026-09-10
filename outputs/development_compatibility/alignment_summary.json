@@ -1,0 +1,24 @@
+{
+  "age_ms": {
+    "count": 7292,
+    "maximum": 100.0,
+    "median": 100.0,
+    "minimum": 100.0
+  },
+  "aligned": 7292,
+  "development_match_count": 9,
+  "draft_tolerance_ms": 100,
+  "event_to_same_frame_offset_ms": {
+    "count": 7292,
+    "maximum": 0.0,
+    "median": 0.0,
+    "minimum": 0.0
+  },
+  "noncausal": 0,
+  "over_tolerance": 0,
+  "rule": "latest_same_period_frame_strictly_before_pass_initiation",
+  "schema_version": "1.0.0",
+  "source_commit": "02a396ffd09b283c9f092fdedeff11da6d535b66",
+  "tolerance_status": "prospective_draft_from_documented_10_hz_not_truth_claim",
+  "unmatched": 0
+}

@@ -1,0 +1,74 @@
+{
+  "ball_detected_rate": 0.5349609298004755,
+  "ball_fields": [
+    "x",
+    "y",
+    "z",
+    "is_detected"
+  ],
+  "cadence_delta_0_1_seconds_count": 532108,
+  "cadence_hz": 10,
+  "coordinate_extrema_metres": {
+    "x_max": 63.51,
+    "x_min": -60.12,
+    "y_max": 43.31,
+    "y_min": -40.55
+  },
+  "coordinate_origin": "pitch_center",
+  "coordinate_unit": "metres",
+  "development_match_count": 9,
+  "extrapolation_provenance": "future_use_not_ruled_out_offline_only",
+  "frame_step_one_count": 532108,
+  "kloppy_ball_coordinate_max_abs_error_metres": 0.0,
+  "kloppy_ball_presence_mismatch_frames": 0,
+  "kloppy_bounded_frames_compared": 5400,
+  "kloppy_player_coordinate_max_abs_error_metres": 0.0,
+  "kloppy_player_set_mismatch_frames": 0,
+  "kloppy_verdict": "safe_with_native_sidecar",
+  "kloppy_version": "3.19.0",
+  "native_fields": [
+    "frame",
+    "timestamp",
+    "period",
+    "player_data",
+    "ball_data",
+    "possession",
+    "image_corners_projection"
+  ],
+  "native_sidecar_required": [
+    "player.is_detected",
+    "ball.is_detected",
+    "possession.player_id",
+    "image_corners_projection"
+  ],
+  "payload_integrity": "verified_all_9",
+  "periods": [
+    1,
+    2
+  ],
+  "pitch_dimensions_metres": [
+    [
+      104,
+      68
+    ],
+    [
+      105,
+      68
+    ],
+    [
+      106,
+      68
+    ]
+  ],
+  "player_detected_rate": 0.5685601662555647,
+  "player_fields": [
+    "player_id",
+    "x",
+    "y",
+    "is_detected"
+  ],
+  "schema_version": "1.0.0",
+  "skillcorner_format": "V3_JSONL",
+  "source_commit": "02a396ffd09b283c9f092fdedeff11da6d535b66",
+  "tracking_frames": 583437
+}
