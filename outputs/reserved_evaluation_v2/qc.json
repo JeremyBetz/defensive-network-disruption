@@ -1,0 +1,22 @@
+{
+  "acquisition": {
+    "attempted_reserved_aliases": 1,
+    "failure_category": "tls_hostname_verification_failure",
+    "ordinary_git_objects_verified": 2,
+    "tracking_payloads_verified": 0,
+    "transport_retries_used": 0
+  },
+  "failure_stage": "reserved_01_tracking_transport_before_payload_bytes",
+  "historical_session_06_preserved": true,
+  "historical_session_06b_preserved": true,
+  "performance_computed": false,
+  "population_prepared": false,
+  "post_access_tuning": false,
+  "primary_classification": "D — INVALID",
+  "reserved_fitting": false,
+  "schema_version": "1.0.0",
+  "secondary_classification": "4 — INVALID",
+  "session_status": "closed_invalid",
+  "tracking_payload_bytes_acquired": false,
+  "withheld_access": false
+}

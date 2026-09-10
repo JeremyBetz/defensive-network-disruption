@@ -1,0 +1,29 @@
+{
+  "acquisition_ledger_sha256": "809aae47bc9d04bcdcd17415815bb09ae5d39afc44c6be6b887399638fe9575d",
+  "final_development_models_sha256": "0383561e45bcd9f8d84eccc7e9733b2409536f61c39193fa87d08c36c6f6fd65",
+  "implementation_commits": [
+    "ae7c6c0693d546fd005ad2cfb3d5342de179c577",
+    "db2fc276755d4a46a5c5eeeb8b06fb540cb46f10"
+  ],
+  "implementation_sha256": {
+    "scripts/session_06c_reserved.py": "2dffb71b053c68cc0e9309bf387d2256524d8130374b001212f31914fd308cfd",
+    "src/defensive_network_disruption/data/session6c_source.py": "18755779187f27975d4e9d67735d525e78ca3fc5b85bd3cfd495d13b45a21bd9",
+    "tests/test_session6c_reserved.py": "bda03bbb6311d4404091757041d1de63b28c348582c3030c3f6ede63f0029625"
+  },
+  "output_sha256": {
+    "qc.json": "48f32a614854178542f53f66bb0f8a25d48922d92e7b28864260dcc0781e1678"
+  },
+  "performance_computed": false,
+  "population_prepared": false,
+  "protocol_commit": "7f910d21420d39de90e515c01ab2f94275020e83",
+  "protocol_sha256": "8f74ea7566358519b30f010fd0f770e70d15d735dc41e1da4077ca435de7893f",
+  "repair_authority_commit": "317d11ea2819f75a6d63b01a623480e6cd0a7e7a",
+  "repair_authority_sha256": "644d33b4eafcfb7029f83b91c4347ecd5cb2cbfdff8f44b44d2bcffb81d07f8e",
+  "schema_version": "1.0.0",
+  "source_commit": "02a396ffd09b283c9f092fdedeff11da6d535b66",
+  "source_receipts_sha256": "07f9086b7e71236cd47d7a63d7e4d6861b320530e80fa5d1ea504d15f07ee7a3",
+  "starting_authority": "5d2a4f94d88ff479834ead4ef05ed50b051c62f3",
+  "status": "closed_invalid",
+  "tracking_payloads_verified": 0,
+  "withheld_access": false
+}

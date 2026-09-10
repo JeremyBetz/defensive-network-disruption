@@ -379,3 +379,27 @@ ledger change; artifacts; next decision.
   size verification against Git tree/blob metadata, payload verification against
   pointer metadata, a new ignored acquisition ledger/root, structural population
   checkpoint, and one protected scoring execution.
+
+## 2026-09-10 — L013: Session 6c stopped at tracking transport security
+
+- **Repair:** the separately versioned verifier now checks pinned tree/blob and
+  LFS pointer/payload identities independently. All nine development tracking
+  identities and existing payloads passed without parsing. The historical
+  133-byte pointer versus 90,729,279-byte Contents-size case is a permanent
+  regression: the old verifier rejects it and the repaired verifier accepts the
+  distinct identities.
+- **Protected access:** all thirty reserved source identities were frozen before
+  acquisition. `reserved_01` metadata and Dynamic Events then passed Git-object
+  integrity and were stored as ignored opaque bytes. The first tracking request
+  failed TLS hostname verification before response bytes. The frozen retry policy
+  did not permit retrying this category.
+- **Decision:** primary **D — INVALID** and secondary **4 — INVALID**. No tracking
+  payload was acquired, no product was parsed, no population was constructed,
+  and no score or performance was calculated. No post-access implementation or
+  scientific change was made.
+- **Next direction:** a separately authorized bounded review of the LFS delivery
+  endpoint and TLS identity. It must remain metadata/transport-only before any
+  new protected-execution authority is considered.
+- **Claims:** targets retain Tier B limitations; accessibility remains PROXY ONLY;
+  suppression remains NOT SUPPORTABLE; no passage, pose, orientation, or network
+  work occurred.
