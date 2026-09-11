@@ -1,0 +1,15 @@
+include LICENSE.md
+include README.md
+include CHANGELOG.md
+include CONTRIBUTING.md
+include docs/public_api.md
+include docs/release_checklist.md
+include examples/quickstart.py
+recursive-include src *.py
+recursive-include tests *.py
+global-exclude *.py[cod]
+global-exclude .DS_Store
+prune data
+prune outputs
+prune build
+prune dist

@@ -4,12 +4,23 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "defensive-network-disruption"
-version = "0.0.0"
+version = "0.1.0"
 description = "Experimental provider-independent attacking-option networks for football tracking data"
 readme = "README.md"
 requires-python = ">=3.11"
 license = "MIT"
 license-files = ["LICENSE.md"]
+authors = [
+    { name = "Jeremy Betz" },
+]
+keywords = ["football", "soccer", "tracking-data", "sports-analytics", "networks"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Science/Research",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Topic :: Scientific/Engineering :: Information Analysis",
+]
 dependencies = [
     "numpy>=2.4.6",
 ]
@@ -33,6 +44,12 @@ public = [
     "mplsoccer>=1.8.0",
     "pillow>=11.0.0",
 ]
+
+[project.urls]
+Repository = "https://github.com/JeremyBetz/defensive-network-disruption"
+Documentation = "https://github.com/JeremyBetz/defensive-network-disruption/blob/main/docs/public_api.md"
+Issues = "https://github.com/JeremyBetz/defensive-network-disruption/issues"
+Changelog = "https://github.com/JeremyBetz/defensive-network-disruption/blob/main/CHANGELOG.md"
 
 [tool.setuptools.packages.find]
 where = ["src"]

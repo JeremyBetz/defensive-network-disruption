@@ -1,0 +1,28 @@
+{
+  "environment": {
+    "kloppy": "3.19.0",
+    "matplotlib": "3.11.1",
+    "mplsoccer": "1.8.0",
+    "numpy": "2.5.3",
+    "pandas": "3.0.5",
+    "pillow": "12.3.0",
+    "python": "3.13.15",
+    "setuptools_build_requirement": "80.9.0",
+    "uv": "0.12.6"
+  },
+  "implementation_sha256": {
+    ".github/workflows/ci.yml": "7952fc2f32cca05f51764faeb49948572b38beff3670d79315af8e39c53fc12b",
+    "MANIFEST.in": "d60313563d3f20d5e2936ea709c6c3cb8f2dafe385563be44b2576174d160182",
+    "pyproject.toml": "75b12da56981460a2a44dcae2c7961bbf97bc84937ceadc486a2581438525d8e",
+    "scripts/session_10_release_readiness.py": "a91f0c1ac95ceb2ab11a1e446b0410aea835f00eeecf86a2fb82614520261140",
+    "src/defensive_network_disruption/data/option_adapter.py": "3391d314e7fa75177c0ab4b443c270f860fee6b2515dc47612e5965d8c414c55",
+    "src/defensive_network_disruption/networks/options.py": "1c3bfd1caa6b38e4e4dca1374f39b1d9af6607787b5ea4b5b08e1acd8b9216c9",
+    "src/defensive_network_disruption/visualization/options.py": "d3a9f5a06a44520498a14dc8481704a265f0ce38a2bf500a5b6672569e2ea4ad",
+    "tests/test_session10_release.py": "e4a02d4640b1a717f14a08036dab811eba36940336f652956995a1b2af3f6655",
+    "uv.lock": "c9e4da0781770b9e72b8a5b10a7c514f2259b7e63dc1b67604ee481934db0a0c"
+  },
+  "protocol_sha256": "fa05a37faeaad397082d57c06c3455e51e5d49d186ab36f575ff0468f498d169",
+  "release_contract_sha256": "5b23635011fc79ad680bf8562247ce380ab025d2f183bfcd3a132fcb7fe0e4d3",
+  "schema_version": "1",
+  "starting_commit": "506891ace7c7cff5b3e9e5e0e54667252bd91a15"
+}

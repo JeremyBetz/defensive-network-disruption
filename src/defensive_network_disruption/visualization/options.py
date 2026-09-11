@@ -2,6 +2,8 @@
 from __future__ import annotations
 
 import math
+from collections.abc import Sequence
+from typing import Any
 
 from defensive_network_disruption.networks.options import (
     FrozenOptionModel,
@@ -30,19 +32,23 @@ def _libraries():
     return plt, Pitch
 
 
-def _dimensions(pitch_length, pitch_width):
+def _dimensions(pitch_length: float, pitch_width: float) -> tuple[float, float]:
     values = float(pitch_length), float(pitch_width)
     if not all(math.isfinite(v) and v > 0 for v in values):
         raise ValueError("pitch_length and pitch_width must be finite and positive")
     return values
 
 
-def _validate_alignment(state: OptionState, network: OptionNetwork):
+def _validate_alignment(state: OptionState, network: OptionNetwork) -> None:
+    if not isinstance(state, OptionState) or not isinstance(network, OptionNetwork):
+        raise TypeError("state must be an OptionState and network must be an OptionNetwork")
     if tuple(edge.receiver_id for edge in network.edges) != state.candidate_ids:
         raise ValueError("network edges must exactly match state candidate order")
 
 
-def _pitch_xy(point, length, width):
+def _pitch_xy(
+    point: tuple[float, float], length: float, width: float,
+) -> tuple[float, float]:
     x, y = point
     result = x + length / 2.0, y + width / 2.0
     if not (0.0 <= result[0] <= length and 0.0 <= result[1] <= width):
@@ -56,10 +62,14 @@ def plot_option_network(
     *,
     pitch_length: float,
     pitch_width: float,
-    ax=None,
+    ax: Any = None,
     title: str | None = None,
-):
-    """Plot one network on a caller-specified metric pitch."""
+) -> tuple[Any, Any]:
+    """Plot one aligned network on an explicit metric pitch.
+
+    Install the ``visualization`` extra before calling. The returned pair is the
+    Matplotlib figure and axes used for the drawing.
+    """
     _validate_alignment(state, network)
     length, width = _dimensions(pitch_length, pitch_width)
     plt, Pitch = _libraries()
@@ -108,15 +118,19 @@ def plot_option_network(
 
 
 def animate_option_network_comparison(
-    states,
+    states: Sequence[OptionState],
     *,
     m0_model: FrozenOptionModel,
     m1_model: FrozenOptionModel,
     pitch_length: float,
     pitch_width: float,
     fps: int = 10,
-):
-    """Create a side-by-side synthetic-compatible M0/M1 animation."""
+) -> Any:
+    """Return a Matplotlib animation comparing explicit M0/M1 models.
+
+    Install the ``visualization`` extra. This function neither saves the
+    animation nor loads or fits a model.
+    """
     states = tuple(states)
     if not states or any(not isinstance(state, OptionState) for state in states):
         raise ValueError("states must be a nonempty sequence of OptionState objects")
