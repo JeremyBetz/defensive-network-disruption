@@ -1,0 +1,15 @@
+{
+  "additional_rows_opened": 0,
+  "classification": "B",
+  "empirical_rows_opened": 1,
+  "evidence_hash_closed_before_interpretation": true,
+  "failure": null,
+  "field_evaluations": 0,
+  "integration_calls": 0,
+  "models_loaded": false,
+  "prohibited_access": false,
+  "readiness": 1,
+  "schema_version": 1,
+  "status": "closed",
+  "targets_or_outcomes_decoded": false
+}

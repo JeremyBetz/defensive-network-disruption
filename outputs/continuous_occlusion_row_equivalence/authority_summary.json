@@ -1,0 +1,19 @@
+{
+  "canonical_line_sha256": "c39418f67fd421e7e71a96a54237ab799547364fa7d7346c99f25974002481e5",
+  "classification": "B",
+  "historical_python_dictionary_equality": false,
+  "historical_serialization_bytes_equal": true,
+  "integrity_key_sha256": "dc5fb78ae82e6987d5bf574c63b1f944e2b2b5a2f4b1ffcf2264d08826bdeaef",
+  "neutral_state_key": "development_01_state_000002",
+  "preserved_line_sha256": "4e896a6174ea54902a9eeeff813951d49fd53299273a3f6b63a30744edd5a52b",
+  "readiness": 1,
+  "schema_version": 1,
+  "sources": {
+    "canonical_population": "cd706f9f4621efcf659fbe890d9a6a0ebfff97c3407095a6db5ea05044c1264d",
+    "prepared_population": "15a809060f0ba4a8cb3790011dab8008db3dad6e931c287ccb395f61ef1530b0",
+    "session14r_manifest": "8a639f7a2b29a6aec026e176d80d8901b28839b0d2091dd0256751d77b6f70ed",
+    "session14s_manifest": "9bdb96a97e447f834068ca941453d537082a91fcb9653fef1c428ddadc78a61b"
+  },
+  "status": "closed",
+  "zero_based_row_ordinal": 1
+}

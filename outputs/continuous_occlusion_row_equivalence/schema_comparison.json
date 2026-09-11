@@ -1,0 +1,19 @@
+{
+  "container_or_order_difference_count": 25,
+  "difference_count": 25,
+  "first_divergence_path": "$",
+  "left_schema_sha256": "4b573e5b431ba1ecdf2498e800c9919dbb3ad25b7fb74742b1756ab0a1b625e9",
+  "mapping_field_names_equal": true,
+  "mapping_order_equal": false,
+  "maximum_numeric_absolute_difference": 0.0,
+  "missing_or_optional_key_difference_count": 0,
+  "numeric_value_difference_count": 0,
+  "numerical_identity": true,
+  "python_equality": false,
+  "representation_identity": false,
+  "right_schema_sha256": "c4013d4efa76448ba584fdc0ae692c04407ac96a20e1720e58b95ad7d01b5bf8",
+  "scalar_type_difference_count": 0,
+  "schema_version": 1,
+  "semantic_equivalence": true,
+  "structural_identity": true
+}

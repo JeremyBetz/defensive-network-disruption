@@ -911,3 +911,20 @@ scientific result, target, outcome, model, share, protected/reserved/withheld or
 pose data, xT or progression material was accessed. The sole next action is a
 separately governed representation-only audit of the canonical-to-prepared row
 equivalence mismatch. See the [Session 14s report](session_14s_independent_max_warning_diagnosis.md).
+
+## 2026-09-11 — Session 14t confirmed representation-only row mismatch
+
+Phase 14t protocol `750c47d` and tested tooling `453e877` preceded one governed
+audit of zero-based canonical/prepared row ordinal 1. The current restricted
+projection and preserved Session 14R prepared record were unequal under the
+historical direct Python dictionary comparison because nested tuples became JSON
+arrays and then Python lists; sorted-key persistence also changed mapping
+insertion order but did not cause dictionary inequality. Sequence order, every
+numeric value, float64 bits and signed zeros agreed exactly, and the current
+reconstruction reproduced the preserved 410-byte JSON line byte for byte.
+**B — Container/ordering difference; readiness 1 — equivalence-contract repair
+only.** One row was read; no other row, field, integration, model, target,
+outcome, protected/withheld data or provider product was accessed. Session 14R
+and Session 14s remain unchanged. The sole next action is a separately governed
+Session 14s gate repair based on exact historical serialized-byte equality. See
+the [Session 14t report](session_14t_row_equivalence_audit.md).

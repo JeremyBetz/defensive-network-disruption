@@ -1,0 +1,7 @@
+path,category,left_type,right_type,count,all_float64_bits_equal,all_signed_zero_equal,maximum_numeric_absolute_difference
+$,mapping_order,tuple,tuple,1,True,True,0.0
+$.carrier,container_type,tuple,list,1,True,True,0.0
+$.defenders,container_type,tuple,list,1,True,True,0.0
+$.defenders[],container_type,tuple,list,11,True,True,0.0
+$.receivers,container_type,tuple,list,1,True,True,0.0
+$.receivers[],container_type,tuple,list,10,True,True,0.0

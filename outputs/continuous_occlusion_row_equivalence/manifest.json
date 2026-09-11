@@ -1,0 +1,26 @@
+{
+  "implementation": {
+    "scripts/session_14t_row_equivalence_audit.py": "ed85b18594b28b52f6ba8f8aab0ff514bdcc186addbd71ac16cf6836dfcaacdf",
+    "src/defensive_network_disruption/data/row_equivalence.py": "daa271ecb9e3396c2f2d2ee5b360d4523ca5a950844c5e7c526fd3cf73e8287a",
+    "tests/test_session14t_equivalence.py": "4503e0afcd9be67e235bf2a91a2c777eff9ccd0ff276f462cf13b5512151d68d"
+  },
+  "outputs": {
+    "authority_summary.json": "ecfb53034a59f9cf7f2a7879f48a1cbaaa750365f34d27c59165fa4685cb908c",
+    "environment_comparison.json": "6555ab7835952cb4e85ed1e50eca07fd832f673478dc79e42cfa798d082e15e3",
+    "field_comparison.csv": "128263646fcee166b278d803549af8466a4448e3d24b48c2fdf9181e7fcb903b",
+    "pipeline_stage_fingerprints.csv": "41aab4b214a985132b1e6c2e90f700ac8c36619222a43b4c1622345415e8aa3c",
+    "qc.json": "7b0ff2ad49c7236565cde03558fa9dc39668cb2f858159b10e493a46d8ed43d4",
+    "schema_comparison.json": "9053a9674e8764ee349515fde96b539defb2ede2742cf03caead1a9abc86301c"
+  },
+  "protocol_sha256": "33297af6730bc155bde19539582aee2882d5ddc848c5aca154920217b6a19477",
+  "schema_version": 1,
+  "sources": {
+    "canonical_population": "cd706f9f4621efcf659fbe890d9a6a0ebfff97c3407095a6db5ea05044c1264d",
+    "prepared_population": "15a809060f0ba4a8cb3790011dab8008db3dad6e931c287ccb395f61ef1530b0",
+    "session14r_manifest": "8a639f7a2b29a6aec026e176d80d8901b28839b0d2091dd0256751d77b6f70ed",
+    "session14s_manifest": "9bdb96a97e447f834068ca941453d537082a91fcb9653fef1c428ddadc78a61b"
+  },
+  "start": "a337e26b9d4f297d626e13c77366dcd81b097d84",
+  "status": "closed",
+  "unavailable": []
+}
