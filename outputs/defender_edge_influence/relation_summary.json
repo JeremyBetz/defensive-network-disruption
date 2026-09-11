@@ -1,0 +1,3708 @@
+{
+  "counts": {
+    "development_01": 885,
+    "development_02": 801,
+    "development_03": 952,
+    "development_04": 877,
+    "development_05": 861,
+    "development_06": 629,
+    "development_07": 764,
+    "development_08": 734,
+    "development_09": 724
+  },
+  "groups": {
+    "development_01": {
+      "metrics": {
+        "any_receiver_multi_edge": {
+          "count": 885,
+          "maximum": 1.0,
+          "mean": 0.9988700564971751,
+          "minimum": 0.0,
+          "quantiles": {
+            "q05": 1.0,
+            "q25": 1.0,
+            "q50": 1.0,
+            "q75": 1.0,
+            "q95": 1.0
+          },
+          "represented_matches": 1
+        },
+        "any_segment_multi_edge": {
+          "count": 885,
+          "maximum": 1.0,
+          "mean": 1.0,
+          "minimum": 1.0,
+          "quantiles": {
+            "q05": 1.0,
+            "q25": 1.0,
+            "q50": 1.0,
+            "q75": 1.0,
+            "q95": 1.0
+          },
+          "represented_matches": 1
+        },
+        "defenders": {
+          "count": 885,
+          "maximum": 11.0,
+          "mean": 11.000000000000002,
+          "minimum": 11.0,
+          "quantiles": {
+            "q05": 11.0,
+            "q25": 11.0,
+            "q50": 11.0,
+            "q75": 11.0,
+            "q95": 11.0
+          },
+          "represented_matches": 1
+        },
+        "edges": {
+          "count": 885,
+          "maximum": 10.0,
+          "mean": 10.0,
+          "minimum": 10.0,
+          "quantiles": {
+            "q05": 10.0,
+            "q25": 10.0,
+            "q50": 10.0,
+            "q75": 10.0,
+            "q95": 10.0
+          },
+          "represented_matches": 1
+        },
+        "max_receiver_nearest_edges": {
+          "count": 885,
+          "maximum": 7.0,
+          "mean": 2.8870056497175143,
+          "minimum": 1.0,
+          "quantiles": {
+            "q05": 2.0,
+            "q25": 2.0,
+            "q50": 3.0,
+            "q75": 3.0,
+            "q95": 4.0
+          },
+          "represented_matches": 1
+        },
+        "max_segment_nearest_edges": {
+          "count": 885,
+          "maximum": 10.0,
+          "mean": 5.867796610169491,
+          "minimum": 2.0,
+          "quantiles": {
+            "q05": 3.0,
+            "q25": 4.0,
+            "q50": 6.0,
+            "q75": 7.0,
+            "q95": 9.0
+          },
+          "represented_matches": 1
+        },
+        "max_segment_top1_edge_share": {
+          "count": 885,
+          "maximum": 1.0,
+          "mean": 0.586779661016949,
+          "minimum": 0.2,
+          "quantiles": {
+            "q05": 0.3,
+            "q25": 0.4,
+            "q50": 0.6,
+            "q75": 0.7,
+            "q95": 0.9
+          },
+          "represented_matches": 1
+        },
+        "max_segment_top1_m1_weighted": {
+          "count": 885,
+          "maximum": 1.0,
+          "mean": 0.7419307837398407,
+          "minimum": 0.26405847513440056,
+          "quantiles": {
+            "q05": 0.4178289149205633,
+            "q25": 0.5995309189259714,
+            "q50": 0.7683468242242143,
+            "q75": 0.8995939873625695,
+            "q95": 0.9900382507490945
+          },
+          "represented_matches": 1
+        },
+        "max_segment_top2_edge_share": {
+          "count": 885,
+          "maximum": 1.0,
+          "mean": 0.8668926553672315,
+          "minimum": 0.5,
+          "quantiles": {
+            "q05": 0.6,
+            "q25": 0.8,
+            "q50": 0.9,
+            "q75": 1.0,
+            "q95": 1.0
+          },
+          "represented_matches": 1
+        },
+        "max_segment_top2_m1_weighted": {
+          "count": 885,
+          "maximum": 1.0000000000000002,
+          "mean": 0.9480839024589813,
+          "minimum": 0.5124900462789947,
+          "quantiles": {
+            "q05": 0.7854852873831959,
+            "q25": 0.9290767100941901,
+            "q50": 0.9834103174832355,
+            "q75": 1.0,
+            "q95": 1.0
+          },
+          "represented_matches": 1
+        },
+        "max_segment_top3_edge_share": {
+          "count": 885,
+          "maximum": 1.0,
+          "mean": 0.9675706214689265,
+          "minimum": 0.5,
+          "quantiles": {
+            "q05": 0.8,
+            "q25": 1.0,
+            "q50": 1.0,
+            "q75": 1.0,
+            "q95": 1.0
+          },
+          "represented_matches": 1
+        },
+        "max_segment_top3_m1_weighted": {
+          "count": 885,
+          "maximum": 1.0000000000000002,
+          "mean": 0.9927383333377108,
+          "minimum": 0.787058551292966,
+          "quantiles": {
+            "q05": 0.9563244192181865,
+            "q25": 0.9999999999999999,
+            "q50": 1.0,
+            "q75": 1.0,
+            "q95": 1.0
+          },
+          "represented_matches": 1
+        },
+        "nearest_equal": {
+          "count": 885,
+          "maximum": 0.9,
+          "mean": 0.30135593220338974,
+          "minimum": 0.0,
+          "quantiles": {
+            "q05": 0.0,
+            "q25": 0.1,
+            "q50": 0.3,
+            "q75": 0.4,
+            "q95": 0.6
+          },
+          "represented_matches": 1
+        },
+        "nearest_intersects": {
+          "count": 885,
+          "maximum": 0.9,
+          "mean": 0.30135593220338974,
+          "minimum": 0.0,
+          "quantiles": {
+            "q05": 0.0,
+            "q25": 0.1,
+            "q50": 0.3,
+            "q75": 0.4,
+            "q95": 0.6
+          },
+          "represented_matches": 1
+        },
+        "receiver_distance_mean": {
+          "count": 885,
+          "maximum": 33.25150434104135,
+          "mean": 26.117927243375114,
+          "minimum": 15.800079818460446,
+          "quantiles": {
+            "q05": 21.45554625091361,
+            "q25": 24.632828050837848,
+            "q50": 26.1990445656108,
+            "q75": 27.76621911302007,
+            "q95": 30.25385358012379
+          },
+          "represented_matches": 1
+        },
+        "receiver_unique_nearest_defenders": {
+          "count": 885,
+          "maximum": 10.0,
+          "mean": 6.841807909604519,
+          "minimum": 2.0,
+          "quantiles": {
+            "q05": 5.0,
+            "q25": 6.0,
+            "q50": 7.0,
+            "q75": 8.0,
+            "q95": 8.0
+          },
+          "represented_matches": 1
+        },
+        "receiver_unique_nearest_edges": {
+          "count": 885,
+          "maximum": 1.0,
+          "mean": 1.0,
+          "minimum": 1.0,
+          "quantiles": {
+            "q05": 1.0,
+            "q25": 1.0,
+            "q50": 1.0,
+            "q75": 1.0,
+            "q95": 1.0
+          },
+          "represented_matches": 1
+        },
+        "same_unique_nearest": {
+          "count": 885,
+          "maximum": 0.9,
+          "mean": 0.30135593220338974,
+          "minimum": 0.0,
+          "quantiles": {
+            "q05": 0.0,
+            "q25": 0.1,
+            "q50": 0.3,
+            "q75": 0.4,
+            "q95": 0.6
+          },
+          "represented_matches": 1
+        },
+        "segment_d2_d1": {
+          "count": 885,
+          "maximum": 10.0748756362773,
+          "mean": 2.345058969574067,
+          "minimum": 0.3508667564188493,
+          "quantiles": {
+            "q05": 0.8344352258709407,
+            "q25": 1.4795238426837198,
+            "q50": 2.1937017453808294,
+            "q75": 3.0555582806236217,
+            "q95": 4.211276043748457
+          },
+          "represented_matches": 1
+        },
+        "segment_d3_d1": {
+          "count": 885,
+          "maximum": 13.223656627334705,
+          "mean": 5.029083458461155,
+          "minimum": 0.8852307711869422,
+          "quantiles": {
+            "q05": 2.1368624907428746,
+            "q25": 3.636553873630715,
+            "q50": 5.065418385475093,
+            "q75": 6.2292792441209475,
+            "q95": 8.182226103583767
+          },
+          "represented_matches": 1
+        },
+        "segment_distance_mean": {
+          "count": 885,
+          "maximum": 25.0687009493472,
+          "mean": 16.584926733691084,
+          "minimum": 6.923325955548985,
+          "quantiles": {
+            "q05": 10.739506219592991,
+            "q25": 13.955445325406508,
+            "q50": 16.5497461344695,
+            "q75": 19.08941106822003,
+            "q95": 22.51843045288712
+          },
+          "represented_matches": 1
+        },
+        "segment_top1_pair_jaccard": {
+          "count": 885,
+          "maximum": 1.0,
+          "mean": 0.3919397363465159,
+          "minimum": 0.06666666666666667,
+          "quantiles": {
+            "q05": 0.13333333333333333,
+            "q25": 0.2222222222222222,
+            "q50": 0.35555555555555557,
+            "q75": 0.4888888888888889,
+            "q95": 0.8
+          },
+          "represented_matches": 1
+        },
+        "segment_top2_pair_jaccard": {
+          "count": 885,
+          "maximum": 1.0,
+          "mean": 0.42418079096045186,
+          "minimum": 0.16296296296296295,
+          "quantiles": {
+            "q05": 0.24444444444444444,
+            "q25": 0.34074074074074073,
+            "q50": 0.4222222222222222,
+            "q75": 0.48148148148148145,
+            "q95": 0.6296296296296297
+          },
+          "represented_matches": 1
+        },
+        "segment_top3_pair_jaccard": {
+          "count": 885,
+          "maximum": 0.84,
+          "mean": 0.47991462649089756,
+          "minimum": 0.23333333333333334,
+          "quantiles": {
+            "q05": 0.3488888888888889,
+            "q25": 0.4133333333333334,
+            "q50": 0.4688888888888889,
+            "q75": 0.5355555555555556,
+            "q95": 0.6533333333333333
+          },
+          "represented_matches": 1
+        },
+        "segment_unique_nearest_defenders": {
+          "count": 885,
+          "maximum": 7.0,
+          "mean": 3.9209039548022595,
+          "minimum": 1.0,
+          "quantiles": {
+            "q05": 2.0,
+            "q25": 3.0,
+            "q50": 4.0,
+            "q75": 5.0,
+            "q95": 6.0
+          },
+          "represented_matches": 1
+        },
+        "segment_unique_nearest_edges": {
+          "count": 885,
+          "maximum": 1.0,
+          "mean": 1.0,
+          "minimum": 1.0,
+          "quantiles": {
+            "q05": 1.0,
+            "q25": 1.0,
+            "q50": 1.0,
+            "q75": 1.0,
+            "q95": 1.0
+          },
+          "represented_matches": 1
+        }
+      },
+      "states": 885
+    },
+    "development_02": {
+      "metrics": {
+        "any_receiver_multi_edge": {
+          "count": 801,
+          "maximum": 1.0,
+          "mean": 1.0,
+          "minimum": 1.0,
+          "quantiles": {
+            "q05": 1.0,
+            "q25": 1.0,
+            "q50": 1.0,
+            "q75": 1.0,
+            "q95": 1.0
+          },
+          "represented_matches": 1
+        },
+        "any_segment_multi_edge": {
+          "count": 801,
+          "maximum": 1.0,
+          "mean": 1.0,
+          "minimum": 1.0,
+          "quantiles": {
+            "q05": 1.0,
+            "q25": 1.0,
+            "q50": 1.0,
+            "q75": 1.0,
+            "q95": 1.0
+          },
+          "represented_matches": 1
+        },
+        "defenders": {
+          "count": 801,
+          "maximum": 11.0,
+          "mean": 11.000000000000004,
+          "minimum": 11.0,
+          "quantiles": {
+            "q05": 11.0,
+            "q25": 11.0,
+            "q50": 11.0,
+            "q75": 11.0,
+            "q95": 11.0
+          },
+          "represented_matches": 1
+        },
+        "edges": {
+          "count": 801,
+          "maximum": 10.0,
+          "mean": 10.000000000000002,
+          "minimum": 10.0,
+          "quantiles": {
+            "q05": 10.0,
+            "q25": 10.0,
+            "q50": 10.0,
+            "q75": 10.0,
+            "q95": 10.0
+          },
+          "represented_matches": 1
+        },
+        "max_receiver_nearest_edges": {
+          "count": 801,
+          "maximum": 6.0,
+          "mean": 3.023720349563047,
+          "minimum": 2.0,
+          "quantiles": {
+            "q05": 2.0,
+            "q25": 2.0,
+            "q50": 3.0,
+            "q75": 4.0,
+            "q95": 4.0
+          },
+          "represented_matches": 1
+        },
+        "max_segment_nearest_edges": {
+          "count": 801,
+          "maximum": 10.0,
+          "mean": 6.141073657927592,
+          "minimum": 2.0,
+          "quantiles": {
+            "q05": 3.0,
+            "q25": 5.0,
+            "q50": 6.0,
+            "q75": 8.0,
+            "q95": 9.0
+          },
+          "represented_matches": 1
+        },
+        "max_segment_top1_edge_share": {
+          "count": 801,
+          "maximum": 1.0,
+          "mean": 0.6141073657927592,
+          "minimum": 0.2,
+          "quantiles": {
+            "q05": 0.3,
+            "q25": 0.5,
+            "q50": 0.6,
+            "q75": 0.8,
+            "q95": 0.9
+          },
+          "represented_matches": 1
+        },
+        "max_segment_top1_m1_weighted": {
+          "count": 801,
+          "maximum": 1.0,
+          "mean": 0.7546195371890634,
+          "minimum": 0.24879645419197316,
+          "quantiles": {
+            "q05": 0.42917051161817815,
+            "q25": 0.6144689730112279,
+            "q50": 0.7872049742762143,
+            "q75": 0.9182509933937858,
+            "q95": 0.9949765139516491
+          },
+          "represented_matches": 1
+        },
+        "max_segment_top2_edge_share": {
+          "count": 801,
+          "maximum": 1.0,
+          "mean": 0.8799001248439452,
+          "minimum": 0.4,
+          "quantiles": {
+            "q05": 0.6,
+            "q25": 0.8,
+            "q50": 0.9,
+            "q75": 1.0,
+            "q95": 1.0
+          },
+          "represented_matches": 1
+        },
+        "max_segment_top2_m1_weighted": {
+          "count": 801,
+          "maximum": 1.0000000000000002,
+          "mean": 0.9521536475088463,
+          "minimum": 0.4850480853454508,
+          "quantiles": {
+            "q05": 0.7803026218974625,
+            "q25": 0.9386593853869049,
+            "q50": 0.9916264385619685,
+            "q75": 1.0,
+            "q95": 1.0
+          },
+          "represented_matches": 1
+        },
+        "max_segment_top3_edge_share": {
+          "count": 801,
+          "maximum": 1.0,
+          "mean": 0.9686641697877654,
+          "minimum": 0.7,
+          "quantiles": {
+            "q05": 0.8,
+            "q25": 1.0,
+            "q50": 1.0,
+            "q75": 1.0,
+            "q95": 1.0
+          },
+          "represented_matches": 1
+        },
+        "max_segment_top3_m1_weighted": {
+          "count": 801,
+          "maximum": 1.0000000000000002,
+          "mean": 0.991931929081566,
+          "minimum": 0.7513539299025835,
+          "quantiles": {
+            "q05": 0.9460519979877878,
+            "q25": 0.9999999999999999,
+            "q50": 1.0,
+            "q75": 1.0,
+            "q95": 1.0
+          },
+          "represented_matches": 1
+        },
+        "nearest_equal": {
+          "count": 801,
+          "maximum": 0.8,
+          "mean": 0.28164794007490646,
+          "minimum": 0.0,
+          "quantiles": {
+            "q05": 0.0,
+            "q25": 0.2,
+            "q50": 0.3,
+            "q75": 0.4,
+            "q95": 0.6
+          },
+          "represented_matches": 1
+        },
+        "nearest_intersects": {
+          "count": 801,
+          "maximum": 0.8,
+          "mean": 0.28164794007490646,
+          "minimum": 0.0,
+          "quantiles": {
+            "q05": 0.0,
+            "q25": 0.2,
+            "q50": 0.3,
+            "q75": 0.4,
+            "q95": 0.6
+          },
+          "represented_matches": 1
+        },
+        "receiver_distance_mean": {
+          "count": 801,
+          "maximum": 35.45863514504464,
+          "mean": 26.953910299726196,
+          "minimum": 16.5627277536843,
+          "quantiles": {
+            "q05": 22.184143318371557,
+            "q25": 25.23395386187106,
+            "q50": 27.00558309217172,
+            "q75": 28.78481179531768,
+            "q95": 31.58837016160051
+          },
+          "represented_matches": 1
+        },
+        "receiver_unique_nearest_defenders": {
+          "count": 801,
+          "maximum": 9.0,
+          "mean": 6.619225967540576,
+          "minimum": 3.0,
+          "quantiles": {
+            "q05": 5.0,
+            "q25": 6.0,
+            "q50": 7.0,
+            "q75": 7.0,
+            "q95": 8.0
+          },
+          "represented_matches": 1
+        },
+        "receiver_unique_nearest_edges": {
+          "count": 801,
+          "maximum": 1.0,
+          "mean": 1.0,
+          "minimum": 1.0,
+          "quantiles": {
+            "q05": 1.0,
+            "q25": 1.0,
+            "q50": 1.0,
+            "q75": 1.0,
+            "q95": 1.0
+          },
+          "represented_matches": 1
+        },
+        "same_unique_nearest": {
+          "count": 801,
+          "maximum": 0.8,
+          "mean": 0.28164794007490646,
+          "minimum": 0.0,
+          "quantiles": {
+            "q05": 0.0,
+            "q25": 0.2,
+            "q50": 0.3,
+            "q75": 0.4,
+            "q95": 0.6
+          },
+          "represented_matches": 1
+        },
+        "segment_d2_d1": {
+          "count": 801,
+          "maximum": 7.708604564899211,
+          "mean": 2.4249704800606877,
+          "minimum": 0.22578833182145974,
+          "quantiles": {
+            "q05": 0.8186924886848687,
+            "q25": 1.4483833199306237,
+            "q50": 2.2046060686896345,
+            "q75": 3.235438082272328,
+            "q95": 4.891715408587574
+          },
+          "represented_matches": 1
+        },
+        "segment_d3_d1": {
+          "count": 801,
+          "maximum": 14.189604532146294,
+          "mean": 5.074758655930835,
+          "minimum": 0.9118944241941236,
+          "quantiles": {
+            "q05": 2.0562065766930746,
+            "q25": 3.4150295242268953,
+            "q50": 4.965544658053862,
+            "q75": 6.446916727419111,
+            "q95": 8.867926430766765
+          },
+          "represented_matches": 1
+        },
+        "segment_distance_mean": {
+          "count": 801,
+          "maximum": 29.685587244949392,
+          "mean": 16.737837658529166,
+          "minimum": 6.698998125530127,
+          "quantiles": {
+            "q05": 11.016820329771367,
+            "q25": 13.766909362133891,
+            "q50": 16.62746888897306,
+            "q75": 19.35592674718246,
+            "q95": 23.86565154512932
+          },
+          "represented_matches": 1
+        },
+        "segment_top1_pair_jaccard": {
+          "count": 801,
+          "maximum": 1.0,
+          "mean": 0.42582882507976155,
+          "minimum": 0.044444444444444446,
+          "quantiles": {
+            "q05": 0.13333333333333333,
+            "q25": 0.24444444444444444,
+            "q50": 0.35555555555555557,
+            "q75": 0.6222222222222222,
+            "q95": 0.8
+          },
+          "represented_matches": 1
+        },
+        "segment_top2_pair_jaccard": {
+          "count": 801,
+          "maximum": 1.0,
+          "mean": 0.45105654968326636,
+          "minimum": 0.15555555555555556,
+          "quantiles": {
+            "q05": 0.2518518518518518,
+            "q25": 0.36296296296296293,
+            "q50": 0.43703703703703706,
+            "q75": 0.5185185185185185,
+            "q95": 0.6888888888888889
+          },
+          "represented_matches": 1
+        },
+        "segment_top3_pair_jaccard": {
+          "count": 801,
+          "maximum": 1.0,
+          "mean": 0.5057067554445832,
+          "minimum": 0.25333333333333335,
+          "quantiles": {
+            "q05": 0.34444444444444444,
+            "q25": 0.42888888888888893,
+            "q50": 0.4955555555555556,
+            "q75": 0.5777777777777777,
+            "q95": 0.68
+          },
+          "represented_matches": 1
+        },
+        "segment_unique_nearest_defenders": {
+          "count": 801,
+          "maximum": 8.0,
+          "mean": 3.7103620474406998,
+          "minimum": 1.0,
+          "quantiles": {
+            "q05": 2.0,
+            "q25": 3.0,
+            "q50": 4.0,
+            "q75": 5.0,
+            "q95": 6.0
+          },
+          "represented_matches": 1
+        },
+        "segment_unique_nearest_edges": {
+          "count": 801,
+          "maximum": 1.0,
+          "mean": 1.0,
+          "minimum": 1.0,
+          "quantiles": {
+            "q05": 1.0,
+            "q25": 1.0,
+            "q50": 1.0,
+            "q75": 1.0,
+            "q95": 1.0
+          },
+          "represented_matches": 1
+        }
+      },
+      "states": 801
+    },
+    "development_03": {
+      "metrics": {
+        "any_receiver_multi_edge": {
+          "count": 952,
+          "maximum": 1.0,
+          "mean": 1.0,
+          "minimum": 1.0,
+          "quantiles": {
+            "q05": 1.0,
+            "q25": 1.0,
+            "q50": 1.0,
+            "q75": 1.0,
+            "q95": 1.0
+          },
+          "represented_matches": 1
+        },
+        "any_segment_multi_edge": {
+          "count": 952,
+          "maximum": 1.0,
+          "mean": 1.0,
+          "minimum": 1.0,
+          "quantiles": {
+            "q05": 1.0,
+            "q25": 1.0,
+            "q50": 1.0,
+            "q75": 1.0,
+            "q95": 1.0
+          },
+          "represented_matches": 1
+        },
+        "defenders": {
+          "count": 952,
+          "maximum": 11.0,
+          "mean": 10.999999999999996,
+          "minimum": 11.0,
+          "quantiles": {
+            "q05": 11.0,
+            "q25": 11.0,
+            "q50": 11.0,
+            "q75": 11.0,
+            "q95": 11.0
+          },
+          "represented_matches": 1
+        },
+        "edges": {
+          "count": 952,
+          "maximum": 10.0,
+          "mean": 10.0,
+          "minimum": 10.0,
+          "quantiles": {
+            "q05": 10.0,
+            "q25": 10.0,
+            "q50": 10.0,
+            "q75": 10.0,
+            "q95": 10.0
+          },
+          "represented_matches": 1
+        },
+        "max_receiver_nearest_edges": {
+          "count": 952,
+          "maximum": 5.0,
+          "mean": 2.85609243697479,
+          "minimum": 2.0,
+          "quantiles": {
+            "q05": 2.0,
+            "q25": 2.0,
+            "q50": 3.0,
+            "q75": 3.0,
+            "q95": 4.0
+          },
+          "represented_matches": 1
+        },
+        "max_segment_nearest_edges": {
+          "count": 952,
+          "maximum": 10.0,
+          "mean": 5.709033613445378,
+          "minimum": 2.0,
+          "quantiles": {
+            "q05": 3.0,
+            "q25": 4.0,
+            "q50": 5.0,
+            "q75": 7.0,
+            "q95": 9.0
+          },
+          "represented_matches": 1
+        },
+        "max_segment_top1_edge_share": {
+          "count": 952,
+          "maximum": 1.0,
+          "mean": 0.5709033613445378,
+          "minimum": 0.2,
+          "quantiles": {
+            "q05": 0.3,
+            "q25": 0.4,
+            "q50": 0.5,
+            "q75": 0.7,
+            "q95": 0.9
+          },
+          "represented_matches": 1
+        },
+        "max_segment_top1_m1_weighted": {
+          "count": 952,
+          "maximum": 1.0,
+          "mean": 0.7373704187089132,
+          "minimum": 0.2408155505425376,
+          "quantiles": {
+            "q05": 0.4089126772037082,
+            "q25": 0.6031811867552894,
+            "q50": 0.7710720824645699,
+            "q75": 0.8966304489291924,
+            "q95": 0.9848581871572746
+          },
+          "represented_matches": 1
+        },
+        "max_segment_top2_edge_share": {
+          "count": 952,
+          "maximum": 1.0,
+          "mean": 0.854096638655462,
+          "minimum": 0.4,
+          "quantiles": {
+            "q05": 0.6,
+            "q25": 0.8,
+            "q50": 0.9,
+            "q75": 1.0,
+            "q95": 1.0
+          },
+          "represented_matches": 1
+        },
+        "max_segment_top2_m1_weighted": {
+          "count": 952,
+          "maximum": 1.0000000000000002,
+          "mean": 0.9442658485414054,
+          "minimum": 0.41262061213910334,
+          "quantiles": {
+            "q05": 0.7376530495952834,
+            "q25": 0.9283057020225737,
+            "q50": 0.9814702482003438,
+            "q75": 1.0,
+            "q95": 1.0
+          },
+          "represented_matches": 1
+        },
+        "max_segment_top3_edge_share": {
+          "count": 952,
+          "maximum": 1.0,
+          "mean": 0.9624999999999999,
+          "minimum": 0.5,
+          "quantiles": {
+            "q05": 0.8,
+            "q25": 0.9,
+            "q50": 1.0,
+            "q75": 1.0,
+            "q95": 1.0
+          },
+          "represented_matches": 1
+        },
+        "max_segment_top3_m1_weighted": {
+          "count": 952,
+          "maximum": 1.0000000000000002,
+          "mean": 0.9891643008502458,
+          "minimum": 0.524979449064395,
+          "quantiles": {
+            "q05": 0.9366467078768483,
+            "q25": 0.9994797066515734,
+            "q50": 1.0,
+            "q75": 1.0,
+            "q95": 1.0
+          },
+          "represented_matches": 1
+        },
+        "nearest_equal": {
+          "count": 952,
+          "maximum": 0.9,
+          "mean": 0.29726890756302515,
+          "minimum": 0.0,
+          "quantiles": {
+            "q05": 0.0,
+            "q25": 0.2,
+            "q50": 0.3,
+            "q75": 0.4,
+            "q95": 0.6
+          },
+          "represented_matches": 1
+        },
+        "nearest_intersects": {
+          "count": 952,
+          "maximum": 0.9,
+          "mean": 0.29726890756302515,
+          "minimum": 0.0,
+          "quantiles": {
+            "q05": 0.0,
+            "q25": 0.2,
+            "q50": 0.3,
+            "q75": 0.4,
+            "q95": 0.6
+          },
+          "represented_matches": 1
+        },
+        "receiver_distance_mean": {
+          "count": 952,
+          "maximum": 34.32089172537322,
+          "mean": 25.972775543260667,
+          "minimum": 17.418669037371494,
+          "quantiles": {
+            "q05": 21.21419550014003,
+            "q25": 24.341985224553586,
+            "q50": 26.170268014017747,
+            "q75": 27.815722013735726,
+            "q95": 29.901148474387764
+          },
+          "represented_matches": 1
+        },
+        "receiver_unique_nearest_defenders": {
+          "count": 952,
+          "maximum": 9.0,
+          "mean": 6.860294117647059,
+          "minimum": 3.0,
+          "quantiles": {
+            "q05": 5.0,
+            "q25": 6.0,
+            "q50": 7.0,
+            "q75": 8.0,
+            "q95": 8.0
+          },
+          "represented_matches": 1
+        },
+        "receiver_unique_nearest_edges": {
+          "count": 952,
+          "maximum": 1.0,
+          "mean": 1.0,
+          "minimum": 1.0,
+          "quantiles": {
+            "q05": 1.0,
+            "q25": 1.0,
+            "q50": 1.0,
+            "q75": 1.0,
+            "q95": 1.0
+          },
+          "represented_matches": 1
+        },
+        "same_unique_nearest": {
+          "count": 952,
+          "maximum": 0.9,
+          "mean": 0.29726890756302515,
+          "minimum": 0.0,
+          "quantiles": {
+            "q05": 0.0,
+            "q25": 0.2,
+            "q50": 0.3,
+            "q75": 0.4,
+            "q95": 0.6
+          },
+          "represented_matches": 1
+        },
+        "segment_d2_d1": {
+          "count": 952,
+          "maximum": 5.855713712537687,
+          "mean": 2.3386783742508177,
+          "minimum": 0.35417060287562674,
+          "quantiles": {
+            "q05": 0.8594424528464598,
+            "q25": 1.5505758809071761,
+            "q50": 2.2401254784460893,
+            "q75": 2.999572566458265,
+            "q95": 4.205163484824725
+          },
+          "represented_matches": 1
+        },
+        "segment_d3_d1": {
+          "count": 952,
+          "maximum": 9.380213920494793,
+          "mean": 4.981119570437042,
+          "minimum": 1.0965845409191999,
+          "quantiles": {
+            "q05": 2.1695437429302373,
+            "q25": 3.6705363184933915,
+            "q50": 4.964868879108566,
+            "q75": 6.272156086040061,
+            "q95": 7.837555410262861
+          },
+          "represented_matches": 1
+        },
+        "segment_distance_mean": {
+          "count": 952,
+          "maximum": 25.7037724634772,
+          "mean": 16.443972396812594,
+          "minimum": 5.897241399722215,
+          "quantiles": {
+            "q05": 10.265828918953227,
+            "q25": 13.895457068451234,
+            "q50": 16.463525632715523,
+            "q75": 19.171423224875603,
+            "q95": 22.38379047746091
+          },
+          "represented_matches": 1
+        },
+        "segment_top1_pair_jaccard": {
+          "count": 952,
+          "maximum": 1.0,
+          "mean": 0.3756769374416433,
+          "minimum": 0.044444444444444446,
+          "quantiles": {
+            "q05": 0.13333333333333333,
+            "q25": 0.2222222222222222,
+            "q50": 0.3333333333333333,
+            "q75": 0.4888888888888889,
+            "q95": 0.8
+          },
+          "represented_matches": 1
+        },
+        "segment_top2_pair_jaccard": {
+          "count": 952,
+          "maximum": 1.0,
+          "mean": 0.4182306255835667,
+          "minimum": 0.14814814814814814,
+          "quantiles": {
+            "q05": 0.23703703703703702,
+            "q25": 0.34074074074074073,
+            "q50": 0.4074074074074074,
+            "q75": 0.48148148148148145,
+            "q95": 0.6296296296296297
+          },
+          "represented_matches": 1
+        },
+        "segment_top3_pair_jaccard": {
+          "count": 952,
+          "maximum": 0.84,
+          "mean": 0.476750700280112,
+          "minimum": 0.24000000000000002,
+          "quantiles": {
+            "q05": 0.33555555555555555,
+            "q25": 0.40444444444444444,
+            "q50": 0.46222222222222226,
+            "q75": 0.5422222222222222,
+            "q95": 0.6577777777777778
+          },
+          "represented_matches": 1
+        },
+        "segment_unique_nearest_defenders": {
+          "count": 952,
+          "maximum": 8.0,
+          "mean": 3.96218487394958,
+          "minimum": 1.0,
+          "quantiles": {
+            "q05": 2.0,
+            "q25": 3.0,
+            "q50": 4.0,
+            "q75": 5.0,
+            "q95": 6.0
+          },
+          "represented_matches": 1
+        },
+        "segment_unique_nearest_edges": {
+          "count": 952,
+          "maximum": 1.0,
+          "mean": 1.0,
+          "minimum": 1.0,
+          "quantiles": {
+            "q05": 1.0,
+            "q25": 1.0,
+            "q50": 1.0,
+            "q75": 1.0,
+            "q95": 1.0
+          },
+          "represented_matches": 1
+        }
+      },
+      "states": 952
+    },
+    "development_04": {
+      "metrics": {
+        "any_receiver_multi_edge": {
+          "count": 877,
+          "maximum": 1.0,
+          "mean": 0.9988597491448119,
+          "minimum": 0.0,
+          "quantiles": {
+            "q05": 1.0,
+            "q25": 1.0,
+            "q50": 1.0,
+            "q75": 1.0,
+            "q95": 1.0
+          },
+          "represented_matches": 1
+        },
+        "any_segment_multi_edge": {
+          "count": 877,
+          "maximum": 1.0,
+          "mean": 1.0,
+          "minimum": 1.0,
+          "quantiles": {
+            "q05": 1.0,
+            "q25": 1.0,
+            "q50": 1.0,
+            "q75": 1.0,
+            "q95": 1.0
+          },
+          "represented_matches": 1
+        },
+        "defenders": {
+          "count": 877,
+          "maximum": 11.0,
+          "mean": 11.000000000000002,
+          "minimum": 11.0,
+          "quantiles": {
+            "q05": 11.0,
+            "q25": 11.0,
+            "q50": 11.0,
+            "q75": 11.0,
+            "q95": 11.0
+          },
+          "represented_matches": 1
+        },
+        "edges": {
+          "count": 877,
+          "maximum": 10.0,
+          "mean": 9.999999999999998,
+          "minimum": 10.0,
+          "quantiles": {
+            "q05": 10.0,
+            "q25": 10.0,
+            "q50": 10.0,
+            "q75": 10.0,
+            "q95": 10.0
+          },
+          "represented_matches": 1
+        },
+        "max_receiver_nearest_edges": {
+          "count": 877,
+          "maximum": 6.0,
+          "mean": 2.7457240592930443,
+          "minimum": 1.0,
+          "quantiles": {
+            "q05": 2.0,
+            "q25": 2.0,
+            "q50": 3.0,
+            "q75": 3.0,
+            "q95": 4.0
+          },
+          "represented_matches": 1
+        },
+        "max_segment_nearest_edges": {
+          "count": 877,
+          "maximum": 10.0,
+          "mean": 5.57126567844926,
+          "minimum": 2.0,
+          "quantiles": {
+            "q05": 3.0,
+            "q25": 4.0,
+            "q50": 5.0,
+            "q75": 7.0,
+            "q95": 9.0
+          },
+          "represented_matches": 1
+        },
+        "max_segment_top1_edge_share": {
+          "count": 877,
+          "maximum": 1.0,
+          "mean": 0.5571265678449259,
+          "minimum": 0.2,
+          "quantiles": {
+            "q05": 0.3,
+            "q25": 0.4,
+            "q50": 0.5,
+            "q75": 0.7,
+            "q95": 0.9
+          },
+          "represented_matches": 1
+        },
+        "max_segment_top1_m1_weighted": {
+          "count": 877,
+          "maximum": 1.0,
+          "mean": 0.7220593436690519,
+          "minimum": 0.17444319042051648,
+          "quantiles": {
+            "q05": 0.39801195016308566,
+            "q25": 0.5742000487520205,
+            "q50": 0.7397785613947384,
+            "q75": 0.8784750174814833,
+            "q95": 0.9877806861771786
+          },
+          "represented_matches": 1
+        },
+        "max_segment_top2_edge_share": {
+          "count": 877,
+          "maximum": 1.0,
+          "mean": 0.8521094640820981,
+          "minimum": 0.4,
+          "quantiles": {
+            "q05": 0.6,
+            "q25": 0.7,
+            "q50": 0.9,
+            "q75": 1.0,
+            "q95": 1.0
+          },
+          "represented_matches": 1
+        },
+        "max_segment_top2_m1_weighted": {
+          "count": 877,
+          "maximum": 1.0,
+          "mean": 0.9341539786634716,
+          "minimum": 0.35344220240771806,
+          "quantiles": {
+            "q05": 0.732541490828025,
+            "q25": 0.9085938506627109,
+            "q50": 0.9750940579114423,
+            "q75": 1.0,
+            "q95": 1.0
+          },
+          "represented_matches": 1
+        },
+        "max_segment_top3_edge_share": {
+          "count": 877,
+          "maximum": 1.0,
+          "mean": 0.9599771949828961,
+          "minimum": 0.6,
+          "quantiles": {
+            "q05": 0.8,
+            "q25": 0.9,
+            "q50": 1.0,
+            "q75": 1.0,
+            "q95": 1.0
+          },
+          "represented_matches": 1
+        },
+        "max_segment_top3_m1_weighted": {
+          "count": 877,
+          "maximum": 1.0000000000000002,
+          "mean": 0.9866676973751677,
+          "minimum": 0.5743907982002529,
+          "quantiles": {
+            "q05": 0.9143847154018044,
+            "q25": 0.9971983767651109,
+            "q50": 1.0,
+            "q75": 1.0,
+            "q95": 1.0
+          },
+          "represented_matches": 1
+        },
+        "nearest_equal": {
+          "count": 877,
+          "maximum": 1.0,
+          "mean": 0.3051311288483467,
+          "minimum": 0.0,
+          "quantiles": {
+            "q05": 0.0,
+            "q25": 0.2,
+            "q50": 0.3,
+            "q75": 0.4,
+            "q95": 0.6
+          },
+          "represented_matches": 1
+        },
+        "nearest_intersects": {
+          "count": 877,
+          "maximum": 1.0,
+          "mean": 0.3052451539338654,
+          "minimum": 0.0,
+          "quantiles": {
+            "q05": 0.0,
+            "q25": 0.2,
+            "q50": 0.3,
+            "q75": 0.4,
+            "q95": 0.6
+          },
+          "represented_matches": 1
+        },
+        "receiver_distance_mean": {
+          "count": 877,
+          "maximum": 34.338696707435666,
+          "mean": 25.91597780487459,
+          "minimum": 16.196044462490146,
+          "quantiles": {
+            "q05": 20.81853513237457,
+            "q25": 24.300736099252912,
+            "q50": 26.06275391772649,
+            "q75": 27.792731602605368,
+            "q95": 30.170938392235048
+          },
+          "represented_matches": 1
+        },
+        "receiver_unique_nearest_defenders": {
+          "count": 877,
+          "maximum": 10.0,
+          "mean": 7.004561003420753,
+          "minimum": 3.0,
+          "quantiles": {
+            "q05": 6.0,
+            "q25": 6.0,
+            "q50": 7.0,
+            "q75": 8.0,
+            "q95": 8.0
+          },
+          "represented_matches": 1
+        },
+        "receiver_unique_nearest_edges": {
+          "count": 877,
+          "maximum": 1.0,
+          "mean": 0.9998859749144813,
+          "minimum": 0.9,
+          "quantiles": {
+            "q05": 1.0,
+            "q25": 1.0,
+            "q50": 1.0,
+            "q75": 1.0,
+            "q95": 1.0
+          },
+          "represented_matches": 1
+        },
+        "same_unique_nearest": {
+          "count": 877,
+          "maximum": 1.0,
+          "mean": 0.3051311288483467,
+          "minimum": 0.0,
+          "quantiles": {
+            "q05": 0.0,
+            "q25": 0.2,
+            "q50": 0.3,
+            "q75": 0.4,
+            "q95": 0.6
+          },
+          "represented_matches": 1
+        },
+        "segment_d2_d1": {
+          "count": 877,
+          "maximum": 6.469563725592761,
+          "mean": 2.2522981384759326,
+          "minimum": 0.2389811111221059,
+          "quantiles": {
+            "q05": 0.8796743150711457,
+            "q25": 1.4922367837993507,
+            "q50": 2.1429179759823387,
+            "q75": 2.8376107350185524,
+            "q95": 4.123497988256341
+          },
+          "represented_matches": 1
+        },
+        "segment_d3_d1": {
+          "count": 877,
+          "maximum": 11.60218465111764,
+          "mean": 4.71070910714098,
+          "minimum": 1.0474794393965998,
+          "quantiles": {
+            "q05": 2.226402546447008,
+            "q25": 3.4721043534335214,
+            "q50": 4.592401604221072,
+            "q75": 5.843123262345657,
+            "q95": 7.643525151654368
+          },
+          "represented_matches": 1
+        },
+        "segment_distance_mean": {
+          "count": 877,
+          "maximum": 25.499609085818335,
+          "mean": 16.113248702721833,
+          "minimum": 5.3628302909915115,
+          "quantiles": {
+            "q05": 10.682500001791098,
+            "q25": 13.806925368400032,
+            "q50": 16.06387403663863,
+            "q75": 18.28903959172166,
+            "q95": 21.433449064054
+          },
+          "represented_matches": 1
+        },
+        "segment_top1_pair_jaccard": {
+          "count": 877,
+          "maximum": 1.0,
+          "mean": 0.36173824908146457,
+          "minimum": 0.044444444444444446,
+          "quantiles": {
+            "q05": 0.1111111111111111,
+            "q25": 0.2,
+            "q50": 0.28888888888888886,
+            "q75": 0.4666666666666667,
+            "q95": 0.8
+          },
+          "represented_matches": 1
+        },
+        "segment_top2_pair_jaccard": {
+          "count": 877,
+          "maximum": 1.0,
+          "mean": 0.4031082393682166,
+          "minimum": 0.16296296296296295,
+          "quantiles": {
+            "q05": 0.2296296296296296,
+            "q25": 0.3185185185185185,
+            "q50": 0.4,
+            "q75": 0.4666666666666667,
+            "q95": 0.6296296296296297
+          },
+          "represented_matches": 1
+        },
+        "segment_top3_pair_jaccard": {
+          "count": 877,
+          "maximum": 0.8222222222222222,
+          "mean": 0.4691169390599265,
+          "minimum": 0.24888888888888888,
+          "quantiles": {
+            "q05": 0.34444444444444444,
+            "q25": 0.40888888888888886,
+            "q50": 0.45555555555555555,
+            "q75": 0.5244444444444445,
+            "q95": 0.6244444444444445
+          },
+          "represented_matches": 1
+        },
+        "segment_unique_nearest_defenders": {
+          "count": 877,
+          "maximum": 8.0,
+          "mean": 4.094640820980616,
+          "minimum": 1.0,
+          "quantiles": {
+            "q05": 2.0,
+            "q25": 3.0,
+            "q50": 4.0,
+            "q75": 5.0,
+            "q95": 6.0
+          },
+          "represented_matches": 1
+        },
+        "segment_unique_nearest_edges": {
+          "count": 877,
+          "maximum": 1.0,
+          "mean": 1.0,
+          "minimum": 1.0,
+          "quantiles": {
+            "q05": 1.0,
+            "q25": 1.0,
+            "q50": 1.0,
+            "q75": 1.0,
+            "q95": 1.0
+          },
+          "represented_matches": 1
+        }
+      },
+      "states": 877
+    },
+    "development_05": {
+      "metrics": {
+        "any_receiver_multi_edge": {
+          "count": 861,
+          "maximum": 1.0,
+          "mean": 1.0,
+          "minimum": 1.0,
+          "quantiles": {
+            "q05": 1.0,
+            "q25": 1.0,
+            "q50": 1.0,
+            "q75": 1.0,
+            "q95": 1.0
+          },
+          "represented_matches": 1
+        },
+        "any_segment_multi_edge": {
+          "count": 861,
+          "maximum": 1.0,
+          "mean": 1.0,
+          "minimum": 1.0,
+          "quantiles": {
+            "q05": 1.0,
+            "q25": 1.0,
+            "q50": 1.0,
+            "q75": 1.0,
+            "q95": 1.0
+          },
+          "represented_matches": 1
+        },
+        "defenders": {
+          "count": 861,
+          "maximum": 11.0,
+          "mean": 11.000000000000002,
+          "minimum": 11.0,
+          "quantiles": {
+            "q05": 11.0,
+            "q25": 11.0,
+            "q50": 11.0,
+            "q75": 11.0,
+            "q95": 11.0
+          },
+          "represented_matches": 1
+        },
+        "edges": {
+          "count": 861,
+          "maximum": 10.0,
+          "mean": 9.999999999999996,
+          "minimum": 10.0,
+          "quantiles": {
+            "q05": 10.0,
+            "q25": 10.0,
+            "q50": 10.0,
+            "q75": 10.0,
+            "q95": 10.0
+          },
+          "represented_matches": 1
+        },
+        "max_receiver_nearest_edges": {
+          "count": 861,
+          "maximum": 6.0,
+          "mean": 2.6771196283391405,
+          "minimum": 2.0,
+          "quantiles": {
+            "q05": 2.0,
+            "q25": 2.0,
+            "q50": 3.0,
+            "q75": 3.0,
+            "q95": 4.0
+          },
+          "represented_matches": 1
+        },
+        "max_segment_nearest_edges": {
+          "count": 861,
+          "maximum": 10.0,
+          "mean": 5.745644599303135,
+          "minimum": 2.0,
+          "quantiles": {
+            "q05": 3.0,
+            "q25": 4.0,
+            "q50": 5.0,
+            "q75": 7.0,
+            "q95": 9.0
+          },
+          "represented_matches": 1
+        },
+        "max_segment_top1_edge_share": {
+          "count": 861,
+          "maximum": 1.0,
+          "mean": 0.5745644599303135,
+          "minimum": 0.2,
+          "quantiles": {
+            "q05": 0.3,
+            "q25": 0.4,
+            "q50": 0.5,
+            "q75": 0.7,
+            "q95": 0.9
+          },
+          "represented_matches": 1
+        },
+        "max_segment_top1_m1_weighted": {
+          "count": 861,
+          "maximum": 1.0,
+          "mean": 0.7371002619575157,
+          "minimum": 0.2712835031390381,
+          "quantiles": {
+            "q05": 0.4035846550257945,
+            "q25": 0.5988773726836545,
+            "q50": 0.7663138961205489,
+            "q75": 0.8938987037392023,
+            "q95": 0.9837728222376741
+          },
+          "represented_matches": 1
+        },
+        "max_segment_top2_edge_share": {
+          "count": 861,
+          "maximum": 1.0,
+          "mean": 0.8493612078977931,
+          "minimum": 0.4,
+          "quantiles": {
+            "q05": 0.6,
+            "q25": 0.7,
+            "q50": 0.9,
+            "q75": 1.0,
+            "q95": 1.0
+          },
+          "represented_matches": 1
+        },
+        "max_segment_top2_m1_weighted": {
+          "count": 861,
+          "maximum": 1.0000000000000002,
+          "mean": 0.9384596110907203,
+          "minimum": 0.42918162673445226,
+          "quantiles": {
+            "q05": 0.7520327166092685,
+            "q25": 0.9099950203008744,
+            "q50": 0.9762347507602078,
+            "q75": 1.0,
+            "q95": 1.0
+          },
+          "represented_matches": 1
+        },
+        "max_segment_top3_edge_share": {
+          "count": 861,
+          "maximum": 1.0,
+          "mean": 0.9588850174216028,
+          "minimum": 0.6,
+          "quantiles": {
+            "q05": 0.8,
+            "q25": 0.9,
+            "q50": 1.0,
+            "q75": 1.0,
+            "q95": 1.0
+          },
+          "represented_matches": 1
+        },
+        "max_segment_top3_m1_weighted": {
+          "count": 861,
+          "maximum": 1.0000000000000002,
+          "mean": 0.9893122034539502,
+          "minimum": 0.7098690351289213,
+          "quantiles": {
+            "q05": 0.9375931267815127,
+            "q25": 0.9961914742245932,
+            "q50": 1.0,
+            "q75": 1.0,
+            "q95": 1.0
+          },
+          "represented_matches": 1
+        },
+        "nearest_equal": {
+          "count": 861,
+          "maximum": 0.8,
+          "mean": 0.2998838559814169,
+          "minimum": 0.0,
+          "quantiles": {
+            "q05": 0.0,
+            "q25": 0.2,
+            "q50": 0.3,
+            "q75": 0.4,
+            "q95": 0.6
+          },
+          "represented_matches": 1
+        },
+        "nearest_intersects": {
+          "count": 861,
+          "maximum": 0.8,
+          "mean": 0.2998838559814169,
+          "minimum": 0.0,
+          "quantiles": {
+            "q05": 0.0,
+            "q25": 0.2,
+            "q50": 0.3,
+            "q75": 0.4,
+            "q95": 0.6
+          },
+          "represented_matches": 1
+        },
+        "receiver_distance_mean": {
+          "count": 861,
+          "maximum": 34.83703856606261,
+          "mean": 27.27121943654223,
+          "minimum": 17.2149389968903,
+          "quantiles": {
+            "q05": 22.883924571897357,
+            "q25": 25.664038936935786,
+            "q50": 27.594177400770867,
+            "q75": 28.835987805199522,
+            "q95": 31.212124811341297
+          },
+          "represented_matches": 1
+        },
+        "receiver_unique_nearest_defenders": {
+          "count": 861,
+          "maximum": 9.0,
+          "mean": 7.206736353077815,
+          "minimum": 3.0,
+          "quantiles": {
+            "q05": 6.0,
+            "q25": 7.0,
+            "q50": 7.0,
+            "q75": 8.0,
+            "q95": 9.0
+          },
+          "represented_matches": 1
+        },
+        "receiver_unique_nearest_edges": {
+          "count": 861,
+          "maximum": 1.0,
+          "mean": 1.0,
+          "minimum": 1.0,
+          "quantiles": {
+            "q05": 1.0,
+            "q25": 1.0,
+            "q50": 1.0,
+            "q75": 1.0,
+            "q95": 1.0
+          },
+          "represented_matches": 1
+        },
+        "same_unique_nearest": {
+          "count": 861,
+          "maximum": 0.8,
+          "mean": 0.2998838559814169,
+          "minimum": 0.0,
+          "quantiles": {
+            "q05": 0.0,
+            "q25": 0.2,
+            "q50": 0.3,
+            "q75": 0.4,
+            "q95": 0.6
+          },
+          "represented_matches": 1
+        },
+        "segment_d2_d1": {
+          "count": 861,
+          "maximum": 7.070553826924993,
+          "mean": 2.473671494360443,
+          "minimum": 0.16845722869859645,
+          "quantiles": {
+            "q05": 0.8902015402656618,
+            "q25": 1.6708942082902518,
+            "q50": 2.386358392458933,
+            "q75": 3.2025990265188433,
+            "q95": 4.231754094297843
+          },
+          "represented_matches": 1
+        },
+        "segment_d3_d1": {
+          "count": 861,
+          "maximum": 11.215576671849236,
+          "mean": 5.229095557150646,
+          "minimum": 1.1619506384759144,
+          "quantiles": {
+            "q05": 2.414793420200338,
+            "q25": 3.793956131016928,
+            "q50": 5.218047893443083,
+            "q75": 6.458764588825156,
+            "q95": 8.318618942785132
+          },
+          "represented_matches": 1
+        },
+        "segment_distance_mean": {
+          "count": 861,
+          "maximum": 26.598369041985332,
+          "mean": 17.28263683451951,
+          "minimum": 8.180013246582913,
+          "quantiles": {
+            "q05": 11.597863587081807,
+            "q25": 14.872831255764783,
+            "q50": 17.29159963362514,
+            "q75": 19.67149925514036,
+            "q95": 22.72166375445029
+          },
+          "represented_matches": 1
+        },
+        "segment_top1_pair_jaccard": {
+          "count": 861,
+          "maximum": 1.0,
+          "mean": 0.3767711962833913,
+          "minimum": 0.06666666666666667,
+          "quantiles": {
+            "q05": 0.13333333333333333,
+            "q25": 0.2222222222222222,
+            "q50": 0.3333333333333333,
+            "q75": 0.4888888888888889,
+            "q95": 0.8
+          },
+          "represented_matches": 1
+        },
+        "segment_top2_pair_jaccard": {
+          "count": 861,
+          "maximum": 0.8666666666666667,
+          "mean": 0.40634060308857045,
+          "minimum": 0.14074074074074072,
+          "quantiles": {
+            "q05": 0.2296296296296296,
+            "q25": 0.3185185185185185,
+            "q50": 0.4,
+            "q75": 0.4666666666666667,
+            "q95": 0.6444444444444445
+          },
+          "represented_matches": 1
+        },
+        "segment_top3_pair_jaccard": {
+          "count": 861,
+          "maximum": 0.8222222222222222,
+          "mean": 0.4679726416311781,
+          "minimum": 0.23555555555555555,
+          "quantiles": {
+            "q05": 0.33555555555555555,
+            "q25": 0.40222222222222226,
+            "q50": 0.4577777777777778,
+            "q75": 0.5266666666666666,
+            "q95": 0.64
+          },
+          "represented_matches": 1
+        },
+        "segment_unique_nearest_defenders": {
+          "count": 861,
+          "maximum": 7.0,
+          "mean": 4.022067363530777,
+          "minimum": 1.0,
+          "quantiles": {
+            "q05": 2.0,
+            "q25": 3.0,
+            "q50": 4.0,
+            "q75": 5.0,
+            "q95": 6.0
+          },
+          "represented_matches": 1
+        },
+        "segment_unique_nearest_edges": {
+          "count": 861,
+          "maximum": 1.0,
+          "mean": 1.0,
+          "minimum": 1.0,
+          "quantiles": {
+            "q05": 1.0,
+            "q25": 1.0,
+            "q50": 1.0,
+            "q75": 1.0,
+            "q95": 1.0
+          },
+          "represented_matches": 1
+        }
+      },
+      "states": 861
+    },
+    "development_06": {
+      "metrics": {
+        "any_receiver_multi_edge": {
+          "count": 629,
+          "maximum": 1.0,
+          "mean": 1.0,
+          "minimum": 1.0,
+          "quantiles": {
+            "q05": 1.0,
+            "q25": 1.0,
+            "q50": 1.0,
+            "q75": 1.0,
+            "q95": 1.0
+          },
+          "represented_matches": 1
+        },
+        "any_segment_multi_edge": {
+          "count": 629,
+          "maximum": 1.0,
+          "mean": 1.0,
+          "minimum": 1.0,
+          "quantiles": {
+            "q05": 1.0,
+            "q25": 1.0,
+            "q50": 1.0,
+            "q75": 1.0,
+            "q95": 1.0
+          },
+          "represented_matches": 1
+        },
+        "defenders": {
+          "count": 629,
+          "maximum": 11.0,
+          "mean": 11.000000000000004,
+          "minimum": 11.0,
+          "quantiles": {
+            "q05": 11.0,
+            "q25": 11.0,
+            "q50": 11.0,
+            "q75": 11.0,
+            "q95": 11.0
+          },
+          "represented_matches": 1
+        },
+        "edges": {
+          "count": 629,
+          "maximum": 10.0,
+          "mean": 10.000000000000004,
+          "minimum": 10.0,
+          "quantiles": {
+            "q05": 10.0,
+            "q25": 10.0,
+            "q50": 10.0,
+            "q75": 10.0,
+            "q95": 10.0
+          },
+          "represented_matches": 1
+        },
+        "max_receiver_nearest_edges": {
+          "count": 629,
+          "maximum": 5.0,
+          "mean": 2.925278219395867,
+          "minimum": 2.0,
+          "quantiles": {
+            "q05": 2.0,
+            "q25": 2.0,
+            "q50": 3.0,
+            "q75": 3.0,
+            "q95": 4.0
+          },
+          "represented_matches": 1
+        },
+        "max_segment_nearest_edges": {
+          "count": 629,
+          "maximum": 10.0,
+          "mean": 5.812400635930048,
+          "minimum": 2.0,
+          "quantiles": {
+            "q05": 3.0,
+            "q25": 4.0,
+            "q50": 6.0,
+            "q75": 7.0,
+            "q95": 9.0
+          },
+          "represented_matches": 1
+        },
+        "max_segment_top1_edge_share": {
+          "count": 629,
+          "maximum": 1.0,
+          "mean": 0.5812400635930047,
+          "minimum": 0.2,
+          "quantiles": {
+            "q05": 0.3,
+            "q25": 0.4,
+            "q50": 0.6,
+            "q75": 0.7,
+            "q95": 0.9
+          },
+          "represented_matches": 1
+        },
+        "max_segment_top1_m1_weighted": {
+          "count": 629,
+          "maximum": 1.0000000000000002,
+          "mean": 0.7257009107066312,
+          "minimum": 0.295345660734877,
+          "quantiles": {
+            "q05": 0.3965464157182531,
+            "q25": 0.57289500489596,
+            "q50": 0.7504296561504846,
+            "q75": 0.877353460545645,
+            "q95": 0.9938659580606934
+          },
+          "represented_matches": 1
+        },
+        "max_segment_top2_edge_share": {
+          "count": 629,
+          "maximum": 1.0,
+          "mean": 0.867408585055644,
+          "minimum": 0.4,
+          "quantiles": {
+            "q05": 0.6,
+            "q25": 0.8,
+            "q50": 0.9,
+            "q75": 1.0,
+            "q95": 1.0
+          },
+          "represented_matches": 1
+        },
+        "max_segment_top2_m1_weighted": {
+          "count": 629,
+          "maximum": 1.0000000000000002,
+          "mean": 0.9387002578240163,
+          "minimum": 0.46766854513989925,
+          "quantiles": {
+            "q05": 0.7073362705403609,
+            "q25": 0.9220738111596788,
+            "q50": 0.9815060042485259,
+            "q75": 1.0,
+            "q95": 1.0
+          },
+          "represented_matches": 1
+        },
+        "max_segment_top3_edge_share": {
+          "count": 629,
+          "maximum": 1.0,
+          "mean": 0.9640699523052465,
+          "minimum": 0.6,
+          "quantiles": {
+            "q05": 0.8,
+            "q25": 1.0,
+            "q50": 1.0,
+            "q75": 1.0,
+            "q95": 1.0
+          },
+          "represented_matches": 1
+        },
+        "max_segment_top3_m1_weighted": {
+          "count": 629,
+          "maximum": 1.0000000000000002,
+          "mean": 0.9894634394644841,
+          "minimum": 0.7366683134990547,
+          "quantiles": {
+            "q05": 0.9279946558282015,
+            "q25": 0.9999999999999999,
+            "q50": 1.0,
+            "q75": 1.0,
+            "q95": 1.0
+          },
+          "represented_matches": 1
+        },
+        "nearest_equal": {
+          "count": 629,
+          "maximum": 1.0,
+          "mean": 0.2972972972972973,
+          "minimum": 0.0,
+          "quantiles": {
+            "q05": 0.0,
+            "q25": 0.2,
+            "q50": 0.3,
+            "q75": 0.4,
+            "q95": 0.6
+          },
+          "represented_matches": 1
+        },
+        "nearest_intersects": {
+          "count": 629,
+          "maximum": 1.0,
+          "mean": 0.2972972972972973,
+          "minimum": 0.0,
+          "quantiles": {
+            "q05": 0.0,
+            "q25": 0.2,
+            "q50": 0.3,
+            "q75": 0.4,
+            "q95": 0.6
+          },
+          "represented_matches": 1
+        },
+        "receiver_distance_mean": {
+          "count": 629,
+          "maximum": 32.45256838459575,
+          "mean": 25.379851561678656,
+          "minimum": 16.46945890750257,
+          "quantiles": {
+            "q05": 20.94733217556771,
+            "q25": 23.695639390317062,
+            "q50": 25.25082151748162,
+            "q75": 27.098701358580296,
+            "q95": 29.8386406616963
+          },
+          "represented_matches": 1
+        },
+        "receiver_unique_nearest_defenders": {
+          "count": 629,
+          "maximum": 9.0,
+          "mean": 6.723370429252783,
+          "minimum": 3.0,
+          "quantiles": {
+            "q05": 5.0,
+            "q25": 6.0,
+            "q50": 7.0,
+            "q75": 7.0,
+            "q95": 8.0
+          },
+          "represented_matches": 1
+        },
+        "receiver_unique_nearest_edges": {
+          "count": 629,
+          "maximum": 1.0,
+          "mean": 1.0,
+          "minimum": 1.0,
+          "quantiles": {
+            "q05": 1.0,
+            "q25": 1.0,
+            "q50": 1.0,
+            "q75": 1.0,
+            "q95": 1.0
+          },
+          "represented_matches": 1
+        },
+        "same_unique_nearest": {
+          "count": 629,
+          "maximum": 1.0,
+          "mean": 0.2972972972972973,
+          "minimum": 0.0,
+          "quantiles": {
+            "q05": 0.0,
+            "q25": 0.2,
+            "q50": 0.3,
+            "q75": 0.4,
+            "q95": 0.6
+          },
+          "represented_matches": 1
+        },
+        "segment_d2_d1": {
+          "count": 629,
+          "maximum": 7.560726838013975,
+          "mean": 2.1428048504981385,
+          "minimum": 0.25234552473311506,
+          "quantiles": {
+            "q05": 0.7536982435037218,
+            "q25": 1.3266901229030883,
+            "q50": 1.925522244551034,
+            "q75": 2.7409088149650005,
+            "q95": 4.353117354586196
+          },
+          "represented_matches": 1
+        },
+        "segment_d3_d1": {
+          "count": 629,
+          "maximum": 12.266288679401171,
+          "mean": 4.477034428474446,
+          "minimum": 1.1778018832550257,
+          "quantiles": {
+            "q05": 1.905258916595623,
+            "q25": 3.1135420839083268,
+            "q50": 4.151618360838956,
+            "q75": 5.590876363359952,
+            "q95": 8.129623499276892
+          },
+          "represented_matches": 1
+        },
+        "segment_distance_mean": {
+          "count": 629,
+          "maximum": 24.358631810265734,
+          "mean": 15.584973340908054,
+          "minimum": 7.395545778228471,
+          "quantiles": {
+            "q05": 10.149288526951116,
+            "q25": 12.945444967395755,
+            "q50": 15.30822166135295,
+            "q75": 18.166964300576407,
+            "q95": 21.782642817293382
+          },
+          "represented_matches": 1
+        },
+        "segment_top1_pair_jaccard": {
+          "count": 629,
+          "maximum": 1.0,
+          "mean": 0.3925808161102279,
+          "minimum": 0.044444444444444446,
+          "quantiles": {
+            "q05": 0.1111111111111111,
+            "q25": 0.2222222222222222,
+            "q50": 0.35555555555555557,
+            "q75": 0.4888888888888889,
+            "q95": 0.8
+          },
+          "represented_matches": 1
+        },
+        "segment_top2_pair_jaccard": {
+          "count": 629,
+          "maximum": 1.0,
+          "mean": 0.4262262262262262,
+          "minimum": 0.16296296296296295,
+          "quantiles": {
+            "q05": 0.23703703703703702,
+            "q25": 0.34814814814814815,
+            "q50": 0.4222222222222222,
+            "q75": 0.4962962962962963,
+            "q95": 0.6444444444444445
+          },
+          "represented_matches": 1
+        },
+        "segment_top3_pair_jaccard": {
+          "count": 629,
+          "maximum": 0.9,
+          "mean": 0.486864511570394,
+          "minimum": 0.26666666666666666,
+          "quantiles": {
+            "q05": 0.3466666666666667,
+            "q25": 0.4133333333333334,
+            "q50": 0.4711111111111111,
+            "q75": 0.5488888888888889,
+            "q95": 0.6733333333333333
+          },
+          "represented_matches": 1
+        },
+        "segment_unique_nearest_defenders": {
+          "count": 629,
+          "maximum": 8.0,
+          "mean": 3.87758346581876,
+          "minimum": 1.0,
+          "quantiles": {
+            "q05": 2.0,
+            "q25": 3.0,
+            "q50": 4.0,
+            "q75": 5.0,
+            "q95": 6.0
+          },
+          "represented_matches": 1
+        },
+        "segment_unique_nearest_edges": {
+          "count": 629,
+          "maximum": 1.0,
+          "mean": 1.0,
+          "minimum": 1.0,
+          "quantiles": {
+            "q05": 1.0,
+            "q25": 1.0,
+            "q50": 1.0,
+            "q75": 1.0,
+            "q95": 1.0
+          },
+          "represented_matches": 1
+        }
+      },
+      "states": 629
+    },
+    "development_07": {
+      "metrics": {
+        "any_receiver_multi_edge": {
+          "count": 764,
+          "maximum": 1.0,
+          "mean": 1.0,
+          "minimum": 1.0,
+          "quantiles": {
+            "q05": 1.0,
+            "q25": 1.0,
+            "q50": 1.0,
+            "q75": 1.0,
+            "q95": 1.0
+          },
+          "represented_matches": 1
+        },
+        "any_segment_multi_edge": {
+          "count": 764,
+          "maximum": 1.0,
+          "mean": 1.0,
+          "minimum": 1.0,
+          "quantiles": {
+            "q05": 1.0,
+            "q25": 1.0,
+            "q50": 1.0,
+            "q75": 1.0,
+            "q95": 1.0
+          },
+          "represented_matches": 1
+        },
+        "defenders": {
+          "count": 764,
+          "maximum": 11.0,
+          "mean": 11.000000000000002,
+          "minimum": 11.0,
+          "quantiles": {
+            "q05": 11.0,
+            "q25": 11.0,
+            "q50": 11.0,
+            "q75": 11.0,
+            "q95": 11.0
+          },
+          "represented_matches": 1
+        },
+        "edges": {
+          "count": 764,
+          "maximum": 10.0,
+          "mean": 10.000000000000002,
+          "minimum": 10.0,
+          "quantiles": {
+            "q05": 10.0,
+            "q25": 10.0,
+            "q50": 10.0,
+            "q75": 10.0,
+            "q95": 10.0
+          },
+          "represented_matches": 1
+        },
+        "max_receiver_nearest_edges": {
+          "count": 764,
+          "maximum": 5.0,
+          "mean": 2.748691099476441,
+          "minimum": 2.0,
+          "quantiles": {
+            "q05": 2.0,
+            "q25": 2.0,
+            "q50": 3.0,
+            "q75": 3.0,
+            "q95": 4.0
+          },
+          "represented_matches": 1
+        },
+        "max_segment_nearest_edges": {
+          "count": 764,
+          "maximum": 10.0,
+          "mean": 5.723821989528797,
+          "minimum": 2.0,
+          "quantiles": {
+            "q05": 3.0,
+            "q25": 4.0,
+            "q50": 6.0,
+            "q75": 7.0,
+            "q95": 9.0
+          },
+          "represented_matches": 1
+        },
+        "max_segment_top1_edge_share": {
+          "count": 764,
+          "maximum": 1.0,
+          "mean": 0.5723821989528798,
+          "minimum": 0.2,
+          "quantiles": {
+            "q05": 0.3,
+            "q25": 0.4,
+            "q50": 0.6,
+            "q75": 0.7,
+            "q95": 0.9
+          },
+          "represented_matches": 1
+        },
+        "max_segment_top1_m1_weighted": {
+          "count": 764,
+          "maximum": 1.0,
+          "mean": 0.73224627397844,
+          "minimum": 0.2457583050831027,
+          "quantiles": {
+            "q05": 0.41185259847492567,
+            "q25": 0.5957078057135569,
+            "q50": 0.7657300153050518,
+            "q75": 0.8764123949345644,
+            "q95": 0.978305834480047
+          },
+          "represented_matches": 1
+        },
+        "max_segment_top2_edge_share": {
+          "count": 764,
+          "maximum": 1.0,
+          "mean": 0.8498691099476442,
+          "minimum": 0.5,
+          "quantiles": {
+            "q05": 0.6,
+            "q25": 0.8,
+            "q50": 0.9,
+            "q75": 1.0,
+            "q95": 1.0
+          },
+          "represented_matches": 1
+        },
+        "max_segment_top2_m1_weighted": {
+          "count": 764,
+          "maximum": 1.0000000000000002,
+          "mean": 0.9400094547794757,
+          "minimum": 0.47003968240447686,
+          "quantiles": {
+            "q05": 0.7647173191844733,
+            "q25": 0.9144087165527723,
+            "q50": 0.9746643655099667,
+            "q75": 1.0,
+            "q95": 1.0
+          },
+          "represented_matches": 1
+        },
+        "max_segment_top3_edge_share": {
+          "count": 764,
+          "maximum": 1.0,
+          "mean": 0.9607329842931939,
+          "minimum": 0.6,
+          "quantiles": {
+            "q05": 0.8,
+            "q25": 0.9,
+            "q50": 1.0,
+            "q75": 1.0,
+            "q95": 1.0
+          },
+          "represented_matches": 1
+        },
+        "max_segment_top3_m1_weighted": {
+          "count": 764,
+          "maximum": 1.0000000000000002,
+          "mean": 0.9904185781347548,
+          "minimum": 0.7029594837263041,
+          "quantiles": {
+            "q05": 0.9450969536235999,
+            "q25": 0.9963610469434624,
+            "q50": 1.0,
+            "q75": 1.0,
+            "q95": 1.0
+          },
+          "represented_matches": 1
+        },
+        "nearest_equal": {
+          "count": 764,
+          "maximum": 0.9,
+          "mean": 0.27918848167539273,
+          "minimum": 0.0,
+          "quantiles": {
+            "q05": 0.0,
+            "q25": 0.2,
+            "q50": 0.3,
+            "q75": 0.4,
+            "q95": 0.6
+          },
+          "represented_matches": 1
+        },
+        "nearest_intersects": {
+          "count": 764,
+          "maximum": 0.9,
+          "mean": 0.27918848167539273,
+          "minimum": 0.0,
+          "quantiles": {
+            "q05": 0.0,
+            "q25": 0.2,
+            "q50": 0.3,
+            "q75": 0.4,
+            "q95": 0.6
+          },
+          "represented_matches": 1
+        },
+        "receiver_distance_mean": {
+          "count": 764,
+          "maximum": 33.35866062660385,
+          "mean": 26.22784567964125,
+          "minimum": 16.06402893680114,
+          "quantiles": {
+            "q05": 20.967348051634314,
+            "q25": 24.260877583957576,
+            "q50": 26.668257669145717,
+            "q75": 28.26984871354699,
+            "q95": 30.881123767710026
+          },
+          "represented_matches": 1
+        },
+        "receiver_unique_nearest_defenders": {
+          "count": 764,
+          "maximum": 9.0,
+          "mean": 6.8678010471204205,
+          "minimum": 4.0,
+          "quantiles": {
+            "q05": 5.0,
+            "q25": 6.0,
+            "q50": 7.0,
+            "q75": 7.0,
+            "q95": 8.0
+          },
+          "represented_matches": 1
+        },
+        "receiver_unique_nearest_edges": {
+          "count": 764,
+          "maximum": 1.0,
+          "mean": 1.0,
+          "minimum": 1.0,
+          "quantiles": {
+            "q05": 1.0,
+            "q25": 1.0,
+            "q50": 1.0,
+            "q75": 1.0,
+            "q95": 1.0
+          },
+          "represented_matches": 1
+        },
+        "same_unique_nearest": {
+          "count": 764,
+          "maximum": 0.9,
+          "mean": 0.27918848167539273,
+          "minimum": 0.0,
+          "quantiles": {
+            "q05": 0.0,
+            "q25": 0.2,
+            "q50": 0.3,
+            "q75": 0.4,
+            "q95": 0.6
+          },
+          "represented_matches": 1
+        },
+        "segment_d2_d1": {
+          "count": 764,
+          "maximum": 7.242480439958163,
+          "mean": 2.2297026960390602,
+          "minimum": 0.349109732799704,
+          "quantiles": {
+            "q05": 0.8264881265346983,
+            "q25": 1.4637539937425326,
+            "q50": 2.1247547286688495,
+            "q75": 2.8654969723085664,
+            "q95": 3.8723271877569245
+          },
+          "represented_matches": 1
+        },
+        "segment_d3_d1": {
+          "count": 764,
+          "maximum": 12.57612323838173,
+          "mean": 4.923526203599807,
+          "minimum": 1.0191527244952154,
+          "quantiles": {
+            "q05": 2.183531105971703,
+            "q25": 3.4722227584504095,
+            "q50": 4.843456672434149,
+            "q75": 6.183116464789656,
+            "q95": 7.973674409779731
+          },
+          "represented_matches": 1
+        },
+        "segment_distance_mean": {
+          "count": 764,
+          "maximum": 25.87774463098071,
+          "mean": 16.88134506750031,
+          "minimum": 5.732409182063317,
+          "quantiles": {
+            "q05": 10.97160228894641,
+            "q25": 13.931230019983644,
+            "q50": 17.06816948240922,
+            "q75": 19.80423463310462,
+            "q95": 22.833249237664045
+          },
+          "represented_matches": 1
+        },
+        "segment_top1_pair_jaccard": {
+          "count": 764,
+          "maximum": 1.0,
+          "mean": 0.37329842931937185,
+          "minimum": 0.022222222222222223,
+          "quantiles": {
+            "q05": 0.13333333333333333,
+            "q25": 0.2222222222222222,
+            "q50": 0.3333333333333333,
+            "q75": 0.4666666666666667,
+            "q95": 0.8
+          },
+          "represented_matches": 1
+        },
+        "segment_top2_pair_jaccard": {
+          "count": 764,
+          "maximum": 0.8666666666666667,
+          "mean": 0.415251114989335,
+          "minimum": 0.14074074074074072,
+          "quantiles": {
+            "q05": 0.24444444444444444,
+            "q25": 0.3333333333333333,
+            "q50": 0.4074074074074074,
+            "q75": 0.48148148148148145,
+            "q95": 0.6296296296296297
+          },
+          "represented_matches": 1
+        },
+        "segment_top3_pair_jaccard": {
+          "count": 764,
+          "maximum": 0.9,
+          "mean": 0.4726527050610821,
+          "minimum": 0.24000000000000002,
+          "quantiles": {
+            "q05": 0.3377777777777778,
+            "q25": 0.40222222222222226,
+            "q50": 0.46444444444444444,
+            "q75": 0.5333333333333333,
+            "q95": 0.64
+          },
+          "represented_matches": 1
+        },
+        "segment_unique_nearest_defenders": {
+          "count": 764,
+          "maximum": 9.0,
+          "mean": 3.9816753926701582,
+          "minimum": 1.0,
+          "quantiles": {
+            "q05": 2.0,
+            "q25": 3.0,
+            "q50": 4.0,
+            "q75": 5.0,
+            "q95": 6.0
+          },
+          "represented_matches": 1
+        },
+        "segment_unique_nearest_edges": {
+          "count": 764,
+          "maximum": 1.0,
+          "mean": 1.0,
+          "minimum": 1.0,
+          "quantiles": {
+            "q05": 1.0,
+            "q25": 1.0,
+            "q50": 1.0,
+            "q75": 1.0,
+            "q95": 1.0
+          },
+          "represented_matches": 1
+        }
+      },
+      "states": 764
+    },
+    "development_08": {
+      "metrics": {
+        "any_receiver_multi_edge": {
+          "count": 734,
+          "maximum": 1.0,
+          "mean": 0.9959128065395094,
+          "minimum": 0.0,
+          "quantiles": {
+            "q05": 1.0,
+            "q25": 1.0,
+            "q50": 1.0,
+            "q75": 1.0,
+            "q95": 1.0
+          },
+          "represented_matches": 1
+        },
+        "any_segment_multi_edge": {
+          "count": 734,
+          "maximum": 1.0,
+          "mean": 1.0,
+          "minimum": 1.0,
+          "quantiles": {
+            "q05": 1.0,
+            "q25": 1.0,
+            "q50": 1.0,
+            "q75": 1.0,
+            "q95": 1.0
+          },
+          "represented_matches": 1
+        },
+        "defenders": {
+          "count": 734,
+          "maximum": 11.0,
+          "mean": 11.0,
+          "minimum": 11.0,
+          "quantiles": {
+            "q05": 11.0,
+            "q25": 11.0,
+            "q50": 11.0,
+            "q75": 11.0,
+            "q95": 11.0
+          },
+          "represented_matches": 1
+        },
+        "edges": {
+          "count": 734,
+          "maximum": 10.0,
+          "mean": 10.000000000000005,
+          "minimum": 10.0,
+          "quantiles": {
+            "q05": 10.0,
+            "q25": 10.0,
+            "q50": 10.0,
+            "q75": 10.0,
+            "q95": 10.0
+          },
+          "represented_matches": 1
+        },
+        "max_receiver_nearest_edges": {
+          "count": 734,
+          "maximum": 5.0,
+          "mean": 2.6307901907356945,
+          "minimum": 1.0,
+          "quantiles": {
+            "q05": 2.0,
+            "q25": 2.0,
+            "q50": 3.0,
+            "q75": 3.0,
+            "q95": 4.0
+          },
+          "represented_matches": 1
+        },
+        "max_segment_nearest_edges": {
+          "count": 734,
+          "maximum": 10.0,
+          "mean": 5.836512261580382,
+          "minimum": 2.0,
+          "quantiles": {
+            "q05": 3.0,
+            "q25": 4.0,
+            "q50": 6.0,
+            "q75": 7.0,
+            "q95": 9.0
+          },
+          "represented_matches": 1
+        },
+        "max_segment_top1_edge_share": {
+          "count": 734,
+          "maximum": 1.0,
+          "mean": 0.5836512261580382,
+          "minimum": 0.2,
+          "quantiles": {
+            "q05": 0.3,
+            "q25": 0.4,
+            "q50": 0.6,
+            "q75": 0.7,
+            "q95": 0.9
+          },
+          "represented_matches": 1
+        },
+        "max_segment_top1_m1_weighted": {
+          "count": 734,
+          "maximum": 1.0,
+          "mean": 0.7362942894312124,
+          "minimum": 0.27507365967054953,
+          "quantiles": {
+            "q05": 0.43045874211295404,
+            "q25": 0.6037645803195371,
+            "q50": 0.7594343522506832,
+            "q75": 0.8820011494303361,
+            "q95": 0.9901923493200077
+          },
+          "represented_matches": 1
+        },
+        "max_segment_top2_edge_share": {
+          "count": 734,
+          "maximum": 1.0,
+          "mean": 0.8581743869209812,
+          "minimum": 0.3,
+          "quantiles": {
+            "q05": 0.6,
+            "q25": 0.8,
+            "q50": 0.9,
+            "q75": 1.0,
+            "q95": 1.0
+          },
+          "represented_matches": 1
+        },
+        "max_segment_top2_m1_weighted": {
+          "count": 734,
+          "maximum": 1.0000000000000002,
+          "mean": 0.9444210554126826,
+          "minimum": 0.412235359547222,
+          "quantiles": {
+            "q05": 0.7656533174543744,
+            "q25": 0.9261364717050948,
+            "q50": 0.9790878096858178,
+            "q75": 1.0,
+            "q95": 1.0
+          },
+          "represented_matches": 1
+        },
+        "max_segment_top3_edge_share": {
+          "count": 734,
+          "maximum": 1.0,
+          "mean": 0.9668937329700273,
+          "minimum": 0.7,
+          "quantiles": {
+            "q05": 0.8,
+            "q25": 1.0,
+            "q50": 1.0,
+            "q75": 1.0,
+            "q95": 1.0
+          },
+          "represented_matches": 1
+        },
+        "max_segment_top3_m1_weighted": {
+          "count": 734,
+          "maximum": 1.0000000000000002,
+          "mean": 0.9914540009766158,
+          "minimum": 0.7684714470141805,
+          "quantiles": {
+            "q05": 0.9498760798606803,
+            "q25": 0.9999999999999999,
+            "q50": 1.0,
+            "q75": 1.0,
+            "q95": 1.0
+          },
+          "represented_matches": 1
+        },
+        "nearest_equal": {
+          "count": 734,
+          "maximum": 0.9,
+          "mean": 0.27520435967302453,
+          "minimum": 0.0,
+          "quantiles": {
+            "q05": 0.0,
+            "q25": 0.1,
+            "q50": 0.3,
+            "q75": 0.4,
+            "q95": 0.6
+          },
+          "represented_matches": 1
+        },
+        "nearest_intersects": {
+          "count": 734,
+          "maximum": 0.9,
+          "mean": 0.27520435967302453,
+          "minimum": 0.0,
+          "quantiles": {
+            "q05": 0.0,
+            "q25": 0.1,
+            "q50": 0.3,
+            "q75": 0.4,
+            "q95": 0.6
+          },
+          "represented_matches": 1
+        },
+        "receiver_distance_mean": {
+          "count": 734,
+          "maximum": 33.663134775690736,
+          "mean": 26.75501688123635,
+          "minimum": 15.110936794057215,
+          "quantiles": {
+            "q05": 21.508489155482586,
+            "q25": 25.091330358800988,
+            "q50": 27.161990870928356,
+            "q75": 28.816995628985804,
+            "q95": 30.7916974923419
+          },
+          "represented_matches": 1
+        },
+        "receiver_unique_nearest_defenders": {
+          "count": 734,
+          "maximum": 10.0,
+          "mean": 7.160762942779293,
+          "minimum": 4.0,
+          "quantiles": {
+            "q05": 6.0,
+            "q25": 7.0,
+            "q50": 7.0,
+            "q75": 8.0,
+            "q95": 9.0
+          },
+          "represented_matches": 1
+        },
+        "receiver_unique_nearest_edges": {
+          "count": 734,
+          "maximum": 1.0,
+          "mean": 1.0,
+          "minimum": 1.0,
+          "quantiles": {
+            "q05": 1.0,
+            "q25": 1.0,
+            "q50": 1.0,
+            "q75": 1.0,
+            "q95": 1.0
+          },
+          "represented_matches": 1
+        },
+        "same_unique_nearest": {
+          "count": 734,
+          "maximum": 0.9,
+          "mean": 0.27520435967302453,
+          "minimum": 0.0,
+          "quantiles": {
+            "q05": 0.0,
+            "q25": 0.1,
+            "q50": 0.3,
+            "q75": 0.4,
+            "q95": 0.6
+          },
+          "represented_matches": 1
+        },
+        "segment_d2_d1": {
+          "count": 734,
+          "maximum": 6.443059160246721,
+          "mean": 2.231335000291052,
+          "minimum": 0.39788806161671,
+          "quantiles": {
+            "q05": 0.8894657008119065,
+            "q25": 1.5318849640535586,
+            "q50": 2.174498568855536,
+            "q75": 2.808039268709675,
+            "q95": 3.8412825485667277
+          },
+          "represented_matches": 1
+        },
+        "segment_d3_d1": {
+          "count": 734,
+          "maximum": 10.012590197434118,
+          "mean": 4.869684806236873,
+          "minimum": 1.1710151125498367,
+          "quantiles": {
+            "q05": 2.2542352695511156,
+            "q25": 3.7399069160534033,
+            "q50": 4.945833236172165,
+            "q75": 5.878087643054015,
+            "q95": 7.336315228085455
+          },
+          "represented_matches": 1
+        },
+        "segment_distance_mean": {
+          "count": 734,
+          "maximum": 24.13788396593802,
+          "mean": 17.223720905387328,
+          "minimum": 8.626875613819653,
+          "quantiles": {
+            "q05": 11.351617270974169,
+            "q25": 14.619731499400254,
+            "q50": 17.407023091841733,
+            "q75": 19.871849725240995,
+            "q95": 22.509291416861245
+          },
+          "represented_matches": 1
+        },
+        "segment_top1_pair_jaccard": {
+          "count": 734,
+          "maximum": 1.0,
+          "mean": 0.38819255222524984,
+          "minimum": 0.044444444444444446,
+          "quantiles": {
+            "q05": 0.13333333333333333,
+            "q25": 0.24444444444444444,
+            "q50": 0.35555555555555557,
+            "q75": 0.4888888888888889,
+            "q95": 0.8
+          },
+          "represented_matches": 1
+        },
+        "segment_top2_pair_jaccard": {
+          "count": 734,
+          "maximum": 1.0,
+          "mean": 0.4169139166414372,
+          "minimum": 0.1111111111111111,
+          "quantiles": {
+            "q05": 0.23703703703703702,
+            "q25": 0.3333333333333333,
+            "q50": 0.41481481481481486,
+            "q75": 0.48148148148148145,
+            "q95": 0.6444444444444445
+          },
+          "represented_matches": 1
+        },
+        "segment_top3_pair_jaccard": {
+          "count": 734,
+          "maximum": 0.8222222222222222,
+          "mean": 0.4657614290039359,
+          "minimum": 0.24666666666666665,
+          "quantiles": {
+            "q05": 0.3422222222222222,
+            "q25": 0.39555555555555555,
+            "q50": 0.4488888888888889,
+            "q75": 0.5244444444444445,
+            "q95": 0.6444444444444445
+          },
+          "represented_matches": 1
+        },
+        "segment_unique_nearest_defenders": {
+          "count": 734,
+          "maximum": 8.0,
+          "mean": 3.9209809264305178,
+          "minimum": 1.0,
+          "quantiles": {
+            "q05": 2.0,
+            "q25": 3.0,
+            "q50": 4.0,
+            "q75": 5.0,
+            "q95": 6.0
+          },
+          "represented_matches": 1
+        },
+        "segment_unique_nearest_edges": {
+          "count": 734,
+          "maximum": 1.0,
+          "mean": 1.0,
+          "minimum": 1.0,
+          "quantiles": {
+            "q05": 1.0,
+            "q25": 1.0,
+            "q50": 1.0,
+            "q75": 1.0,
+            "q95": 1.0
+          },
+          "represented_matches": 1
+        }
+      },
+      "states": 734
+    },
+    "development_09": {
+      "metrics": {
+        "any_receiver_multi_edge": {
+          "count": 724,
+          "maximum": 1.0,
+          "mean": 0.9958563535911602,
+          "minimum": 0.0,
+          "quantiles": {
+            "q05": 1.0,
+            "q25": 1.0,
+            "q50": 1.0,
+            "q75": 1.0,
+            "q95": 1.0
+          },
+          "represented_matches": 1
+        },
+        "any_segment_multi_edge": {
+          "count": 724,
+          "maximum": 1.0,
+          "mean": 1.0,
+          "minimum": 1.0,
+          "quantiles": {
+            "q05": 1.0,
+            "q25": 1.0,
+            "q50": 1.0,
+            "q75": 1.0,
+            "q95": 1.0
+          },
+          "represented_matches": 1
+        },
+        "defenders": {
+          "count": 724,
+          "maximum": 11.0,
+          "mean": 11.0,
+          "minimum": 11.0,
+          "quantiles": {
+            "q05": 11.0,
+            "q25": 11.0,
+            "q50": 11.0,
+            "q75": 11.0,
+            "q95": 11.0
+          },
+          "represented_matches": 1
+        },
+        "edges": {
+          "count": 724,
+          "maximum": 10.0,
+          "mean": 9.999999999999996,
+          "minimum": 10.0,
+          "quantiles": {
+            "q05": 10.0,
+            "q25": 10.0,
+            "q50": 10.0,
+            "q75": 10.0,
+            "q95": 10.0
+          },
+          "represented_matches": 1
+        },
+        "max_receiver_nearest_edges": {
+          "count": 724,
+          "maximum": 6.0,
+          "mean": 2.947513812154696,
+          "minimum": 1.0,
+          "quantiles": {
+            "q05": 2.0,
+            "q25": 2.0,
+            "q50": 3.0,
+            "q75": 3.0,
+            "q95": 4.0
+          },
+          "represented_matches": 1
+        },
+        "max_segment_nearest_edges": {
+          "count": 724,
+          "maximum": 10.0,
+          "mean": 6.037292817679558,
+          "minimum": 2.0,
+          "quantiles": {
+            "q05": 3.0,
+            "q25": 5.0,
+            "q50": 6.0,
+            "q75": 8.0,
+            "q95": 9.0
+          },
+          "represented_matches": 1
+        },
+        "max_segment_top1_edge_share": {
+          "count": 724,
+          "maximum": 1.0,
+          "mean": 0.6037292817679558,
+          "minimum": 0.2,
+          "quantiles": {
+            "q05": 0.3,
+            "q25": 0.5,
+            "q50": 0.6,
+            "q75": 0.8,
+            "q95": 0.9
+          },
+          "represented_matches": 1
+        },
+        "max_segment_top1_m1_weighted": {
+          "count": 724,
+          "maximum": 1.0,
+          "mean": 0.7497391623159897,
+          "minimum": 0.2521599733877026,
+          "quantiles": {
+            "q05": 0.4215790079062839,
+            "q25": 0.6118891314659035,
+            "q50": 0.7824699407236773,
+            "q75": 0.9077489605763053,
+            "q95": 0.9947887738291858
+          },
+          "represented_matches": 1
+        },
+        "max_segment_top2_edge_share": {
+          "count": 724,
+          "maximum": 1.0,
+          "mean": 0.8772099447513813,
+          "minimum": 0.4,
+          "quantiles": {
+            "q05": 0.6,
+            "q25": 0.8,
+            "q50": 0.9,
+            "q75": 1.0,
+            "q95": 1.0
+          },
+          "represented_matches": 1
+        },
+        "max_segment_top2_m1_weighted": {
+          "count": 724,
+          "maximum": 1.0000000000000002,
+          "mean": 0.9464928116934694,
+          "minimum": 0.495872473697071,
+          "quantiles": {
+            "q05": 0.773647860596048,
+            "q25": 0.9231215533781391,
+            "q50": 0.9875775475261,
+            "q75": 1.0,
+            "q95": 1.0
+          },
+          "represented_matches": 1
+        },
+        "max_segment_top3_edge_share": {
+          "count": 724,
+          "maximum": 1.0,
+          "mean": 0.9700276243093922,
+          "minimum": 0.6,
+          "quantiles": {
+            "q05": 0.8,
+            "q25": 1.0,
+            "q50": 1.0,
+            "q75": 1.0,
+            "q95": 1.0
+          },
+          "represented_matches": 1
+        },
+        "max_segment_top3_m1_weighted": {
+          "count": 724,
+          "maximum": 1.0000000000000002,
+          "mean": 0.9922531056377895,
+          "minimum": 0.7257003256819627,
+          "quantiles": {
+            "q05": 0.9471264083798092,
+            "q25": 0.9999999999999999,
+            "q50": 1.0,
+            "q75": 1.0,
+            "q95": 1.0
+          },
+          "represented_matches": 1
+        },
+        "nearest_equal": {
+          "count": 724,
+          "maximum": 0.9,
+          "mean": 0.29820441988950275,
+          "minimum": 0.0,
+          "quantiles": {
+            "q05": 0.0,
+            "q25": 0.1,
+            "q50": 0.3,
+            "q75": 0.4,
+            "q95": 0.6
+          },
+          "represented_matches": 1
+        },
+        "nearest_intersects": {
+          "count": 724,
+          "maximum": 0.9,
+          "mean": 0.29820441988950275,
+          "minimum": 0.0,
+          "quantiles": {
+            "q05": 0.0,
+            "q25": 0.1,
+            "q50": 0.3,
+            "q75": 0.4,
+            "q95": 0.6
+          },
+          "represented_matches": 1
+        },
+        "receiver_distance_mean": {
+          "count": 724,
+          "maximum": 32.93998939657961,
+          "mean": 25.614423929941857,
+          "minimum": 16.642602945373213,
+          "quantiles": {
+            "q05": 21.04262767896923,
+            "q25": 23.890545240581186,
+            "q50": 25.9613832316845,
+            "q75": 27.481029543857193,
+            "q95": 29.35905661357401
+          },
+          "represented_matches": 1
+        },
+        "receiver_unique_nearest_defenders": {
+          "count": 724,
+          "maximum": 10.0,
+          "mean": 6.651933701657459,
+          "minimum": 3.0,
+          "quantiles": {
+            "q05": 5.0,
+            "q25": 6.0,
+            "q50": 7.0,
+            "q75": 7.0,
+            "q95": 8.0
+          },
+          "represented_matches": 1
+        },
+        "receiver_unique_nearest_edges": {
+          "count": 724,
+          "maximum": 1.0,
+          "mean": 1.0,
+          "minimum": 1.0,
+          "quantiles": {
+            "q05": 1.0,
+            "q25": 1.0,
+            "q50": 1.0,
+            "q75": 1.0,
+            "q95": 1.0
+          },
+          "represented_matches": 1
+        },
+        "same_unique_nearest": {
+          "count": 724,
+          "maximum": 0.9,
+          "mean": 0.29820441988950275,
+          "minimum": 0.0,
+          "quantiles": {
+            "q05": 0.0,
+            "q25": 0.1,
+            "q50": 0.3,
+            "q75": 0.4,
+            "q95": 0.6
+          },
+          "represented_matches": 1
+        },
+        "segment_d2_d1": {
+          "count": 724,
+          "maximum": 8.211965544177486,
+          "mean": 2.250327242095862,
+          "minimum": 0.3170628504368389,
+          "quantiles": {
+            "q05": 0.8279847261575488,
+            "q25": 1.4413530185921188,
+            "q50": 2.0402567724632474,
+            "q75": 2.85314788840132,
+            "q95": 4.2963779533727875
+          },
+          "represented_matches": 1
+        },
+        "segment_d3_d1": {
+          "count": 724,
+          "maximum": 11.649630241761368,
+          "mean": 4.766004409803267,
+          "minimum": 1.0546925694748563,
+          "quantiles": {
+            "q05": 2.1008903462843076,
+            "q25": 3.253068167411545,
+            "q50": 4.565168585482329,
+            "q75": 6.049369866096309,
+            "q95": 8.076504280206898
+          },
+          "represented_matches": 1
+        },
+        "segment_distance_mean": {
+          "count": 724,
+          "maximum": 25.78869610429521,
+          "mean": 16.006828880006346,
+          "minimum": 7.1169374491148965,
+          "quantiles": {
+            "q05": 10.492475237678144,
+            "q25": 13.52136052285099,
+            "q50": 15.865642992351997,
+            "q75": 18.456789203329294,
+            "q95": 21.706351969878774
+          },
+          "represented_matches": 1
+        },
+        "segment_top1_pair_jaccard": {
+          "count": 724,
+          "maximum": 1.0,
+          "mean": 0.4149171270718232,
+          "minimum": 0.06666666666666667,
+          "quantiles": {
+            "q05": 0.13333333333333333,
+            "q25": 0.24444444444444444,
+            "q50": 0.35555555555555557,
+            "q75": 0.6222222222222222,
+            "q95": 0.8
+          },
+          "represented_matches": 1
+        },
+        "segment_top2_pair_jaccard": {
+          "count": 724,
+          "maximum": 1.0,
+          "mean": 0.44067935338653563,
+          "minimum": 0.16296296296296295,
+          "quantiles": {
+            "q05": 0.2518518518518518,
+            "q25": 0.34814814814814815,
+            "q50": 0.437037037037037,
+            "q75": 0.5111111111111111,
+            "q95": 0.6592592592592593
+          },
+          "represented_matches": 1
+        },
+        "segment_top3_pair_jaccard": {
+          "count": 724,
+          "maximum": 0.8222222222222222,
+          "mean": 0.49523941068139965,
+          "minimum": 0.26222222222222225,
+          "quantiles": {
+            "q05": 0.3488888888888889,
+            "q25": 0.4222222222222222,
+            "q50": 0.48666666666666664,
+            "q75": 0.5599999999999999,
+            "q95": 0.6777777777777778
+          },
+          "represented_matches": 1
+        },
+        "segment_unique_nearest_defenders": {
+          "count": 724,
+          "maximum": 8.0,
+          "mean": 3.7955801104972373,
+          "minimum": 1.0,
+          "quantiles": {
+            "q05": 2.0,
+            "q25": 3.0,
+            "q50": 4.0,
+            "q75": 5.0,
+            "q95": 6.0
+          },
+          "represented_matches": 1
+        },
+        "segment_unique_nearest_edges": {
+          "count": 724,
+          "maximum": 1.0,
+          "mean": 1.0,
+          "minimum": 1.0,
+          "quantiles": {
+            "q05": 1.0,
+            "q25": 1.0,
+            "q50": 1.0,
+            "q75": 1.0,
+            "q95": 1.0
+          },
+          "represented_matches": 1
+        }
+      },
+      "states": 724
+    },
+    "match_macro": {
+      "metrics": {
+        "any_receiver_multi_edge": {
+          "count": 7227,
+          "maximum": 1.0,
+          "mean": 0.998833218419184,
+          "minimum": 0.0,
+          "quantiles": {
+            "q05": 1.0,
+            "q25": 1.0,
+            "q50": 1.0,
+            "q75": 1.0,
+            "q95": 1.0
+          },
+          "represented_matches": 9
+        },
+        "any_segment_multi_edge": {
+          "count": 7227,
+          "maximum": 1.0,
+          "mean": 1.0,
+          "minimum": 1.0,
+          "quantiles": {
+            "q05": 1.0,
+            "q25": 1.0,
+            "q50": 1.0,
+            "q75": 1.0,
+            "q95": 1.0
+          },
+          "represented_matches": 9
+        },
+        "defenders": {
+          "count": 7227,
+          "maximum": 11.0,
+          "mean": 11.0,
+          "minimum": 11.0,
+          "quantiles": {
+            "q05": 11.0,
+            "q25": 11.0,
+            "q50": 11.0,
+            "q75": 11.0,
+            "q95": 11.0
+          },
+          "represented_matches": 9
+        },
+        "edges": {
+          "count": 7227,
+          "maximum": 10.0,
+          "mean": 10.0,
+          "minimum": 10.0,
+          "quantiles": {
+            "q05": 10.0,
+            "q25": 10.0,
+            "q50": 10.0,
+            "q75": 10.0,
+            "q95": 10.0
+          },
+          "represented_matches": 9
+        },
+        "max_receiver_nearest_edges": {
+          "count": 7227,
+          "maximum": 7.0,
+          "mean": 2.826881716183359,
+          "minimum": 1.0,
+          "quantiles": {
+            "q05": 2.0,
+            "q25": 2.0,
+            "q50": 3.0,
+            "q75": 3.0,
+            "q95": 4.0
+          },
+          "represented_matches": 9
+        },
+        "max_segment_nearest_edges": {
+          "count": 7227,
+          "maximum": 10.0,
+          "mean": 5.82720465155707,
+          "minimum": 2.0,
+          "quantiles": {
+            "q05": 3.0,
+            "q25": 4.0,
+            "q50": 6.0,
+            "q75": 7.0,
+            "q95": 9.0
+          },
+          "represented_matches": 9
+        },
+        "max_segment_top1_edge_share": {
+          "count": 7227,
+          "maximum": 1.0,
+          "mean": 0.5827204651557071,
+          "minimum": 0.2,
+          "quantiles": {
+            "q05": 0.3,
+            "q25": 0.4,
+            "q50": 0.6,
+            "q75": 0.7,
+            "q95": 0.9
+          },
+          "represented_matches": 9
+        },
+        "max_segment_top1_m1_weighted": {
+          "count": 7227,
+          "maximum": 1.0000000000000002,
+          "mean": 0.7374512201885175,
+          "minimum": 0.17444319042051648,
+          "quantiles": {
+            "q05": 0.41250120600879964,
+            "q25": 0.5962865716663452,
+            "q50": 0.7663138961205489,
+            "q75": 0.8911880307728639,
+            "q95": 0.9893088048082809
+          },
+          "represented_matches": 9
+        },
+        "max_segment_top2_edge_share": {
+          "count": 7227,
+          "maximum": 1.0,
+          "mean": 0.861669124169131,
+          "minimum": 0.3,
+          "quantiles": {
+            "q05": 0.6,
+            "q25": 0.8,
+            "q50": 0.9,
+            "q75": 1.0,
+            "q95": 1.0
+          },
+          "represented_matches": 9
+        },
+        "max_segment_top2_m1_weighted": {
+          "count": 7227,
+          "maximum": 1.0000000000000002,
+          "mean": 0.9429711742192298,
+          "minimum": 0.35344220240771806,
+          "quantiles": {
+            "q05": 0.7541264657515314,
+            "q25": 0.9220990901603534,
+            "q50": 0.9808043775869366,
+            "q75": 1.0,
+            "q95": 1.0
+          },
+          "represented_matches": 9
+        },
+        "max_segment_top3_edge_share": {
+          "count": 7227,
+          "maximum": 1.0,
+          "mean": 0.9643690330598944,
+          "minimum": 0.5,
+          "quantiles": {
+            "q05": 0.8,
+            "q25": 1.0,
+            "q50": 1.0,
+            "q75": 1.0,
+            "q95": 1.0
+          },
+          "represented_matches": 9
+        },
+        "max_segment_top3_m1_weighted": {
+          "count": 7227,
+          "maximum": 1.0000000000000002,
+          "mean": 0.9903781764791426,
+          "minimum": 0.524979449064395,
+          "quantiles": {
+            "q05": 0.9415858915692278,
+            "q25": 0.9999999999999999,
+            "q50": 1.0,
+            "q75": 1.0,
+            "q95": 1.0
+          },
+          "represented_matches": 9
+        },
+        "nearest_equal": {
+          "count": 7227,
+          "maximum": 1.0,
+          "mean": 0.29279803591181136,
+          "minimum": 0.0,
+          "quantiles": {
+            "q05": 0.0,
+            "q25": 0.2,
+            "q50": 0.3,
+            "q75": 0.4,
+            "q95": 0.6
+          },
+          "represented_matches": 9
+        },
+        "nearest_intersects": {
+          "count": 7227,
+          "maximum": 1.0,
+          "mean": 0.2928107053657579,
+          "minimum": 0.0,
+          "quantiles": {
+            "q05": 0.0,
+            "q25": 0.2,
+            "q50": 0.3,
+            "q75": 0.4,
+            "q95": 0.6
+          },
+          "represented_matches": 9
+        },
+        "receiver_distance_mean": {
+          "count": 7227,
+          "maximum": 35.45863514504464,
+          "mean": 26.245438708919657,
+          "minimum": 15.110936794057215,
+          "quantiles": {
+            "q05": 21.311456189164996,
+            "q25": 24.528568515756714,
+            "q50": 26.42664488210123,
+            "q75": 28.118786005737487,
+            "q95": 30.47606427577183
+          },
+          "represented_matches": 9
+        },
+        "receiver_unique_nearest_defenders": {
+          "count": 7227,
+          "maximum": 10.0,
+          "mean": 6.881832608011186,
+          "minimum": 2.0,
+          "quantiles": {
+            "q05": 5.0,
+            "q25": 6.0,
+            "q50": 7.0,
+            "q75": 8.0,
+            "q95": 8.0
+          },
+          "represented_matches": 9
+        },
+        "receiver_unique_nearest_edges": {
+          "count": 7227,
+          "maximum": 1.0,
+          "mean": 0.9999873305460534,
+          "minimum": 0.9,
+          "quantiles": {
+            "q05": 1.0,
+            "q25": 1.0,
+            "q50": 1.0,
+            "q75": 1.0,
+            "q95": 1.0
+          },
+          "represented_matches": 9
+        },
+        "same_unique_nearest": {
+          "count": 7227,
+          "maximum": 1.0,
+          "mean": 0.29279803591181136,
+          "minimum": 0.0,
+          "quantiles": {
+            "q05": 0.0,
+            "q25": 0.2,
+            "q50": 0.3,
+            "q75": 0.4,
+            "q95": 0.6
+          },
+          "represented_matches": 9
+        },
+        "segment_d2_d1": {
+          "count": 7227,
+          "maximum": 10.0748756362773,
+          "mean": 2.2987608050717845,
+          "minimum": 0.16845722869859645,
+          "quantiles": {
+            "q05": 0.8401417159785213,
+            "q25": 1.4863216650732032,
+            "q50": 2.15132299839522,
+            "q75": 2.9459992415942997,
+            "q95": 4.221130570582168
+          },
+          "represented_matches": 9
+        },
+        "segment_d3_d1": {
+          "count": 7227,
+          "maximum": 14.189604532146294,
+          "mean": 4.895668466359449,
+          "minimum": 0.8852307711869422,
+          "quantiles": {
+            "q05": 2.1647057770161195,
+            "q25": 3.4857716838329096,
+            "q50": 4.811077690274094,
+            "q75": 6.096944109096616,
+            "q95": 8.024878511179352
+          },
+          "represented_matches": 9
+        },
+        "segment_distance_mean": {
+          "count": 7227,
+          "maximum": 29.685587244949392,
+          "mean": 16.53994339111958,
+          "minimum": 5.3628302909915115,
+          "quantiles": {
+            "q05": 10.727338144332958,
+            "q25": 13.878480721755736,
+            "q50": 16.476657590026537,
+            "q75": 19.186495605633255,
+            "q95": 22.483114794427088
+          },
+          "represented_matches": 9
+        },
+        "segment_top1_pair_jaccard": {
+          "count": 7227,
+          "maximum": 1.0,
+          "mean": 0.38899376321771656,
+          "minimum": 0.022222222222222223,
+          "quantiles": {
+            "q05": 0.13333333333333333,
+            "q25": 0.2222222222222222,
+            "q50": 0.35555555555555557,
+            "q75": 0.4888888888888889,
+            "q95": 0.8
+          },
+          "represented_matches": 9
+        },
+        "segment_top2_pair_jaccard": {
+          "count": 7227,
+          "maximum": 1.0,
+          "mean": 0.4224430466586228,
+          "minimum": 0.1111111111111111,
+          "quantiles": {
+            "q05": 0.23703703703703702,
+            "q25": 0.3333333333333333,
+            "q50": 0.4222222222222222,
+            "q75": 0.4888888888888889,
+            "q95": 0.6444444444444445
+          },
+          "represented_matches": 9
+        },
+        "segment_top3_pair_jaccard": {
+          "count": 7227,
+          "maximum": 1.0,
+          "mean": 0.47999774658038985,
+          "minimum": 0.23333333333333334,
+          "quantiles": {
+            "q05": 0.3422222222222222,
+            "q25": 0.40888888888888886,
+            "q50": 0.4688888888888889,
+            "q75": 0.54,
+            "q95": 0.6577777777777778
+          },
+          "represented_matches": 9
+        },
+        "segment_unique_nearest_defenders": {
+          "count": 7227,
+          "maximum": 9.0,
+          "mean": 3.9206643284578444,
+          "minimum": 1.0,
+          "quantiles": {
+            "q05": 2.0,
+            "q25": 3.0,
+            "q50": 4.0,
+            "q75": 5.0,
+            "q95": 6.0
+          },
+          "represented_matches": 9
+        },
+        "segment_unique_nearest_edges": {
+          "count": 7227,
+          "maximum": 1.0,
+          "mean": 1.0,
+          "minimum": 1.0,
+          "quantiles": {
+            "q05": 1.0,
+            "q25": 1.0,
+            "q50": 1.0,
+            "q75": 1.0,
+            "q95": 1.0
+          },
+          "represented_matches": 9
+        }
+      },
+      "states": 7227
+    }
+  },
+  "schema_version": 1,
+  "scope": "target_free_in_sample_development_structure",
+  "states": 7227
+}

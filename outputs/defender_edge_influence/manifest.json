@@ -1,0 +1,19 @@
+{
+  "contract_sha256": "b93a2c9af7cf933f9a4c52a87ca3bcfd68a42aa3ee0a926a826524667f4fc5ae",
+  "implementation_authority_sha256": "960690d91ad36ae289cf46b59d663c18ebf3bccd615a3f2fd7a4b1b59ae41f99",
+  "model_sha256": "0383561e45bcd9f8d84eccc7e9733b2409536f61c39193fa87d08c36c6f6fd65",
+  "outputs": {
+    "multi_edge_summary.csv": "de40a2238a4a390e5fd77848cc306d8ab991287085a1e5b46a011f4b41eb0a73",
+    "qc.json": "8dfa3e5385d2801ab6176ea1157e11f674c399a6a54d2539952e49339bfb9373",
+    "redundancy_summary.csv": "cd24d891259946f24a2174206e0d2b813fc01bce02b2be32683f715a6928cd32",
+    "relation_summary.json": "9ecd4c48038602051fec04058ed4b3c667774f17d19063ea741de38d01ce3c60",
+    "role_overlap.csv": "bd06baf416007f2065392ef0a7db32bec06cbf1ffb1d6e4cd4a93e7b75789f00",
+    "synthetic_defender_edge_map.svg": "00af026adc857800af64b7e71609ec980ab5dc09f3e49bbf39b5a54d9c39db6c"
+  },
+  "population_authority_sha256": "4461aac5a18be5335c9c1eb83f55b6f2b4fd02f4c9b98369e9442601bf1530ba",
+  "population_sha256": "cd706f9f4621efcf659fbe890d9a6a0ebfff97c3407095a6db5ea05044c1264d",
+  "protocol_sha256": "03811fd9220722836394971af38395c4e683504fb6d591d91fcb8e0399e27b0b",
+  "schema_version": 1,
+  "start": "b29ef29430e620ae88cb51df3353a2596e0a5d69",
+  "status": "closed"
+}

@@ -277,3 +277,13 @@ or release claim is established. Provider-coordinate support and the analytical
 value domain remain distinct questions. See the
 [Session 12c report](../docs/session_12c_coordinate_boundary_review.md) for the
 F/2 conclusion and bounded clarification recommendation.
+
+## 2026-09-11 — Session 13 defender-edge relation layer
+
+The provider-independent relation layer reuses the project-owned finite-segment
+primitive, NumPy-backed frozen M1 option-network implementation and established
+aggregation conventions. No external football package, graph library, kernel,
+field model or parameter was adopted. The abstraction remains internal because
+its evidence is development-only and its synthetic renderer failed final
+presentation QA. No generic upstream ecosystem gap is established. See the
+[Session 13 report](../docs/session_13_defender_edge_influence_report.md).

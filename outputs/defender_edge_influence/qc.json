@@ -1,0 +1,10 @@
+{
+  "conservation_checked_by_production_tests": true,
+  "detail_sha256": "58afb7b7323086fd70dc3775bf9e380b1b3dd74a6a0cb3125825f56ec8384564",
+  "m1_only": true,
+  "matches": 9,
+  "schema_version": 1,
+  "states": 7227,
+  "status": "closed_aggregates",
+  "targets_projected": true
+}

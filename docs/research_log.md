@@ -692,3 +692,19 @@ withheld/pose or new payload access; no implementation repair or rerun.
 Tests: 18 focused passed; full 277 passed, 3 retained skips. See the
 [Session 12c report](session_12c_coordinate_boundary_review.md). The sole next
 action is separately authorized provider/documentation clarification; not sent.
+
+## 2026-09-11 — Session 13 defender-to-edge influence mapping
+
+Phase 13 protocol/contract commit `4822a3d`, tested implementation `a9b06e2`,
+and target-free population authority `760b782` preceded the one aggregate
+development analysis. All 7,227 spent development states were included; target
+fields were projected out. Segment-nearest multi-edge structure appeared in
+every state and all nine matches. The most involved defender was segment-nearest
+to a mean 5.827 edges (median 6); receiver/segment nearest roles overlapped on
+about 29.3% of edges. Gap and top-k overlap distributions were non-degenerate
+across matches. Scientific A, bounded occlusion readiness 2 and internal software
+readiness 2. M1 weighting is secondary and circular. The synthetic SVG failed
+native presentation QA after aggregate exposure and remains unedited; no rerun.
+No target/outcome/rank, reserved/withheld/pose/provider or progression access.
+Claims unchanged. See the
+[Session 13 report](session_13_defender_edge_influence_report.md).
