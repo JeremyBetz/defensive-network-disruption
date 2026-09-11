@@ -1,0 +1,32 @@
+{
+  "adapter": "option_state_from_kloppy requires explicit selections and verified centred metric coordinates",
+  "animation": "animate_option_network_comparison(states, m0_model, m1_model, pitch_length, pitch_width, fps=10) returns a Matplotlib animation",
+  "dataframe_columns": [
+    "carrier_id",
+    "receiver_id",
+    "utility",
+    "option_share",
+    "expected_rank",
+    "tie_block",
+    "is_top_option"
+  ],
+  "dependencies": "NumPy core; optional Kloppy, pandas, Matplotlib, mplsoccer, and Pillow extras",
+  "model_loading": "never automatic; every evaluation receives an explicit FrozenOptionModel",
+  "numerical_authority": "unchanged Session 8 M0/M1 utility, temperature-one softmax, tie, and summary semantics",
+  "plot": "plot_option_network(state, network, pitch_length, pitch_width, ax=None, title=None) returns figure and axes",
+  "public_objects": [
+    "OptionState",
+    "FrozenOptionModel",
+    "OptionEdge",
+    "OptionNetwork",
+    "evaluate_options",
+    "compare_options",
+    "option_state_from_kloppy",
+    "plot_option_network",
+    "animate_option_network_comparison"
+  ],
+  "schema_version": "1",
+  "semantics": "model-implied receiver-option shares in one carrier-centred directed star; not calibrated accessibility or pass probability",
+  "stability": "experimental",
+  "version": "0.0.0"
+}
