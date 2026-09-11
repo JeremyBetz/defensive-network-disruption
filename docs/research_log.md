@@ -739,3 +739,18 @@ IMPLEMENTATION REPAIR**. No empirical state, target, model, provider product,
 reserved/withheld/pose or external-value data was accessed. Claims and the
 historical Session 14 block remain unchanged. The sole recommendation is a
 separately governed Session 14a implementation repair and synthetic rerun.
+
+## 2026-09-11 — Session 14b serialization repair and exact synthetic rerun
+
+Phase 14b protocol `aa12115` preceded a serialization-only repair at `2e2adc8`.
+The repair recursively converts NumPy scalar values at the JSON boundary and
+does not change the inherited numerical review. The one exact synthetic rerun
+reproduced Session 14's historical discrepancy, passed 32 Simpson oracles and
+closed all requested outputs. Of 366 references, 362 were available; the same
+four maximum-envelope references remained unavailable solely under the frozen
+fine-grid-delta rule. Result: **F — UNRESOLVED**; readiness **4 — NOT READY /
+ABANDON CANDIDATE**. No future integration contract was adopted. Session 14 and
+14a histories remain unchanged. No empirical state, target, model, provider
+product, reserved/withheld/pose or external-value data was accessed. Claims are
+unchanged. The sole next action is a separately governed synthetic
+maximum-envelope reference-contract review.

@@ -1,0 +1,88 @@
+{
+  "approximate_review_runtime_seconds": 28.905430375016294,
+  "classification": "F \u2014 UNRESOLVED",
+  "edge_candidate_count": 108,
+  "field_smoothness": "continuous; smoothstep is C1 but changes higher derivatives at piece boundaries",
+  "historical_failure": {
+    "absolute_difference": 0.00015414666387381093,
+    "coarse_intervals": 80,
+    "coarse_value": 0.5423405961267106,
+    "fine_intervals": 160,
+    "fine_value": 0.5424947427905844
+  },
+  "historical_gate_verdict": "poorly specified: successive-estimate disagreement is not actual reference error, although it correctly blocked an inaccurate 160-interval estimate",
+  "maximum_160_interval_reference_error": 2.308164949507696e-05,
+  "next_direction": "separately govern a Session 14 retry under the recommended integration contract",
+  "ordinary_resolution_summary": [
+    {
+      "evaluations_per_component": 17,
+      "intervals": 16,
+      "maximum_absolute_reference_error": 0.021566710730153954
+    },
+    {
+      "evaluations_per_component": 33,
+      "intervals": 32,
+      "maximum_absolute_reference_error": 0.003962909249607113
+    },
+    {
+      "evaluations_per_component": 65,
+      "intervals": 64,
+      "maximum_absolute_reference_error": 0.0006998697916666963
+    },
+    {
+      "evaluations_per_component": 129,
+      "intervals": 128,
+      "maximum_absolute_reference_error": 0.00013020833333343695
+    },
+    {
+      "evaluations_per_component": 257,
+      "intervals": 256,
+      "maximum_absolute_reference_error": 9.659007191631375e-06
+    },
+    {
+      "evaluations_per_component": 513,
+      "intervals": 512,
+      "maximum_absolute_reference_error": 1.3987223306255459e-06
+    },
+    {
+      "evaluations_per_component": 1025,
+      "intervals": 1024,
+      "maximum_absolute_reference_error": 1.4478961629649234e-07
+    },
+    {
+      "evaluations_per_component": 2049,
+      "intervals": 2048,
+      "maximum_absolute_reference_error": 2.433856338690532e-08
+    }
+  ],
+  "planning_probe_prior_exposure": true,
+  "recommended_future_contract": {
+    "acceptance": "maximum absolute successive-estimate difference <= 1e-7 across all individual, union and maximum components",
+    "accepted_value": "finer estimate",
+    "demonstrated_maximum_synthetic_reference_error": 2.8987435979344056e-08,
+    "failure": "block the edge and the governed execution",
+    "maximum_intervals": 16384,
+    "method": "convergence-controlled composite Simpson",
+    "refinement": "double intervals",
+    "start_intervals": 256
+  },
+  "reference_component_count": 366,
+  "reference_method": {
+    "analytical_directional_breakpoints": true,
+    "library": "SciPy",
+    "limit": 1000,
+    "method": "integrate.quad",
+    "repeat_tolerances": 1e-11,
+    "strict_tolerances": 1e-13,
+    "version": "1.18.1"
+  },
+  "retry_readiness": "4 \u2014 NOT READY / ABANDON CANDIDATE",
+  "schema_version": 1,
+  "simpson_oracles": {
+    "count": 32,
+    "maximum_absolute_error": 0.0,
+    "passed": 32
+  },
+  "status": "closed",
+  "unavailable_reference_count": 4
+}

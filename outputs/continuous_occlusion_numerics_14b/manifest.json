@@ -1,0 +1,35 @@
+{
+  "empirical_access": false,
+  "environment": {
+    "numpy": "2.5.3",
+    "python": "3.13.15",
+    "scipy": "1.18.1",
+    "uv_lock_sha256": "c9e4da0781770b9e72b8a5b10a7c514f2259b7e63dc1b67604ee481934db0a0c"
+  },
+  "historical_authority_sha256": {
+    "outputs/continuous_occlusion_hypotheses/manifest.json": "249c4fcb42c472290305356140066383097428432385951aea4803aa39d9e459",
+    "outputs/continuous_occlusion_numerics/convergence.csv": "fab91419fca9731430baef5f372c6e7eb30e1291b1e06d636520e09b91fff49f",
+    "outputs/continuous_occlusion_numerics/manifest.json": "4581de83a6d5bec7c39418578b5ea80e2eed26d0739804f69cc93195666a2859",
+    "outputs/continuous_occlusion_numerics/qc.json": "5c9a6bec7319a61d227f9d94f638eeae489f19348f83f4b98b7fb56c42db1166",
+    "scripts/session_14_occlusion_fields.py": "921842723974083431e6deee44c18ad6eda8c1de722e15e79e65612ee83b26ee",
+    "src/defensive_network_disruption/geometry/occlusion_fields.py": "d7fd23bc131d0db2686ef27475a128fdca78aea88616c4494609962c165533aa",
+    "tests/test_session14_fields.py": "a3a3e9530b45e8dec4391dc8cdf76ac07c8f2216118c0d4dcf367a7b661c49dd"
+  },
+  "implementation_sha256": {
+    "scripts/session_14b_synthetic_numerics.py": "7904e3ec74c632296d5d01b7351c615e8e9df0fb35bc4200dbea28b3b9dd86c8",
+    "src/defensive_network_disruption/geometry/integration_review.py": "152f688fe6b217dec0c6ede667e611d9d411c43762c0de1ff8d1143919b50f0d",
+    "src/defensive_network_disruption/validation/json_scalars.py": "0ff0b9d1cb770695124ae4721ea9a271ddaf3d2a101c9b258e02e203d7015ad9",
+    "tests/test_session14b_serialization.py": "62a9f04469911f37b7898a469292539fa13750ef97778621ba4e79fb78703dde"
+  },
+  "outputs_sha256": {
+    "convergence.csv": "fab91419fca9731430baef5f372c6e7eb30e1291b1e06d636520e09b91fff49f",
+    "failing_fixture_diagnostic.csv": "5628f046345dc8258eb2d9a36a2de0fe526ab7870dcc3f859204322e190fe226",
+    "method_summary.json": "20f7a49b5fc1aeb231cd0c037add0f249c5a41dbbf26188bb4723b5d0157ee3d",
+    "qc.json": "35ae11abacdd48e2e4ab53958e578f371dd0f80c947dcabc7050776b931aee3d",
+    "reference_summary.json": "734af21c5ea22bd8e3b472b1a21bfd1de8e27dfb2ecbb4d915103362e5c976ac"
+  },
+  "protocol_sha256": "8f4fe9a3311115873cf39fc0461dee8cdf3bea8fc5819fee5e7b8f3ade3562a0",
+  "schema_version": 1,
+  "starting_authority": "d7151243ec10ea2d455977c5432d0dcc74f33dea",
+  "status": "closed"
+}

@@ -1,0 +1,18 @@
+{
+  "candidate_count": 3,
+  "classification": "F \u2014 UNRESOLVED",
+  "convergence_row_count": 2928,
+  "empirical_states_read": 0,
+  "fixture_count": 36,
+  "historical_failure_reproduced": true,
+  "historical_session14_modified": false,
+  "models_loaded": 0,
+  "oracle_failures": 0,
+  "reference_failures": 4,
+  "reference_record_count": 366,
+  "retry_readiness": "4 \u2014 NOT READY / ABANDON CANDIDATE",
+  "schema_version": 1,
+  "status": "closed",
+  "synthetic_only": true,
+  "targets_read": 0
+}
