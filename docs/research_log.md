@@ -877,3 +877,20 @@ material was accessed; claims and `v0.1.0` remain unchanged. The public-reposito
 audit was already complete at the Session 14i starting authority. The sole next
 action is to resume Session 14R protocol planning under the accepted contract;
 it was not executed. See the [Session 14i report](session_14i_signature_repair_and_acceptance.md).
+
+## 2026-09-11 — Session 14R representation study blocked at numerical verification
+
+Protocol `fd05f5c`, tested implementation `7068101` and prepared authority
+`1ac194f` preceded the single empirical execution. The separate synthetic gate
+passed 108 cases, 366 references and 399 permutations; all 7,227 development
+states passed geometry-only preparation with the canonical hash unchanged.
+After one state completed, strict piecewise adaptive maximum verification raised
+`IntegrationWarning`. The required warning gate stopped execution and preserved
+private partial work; no code, tolerance or population was repaired and no rerun
+occurred. **D — BLOCKED; cover-shadow readiness 3 (unresolved execution).**
+Complete empirical comparisons are unavailable, not negative scientific findings.
+The blocked manifest is hash-closed; targets, models, shares, raw provider and
+reserved/withheld/pose data were not accessed. Claims and historical artifacts
+remain unchanged. The sole next action is a separately governed bounded
+diagnosis of the independent-maximum integration warning, not executed here.
+See the [Session 14R report](session_14r_continuous_occlusion_retry_report.md).

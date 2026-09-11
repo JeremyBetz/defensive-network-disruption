@@ -1,0 +1,39 @@
+{
+  "authority": {
+    "outputs/continuous_occlusion_retry/authority/population.json": "08490684ab15b4d1485f01f8bde31b370fafa426ac4c5c8e1660f3fef3036c78",
+    "outputs/continuous_occlusion_retry/authority/production.json": "2ac3e2da670e957907180903b11dc9077fe9c5221b911dc40cdbf81a3453dce1",
+    "outputs/continuous_occlusion_retry/authority/visual_approval.json": "ef2d53ed8e7600b9c4805c20e9a925c541059fd1911e65e7e7577903cdef75b8",
+    "outputs/continuous_occlusion_retry/authority/visual_generation.json": "b700a3e1a97046309ff63e552c9e056527b7d8c952cd9153354cced503e4a8cf",
+    "outputs/continuous_occlusion_retry/authority/visual_revision.json": "b74cc06e12c960976b4d9a4588366e83df2593cea543e2079b4c7fa36fdd13c9"
+  },
+  "environment": {
+    "lock": "c9e4da0781770b9e72b8a5b10a7c514f2259b7e63dc1b67604ee481934db0a0c",
+    "matplotlib": "3.11.1",
+    "numpy": "2.5.3",
+    "python": "3.13.15",
+    "scipy": "1.18.1"
+  },
+  "implementation": {
+    "scripts/session_14r_occlusion_study.py": "e5875362f9e4d4237ee4ee7e920533effc76348c73cea36ca258859f9a600214",
+    "src/defensive_network_disruption/data/representation_projection.py": "229ff793392c06471ac3a0dd3ee11bbcaaedf6045da3bfe4a484743423029858",
+    "src/defensive_network_disruption/geometry/representation_study.py": "d0957593d9aa092160b5e890c49987ca6096c1429dfc0a7b9d2daa0388c033c9",
+    "tests/test_session14r_study.py": "56e0c0940b3ab636be66f27b9aee1e3d88c62460b4d460d48e1db5f866798ce0"
+  },
+  "outputs": {
+    "qc.json": "38dc87e1180bc904355cdabf6e7cc4ff21834718735829d51c435e571c68d5ec",
+    "synthetic_field_comparison.svg": "dee4ec07bc364662bb4587049f63b5d0406a175dfe62793a40f8b1301154fbe6",
+    "synthetic_stress_summary.json": "53b1e13eb198ae83fdb7b1194fb8203ad86ef27811bf2a3e608181a3115e9919"
+  },
+  "protocol": "bdf032e2f84563c5f1799b88aa28ceca867fb9fc8b02edd2cc25e244e5e1f698",
+  "schema_version": 1,
+  "start": "3f58ede93143fda336e3e6515e15b0cc8c1a6fa9",
+  "status": "blocked",
+  "unavailable": [
+    "candidate_summary.json",
+    "structural_correspondence.csv",
+    "receiver_segment_divergence.csv",
+    "union_vs_max.csv",
+    "multi_edge_summary.csv",
+    "match_summary.csv"
+  ]
+}
