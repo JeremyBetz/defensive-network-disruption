@@ -618,3 +618,15 @@ provider, empirical, protected, withheld or pose data was opened, and no model o
 scientific analysis ran. Accessibility remains PROXY ONLY and suppression NOT
 SUPPORTABLE. The single recommendation is a separately authorized experimental
 0.1.0 release phase; it was not executed.
+
+## 2026-09-10 — Session 10 remote CI closure
+
+The first two post-closure GitHub Actions runs preserved portability failures:
+macOS-specific temporary test locations, exact equality for derived cross-platform
+floating-point values, and a shallow checkout that omitted the frozen Session 10
+starting commit. The test fixtures now create temporary directories beneath the
+checked-out test tree, derived float64 fixtures use a four-epsilon comparison,
+and CI fetches full history for the governed preflight. Production numerical
+code and scientific artifacts were unchanged. Run `34555022748` passed the
+distribution job and the full active suite on Python 3.11 and 3.13. No empirical,
+provider, protected, withheld, or pose data was accessed.

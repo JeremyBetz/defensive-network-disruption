@@ -1,5 +1,7 @@
 {
   "authority_commits": {
+    "ci_completion": "9474f36",
+    "ci_portability": "73638c1",
     "documentation": "6a7e976",
     "implementation": "d53db2d",
     "protocol": "f56a704",
@@ -15,8 +17,8 @@
   },
   "output_sha256": {
     "distribution_inventory.json": "35091b8f1d01aa958afe005bfb81d7821d0a5d59eaef7022fbaf00e85f587ece",
-    "environment_authority.json": "cc673425cca515bda0f7a4134dbfacb444db1c8618d71e955c185f8f9f06fd01",
-    "qc.json": "658fca28ad377f130f0bc3617bc3cdee215c41363d72cc2b7f689fd930fce4a1",
+    "environment_authority.json": "7b2f9846f75c88375322cdea5291b8874c9b903e72db9ad9fb7f4ccc4a047789",
+    "qc.json": "96464d3765c3d003cabd80bba1572c0e442dc47758c7f3c23c3368c0c448e685",
     "release_contract.json": "5b23635011fc79ad680bf8562247ce380ab025d2f183bfcd3a132fcb7fe0e4d3"
   },
   "protocol_sha256": "fa05a37faeaad397082d57c06c3455e51e5d49d186ab36f575ff0468f498d169",

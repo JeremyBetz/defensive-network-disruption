@@ -62,7 +62,8 @@ cannot contain its own hash.
 16. **Tests:** focused Session 9/10 checks passed 21 with no skips. The full
     active suite passed 219 with three retained historical scaffold skips, 222
     total. Compilation, package metadata, archive contents, links, README limits,
-    privacy, history and diff checks passed.
+    privacy, history and diff checks passed. GitHub Actions run `34555022748`
+    passed the distribution job and the full suite on Python 3.11 and 3.13.
 17. **Claims:** C01/C02, C09/C10 and all other claim statuses are unchanged.
     Accessibility remains **PROXY ONLY**; suppression remains **NOT SUPPORTABLE**.
 18. **Data access:** no empirical population, raw provider product, protected or
@@ -70,8 +71,10 @@ cannot contain its own hash.
     Only repository source, synthetic fixtures and committed public assets were
     used.
 19. **Commits/push:** protocol `f56a704`, implementation `d53db2d`, release docs
-    `6a7e976`, and deterministic-archive fix `4bb92bf` precede the closure commit.
-    Push and remote synchronization are reported in the final handoff.
+    `6a7e976`, deterministic-archive fix `4bb92bf`, closure `495f368`, CI
+    portability `73638c1`, and completed cross-platform checks `9474f36` precede
+    this evidence update. Push and remote synchronization are reported in the
+    final handoff.
 20. **Next direction:** run one separately authorized experimental `0.1.0`
     release phase covering the tag, GitHub release, hashes and staged
     TestPyPI/PyPI verification. It is not executed here.
@@ -105,10 +108,22 @@ The engineering sanity check completed 1,000 four-candidate M1 evaluations far
 below the frozen ten-second guard in the locked environment. This is only a
 regression safeguard and supports no performance or scientific claim.
 
+The first pushed workflow, run `34554608033`, preserved a clean-environment
+failure: historical tests placed temporary fixtures under the macOS-only
+temporary root, and one Session 10 compatibility fixture required bit equality
+for derived floating-point shares. Run `34554921441` confirmed the portable
+temporary-file correction, then exposed GitHub's shallow checkout and one
+remaining exact comparison for effective option count. The final workflow uses
+full Git history because the release preflight verifies its frozen starting
+commit. Derived share and effective-count fixtures allow four float64 epsilons;
+feature matrices, utilities, ordering, ties, summaries, and production code are
+unchanged. Run `34555022748` passed distribution and both supported Python jobs.
+The failed runs remain part of the public GitHub Actions history.
+
 The compact [manifest](../outputs/package_release_readiness/manifest.json) binds
 the protocol, environment, release contract, distribution inventory, QC and
 historical claim/result authorities. Manifest SHA-256:
-`7b570c1bc4f345c960e13c964674b565d44d69867363a92c3f76eec0f4316794`.
+`bde662509b4ab4ff2065a514dc6940be2dc9aae77d3198e9c23d9231780c61f2`.
 
 No package was uploaded, no release or tag was created, and no scientific work
 was begun.
