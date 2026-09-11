@@ -191,3 +191,31 @@ audit does not demonstrate a missing upstream capability. No external PR is
 authorized. Existing license notices remain intact; general-purpose library use
 is consistent with the recorded competition rule, without importing external
 competition data or promising cross-provider empirical validation.
+
+## Session 9 — Public tooling and animation
+
+Reviewed and locked 2026-09-10. Kloppy 3.19.0 (BSD-3-Clause) remains the
+optional provider-neutral frame/player layer. The public adapter now has clearer
+typing and errors but retains explicit player selections and verified centred
+metric coordinates. It does not replace Kloppy abstractions or infer eligibility.
+
+mplsoccer 1.8.0 (MIT) is adopted as an optional visualization dependency for the
+football pitch canvas. Its documented custom/tracking pitches require explicit
+length and width, which matches the public API's fail-closed dimension contract.
+All option edges, share encodings, labels and scientific caveats remain
+project-owned. Matplotlib 3.11.1 supplies figure/animation primitives and Pillow
+12.3.0 (MIT-CMU) supplies deterministic GIF encoding. pandas 3.0.5
+(BSD-3-Clause) is used only by the lazy dataframe export. NumPy 2.5.3 remains
+the core numerical dependency; its installed metadata records a composite
+BSD/0BSD/MIT/Zlib/CC0 expression. Resolved versions are frozen in `uv.lock`.
+
+matplotvideo remains deferred. Its documented purpose is synchronizing a
+Matplotlib plot with an existing video player and it requires OpenCV. Session 9
+has no video input and directly generates a synthetic `FuncAnimation`, so adding
+matplotvideo would not simplify the implemented workflow. No NetworkX, Polars,
+OpenCV, FFmpeg or web-service dependency was added.
+
+Upstream contribution assessment: **NO — none established**. The stricter
+coordinate/selection checks and local-star rendering are specific to this
+project's analytical contract. No generic missing Kloppy, mplsoccer or
+matplotvideo primitive was demonstrated, and no upstream change was made.

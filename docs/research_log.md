@@ -567,3 +567,32 @@ See the [Session 8 report](session_08_attacking_option_network_report.md).
 The single recommendation is a separately governed synthetic-only usability
 review of the experimental contract and tail summaries; it is not executed here.
 Accessibility remains PROXY ONLY and suppression NOT SUPPORTABLE.
+
+## 2026-09-10 — Session 9 public tooling and storytelling
+
+Phase 09 and its software contract were committed prospectively at `89995c8`
+from clean synchronized `645f282`. The experimental public implementation was
+committed at `a383519`. Its first post-commit preflight exposed a self-referential
+string firewall: the runner rejected the forbidden path names embedded in its
+own guard. No public asset or scientific result had been rendered. The guard was
+replaced with callable-route inspection, its authority was refreshed, and the
+correction was preserved at `39ab1f1` before rendering.
+
+The closed software session added explicit public M0/M1 state/network objects,
+tie-aware ranks and summaries, optional pandas export, a strict Kloppy adapter,
+mplsoccer plotting, Matplotlib/Pillow animation, and a proprietary-free
+quickstart. One fully synthetic 1600×900-design SVG and one looping 80-frame,
+10-fps, eight-second GIF were rendered twice with byte-identical outputs.
+Native-aspect inspection found no clipping and sampled animation frames remained
+readable.
+
+Software classification: **B — PUBLIC CORE READY WITH EXPERIMENTAL LABEL**.
+Visual classification: **1 — HERO STATIC + ANIMATION READY**. Execution is
+valid. Clean wheel installs passed for the NumPy-only core and the complete
+public extra; the quickstart ran from an empty directory. The full suite passed
+210 tests with 3 retained scaffold skips (213 total); focused Session 9 tests
+passed 12 with no skips. No empirical population, provider product, target,
+reserved/withheld/pose detail or new model computation was accessed. No claim
+status changed. Accessibility remains PROXY ONLY and suppression NOT SUPPORTABLE.
+The single recommendation is separately governed package hardening and release
+preparation; it is not executed here.

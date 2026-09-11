@@ -1,0 +1,14 @@
+{
+  "implementation_authority_sha256": "e203789b3fab2f3e818538ab6b13147f721704bd85c7f3db8b73f9d84a83fee0",
+  "model_sha256": "0383561e45bcd9f8d84eccc7e9733b2409536f61c39193fa87d08c36c6f6fd65",
+  "output_sha256": {
+    "qc.json": "2398448c8d0c027019611d9184a11b0d33cc66a2b0428da3a6b4ccf8b519ca5d",
+    "synthetic_option_network.svg": "78568af7e020b430a12184fc9701d8568bf7b70b726430e2c6bd2e6e342b7f1c",
+    "synthetic_option_network_animation.gif": "761c1b88246b6ef7130d8d9437e9d8638f2b1bbfbeed51b85edb87ef55e520b1"
+  },
+  "protocol_sha256": "ff52fc19415aa9b78de9f6e1791073dc6b6c1ed3905d7974665448e900a03ffd",
+  "schema_version": "1",
+  "software_contract_sha256": "0a60876a68cc2387e9952c8c334230384d3bdb1c0da00657ac6aa53971fb331f",
+  "starting_commit": "645f282402c4fccf6117186381a1212b56f11be9",
+  "status": "closed"
+}

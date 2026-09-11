@@ -1,0 +1,20 @@
+{
+  "animation": {
+    "duration_seconds": 8,
+    "fps": 10,
+    "frames": 80,
+    "height": 540,
+    "loop": true,
+    "width": 960
+  },
+  "empirical_data_access": false,
+  "fitting": false,
+  "m2_computation": false,
+  "schema_version": "1",
+  "static": {
+    "format": "svg",
+    "height": 900,
+    "width": 1600
+  },
+  "status": "validated"
+}

@@ -14,6 +14,12 @@ The project is an entry in the **PySport Analytics Cup 2.0, USA Football /
 Defensive Positioning challenge**, using permitted SkillCorner Australia
 A-League 2024/25 data.
 
+![Synthetic M0 and M1 local attacking-option networks](outputs/public_examples/synthetic_option_network.svg)
+
+The figure is fully synthetic. Edge width shows model-implied receiver-option
+share, not true accessibility or pass probability. See the
+[eight-second animation](outputs/public_examples/synthetic_option_network_animation.gif).
+
 ## What has been established
 
 The empirical foundation is a receiver-selection ranking benchmark. At the
@@ -78,20 +84,21 @@ See the [research roadmap](docs/research_roadmap.md),
 [Phase 07a](docs/protocols/phase_07a_human_review_withdrawal.md), and
 [governance rules](docs/research_governance.md).
 
-## Software direction
+## Experimental public API
 
-The intended open-source contribution is a reusable, provider-independent Python
-library/API rather than an early web service. A future public workflow could
-move from football tracking data, through a provider-neutral representation and
-explicit geometry primitives, to option-network dataframes and practitioner
-visualizations or animations.
+The repository now includes a reusable, provider-independent experimental
+Python API. A public workflow moves from a Kloppy frame or explicit neutral
+state, through the frozen geometry and option-network calculation, to a
+dataframe, pitch visual, or animation. Models remain explicit inputs; importing
+the package never loads competition data or fitted coefficients.
 
-Kloppy is the preferred provider-neutral data layer and was evaluated as safe
-with a native sidecar for fields it does not retain. mplsoccer is a planned
-visualization dependency, and matplotvideo is under evaluation for future linked
-animation workflows. These are reuse targets, not claims that every integration
-is complete. The [library review](references/library_review.md) records the
-adoption gates.
+Kloppy supplies the optional provider-neutral frame adapter, mplsoccer supplies
+the football canvas, pandas supplies optional tabular export, and Matplotlib with
+Pillow produces the public static and animated examples. The numerical core
+requires only NumPy. See the [API guide](docs/public_api.md) and runnable
+[quickstart](examples/quickstart.py). matplotvideo remains deferred because this
+project generates synthetic animation rather than synchronizing plots to video.
+The [library review](references/library_review.md) records the adoption decisions.
 
 The repository already contains protocol-bound acquisition, integrity,
 population, conditional-choice modeling, geometric feature, protected-evaluation,
@@ -107,6 +114,7 @@ Use Python 3.11+ and the open-source `uv` environment manager:
 ```sh
 uv sync --locked
 uv run --locked python -m unittest discover -s tests -v
+uv run --locked python examples/quickstart.py --output quickstart.svg
 ```
 
 Software tests use synthetic fixtures and do not download competition data.
