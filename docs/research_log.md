@@ -970,3 +970,18 @@ piece split before assertion and supports explicit failure publication. See the
 ## 2026-09-11 — Session 14w routing and failure-evidence repair passed
 
 Protocol `79491e9` and tested implementation `55815b2` preceded one governed rerun of the same authorized edge. The frozen rule identified two bounded pieces, ten quadrature pieces and a total residual bound of `6.772360450213455e-15`; no warning occurred and unchanged joint Simpson converged at 2,048 intervals. All 108 cases, 366 references and 399 permutations passed. Failure publication and stage-derived access accounting also passed their synthetic oracles. **A — repair succeeds; readiness 1.** One state and one edge were opened, with no additional or prohibited access. Session 14v remains invalid and Session 14R was not resumed. See the [Session 14w report](session_14w_failure_evidence_and_routing_repair.md).
+
+## 2026-09-11 — Session 14x cross-platform diagnostic unresolved
+
+Protocol `474bf8d` and tested diagnostic implementation `33f165e` preceded one
+governed local synthetic reproduction. The new diagnostic adapter stopped with
+`AttributeError` while projecting a switch record because it requested
+nonexistent `left_owners` and `right_owners` fields rather than the preserved
+`owners_before`, `owners_at`, and `owners_after` fields. No complete local vector
+record was persisted and the prerequisite GitHub Actions diagnostic was not
+dispatched. The implementation was not repaired or rerun. **H — unresolved;
+readiness 4.** Session 14w remains unchanged, no empirical or protected material
+was accessed, and Session 14R remains paused. The sole next action is a
+separately governed bounded repair of the Session 14x switch-record projection,
+followed by a fresh cross-platform reproducibility audit. See the
+[Session 14x report](session_14x_cross_platform_vector_reproducibility.md).

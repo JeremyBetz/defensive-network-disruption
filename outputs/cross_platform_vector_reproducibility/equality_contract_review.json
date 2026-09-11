@@ -1,0 +1,11 @@
+{
+  "algorithmic_reproducibility": "unavailable",
+  "bitwise_reproducibility": "unavailable",
+  "classification": "H",
+  "contract_verdict": "unresolved",
+  "historical_assertion": "accepted interval integer equality and estimates dictionary Python equality",
+  "numerical_reproducibility": "unavailable",
+  "readiness": 4,
+  "reason": "governed local diagnostic failed before evidence persistence and CI dispatch",
+  "replacement_tolerance_selected": false
+}

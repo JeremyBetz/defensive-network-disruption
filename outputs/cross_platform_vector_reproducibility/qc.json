@@ -1,0 +1,18 @@
+{
+  "ci_diagnostic_dispatched": false,
+  "classification": "H",
+  "component_count_available": 0,
+  "empirical_access": false,
+  "failure_message_sanitized": "VerifiedSwitch has no attribute left_owners",
+  "failure_stage": "local-diagnostic routing serialization",
+  "failure_type": "AttributeError",
+  "historical_tests_changed": false,
+  "local_diagnostic_completed": false,
+  "numerical_code_changed": false,
+  "readiness": 4,
+  "rerun_performed": false,
+  "schema_version": 1,
+  "session14r_partial_outputs_accessed": false,
+  "status": "unresolved",
+  "vector_count_available": 0
+}

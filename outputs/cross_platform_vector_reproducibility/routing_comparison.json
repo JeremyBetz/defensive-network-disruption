@@ -1,0 +1,8 @@
+{
+  "micro_interval_routing_compared": false,
+  "partitions_compared": false,
+  "reason": "diagnostic_adapter_attribute_error",
+  "residual_bounds_compared": false,
+  "status": "unavailable",
+  "switches_compared": false
+}

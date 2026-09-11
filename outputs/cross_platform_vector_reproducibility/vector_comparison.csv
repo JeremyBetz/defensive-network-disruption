@@ -1,0 +1,1 @@
+fixture,candidate,component,expected,actual,expected_bits,actual_bits,expected_signed_zero,actual_signed_zero,absolute_difference,relative_difference,ulp_distance,finite,python_equal,bitwise_equal

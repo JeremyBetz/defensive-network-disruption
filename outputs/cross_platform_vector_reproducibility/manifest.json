@@ -1,0 +1,23 @@
+{
+  "ci_record_sha256": null,
+  "historical_vector_sha256": "c0f7935a4b728598126f0b5701ad36dedf0981ab20c73b6d5879d9ee38981e56",
+  "implementation_commit": "33f165e",
+  "outputs": {
+    "environment_comparison.json": "9bda6a3482d3a5790ff9386032001280226862095c0f1e99146cff4d73ff050d",
+    "equality_contract_review.json": "57a12a22f258437f2ad097303d27bf758eaf22c53d25b6fb2b4237b0161d9022",
+    "qc.json": "496ca5b6096bd59129328baa4943bb72e0faeb05e5b7c5068a45731618b6d604",
+    "resolution_comparison.csv": "2bb815309d6ad3ee5c2ec750abb1a3e4aa2bd2503c76d67bf2e6ff3cafae033b",
+    "routing_comparison.json": "8233bed1f809f4d73715b260e7db59f846a165745df4ebbc2cf33a26550517de",
+    "vector_comparison.csv": "20d560477d455ac7cf405a23a8adf66daf6230f24c2dc92592ee38a68489b355"
+  },
+  "protocol_commit": "474bf8d",
+  "protocol_sha256": "42fbcaafd7323613b76da187900037e7a10f7bcb228d2c36d7e265b8c1940add",
+  "schema_version": 1,
+  "start": "749dcd2856e846d87e7f4f74e9f6b7f97bfd72c7",
+  "status": "unresolved",
+  "unavailable": [
+    "governed local vector",
+    "governed CI vector",
+    "cross-platform comparison"
+  ]
+}
