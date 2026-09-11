@@ -1,0 +1,25 @@
+{
+  "contract_sha256": "b93a2c9af7cf933f9a4c52a87ca3bcfd68a42aa3ee0a926a826524667f4fc5ae",
+  "environment": {
+    "numpy": "2.5.3",
+    "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+    "python": "3.13.15",
+    "scipy": "1.18.1",
+    "uv_lock_sha256": "c9e4da0781770b9e72b8a5b10a7c514f2259b7e63dc1b67604ee481934db0a0c"
+  },
+  "implementation_sha256": {
+    "scripts/session_13_defender_edges.py": "258863b1f02808f91c2305ffa24019c181c1b0fa2ae2d68843c54b08a3e978f5",
+    "src/defensive_network_disruption/networks/defender_edges.py": "1a19f181d7ab6d84c2cde65fbb6a0e3ebdc8a5157d5136ea5160857723c54bdb",
+    "src/defensive_network_disruption/visualization/defender_edges.py": "dbbbf765be6beb1ac68d5d58b1958a0bff815f5f2731445c276ff177fc11c686",
+    "tests/test_session13_defender_edges.py": "92b567415bcdc7636d1847f9404666b19c9e8ca6d095f3f12017951223394b67"
+  },
+  "inherited_sha256": {
+    "src/defensive_network_disruption/geometry/segment.py": "19b4bc62567d54ea7e88f3f0ae36a3853636934d1aab140357aead8c0bd4eaad",
+    "src/defensive_network_disruption/networks/options.py": "1c3bfd1caa6b38e4e4dca1374f39b1d9af6607787b5ea4b5b08e1acd8b9216c9",
+    "src/defensive_network_disruption/validation/ranking_features.py": "fe2d2f8aa704fbd7dd467217866ed3ace0000952314aa4db5164c1045ad2d6a3"
+  },
+  "protocol_sha256": "03811fd9220722836394971af38395c4e683504fb6d591d91fcb8e0399e27b0b",
+  "schema_version": 1,
+  "start": "b29ef29430e620ae88cb51df3353a2596e0a5d69",
+  "status": "tested_before_development_access"
+}
