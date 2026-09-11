@@ -1,14 +1,22 @@
 # Disrupting the Network
 
-**How does defensive positioning reshape attacking options before a tackle or
-interception ever happens?**
+**A provider-independent study of how defensive positioning reshapes local
+carrier-to-receiver option networks.**
 
-Most defensive statistics begin when a defender touches the ball. This project
-starts earlier. It uses football tracking data to study how defenders change the
-receiver choices available to the player in possession, then exposes the tested
-geometry through an experimental provider-independent Python package.
+Football is a system of interacting spatial options. Before a tackle,
+interception, or completed pass appears in an event log, the player in possession
+faces a changing set of possible receiver connections. Defenders can relate to
+several of those connections at once: by pressuring a receiver, occupying a
+passing corridor, or changing the shape of the option set without touching the
+ball.
 
-The research is an entry in the **PySport Analytics Cup 2.0, USA Football /
+Disrupting the Network asks how those relationships can be measured without
+jumping directly to an opaque whole-team graph. The current supported object is
+a **local directed star** from one anonymous carrier to every eligible teammate.
+Its edges are transparent geometric descriptions evaluated through a governed
+receiver-ranking benchmark and an experimental public Python package.
+
+The project is an entry in the **PySport Analytics Cup 2.0, USA Football /
 Defensive Positioning challenge**, using permitted SkillCorner Australia
 A-League 2024/25 data.
 
@@ -20,65 +28,63 @@ share, not true accessibility or pass probability. View the
 
 ## What has been established
 
-The empirical foundation is a receiver-selection ranking benchmark. Immediately
-before a provider-recorded pass transition, each eligible teammate is a candidate
-receiver:
+The empirical foundation ranks the provider-targeted receiver among independently
+constructed teammate candidates immediately before a recorded pass transition:
 
-- **M0** uses connection length and longitudinal and lateral displacement.
-- **M1** adds the nearest defender to the receiver and to the finite passing
-  segment.
-- **M2** adds one fixed summary of distributed defender proximity to the segment.
+- **M0** uses connection length and signed longitudinal and lateral displacement.
+- **M1** adds distance from the nearest defender to the receiver and to the finite
+  carrier-receiver segment.
+- **M2** adds one fixed summary of distributed defender proximity to that segment.
 
-Mean reciprocal rank (MRR) rewards placing the provider-targeted receiver near
-the top. On ten protected matches, M0 achieved `0.487333389` MRR and M1 achieved
-`0.579003393`, a gain of `0.091670004`. M1 improved MRR, Hit@1 and Hit@3 in every
-match. This is the major replicated result: transparent defensive geometry adds
-receiver-selection ranking information beyond attacking geometry.
+Mean reciprocal rank (MRR) rewards placing the targeted receiver near the top.
+On ten protected matches, M0 achieved `0.487333389` and M1 achieved
+`0.579003393`, a gain of `0.091670004`. M1 improved MRR, Hit@1, and Hit@3 in
+every match. This is the major replicated result: transparent defensive geometry
+adds receiver-selection ranking information beyond attacking geometry.
 
 M2 reached `0.585853527`, adding `0.006850134` over M1. Its MRR gain was positive
 in all ten matches, but Hit@1 improved in nine and Hit@3 split five positive and
-five negative. M2 is a smaller, metric-dependent refinement. See the
-[Session 6e evidence](https://github.com/JeremyBetz/defensive-network-disruption/blob/main/docs/session_06e_corrected_reserved_evaluation_decision_brief.md)
+five negative. It is a smaller, metric-dependent refinement. Read the
+[protected-evaluation brief](https://github.com/JeremyBetz/defensive-network-disruption/blob/main/docs/session_06e_corrected_reserved_evaluation_decision_brief.md)
 and [claim ledger](https://github.com/JeremyBetz/defensive-network-disruption/blob/main/docs/claim_status.md).
 
-## Scientific limits
+The local-star view exposes structure that a leading-option list misses. In all
+7,227 development states, at least one anonymous defender was segment-nearest
+for multiple carrier-receiver edges. The most involved defender was nearest to a
+mean 5.83 edges. Receiver-nearest and corridor-nearest defender sets overlapped
+on only about 29.3% of edges, showing that endpoint pressure and passing-corridor
+geometry are often different relationships. These are aggregate geometric
+patterns, not defender attribution or suppression. See the
+[Session 13 report](https://github.com/JeremyBetz/defensive-network-disruption/blob/main/docs/session_13_defender_edge_influence_report.md).
 
-The benchmark predicts a useful SkillCorner vendor target with **Tier B label
-limitations**. It does not observe every option the player considered or prove
-which passes were available. Accessibility remains **PROXY ONLY** and suppression
-remains **NOT SUPPORTABLE**.
+## Current research direction
 
-The extrapolated tracking supports an offline benchmark, not a proven real-time
-system. Results do not identify causal defender effects, best passes, pass
-success, tactical intent, player quality or defensive value. Generalization is
-limited to the evaluated competition matches. The development-only
-[construct diagnostic](https://github.com/JeremyBetz/defensive-network-disruption/blob/main/docs/session_07_construct_validity_diagnostic_report.md)
-found coherent receiver-selection geometry while leaving accessibility weak; no
-human-review evidence was collected.
+The next scientific question is whether continuous carrier-origin directional
+fields can compactly describe that multi-edge geometry beyond isotropic
+proximity. These fields remain geometric hypotheses; cover shadows have not been
+validated. The work is paused at synthetic numerical verification after a
+localized internal type-normalization defect, before any empirical field
+comparison. The full stopped and negative history remains in the
+[research log](https://github.com/JeremyBetz/defensive-network-disruption/blob/main/docs/research_log.md).
 
-## Why a local network
+Conditional future work includes behavioral validation, defensive-configuration
+evaluation, threat or value weighting, pose and orientation, and possible links
+to defensive reallocation research. None is authorized by the current evidence.
 
-Receiver ranking validates a possible edge representation. The broader theory is
-that attackers form a changing set of possible connections and defenders reshape
-that set without winning the ball. Session 8 represented one state as a complete
-carrier-centred star and summarized its option-share distribution. In development
-data, effective modeled option count changed from `7.165293607` for M0 to
-`5.980391018` for M1. This is descriptive and in-sample; summaries add no
-information beyond the complete edge vector.
+**THE GRAPH IS NOT THE STARTING POINT.** A complete star contains its edge
+vector; summary statistics do not create new information. Whole-team topology,
+centrality, attribution, and value require separate questions and evidence.
 
-**THE GRAPH IS NOT THE STARTING POINT.** Topology, centrality, attribution and
-value require separate questions and evidence.
+## Use the experimental package
 
-## Experimental Python package
+The public [`v0.1.0` prerelease](https://github.com/JeremyBetz/defensive-network-disruption/releases/tag/v0.1.0)
+provides immutable option states and networks, explicit M0/M1 evaluation,
+Kloppy interoperability, pandas export, and mplsoccer/Matplotlib visualization.
+It is provider-independent and pre-1.0: importing it never loads competition data
+or coefficients. Callers supply states, models, player selections, and coordinate
+context explicitly.
 
-Version `0.1.0` defines the first coherent public API and remains pre-1.0 and
-experimental. Importing the package never loads competition data or model
-coefficients. Callers provide explicit states, models, selections and coordinate
-context. The numerical core requires NumPy; optional extras provide Kloppy
-interoperability, pandas export and mplsoccer/Matplotlib visualization.
-
-The package is not published on PyPI. Install the public workflow from the
-repository or download the verified archives from the GitHub release:
+The package is not on PyPI. Run the complete synthetic workflow from source:
 
 ```sh
 git clone https://github.com/JeremyBetz/defensive-network-disruption.git
@@ -88,23 +94,38 @@ uv run --locked python examples/quickstart.py --output quickstart.svg
 ```
 
 The quickstart constructs a synthetic Kloppy frame, evaluates explicit M0 and M1
-demonstration models, compares their local stars, exports rows and renders a
-side-by-side SVG. Software tests use synthetic fixtures and download no data.
+demonstration models, compares their stars, exports rows, and renders an SVG. See
+the [public API guide](https://github.com/JeremyBetz/defensive-network-disruption/blob/main/docs/public_api.md)
+for the core, optional extras, plotting, animation, ties, and error behavior.
+The repository combines spatiotemporal data contracts, geometric feature
+engineering, protected evaluation, deterministic numerical checks, CI,
+packaging, and release engineering in one reproducible workflow.
 
-See the [public API guide](https://github.com/JeremyBetz/defensive-network-disruption/blob/main/docs/public_api.md),
-[changelog](https://github.com/JeremyBetz/defensive-network-disruption/blob/main/CHANGELOG.md),
-and [contributing guide](https://github.com/JeremyBetz/defensive-network-disruption/blob/main/CONTRIBUTING.md).
-Run the suite with:
+## Repository guide
 
-```sh
-uv run --locked python -m unittest discover -s tests
-```
+- [`src/defensive_network_disruption`](https://github.com/JeremyBetz/defensive-network-disruption/tree/main/src/defensive_network_disruption): released API and internal research primitives.
+- [`examples/quickstart.py`](https://github.com/JeremyBetz/defensive-network-disruption/blob/main/examples/quickstart.py): proprietary-free runnable example.
+- [`tests`](https://github.com/JeremyBetz/defensive-network-disruption/tree/main/tests): synthetic software, numerical, integrity, and publication tests.
+- [`docs`](https://github.com/JeremyBetz/defensive-network-disruption/tree/main/docs): governance, protocols, reports, and evidence limits.
+- [`outputs`](https://github.com/JeremyBetz/defensive-network-disruption/tree/main/outputs): reviewed aggregate evidence and synthetic public artifacts.
 
-Competition data is never committed or automatically loaded. Reproduction of
-empirical results requires separately obtained permitted files and the applicable
+Run the active suite with `uv run --locked python -m unittest discover -s tests`.
+Contribution expectations are in [`CONTRIBUTING.md`](https://github.com/JeremyBetz/defensive-network-disruption/blob/main/CONTRIBUTING.md).
+
+## Limits and reproducibility
+
+The benchmark uses a useful SkillCorner vendor target with **Tier B label
+limitations**. Model-implied shares are conditional receiver-choice quantities,
+not calibrated accessibility probabilities. Accessibility remains **PROXY ONLY**
+and suppression remains **NOT SUPPORTABLE**. The offline, extrapolated tracking
+does not establish real-time availability. Results do not identify a causal
+defender effect, best pass, pass success, tactical intent, player quality, or
+defensive value, and the current network is not a validated whole-team graph.
+
+Competition data is never committed or automatically loaded. Empirical
+reproduction requires separately obtained permitted files and the applicable
 frozen protocol. Review the [data guidance](https://github.com/JeremyBetz/defensive-network-disruption/blob/main/data/README.md),
-[research log](https://github.com/JeremyBetz/defensive-network-disruption/blob/main/docs/research_log.md),
 [governance](https://github.com/JeremyBetz/defensive-network-disruption/blob/main/docs/research_governance.md),
 and [competition rules](https://github.com/JeremyBetz/defensive-network-disruption/blob/main/docs/competition_rules.md).
-Code and original documentation use the [MIT License](https://github.com/JeremyBetz/defensive-network-disruption/blob/main/LICENSE.md);
+Original code and documentation use the [MIT License](https://github.com/JeremyBetz/defensive-network-disruption/blob/main/LICENSE.md);
 SkillCorner data is neither included nor relicensed.

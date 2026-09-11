@@ -1,9 +1,12 @@
 # Project charter
 
-Status: active research, aligned 2026-09-10. The original conceptual foundation
-below is preserved. Subsequent governed sessions established a narrow
-receiver-ranking benchmark and protected replication; broader attacking-edge,
-accessibility, network, attribution, and value claims remain unresolved.
+Status: active research, aligned 2026-09-11. The original conceptual foundation
+below is preserved. Governed work established a narrow receiver-ranking
+benchmark and protected replication, a local carrier-centred option-network
+representation, and recurring multi-edge defender geometry in development data.
+The public provider-independent API was released experimentally as `v0.1.0`.
+Accessibility, continuous occlusion, whole-team network, attribution, and value
+claims remain unresolved.
 
 ## Context and problem
 
@@ -42,7 +45,10 @@ The [Session 6e result](session_06e_corrected_reserved_evaluation_decision_brief
 is the protected empirical foundation. The closed
 [Session 7 diagnostic](session_07_construct_validity_diagnostic_report.md) found
 useful receiver-selection geometry while retaining a weak accessibility
-interpretation. It used development-only in-sample diagnostics and no human-review
+interpretation. The [Session 13 audit](session_13_defender_edge_influence_report.md)
+then established recurring multi-edge geometric relationships and a documented
+difference between receiver pressure and corridor proximity in development
+states. These later diagnostics are in-sample and contain no human-review
 evidence.
 
 ## Two spatial networks
@@ -109,13 +115,13 @@ No claim is made that:
 ## Open-source objective and completion standard
 
 Original code and documentation use MIT licensing. Competition data is local
-and separately governed. The intended software contribution is a reusable,
-provider-independent Python library/API without proprietary software. Existing
-code supplies governed data, geometry, choice-model, validation, integrity, and
-diagnostic primitives, but no stable public scientific API is promised yet.
-Only a sufficiently supported construct should motivate interfaces for
-connections, attenuation, topology, or structure; a web service is a later
-optional layer.
+and separately governed. Experimental `v0.1.0` provides a reusable,
+provider-independent Python API for explicit local option states and M0/M1
+networks, with Kloppy, dataframe and visualization extras. It is a pre-1.0
+software contract, not a stable scientific claim. Internal multi-edge and
+continuous-field research abstractions remain unreleased. Only a sufficiently
+supported construct should motivate later interfaces for occlusion, topology or
+defensive structure; a web service is an optional later layer.
 
 Success may still be a well-supported negative result or a clearly bounded
 measurement. The completed receiver-ranking association is scientific evidence

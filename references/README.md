@@ -9,10 +9,14 @@ evidence.
 Kloppy 3.19.0 was evaluated on a bounded development sample and classified
 **SAFE WITH NATIVE SIDECAR**: coordinates and player/ball presence matched the
 native reader, while native detection flags, possession-player identity, and
-image projection require sidecar retention. Kloppy is a development dependency;
-mplsoccer, matplotvideo, and other ecosystem integrations remain conditional or
-planned rather than implemented. The authoritative data source and local-use
-boundary are described in [data/README.md](../data/README.md).
+image projection require sidecar retention. The experimental `v0.1.0` API now
+uses Kloppy as an optional explicit-state adapter and mplsoccer as the optional
+synthetic pitch renderer. Neither infers eligibility, loads competition data or
+changes the numerical core. matplotvideo remains deferred because the public
+workflow generates deterministic synthetic animation directly and does not
+attach plots to video. Other ecosystem integrations remain conditional. The
+authoritative data source and local-use boundary are described in
+[data/README.md](../data/README.md).
 
 ## Continuing literature and reuse review
 

@@ -1,6 +1,6 @@
 # Research roadmap
 
-Status: active and conditional, aligned 2026-09-10. The numbered phases below
+Status: active and conditional, aligned 2026-09-11. The numbered phases below
 remain scientific gates rather than a claim that later governed sessions mapped
 one-to-one onto the original sequence.
 
@@ -11,14 +11,17 @@ is the M1 defensive-geometry receiver-ranking increment; M2 is a smaller,
 metric-dependent refinement. Accessibility remains a proxy and suppression is
 not supportable.
 
-Session 7 is now closed as a development-only formal construct/model-behavior
-audit under [Phase 07b](protocols/phase_07b_formal_diagnostic_closure.md). It
-found useful receiver-selection geometry while leaving accessibility
-interpretation weak; human review was withdrawn before responses. The next
-recommended direction is a separately governed exploratory attacking-option
-network using neutral edge semantics. Provider-independent software/API work,
-practitioner visualization, defensive structure, and submission/package
-hardening remain optional and unauthorized. Listing future work here does not
+Session 7 closed as a development-only formal construct/model-behavior audit
+under [Phase 07b](protocols/phase_07b_formal_diagnostic_closure.md), leaving
+accessibility interpretation weak. Sessions 8–11 subsequently delivered a local
+carrier-centred option-network abstraction, synthetic visualization, hardened
+provider-independent software, and the experimental `v0.1.0` GitHub release.
+Session 13 found recurring, non-degenerate multi-edge defender geometry in every
+development match and authorized only a bounded continuous-occlusion hypothesis
+study. That Session 14 branch remains paused at synthetic verification: Session
+14h localized an internal type-normalization defect before any empirical field
+comparison. The next action requires a separately governed repair, followed by
+new retry authority only if verification passes. Listing this frontier does not
 authorize it.
 
 **Do not add PageRank, graph neural networks, community detection, or similar

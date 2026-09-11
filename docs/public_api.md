@@ -23,9 +23,10 @@ uv sync --locked --extra visualization  # plots and GIF support
 uv sync --locked --extra public         # complete public workflow
 ```
 
-The experimental wheel and source archive are distributed through the GitHub
-release. If a future PyPI publication is separately authorized, the corresponding
-syntax will be `pip install "defensive-network-disruption[public]"`.
+The experimental wheel and source archive are distributed through the
+[`v0.1.0` GitHub prerelease](https://github.com/JeremyBetz/defensive-network-disruption/releases/tag/v0.1.0).
+If a future PyPI publication is separately authorized, the corresponding syntax
+will be `pip install "defensive-network-disruption[public]"`.
 
 The API is experimental and pre-1.0. Minor releases may change interfaces; each
 change must be recorded in [the changelog](../CHANGELOG.md). The ten names

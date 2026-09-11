@@ -30,15 +30,19 @@ not turn it into a session-by-session log.
    [claim ledger](docs/claim_status.md), and the
    [competition record](docs/competition_rules.md).
 5. Read the latest relevant protocol, amendment, decision brief, and output
-   manifest. For the current frontier, begin with
-   [Phase 07](docs/protocols/phase_07_construct_validity_diagnostics.md), its
-   later [Phase 07a amendment](docs/protocols/phase_07a_human_review_withdrawal.md),
-   the [Phase 07b closure](docs/protocols/phase_07b_formal_diagnostic_closure.md),
-   and the [Session 7 report](docs/session_07_construct_validity_diagnostic_report.md).
+   manifest. For the current scientific frontier, begin with the
+   [Session 13 report](docs/session_13_defender_edge_influence_report.md), the
+   [Phase 14 protocol](docs/protocols/phase_14_continuous_occlusion_hypotheses.md),
+   and the latest [Session 14h status](docs/session_14h_failure_localization.md).
+   Read the complete Session 14-series sequence before proposing a repair or
+   retry; later audits qualify earlier readiness conclusions without rewriting
+   them.
 6. Inspect authority manifests when the proposed work depends on an existing
    population, model, or result. Relevant current manifests include the
-   [Session 6e result manifest](outputs/reserved_evaluation_v3/manifest.json) and
-   the [Session 7 formal closure manifest](outputs/construct_validity_diagnostics/formal_closure_manifest.json).
+   [Session 6e result manifest](outputs/reserved_evaluation_v3/manifest.json),
+   [Session 7 formal closure manifest](outputs/construct_validity_diagnostics/formal_closure_manifest.json),
+   [Session 13 manifest](outputs/defender_edge_influence/manifest.json), and the
+   latest [Session 14h manifest](outputs/continuous_occlusion_failure_localization/manifest.json).
 7. State the reconstructed frontier before proposing a new scientific direction:
    latest completed session, current unfinished session, authorized next step,
    spent and protected evidence, and unsupported claims.
@@ -91,7 +95,7 @@ outcomes. Their verifier and transport failures were not erased by the corrected
 Session 6e execution. Read the Session 6e brief and research log for the exact
 chronology and qualifications, including the documented CSV review-order lapse.
 
-## Current frontier after Session 7
+## Current frontier after Session 13 and Session 14h
 
 Session 7 is closed as a **development-only formal construct-diagnostic and
 model-behavior audit** of the frozen M0/M1/M2 geometry. Its development target
@@ -116,6 +120,28 @@ governed exploratory network with neutral edge semantics. Session 7 does not
 establish independent practitioner validation, ground-truth accessibility,
 suppression, causality, attribution, or value. Read the
 [Session 7 report](docs/session_07_construct_validity_diagnostic_report.md).
+
+Session 8 subsequently represented each state as a complete local directed star
+from the carrier to eligible receivers. Sessions 9–11 hardened that abstraction
+into the experimental provider-independent `v0.1.0` GitHub release. The released
+API remains an explicit-state M0/M1 software interface; it does not expose later
+research abstractions or load competition models automatically.
+
+Session 13 then established **A — CLEAR MULTI-EDGE DEFENSIVE STRUCTURE** in the
+spent development geometry. Segment-nearest multi-edge relationships occurred
+in every one of 7,227 states and all nine matches, and receiver-nearest and
+segment-nearest roles frequently differed. This justified only a bounded
+continuous-occlusion hypothesis study. It did not establish cover shadows,
+suppression, causality, attribution or value.
+
+The Session 14 branch remains paused before empirical field comparison. Session
+14h localized the current synthetic production-verification failure to
+`mapped_signature()` sorting tie records whose boundary representation mixes
+absent endpoints with tuple-valued endpoints. This is a verification-container
+defect, not evidence for or against an occlusion field. The only authorized next
+direction is a separately governed bounded repair of that ordering defect,
+followed by synthetic production-wiring acceptance. Do not resume Session 14R
+unless that later authority passes.
 
 ## Data and evidence boundaries
 
