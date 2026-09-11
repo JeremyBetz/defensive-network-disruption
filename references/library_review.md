@@ -251,3 +251,16 @@ eligibility. No alternative model search, code adoption or dependency change.
 See the [Session 12a audit](../docs/session_12a_threat_prerequisite_audit.md) and
 its pinned-source citations for the separate rights, eligibility and geometry
 gates. Result: **BLOCKED — MULTIPLE PREREQUISITES**.
+
+## 2026-09-10 — Session 12b formula-only progression interface
+
+Implemented an internal provider-independent surface protocol and normalized
+linear goalward progression, reusing the existing frozen NumPy-backed option
+core and standard-library arithmetic. No new dependency, copied external
+surface, learned external parameter or ecosystem integration was added.
+Socceraction and the external xT branch remain deferred with Session 12a's
+blockers preserved. The metadata dimension projection retains only permitted
+fields. Synthetic core tests pass, but canonical longitudinal boundary violations
+blocked empirical use of the bounded surface. Keep the interface internal; no
+release or generic upstream gap is claimed. See the
+[Session 12b report](../docs/session_12b_internal_threat_baseline_report.md).

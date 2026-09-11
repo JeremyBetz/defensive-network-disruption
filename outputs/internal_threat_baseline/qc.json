@@ -1,0 +1,31 @@
+{
+  "category": "longitudinal_bound_violation",
+  "empirical_horizons": "not executed",
+  "preparation": {
+    "counts": {
+      "development_01": 885,
+      "development_02": 801,
+      "development_03": 952,
+      "development_04": 877,
+      "development_05": 861,
+      "development_06": 629,
+      "development_07": 764,
+      "development_08": 734,
+      "development_09": 724
+    },
+    "longitudinal_violation_points": {
+      "development_01": 2,
+      "development_02": 1,
+      "development_03": 3,
+      "development_04": 2,
+      "development_05": 1,
+      "development_06": 1,
+      "development_07": 2,
+      "development_08": 0,
+      "development_09": 0
+    },
+    "states": 7227
+  },
+  "stage": "prepare",
+  "status": "blocked"
+}

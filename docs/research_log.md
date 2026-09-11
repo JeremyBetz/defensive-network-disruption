@@ -659,3 +659,20 @@ assignment. Result: **BLOCKED — MULTIPLE PREREQUISITES**. The
 one unsent organizer question and an unexecuted minimal metadata follow-up.
 No empirical computation, installation, implementation, claim change or release
 occurred. Documentation/provenance checks replace software tests for this task.
+
+## 2026-09-10 — Session 12b normalized progression prerequisite stop
+
+Protocol and metadata amendment `f4040af` preceded tested implementation
+`8cab95c` and all new evidence access. Nine development metadata objects were
+verified against pinned Git identities; only length/width were retained. The
+canonical 7,227-state hash and match counts matched, but strict longitudinal
+bounds failed for 12 carrier/receiver point occurrences across seven matches.
+Coordinate authority `30dea7c` preserves the stop. No empirical utility, share,
+horizon or typology was computed; no clipping, exclusions or rerun occurred.
+Scientific D — BLOCKED; software 3 — KEEP INTERNAL. Focused tests: 40 passed;
+full active suite: 259 passed, 3 retained skips. Historical code, outputs, claims
+and release are unchanged. No reserved-detail/withheld/pose, raw event/tracking,
+external surface or organizer access. See the
+[Session 12b report](session_12b_internal_threat_baseline_report.md). Exactly one
+later recommendation is a separately governed bounded coordinate-prerequisite
+review; it was not executed.

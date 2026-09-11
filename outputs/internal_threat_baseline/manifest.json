@@ -1,0 +1,29 @@
+{
+  "amendment": "f535056bd692a291bcb5494f368fd1828bc4ec11acb152851499d7d0c6fcf634",
+  "environment": {
+    "lock": "c9e4da0781770b9e72b8a5b10a7c514f2259b7e63dc1b67604ee481934db0a0c",
+    "numpy": "2.5.3",
+    "python": "3.13.15"
+  },
+  "implementation": {
+    "scripts/session_12b_progression.py": "7703b1e0dd7c2972a09197a1c7863cc7cb7ff74f16394477b5620c93051d8293",
+    "src/defensive_network_disruption/data/dimension_projection.py": "25d6d20b23d82f49c0106fc8b8cff6d6e435316a8c9039874a611885eccf72fa",
+    "src/defensive_network_disruption/networks/spatial_value.py": "b1e7200d3e2ff3657e6ad279f7ea915a461801fb91e2b266955c15fc6cb0d9e7",
+    "tests/test_session12b_progression.py": "ab6994cfff865b93ff2f2ce238cb57762ef7fd8ffaabaa0959a9bacdfdcaa81d"
+  },
+  "models": "0383561e45bcd9f8d84eccc7e9733b2409536f61c39193fa87d08c36c6f6fd65",
+  "outputs": {
+    "qc.json": "fd870f22276d1a15c19376abc4e905ac483fefb2124fcff80a9fe9d7c24152dc",
+    "value_surface_authority.json": "03311326e7339ca093e0f50da6b0603e650f53b20df24b6f68501896d0470936"
+  },
+  "population": "cd706f9f4621efcf659fbe890d9a6a0ebfff97c3407095a6db5ea05044c1264d",
+  "protocol": "19d491348b89bfff8d52e98569d5b50db47c6042b1f736f21d7c2666286622dc",
+  "schema_version": 1,
+  "status": "blocked",
+  "unavailable": [
+    "horizon_summary.json",
+    "match_summary.csv",
+    "concentration_value_typology.csv",
+    "synthetic_progression_redistribution.svg"
+  ]
+}
