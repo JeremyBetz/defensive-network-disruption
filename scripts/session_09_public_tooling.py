@@ -194,6 +194,9 @@ def render_static(path, m0_model, m1_model):
     )
     figure.savefig(path, format="svg", metadata={"Date": None})
     plt.close(figure)
+    svg_text = Path(path).read_text(encoding="utf-8")
+    normalized = "\n".join(line.rstrip() for line in svg_text.splitlines()) + "\n"
+    Path(path).write_text(normalized, encoding="utf-8", newline="\n")
 
 
 def render_animation(path, m0_model, m1_model):

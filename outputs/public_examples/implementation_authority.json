@@ -12,7 +12,7 @@
   "implementation_sha256": {
     "examples/quickstart.py": "f64ba6fa003670bdc873db3a26b151c34392aa0136e5f4d68641b99af9fe2553",
     "pyproject.toml": "07b2f7f606b9c7f117791d79c667672e05fd01efaf9ad8db1dc20a4094c51a74",
-    "scripts/session_09_public_tooling.py": "9de264442e0f04f6c73270925e13667ba99af7c7f8e4945b0af812d87ffc9265",
+    "scripts/session_09_public_tooling.py": "76ebd6edecd6eebb1a215a1db28df8f9a4ab6e8443a559e4ce572331bb120b04",
     "src/defensive_network_disruption/__init__.py": "ef27464ca9b10543ba1b12bbee7b6aad4385a0ffb0fea40e1ed9530099bbb172",
     "src/defensive_network_disruption/data/option_adapter.py": "5561148d0b260be16ffe21afd359175e73fd7e980b4eb0688b6e39e47bdd9de5",
     "src/defensive_network_disruption/examples.py": "3cf44f07116601aa0277caa7d3fbd917057c9df15042a1305b6b99f6b9c8967b",
@@ -20,7 +20,7 @@
     "src/defensive_network_disruption/networks/options.py": "b8e87da21211bce98fb8357c3df11f7da45ac7807868b4db3f11e17544a95bb5",
     "src/defensive_network_disruption/visualization/__init__.py": "8ad44235943c5b14fac576a31cc84045c646baa0e3f76a04f903b4680c7c2f08",
     "src/defensive_network_disruption/visualization/options.py": "fac319ed014d31f1072f18f4f2d71a649355c502fe5c8e8d91ef8e256c7df241",
-    "tests/test_session9_public.py": "a891715be0baffc2584a1b9830cf35db422aa1147897460a5de079688b8de6fd",
+    "tests/test_session9_public.py": "2a0276a5da51211936d5e405c9330bbdb69363d76d80533dcc4514166f74a902",
     "uv.lock": "a36ca608e8ccdcac075b71ab9b78cf3a2919ad306e3a8816bc04c141825cc760"
   },
   "model_sha256": "0383561e45bcd9f8d84eccc7e9733b2409536f61c39193fa87d08c36c6f6fd65",

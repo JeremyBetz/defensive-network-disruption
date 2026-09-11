@@ -151,6 +151,13 @@ class PublicVisualizationTests(unittest.TestCase):
                 pitch_length=105, pitch_width=68,
             )
 
+    def test_generated_svg_has_no_trailing_whitespace(self):
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory) / "network.svg"
+            m0_model, m1_model = demonstration_models()
+            RUNNER.render_static(path, m0_model, m1_model)
+            self.assertFalse(any(line.endswith((" ", "\t")) for line in path.read_text().splitlines()))
+
     def test_synthetic_sequence_exact_and_aligned(self):
         states = synthetic_option_sequence()
         self.assertEqual(len(states), 80)
