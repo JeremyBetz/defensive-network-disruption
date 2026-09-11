@@ -4,7 +4,7 @@ from __future__ import annotations
 
 import argparse
 import hashlib
-import io
+import inspect
 import json
 from pathlib import Path
 import platform
@@ -163,10 +163,13 @@ def verify_authority(require_implementation=False):
 def preflight():
     verify_authority(require_implementation=safe(AUTHORITY).exists())
     models()
-    forbidden = ("population.jsonl", "receiver_ranking_m0_m1/local", "session_06e")
-    source = safe("scripts/session_09_public_tooling.py").read_text()
-    if any(token in source for token in forbidden):
-        raise ValueError("forbidden empirical route")
+    route_source = "\n".join(inspect.getsource(function) for function in (
+        render_static, render_animation, render_pair, render_examples,
+    ))
+    if any(token in route_source for token in (
+        "urlopen(", "requests.", "minimize(", "fit(", "population(",
+    )):
+        raise ValueError("forbidden acquisition, fitting, or empirical route")
     print("Session 9 preflight passed; no empirical data opened")
 
 
