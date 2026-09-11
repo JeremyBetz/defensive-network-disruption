@@ -1,0 +1,22 @@
+# Phase 14x — Cross-platform historical-vector reproducibility
+
+Status: **FROZEN BEFORE DIAGNOSTIC EXECUTION**  
+Date: 2026-09-11
+
+Session 14x begins from synchronized `749dcd2856e846d87e7f4f74e9f6b7f97bfd72c7`; `v0.1.0` remains at `f00690c05d8c1c6db308a65bd311c43f9a8ef2fa`. Session 14w's local A/1 evidence and incomplete cross-platform closure remain immutable.
+
+This synthetic-only audit asks why the 108-vector historical production comparison passes on local macOS arm64 Python 3.13.15 and GitHub Actions Python 3.11 but fails twice on GitHub Actions Python 3.13 with `historical_vector_changed`. It distinguishes bitwise, numerical and algorithmic reproducibility. It does not change fields, integration, references, tolerances, dependencies, locks, historical tests, or Session 14R.
+
+The frozen historical authority is `outputs/continuous_occlusion_production_acceptance/reference_comparison.csv`: 366 ordered component rows grouped into 108 fixture/candidate vectors. Component order is every `individual_n`, then `union`, then `maximum`. The tests are `test_session14v_micro_interval.Session14vMicroIntervalTests.test_complete_historical_synthetic_acceptance` and `test_session14w_failure_evidence.Session14wMicroIntervalTests.test_complete_historical_synthetic_acceptance`. Their gate requires Python integer equality for the accepted Simpson interval and Python dictionary equality for parsed float estimates.
+
+The diagnostic recomputes all 108 vectors through the unchanged uniform-grid controlled-Simpson implementation without enforcing historical equality. For every component it records expected and actual float64 values, bits, signed zero, absolute and valid relative differences, and ULP distance. Signed zeros retain distinct bit evidence but have zero numerical and ULP distance. Nonfinite ULP comparisons are unavailable. It records the complete `256, 512, 1024, 2048, 4096, 8192, 16384` ladder, accepted resolution and successive maximum component changes.
+
+For every differing vector, and for the first failing vector, the diagnostic records sanitized structural partitions, switches, tie enclosures, micro-interval widths and routing, and residual bounds. It separately records operating system, architecture, exact Python, NumPy and SciPy versions, compiler/runtime, BLAS/LAPACK, lock hash and installation mode. Adaptive maximum verification is independent corroboration and never defines or alters the production vector.
+
+A manually dispatched Python 3.13 GitHub Actions workflow performs one governed CI diagnostic after the tooling commit. It uses the repository's existing pinned checkout, Python and uv setup actions, emits a single hash-labelled base64 JSON envelope between fixed log sentinels, and accesses no secrets or empirical data. Its decoded bytes and hash are preserved for comparison. The ordinary CI workflow and its exact historical tests remain unchanged.
+
+Classification precedence is D/E/F, then G for multiple independently material issues. C applies only when algorithmic metadata agrees, differences remain within existing numerical authority, and exact equality is demonstrated to test an unnecessary bitwise property. B applies to nonzero cross-platform drift within authority when that contract conclusion remains incomplete. A is reserved for representation-only drift such as signed-zero bits with numerical equality. H means the single governed reproduction is insufficient. Readiness is 1 for a bounded equivalence-contract repair, 2 for environment pinning, 3 for production-numerics review and 4 for more evidence.
+
+No replacement tolerance is selected here. Existing `1e-7` controlled-Simpson convergence and `1e-6` reference agreement are evidence, not an automatically adopted equality rule. Any unexpected diagnostic failure is preserved; the CI reproduction is not repeated. No empirical state, edge, target, outcome, model, share, protected/withheld data, pose, xT, progression or Session 14R partial output may be accessed.
+
+Publish the seven named artifacts under `outputs/cross_platform_vector_reproducibility/`, with strict schemas, sanitized synthetic identifiers and a manifest binding protocol, code, historical authority, environments, CI record and output hashes. Preserve protocol, implementation and closure commits. A/B/C with readiness 1 recommends only a separately governed cross-platform equivalence-contract repair followed by a fresh Session 14R authorization if that repair passes.
