@@ -1,0 +1,24 @@
+{
+  "evidence_inherited": true,
+  "governed_numerical_rerun": false,
+  "historical_implementation_sha256": "4af39780b23e13f98a6ec54102b1aba4071d3a72b599ee3ca7ecc820f37118a2",
+  "historical_manifest_sha256": "1dfbc80010c97349ba0489abb88972146981bbd6a2de0582068fd435b5c947a7",
+  "historical_outputs_sha256": {
+    "continuity_oracles.csv": "6b068a6433a5e69d2e345cd595f4fbae3c428b34dff39da01077b391672f7c77",
+    "controlled_integration.csv": "a85034fd7648cd01e7a32292b80b49b0283414d3173cd1049c6e82856a36c5d6",
+    "failure_injection.json": "1169d577b6082004989465d7da1bb9a8427a0b56264ed2dc2d30890841356cc6",
+    "qc.json": "52107f1270743720a7c5de75c6b153bb0bae3f1b4e953fdb2b820c9f7a95ac82",
+    "readiness_gate.json": "3616cbd6e7b65a17ef29085e3ed43e4b9ce0c64a83a930f02b738aeb2f81f39a",
+    "reference_comparison.csv": "bec2deaff7be5beb9a5d08b6e490540eff102f55b82dab8f5404d9e74ff1da7c",
+    "repair_summary.json": "4a4e5d777143134263971f307b1979f386cebc3581f9870d622d7ef60853237f",
+    "tie_boundary_oracles.csv": "31a82f15a9abefa3484237910b04e280e074aada35996125fa8092b5723dfcc6",
+    "tiny_sign_oracles.csv": "c1e2bf9af7d450e20903ec7a2890b34b5fe27d950894afa0328ebc1a253856c9"
+  },
+  "historical_readiness": true,
+  "historical_reference_comparisons": 366,
+  "historical_fixture_cases": 108,
+  "historical_permutation_comparisons": 399,
+  "repaired_implementation_sha256": "f1a3504c75fa749f32967c3f29f9037364671029022fe2f359fb507a71cc0cd9",
+  "schema_version": 1,
+  "unchanged_hashes_verified": true
+}

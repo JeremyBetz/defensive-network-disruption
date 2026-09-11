@@ -1,0 +1,14 @@
+{
+  "after_sha256": "f1a3504c75fa749f32967c3f29f9037364671029022fe2f359fb507a71cc0cd9",
+  "before_sha256": "4af39780b23e13f98a6ec54102b1aba4071d3a72b599ee3ca7ecc820f37118a2",
+  "classification": "PASS — CLOSURE REPAIR VALID; SESSION 14e ACCEPTANCE EVIDENCE MAY BE INHERITED",
+  "exact_patch": "delete one final empty line after the last statement",
+  "governed_numerical_rerun": false,
+  "historical_session_14e_status": "INVALID — REPAIR/AUDIT EXECUTION FAILURE",
+  "implementation_files_changed": 1,
+  "line_deletions": 1,
+  "line_insertions": 0,
+  "schema_version": 1,
+  "session_14r_ready_for_planning": true,
+  "status": "complete"
+}

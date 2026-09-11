@@ -1,0 +1,22 @@
+{
+  "ast_equivalence": "passed",
+  "claim_ledger_changed": false,
+  "compilation": "passed",
+  "compiled_code_equivalence": "passed",
+  "documentation_links": "passed",
+  "empirical_access": false,
+  "focused_tests_passed": 13,
+  "full_suite_passed": 348,
+  "full_suite_skipped": 3,
+  "git_diff_check": "passed",
+  "governed_numerical_rerun": false,
+  "history_preservation": "passed",
+  "inherited_evidence_hashes": "passed",
+  "models_loaded": 0,
+  "privacy_publication": "passed",
+  "relevant_tests_passed": 72,
+  "relevant_test_subtests_passed": 12,
+  "schema_version": 1,
+  "semantic_equivalence": "passed",
+  "status": "complete"
+}

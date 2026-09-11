@@ -303,4 +303,3 @@ def independent_continuity(left_limit: float, right_limit: float, *,
     if not math.isfinite(left_limit) or not math.isfinite(right_limit):
         return False
     return math.isclose(left_limit, right_limit, abs_tol=absolute_tolerance, rel_tol=relative_tolerance)
-

@@ -1,0 +1,19 @@
+{
+  "after_import_succeeded": true,
+  "after_sha256": "f1a3504c75fa749f32967c3f29f9037364671029022fe2f359fb507a71cc0cd9",
+  "ast_equal_without_attributes": true,
+  "before_import_succeeded": true,
+  "before_sha256": "4af39780b23e13f98a6ec54102b1aba4071d3a72b599ee3ca7ecc820f37118a2",
+  "byte_delta": -1,
+  "compiled_code_objects_equal": true,
+  "constants_equal": true,
+  "exact_eof_newline_deletion": true,
+  "import_behavior_equal": true,
+  "line_delta": -1,
+  "removed_bytes_hex": "0a",
+  "runtime_symbols_equal": true,
+  "schema_version": 1,
+  "semantic_equivalent": true,
+  "source_sensitive_behavior_detected": false,
+  "textual_diff_sha256": "216cac7d5251faf965a8bb6fe0d653373600e7e1c5c3e5ad67bb68427d777177"
+}

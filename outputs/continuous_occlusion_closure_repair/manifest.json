@@ -1,0 +1,24 @@
+{
+  "classification": "PASS — CLOSURE REPAIR VALID; SESSION 14e ACCEPTANCE EVIDENCE MAY BE INHERITED",
+  "historical_session_14e_commits": [
+    "caa9271",
+    "d22f459",
+    "8ccbd79"
+  ],
+  "historical_session_14e_manifest_sha256": "1dfbc80010c97349ba0489abb88972146981bbd6a2de0582068fd435b5c947a7",
+  "outputs_sha256": {
+    "inherited_evidence.json": "9e3da0d8b7af16731fae10a3a4eed622cd68e6e09191fd2748b11caf327d6f91",
+    "qc.json": "0c9cb55b77b7bc170eaa829fb0306829b3311970684680e67a259b8f0790bb8d",
+    "repair_summary.json": "3e355d0ebeeac32ef0bd5baa4d44c417adea62fa66e3f77b8d28d082c16fde39",
+    "semantic_equivalence.json": "3878adaf5fe7c897b0e8b1daf43f7147073b699a814411f846245693e2be406a"
+  },
+  "protocol_commit": "a6b56beec276786a26b152c87d45cdb4e828ebed",
+  "protocol_sha256": "ddfc0df93a58c40f7facc3b63afb67acec625de9562ac51d0b525d3088692d74",
+  "release_tag_target": "f00690c05d8c1c6db308a65bd311c43f9a8ef2fa",
+  "remote_start": "9188222c4270ba1a89963ae1bbdb9003b0bf9f1e",
+  "repaired_implementation_sha256": "f1a3504c75fa749f32967c3f29f9037364671029022fe2f359fb507a71cc0cd9",
+  "schema_version": 1,
+  "session_14e_local_start": "8ccbd79fc53579a8e759f703b554e0213ec72e9d",
+  "status": "closed",
+  "textual_diff_sha256": "216cac7d5251faf965a8bb6fe0d653373600e7e1c5c3e5ad67bb68427d777177"
+}
