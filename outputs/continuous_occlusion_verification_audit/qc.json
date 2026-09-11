@@ -1,0 +1,10 @@
+{
+  "cases": 108,
+  "components": 366,
+  "empirical_access": false,
+  "error": null,
+  "models_loaded": 0,
+  "result": "BLOCKED \u2014 Bounded repair required",
+  "schema_version": 1,
+  "status": "complete"
+}

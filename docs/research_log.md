@@ -770,3 +770,20 @@ unchanged. No empirical state, target, model, provider product,
 reserved/withheld/pose, external xT or progression data was accessed. The sole
 next action is a separately frozen Session 14 retry using the verified numerical
 contract; it was not executed.
+
+## 2026-09-11 — Session 14d synthetic verification-contract audit
+
+Protocol `705da7a` and tested instruments `1497aff` preceded the one synthetic
+execution. Valid audit, **BLOCKED — Bounded repair required**. All 366 jointly
+controlled Simpson components passed the inherited reference bound (maximum
+error `4.1576548232002963e-08`); all 108 switching cases passed repeatability and
+399 full permutation comparisons. The historical continuity flag accepted a
+known jump; raw sign multiplication lost a tiny bracket; off-grid tie boundaries
+were represented by grid nodes; and injected failed obligations still allowed
+historical readiness 1/2 paths. These qualify verification authority without
+rewriting Session 14c's A/1/1 closure. No empirical/provider/target/model/share,
+protected/withheld/pose or external-value access, historical repair or rerun.
+Focused tests 59 passed; full suite 345 passed, three retained skips. Claims and
+release unchanged. The sole next action is a separately governed bounded
+verification repair and synthetic acceptance audit; Session 14R remains paused.
+See the [Session 14d report](session_14d_numerical_verification_contract_audit.md).

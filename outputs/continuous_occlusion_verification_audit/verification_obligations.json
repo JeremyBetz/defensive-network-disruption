@@ -1,0 +1,30 @@
+{
+  "continuity": {
+    "analytic_continuity_valid_on_domain": true,
+    "historical_flag_is_independent": false,
+    "independent_values_pass": true,
+    "known_jump_flag": true
+  },
+  "controlled": {
+    "all_pass": true,
+    "component_count": 366,
+    "maximum_error": 4.1576548232002963e-08
+  },
+  "defects": [
+    "historical_failure_gate_allows_readiness",
+    "raw_sign_product_underflow",
+    "grid_tie_boundaries_not_exact"
+  ],
+  "enforcement": {
+    "all_injected_failures_block_retry": false,
+    "historical_review_has_clean_tree_gate": false
+  },
+  "result": "BLOCKED \u2014 Bounded repair required",
+  "schema_version": 1,
+  "switching": {
+    "all_full_permutations_equal": true,
+    "case_count": 108,
+    "finite_grid_completeness_claim": false,
+    "hidden_crossings_found": 0
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "environment": {
+    "lock": "c9e4da0781770b9e72b8a5b10a7c514f2259b7e63dc1b67604ee481934db0a0c",
+    "numpy": "2.5.3",
+    "python": "3.13.15",
+    "scipy": "1.18.1"
+  },
+  "execution_commit": "1497aff8ffc73f6fef6ebf98e850a6b684cb6d1c",
+  "implementation": {
+    "scripts/session_14d_verification_audit.py": "d4d6ae35cd3e40e0f9919e82b3ed1fc4a79231dfc8d28c99f6fe29700e46bf96",
+    "src/defensive_network_disruption/geometry/verification_audit.py": "791cbefc75e49ba4574438c8d3571f3ac26ac8fb776cd83347bdba4ce68ce9f7",
+    "tests/test_session14d_verification.py": "17bb4328afa1ccbab74f9ebaeaa36be5377b1e4b1d820f59745dafa0e0726ae2"
+  },
+  "inputs": {
+    "outputs/continuous_occlusion_max_switching/manifest.json": "ee280e8ef0dc589091eada9b143e484922ef64d8a9519e6560141065ba32b717",
+    "outputs/continuous_occlusion_max_switching/unresolved_case_comparison.csv": "b6be72bf55c4616d8179f09eb7d47b893fa53c89e0dbe8015e44d12868f5f5b5",
+    "outputs/continuous_occlusion_numerics_14b/manifest.json": "8858b4bfd2717dae1d250e1647742cc467813170cd2bba9c5b47d407de0990a3",
+    "outputs/continuous_occlusion_numerics_14b/reference_summary.json": "734af21c5ea22bd8e3b472b1a21bfd1de8e27dfb2ecbb4d915103362e5c976ac",
+    "scripts/session_14_occlusion_fields.py": "921842723974083431e6deee44c18ad6eda8c1de722e15e79e65612ee83b26ee",
+    "scripts/session_14c_maximum_switching.py": "e610da11a4ee4e27dd8b65515b2dc27820e9bd645c7fa010192b53f5c3bf2cd9",
+    "src/defensive_network_disruption/geometry/integration_review.py": "152f688fe6b217dec0c6ede667e611d9d411c43762c0de1ff8d1143919b50f0d",
+    "src/defensive_network_disruption/geometry/maximum_envelope.py": "b6ceb523ffca9e1a969ca7d9e1bfe728635fb02c07785d0e80e24543ae143d9a",
+    "src/defensive_network_disruption/geometry/occlusion_fields.py": "d7fd23bc131d0db2686ef27475a128fdca78aea88616c4494609962c165533aa",
+    "uv.lock": "c9e4da0781770b9e72b8a5b10a7c514f2259b7e63dc1b67604ee481934db0a0c"
+  },
+  "outputs": {
+    "controlled_integration.csv": "0fb8f51cbfe99e6dd3cc86aa0ab3d04b7395c7eeb90251f0c7073d5c65c393b1",
+    "oracle_results.json": "ea4a72bd07397b8926b988a16b45d6ca960a64f46530c82d2045895d25990196",
+    "qc.json": "cf74e22cb59fb7df83d1b9cd8b666df39c1610ef6f9f39f41d49ec72ad35125b",
+    "switching_coverage.csv": "b8ddfdaa21ed95f03a69a1314623696d6f85dc618869ed27e472b6a30eb4f41f",
+    "verification_obligations.json": "1991a4d569c62fff8499159100687cac5900f942a353adb6482d6b8575217475"
+  },
+  "protocol": "8b25bc4a3de65f9f2172f56c89e0f2db871275c34342b219ccc8899c76255f53",
+  "schema_version": 1,
+  "start": "d80aa7ff8438568e874263f8273bbe82c35121d4",
+  "status": "closed",
+  "unavailable": []
+}
