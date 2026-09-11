@@ -630,3 +630,18 @@ and CI fetches full history for the governed preflight. Production numerical
 code and scientific artifacts were unchanged. Run `34555022748` passed the
 distribution job and the full active suite on Python 3.11 and 3.13. No empirical,
 provider, protected, withheld, or pose data was accessed.
+
+## 2026-09-10 — Session 11 experimental v0.1.0 GitHub release
+
+Release commit `f00690c05d8c1c6db308a65bd311c43f9a8ef2fa` passed the complete
+software-only release audit and was annotated as `v0.1.0`. A public GitHub
+prerelease was created with a 63,591-byte wheel at SHA-256
+`b397fd19c33f86cb8574b9947ea88e63f79a47aeb8aabdf051b400db1eb0ca35`
+and an 87,294-byte source archive at SHA-256
+`8b2f778926ed49384830823dac536592b78df2ad480311c0b12af6755acbeb1c`.
+Both public assets were downloaded and reverified; the public wheel and complete
+extra passed a fresh synthetic install and quickstart. PyPI publication was
+deferred because no established authenticated publishing path existed. No
+scientific claim changed and no empirical, competition, protected, withheld, or
+pose data was accessed. Classification: **B — GITHUB EXPERIMENTAL RELEASE
+COMPLETE**.

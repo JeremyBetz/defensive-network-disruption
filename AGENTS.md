@@ -192,13 +192,15 @@ Do not add complexity to rescue a weak interpretation.
 
 ## Software and open-source direction
 
-The public package is prepared at experimental version `0.1.0`. Session 10
-classified it **A — READY FOR EXPERIMENTAL 0.1.0 RELEASE** and the portfolio
-artifact **1 — STRONG PORTFOLIO ARTIFACT NOW** after reproducible distribution
-and clean-install checks. Its supported surface is the root-package API in
+The public package is at experimental version `0.1.0`. Session 10 classified it
+**A — READY FOR EXPERIMENTAL 0.1.0 RELEASE** and the portfolio artifact **1 —
+STRONG PORTFOLIO ARTIFACT NOW** after reproducible distribution and clean-install
+checks. Session 11 created `v0.1.0` as the first experimental public GitHub
+software release. PyPI remains unpublished because no established authenticated
+publishing path was available. Its supported surface is the root-package API in
 `docs/public_api.md`; deeper research modules remain internal. Read
-`docs/session_10_package_hardening_report.md` before release work. The version
-has not been tagged, published to PyPI, or issued as a GitHub release.
+`docs/session_10_package_hardening_report.md` and
+`docs/session_11_v0_1_0_release_report.md` before later release work.
 
 If the science supports it, the project should produce a meaningful open-source
 software contribution. Prefer a reusable, provider-independent Python library or
