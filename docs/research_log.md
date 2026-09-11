@@ -1000,3 +1000,23 @@ protected material was accessed and Session 14R remains paused. The sole next
 action is a separately governed bounded CI evidence-transport repair followed
 by a fresh cross-platform reproducibility audit. See the
 [Session 14y report](session_14y_switch_projection_repair_and_reproducibility.md).
+
+## 2026-09-11 — Session 14z artifact transport succeeded; partition path differs
+
+Protocol `aa25614` and tested file-artifact transport `63f40f3` preceded one
+local and one GitHub Actions Python 3.13 synthetic diagnostic. The local record
+reproduced Session 14y's 314,834 bytes exactly. Governed run `34658446618`
+uploaded the CI JSON as the single named artifact; its declared and downloaded
+SHA-256 both equal `36a7026122d41bcce24c0d4e14edae2350d56ccdad581246a99170f126664bd8`.
+All 108 vectors and 366 components were compared. Accepted resolutions,
+ownership topology, tie records, micro-interval routing and residual bounds
+agree. Four accepted components differ by one ULP, with maximum absolute
+difference `5.551115123125783e-17`, inside existing numerical authority. Seven
+vectors have different exact float64 partition coordinates, including a
+one-ULP switch-location difference, so the prospectively exact algorithm-path
+gate fails. **E — routing/partition difference; readiness 3.** No equality,
+tolerance, dependency, production numerical or Session 14R change occurred;
+no empirical or protected material or partial scientific result was accessed.
+The sole next action is a separately governed deterministic cross-platform
+partition/root-coordinate review. See the
+[Session 14z report](session_14z_ci_artifact_transport_and_reproducibility.md).
