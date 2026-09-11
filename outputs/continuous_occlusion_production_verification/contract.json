@@ -1,0 +1,47 @@
+{
+  "environment": {
+    "numpy": "2.5.3",
+    "python": "3.13.15",
+    "scipy": "1.18.1",
+    "uv_lock_sha256": "c9e4da0781770b9e72b8a5b10a7c514f2259b7e63dc1b67604ee481934db0a0c"
+  },
+  "historical_hashes": {
+    "outputs/continuous_occlusion_closure_repair/manifest.json": "096e00d6a01037afddbf7033bf87a34fa64df16505a0b571d14490fb61c141f6",
+    "outputs/continuous_occlusion_max_switching/unresolved_case_comparison.csv": "b6be72bf55c4616d8179f09eb7d47b893fa53c89e0dbe8015e44d12868f5f5b5",
+    "outputs/continuous_occlusion_numerics_14b/reference_summary.json": "734af21c5ea22bd8e3b472b1a21bfd1de8e27dfb2ecbb4d915103362e5c976ac",
+    "outputs/continuous_occlusion_verification_repair/controlled_integration.csv": "a85034fd7648cd01e7a32292b80b49b0283414d3173cd1049c6e82856a36c5d6",
+    "outputs/continuous_occlusion_verification_repair/manifest.json": "1dfbc80010c97349ba0489abb88972146981bbd6a2de0582068fd435b5c947a7",
+    "outputs/continuous_occlusion_verification_repair/reference_comparison.csv": "bec2deaff7be5beb9a5d08b6e490540eff102f55b82dab8f5404d9e74ff1da7c",
+    "scripts/session_14_occlusion_fields.py": "921842723974083431e6deee44c18ad6eda8c1de722e15e79e65612ee83b26ee",
+    "src/defensive_network_disruption/geometry/integration_review.py": "152f688fe6b217dec0c6ede667e611d9d411c43762c0de1ff8d1143919b50f0d",
+    "src/defensive_network_disruption/geometry/maximum_envelope.py": "b6ceb523ffca9e1a969ca7d9e1bfe728635fb02c07785d0e80e24543ae143d9a",
+    "src/defensive_network_disruption/geometry/occlusion_fields.py": "d7fd23bc131d0db2686ef27475a128fdca78aea88616c4494609962c165533aa",
+    "src/defensive_network_disruption/geometry/verification_audit.py": "791cbefc75e49ba4574438c8d3571f3ac26ac8fb776cd83347bdba4ce68ce9f7",
+    "src/defensive_network_disruption/geometry/verification_repair.py": "f1a3504c75fa749f32967c3f29f9037364671029022fe2f359fb507a71cc0cd9",
+    "uv.lock": "c9e4da0781770b9e72b8a5b10a7c514f2259b7e63dc1b67604ee481934db0a0c"
+  },
+  "implementation_commit": "8fd6de35acad4f5dcd47fddd0c94d01cf2c3820d",
+  "implementation_hashes": {
+    "scripts/session_14g_production_verification.py": "eefa5a7796b66be4cfb9764184ae50570c4617412869c832d95b16024a6a5168",
+    "src/defensive_network_disruption/geometry/production_verification.py": "6d4eeddf0c7537ecbea027e1c308e4f573b2cf0f4bb71a0b3b839e2382f75a6c",
+    "tests/test_session14g_production.py": "57e564937deeee3ef0ac12a52b0257cf5520050ffc0208da4b7981f94bac041a"
+  },
+  "integration": {
+    "certified_partitions": "independent maximum verification only",
+    "joint_tolerance": 1e-07,
+    "reference_tolerance": 1e-06,
+    "uniform_intervals": [
+      256,
+      512,
+      1024,
+      2048,
+      4096,
+      8192,
+      16384
+    ]
+  },
+  "protocol_commit": "885494c7ddb8bab0e39283a19ab12dca79eed42d",
+  "protocol_hash": "7fe93e28afe4076a2028da795bb91e3078eeb0bd9475a68ec6b2e095cd11cc0f",
+  "schema_version": 1,
+  "start": "8ef0a27ebe9f0ac7ca6b4a754cfa7168c8b34ba5"
+}

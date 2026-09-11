@@ -1,0 +1,14 @@
+{
+  "classification": "INVALID \u2014 EXECUTION OR INTEGRITY FAILURE",
+  "contract_sha256": "b689e2cb28928391a9a164e93cfef3e4afb71fb0e9d073f4b79ced9aed681a36",
+  "outputs_sha256": {
+    "contract.json": "b689e2cb28928391a9a164e93cfef3e4afb71fb0e9d073f4b79ced9aed681a36",
+    "failure_injection.json": "5db9add3adaadb1cc2bba3750c1ecc6c10959f807ca508287af809974b7d9026",
+    "qc.json": "894a57abf4af8669dd5c36cbf744f1b35849bc7907ef5fbfa8d4a1015507e430",
+    "readiness.json": "070601b3493a23155547da3ee84535c5824f16e0405fa3c41cbc4a3873a9cb0b",
+    "reference_comparison.csv": "8cb63aa9fe909ab3c560a8e8a6d5e15b6f62ba0804dbf121a2bf9a24eb9aaaa6",
+    "wiring_checks.json": "3fea647016b4ae53124a2be25596d75bd8fcb0f02afe2435b30777a49ae8972c"
+  },
+  "schema_version": 1,
+  "status": "closed"
+}

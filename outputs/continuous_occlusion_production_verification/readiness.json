@@ -1,0 +1,16 @@
+{
+  "classification": "INVALID \u2014 EXECUTION OR INTEGRITY FAILURE",
+  "inputs": {
+    "blocking_warnings_absent": false,
+    "continuity_verified": false,
+    "controlled_integration_verified": false,
+    "deterministic": false,
+    "failure_enforcement_verified": false,
+    "integrity_verified": false,
+    "permutation_verified": false,
+    "references_complete": false,
+    "switching_verified": false
+  },
+  "ready": false,
+  "schema_version": 1
+}

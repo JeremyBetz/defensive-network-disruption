@@ -1,0 +1,12 @@
+{
+  "cases_completed": 0,
+  "classification": "INVALID \u2014 EXECUTION OR INTEGRITY FAILURE",
+  "empirical_access": false,
+  "failure": "TypeError",
+  "permutations_completed": 0,
+  "references_completed": 0,
+  "schema_version": 1,
+  "status": "closed",
+  "unavailable_cases": 108,
+  "unavailable_references": 366
+}

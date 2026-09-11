@@ -824,3 +824,22 @@ in the locked unittest environment. A standard-library fallback repaired that
 CI compatibility path without changing production code, numerical evidence or
 focused pytest behavior; the retained failed CI run is part of the closure
 record.
+
+## 2026-09-11 — Session 14g production verification wiring
+
+Protocol `885494c` and tested implementation `8fd6de3` preceded one governed
+synthetic audit. **INVALID — EXECUTION OR INTEGRITY FAILURE**: the engineering
+stage caught `TypeError` before any of 108 frozen field cases or 366 references
+completed. The failure record lacks the active fixture/traceback and completed
+engineering rows; exact localization is unavailable. Readiness is false, all
+required case/reference evidence remains unavailable, and the failure package
+and exclusive marker are preserved. No post-exposure repair or rerun occurred.
+The new wiring preserves uniform joint Simpson and adds independent certified
+maximum checks; its full acceptance is not established. Historical 14e/14f
+records remain unchanged, including the protocol/report contradiction about
+14f test changes. Post-run tests: 19/19 focused, 78/78 relevant, and 367 total
+with 364 passed and three retained skips. No empirical/provider/target/model/
+share, protected/withheld/pose, xT or progression access; claims and release are
+unchanged. Session 14R remains paused. The sole next action is a separately
+governed synthetic failure-localization and diagnostic-preservation review;
+it was not executed. See the [Session 14g report](session_14g_production_verification_wiring.md).
