@@ -154,3 +154,40 @@ focuses on learned graph representations. None exposes an exact dependency-light
 primitive with the required finite-segment semantics. Session 5 therefore uses
 the existing local segment projection plus a small local `math.exp`/`math.fsum`
 implementation. No package, parameter, code, or alternate model was adopted.
+
+
+## Session 8 — Local star representation and software reuse
+
+Reviewed 2026-09-10 before empirical network analysis. The installed Kloppy
+3.19.0 distribution records a BSD-3-Clause license. Its Frame, Player and
+PlayerData types are reused through a thin optional adapter, tested on synthetic
+frames. Caller-provided selections and verified centred metric coordinates are
+required; the adapter does not infer active intervals, timing, or missing
+direction. Native-sidecar limitations from Session 2 still apply. No external
+football data, models or code were imported.
+
+[mplsoccer 1.8.0 documentation](https://mplsoccer.readthedocs.io/en/latest/gallery/pitch_setup/plot_pitches.html)
+provides pitch layouts and arrows/lines; its source is
+[MIT licensed](https://github.com/andrewRowlinson/mplsoccer/blob/main/LICENSE).
+Defer installation: canonical snapshots omit pitch dimensions and this phase
+requires only one synthetic Cartesian diagram. Its rendering does not justify a
+new dependency. Reuse mplsoccer later when a governed pitch context exists.
+
+[matplotvideo](https://github.com/PySport/matplotvideo) documents synchronization
+of matplotlib with a video player, requiring cv2/OpenCV; the repository records
+MIT licensing. The reviewed README was the master-branch documentation, not a
+verified/pinned release; a direct setup.py fetch was unavailable. No version was
+installed or claimed tested. Defer: no video or temporal input is authorized.
+
+Use the already locked NumPy 2.5.3 (BSD-3-Clause) implementation for features and
+matrix utilities. No new SciPy, pandas, graph-library, or lockfile requirement
+is introduced. Local software is limited to the project-specific option-state
+contract, frozen utility-to-share calculation, and descriptive summaries.
+A local star carries no extra information beyond its complete edge vector.
+
+Upstream contribution opportunity: none established. Explicit metric-coordinate
+context validation could eventually motivate a generic Kloppy helper, but this
+audit does not demonstrate a missing upstream capability. No external PR is
+authorized. Existing license notices remain intact; general-purpose library use
+is consistent with the recorded competition rule, without importing external
+competition data or promising cross-provider empirical validation.

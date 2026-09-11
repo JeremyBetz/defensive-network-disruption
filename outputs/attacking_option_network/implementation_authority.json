@@ -1,0 +1,26 @@
+{
+  "contract_sha256": "1c4623f5db8b7ecf4cd48fc99eb702d06bc19d62e25e9f1a71f116c266d8bc37",
+  "environment": {
+    "numpy": "2.5.3",
+    "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+    "python": "3.13.15",
+    "scipy": "1.18.1",
+    "uv_lock_sha256": "831e43041d47bbf05d614ee47d87e09f67654de5f7ec44a42bdc0807c36386a7"
+  },
+  "implementation_sha256": {
+    "scripts/session_08_option_network.py": "24e57209ab3b4e21ae10069ccef51b9a08db718019d755ebdee02c3b9d18ac2d",
+    "src/defensive_network_disruption/data/option_adapter.py": "31d5c9e34d48acfe3d70105947620abd255cdd2c742033049d9f0090e3954e19",
+    "src/defensive_network_disruption/networks/options.py": "142d1342bb8cabe909d6e2e9e940554b5f556a4b8baa4cddb0647c19e17cca0a",
+    "src/defensive_network_disruption/visualization/option_svg.py": "2bc60132c145aa2f7fa564c5841d456fdff682bcfd09ee331afa4dfb32082b83",
+    "tests/test_session8_options.py": "0324b5fd80871341cfc931994d6382ea2d113b9c26c9f1e1f6dab0c88094466a"
+  },
+  "inherited_sha256": {
+    "src/defensive_network_disruption/geometry/segment.py": "19b4bc62567d54ea7e88f3f0ae36a3853636934d1aab140357aead8c0bd4eaad",
+    "src/defensive_network_disruption/validation/construct_diagnostics.py": "61fb9a44af816c83334f91628b9a112f123cb9e6c720eb56133f5b73cb26faa7",
+    "src/defensive_network_disruption/validation/ranking_features.py": "fe2d2f8aa704fbd7dd467217866ed3ace0000952314aa4db5164c1045ad2d6a3",
+    "src/defensive_network_disruption/validation/ranking_metrics.py": "682bd3281579c02efb00ba3a8c770e6d553d705a3e959e0e44a3e37b000b90db"
+  },
+  "protocol_sha256": "17831bfb59569e6c23aac233fdcd52006398528e837116553f5577f61eaea732",
+  "schema_version": "1",
+  "starting_commit": "54b56a9900b96a1be0e9e51087a978ffeef6d4f1"
+}
