@@ -1,0 +1,19 @@
+{
+  "additional_edges_opened": 0,
+  "additional_states_opened": 0,
+  "classification": "F",
+  "classification_text": "Invalid",
+  "empirical_edges_opened": 0,
+  "empirical_states_opened": 0,
+  "failure": "GateFailure",
+  "integration_warnings": 0,
+  "joint_simpson_changed": false,
+  "permutations_passed": 0,
+  "protected_or_withheld_access": false,
+  "references_passed": 0,
+  "retry_readiness": 4,
+  "schema_version": 1,
+  "status": "invalid",
+  "synthetic_cases_passed": 0,
+  "targets_outcomes_models_shares_accessed": false
+}
