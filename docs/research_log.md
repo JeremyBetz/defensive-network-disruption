@@ -495,3 +495,44 @@ already committed public aggregate authorities were consulted. No scientific
 artifact or prior log entry was changed. The README, charter, roadmap,
 governance status, competition delivery status, agent guide, and public directory
 indexes were brought current without beginning a new research session.
+
+
+## L019 — Session 7 closed from formal development diagnostics
+
+Phase 07b prospectively authorized a formal closure using only the already
+committed Session 7 aggregate diagnostics after Phase 07a withdrew human review.
+No human, project-author, self, or assistant judgment was used. No model was
+fitted, no diagnostic or population was regenerated, and no ignored diagnostic
+row, selected passage, diagram, response form, raw provider product, reserved
+detail, withheld match, or pose data was opened.
+
+Primary classification: **B — USEFUL RECEIVER-SELECTION GEOMETRY, BUT
+ACCESSIBILITY INTERPRETATION REMAINS WEAK**. The two M1 defensive relationships
+disagreed on 108,543 of 312,602 eligible within-choice candidate pairs, with an
+equal-match disagreement rate of 0.347759757 and nonzero disagreement in all
+nine development matches. Fitted component directions were geometrically
+coherent, decomposition reconstructed utility within 3.552713679e-15, and frozen
+strata showed structured behavior. Formal failures remained: the M1 target rank
+worsened by as many as eight positions, and all three algorithmic failure-case
+slots were filled. These are in-sample development diagnostics, not replication
+or accessibility truth.
+
+M2 classification: **3 — DISTRIBUTED-DEFENDER TERM IS PRIMARILY A SMALL
+PREDICTIVE REFINEMENT**. It changed 0.025080769 of candidate-pair orderings and
+0.051981412 of top sets; target rank was unchanged in 6,216 of 7,227 states. Its
+negative fitted direction matches greater summed segment proximity lowering
+utility, but the frozen non-nearest-defender strata did not show a steadily
+larger effect in more crowded states.
+
+Software readiness is **YES, BUT NARROWLY** for neutral provider-independent
+geometry primitives. Network readiness is **YES, WITH RESTRICTIONS** for a
+separately governed exploratory network using neutral edge semantics. C09 and
+C10 remain SUPPORTED WITHIN SCOPE; C01/C02 remain IN PROGRESS; C03–C08 remain
+UNTESTED. Accessibility remains PROXY ONLY and suppression NOT SUPPORTABLE.
+
+Focused Session 7 tests: 22 passed, 0 skipped. Full active suite: 179 passed and
+3 historical scaffold tests skipped, 182 total. Compilation, authority hashes,
+JSON/schema checks, publication/privacy guards, changed-artifact review, and diff
+checks passed before staging. Staged review is required before the result commit.
+The formal closure manifest SHA-256 is
+`3384c707fb9612dedd9b7ac1dad0f8773952ab7e8ef2d3ccac472604a773f879`.

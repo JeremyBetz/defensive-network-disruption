@@ -11,14 +11,15 @@ is the M1 defensive-geometry receiver-ranking increment; M2 is a smaller,
 metric-dependent refinement. Accessibility remains a proxy and suppression is
 not supportable.
 
-The current frontier is the unfinished Session 7 development-only construct and
-model-behavior audit under [Phase 07a](protocols/phase_07a_human_review_withdrawal.md).
-Human review was withdrawn before responses, and no continuation is authorized
-automatically. Future optional work includes a simple attacking-option network
-only if edge semantics become defensible, provider-independent software/API
-integration, practitioner visualization and storytelling, separately validated
-defensive structure, and submission/package hardening. Listing future work here
-does not authorize it.
+Session 7 is now closed as a development-only formal construct/model-behavior
+audit under [Phase 07b](protocols/phase_07b_formal_diagnostic_closure.md). It
+found useful receiver-selection geometry while leaving accessibility
+interpretation weak; human review was withdrawn before responses. The next
+recommended direction is a separately governed exploratory attacking-option
+network using neutral edge semantics. Provider-independent software/API work,
+practitioner visualization, defensive structure, and submission/package
+hardening remain optional and unauthorized. Listing future work here does not
+authorize it.
 
 **Do not add PageRank, graph neural networks, community detection, or similar
 machinery simply because players can be drawn as a graph. The project first

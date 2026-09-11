@@ -56,11 +56,10 @@ effects, the best pass, pass success, player quality, tactical intent, or
 defensive value. They generalize to the evaluated competition matches, not
 automatically to unseen teams, leagues, or providers.
 
-Current development-only work asks whether the frozen geometric relationships
-behave coherently enough to support a bounded attacking-edge interpretation.
-The independent-human-review branch was withdrawn before responses were
-collected; the current authority is documented in
-[Phase 07a](docs/protocols/phase_07a_human_review_withdrawal.md).
+The closed development-only [Session 7 diagnostic](docs/session_07_construct_validity_diagnostic_report.md)
+found useful, coherent receiver-selection geometry while leaving accessibility
+interpretation weak. Its independent-human-review branch was withdrawn before
+responses were collected, so no human judgment supports that conclusion.
 
 ## Why the network still matters
 
@@ -75,7 +74,8 @@ alongside defensive structural cost.
 **THE GRAPH IS NOT THE STARTING POINT.** Network topology, centrality, community
 detection, defender attribution, and value models require separate scientific
 questions and evidence. A graph is useful only after its edges mean something.
-See the [research roadmap](docs/research_roadmap.md) and
+See the [research roadmap](docs/research_roadmap.md),
+[Phase 07a](docs/protocols/phase_07a_human_review_withdrawal.md), and
 [governance rules](docs/research_governance.md).
 
 ## Software direction

@@ -1,0 +1,59 @@
+{
+  "authority": {
+    "diagnostic_manifest_sha256": "8a4ad2f684fdf83101cdf439aaaf5aec66bcde6e431efcb73b76cdda1c4485fc",
+    "final_model_sha256": "0383561e45bcd9f8d84eccc7e9733b2409536f61c39193fa87d08c36c6f6fd65",
+    "phase_07a_sha256": "a820b6c2ed2adbd25011ccf22fa18a0418d8db089ce704bd9a0f60d348723d37",
+    "phase_07b_sha256": "a35879e9dece93b5732e50cb5440970d4917bd4913d56543e4d96edd07493bfc",
+    "population_sha256": "cd706f9f4621efcf659fbe890d9a6a0ebfff97c3407095a6db5ea05044c1264d"
+  },
+  "classifications": {
+    "m2_secondary": "3 — DISTRIBUTED-DEFENDER TERM IS PRIMARILY A SMALL PREDICTIVE REFINEMENT",
+    "network_readiness": "YES, WITH RESTRICTIONS — EXPLORATORY NETWORK ONLY, NEUTRAL EDGE SEMANTICS",
+    "primary": "B — USEFUL RECEIVER-SELECTION GEOMETRY, BUT ACCESSIBILITY INTERPRETATION REMAINS WEAK",
+    "software_readiness": "YES, BUT NARROWLY — EXPOSE EXPLICIT NEUTRAL GEOMETRIC COMPONENTS"
+  },
+  "diagnostic_scope": {
+    "human_review_evidence": false,
+    "interpretation": "in_sample_development_diagnostics",
+    "match_count": 9,
+    "new_diagnostic_computation": false,
+    "states": 7227
+  },
+  "feature_disagreement": {
+    "discordant_pairs": 108543,
+    "eligible_pairs": 312602,
+    "eligible_states": 7222,
+    "match_macro_weighted_disagreement": 0.34775975652177765,
+    "m1_strict_reversal_fraction": 0.1267643703209653,
+    "zero_pair_states": 5
+  },
+  "formal_failures": {
+    "algorithmic_failure_cases_selected": 3,
+    "m1_maximum_target_rank_worsening": 8.0,
+    "m1_target_rank_change_q95": 2.0,
+    "m2_maximum_target_rank_worsening": 4.0,
+    "m2_target_rank_change_q95": 1.0,
+    "passages_inspected_for_closure": 0
+  },
+  "m2_role": {
+    "changed_pair_fraction": 0.025080768551420194,
+    "improved_states": 552,
+    "mean_absolute_target_rank_change": 0.1588204566994717,
+    "mean_target_rank_change": -0.013451652987074042,
+    "tied_target_rank_states": 6216,
+    "top_set_changed_fraction": 0.05198141157248967,
+    "worsened_states": 459
+  },
+  "nonclaims": [
+    "accessibility validation",
+    "suppression",
+    "causal defender effect",
+    "best pass",
+    "player attribution or value",
+    "practitioner validation",
+    "validated network disruption"
+  ],
+  "recommendation": "Run one separately governed exploratory attacking-option network phase using only neutral frozen edge primitives and provider-independent interfaces; make no accessibility, suppression, attribution, or value claim.",
+  "schema_version": "1",
+  "status": "session_07_closed_formal_diagnostics_only"
+}

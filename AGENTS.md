@@ -33,11 +33,12 @@ not turn it into a session-by-session log.
    manifest. For the current frontier, begin with
    [Phase 07](docs/protocols/phase_07_construct_validity_diagnostics.md), its
    later [Phase 07a amendment](docs/protocols/phase_07a_human_review_withdrawal.md),
-   and the [Session 6e decision brief](docs/session_06e_corrected_reserved_evaluation_decision_brief.md).
+   the [Phase 07b closure](docs/protocols/phase_07b_formal_diagnostic_closure.md),
+   and the [Session 7 report](docs/session_07_construct_validity_diagnostic_report.md).
 6. Inspect authority manifests when the proposed work depends on an existing
    population, model, or result. Relevant current manifests include the
    [Session 6e result manifest](outputs/reserved_evaluation_v3/manifest.json) and
-   the [Session 7 diagnostic manifest](outputs/construct_validity_diagnostics/manifest.json).
+   the [Session 7 formal closure manifest](outputs/construct_validity_diagnostics/formal_closure_manifest.json).
 7. State the reconstructed frontier before proposing a new scientific direction:
    latest completed session, current unfinished session, authorized next step,
    spent and protected evidence, and unsupported claims.
@@ -90,12 +91,12 @@ outcomes. Their verifier and transport failures were not erased by the corrected
 Session 6e execution. Read the Session 6e brief and research log for the exact
 chronology and qualifications, including the documented CSV review-order lapse.
 
-## Current frontier: Session 7
+## Current frontier after Session 7
 
-Session 7 is unfinished. It is now a **development-only formal
-construct-diagnostic and model-behavior audit** of the frozen M0/M1/M2 geometry.
-Its development target comparisons are in-sample diagnostics because the final
-models were trained on those matches; they are not another replication study.
+Session 7 is closed as a **development-only formal construct-diagnostic and
+model-behavior audit** of the frozen M0/M1/M2 geometry. Its development target
+comparisons are in-sample diagnostics because the final models were trained on
+those matches; they are not another replication study.
 
 Phase 07 originally authorized an independent two-stage human review. A
 review-ready packet was produced, but the review branch was withdrawn before any
@@ -106,11 +107,15 @@ packet and public `AWAITING INDEPENDENT REVIEW` output remain preserved as the
 historical stopped checkpoint.
 
 Do not invoke Phase 07's `record-review`, `reveal-passages`, or human-dependent
-`close-review` routes. A final Session 7 classification or report requires a
-separate prospective continuation using only the already closed aggregate
-diagnostics. There is currently no authority to execute that continuation
-automatically. Session 7 does not establish independent practitioner validation,
-ground-truth accessibility, suppression, causality, attribution, or value.
+`close-review` routes. Phase 07b subsequently closed the audit from the already
+closed aggregates. Its primary classification is **B — useful
+receiver-selection geometry, but accessibility interpretation remains weak**;
+M2 is primarily a small predictive refinement. Software readiness is **YES, BUT
+NARROWLY**, and network readiness is **YES, WITH RESTRICTIONS** for a separately
+governed exploratory network with neutral edge semantics. Session 7 does not
+establish independent practitioner validation, ground-truth accessibility,
+suppression, causality, attribution, or value. Read the
+[Session 7 report](docs/session_07_construct_validity_diagnostic_report.md).
 
 ## Data and evidence boundaries
 

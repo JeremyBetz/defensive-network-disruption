@@ -2,8 +2,9 @@
 
 Effective 2026-09-09. Applies to exploratory and confirmatory work, including
 negative results. Current status aligned 2026-09-10: governed development and
-protected receiver-ranking work has been completed through Session 6e, and
-Session 7 construct diagnostics remain unfinished under a later amendment.
+protected receiver-ranking work has been completed through Session 6e. Session
+7 closed as a development-only formal diagnostic under Phase 07b, after the
+human-review branch was withdrawn before responses.
 Exposure, partitions, protocols, results, failures, and current non-claims are
 recorded in the research log and linked authorities.
 

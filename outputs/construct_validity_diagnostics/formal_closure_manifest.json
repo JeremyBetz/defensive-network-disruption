@@ -1,0 +1,39 @@
+{
+  "authority": {
+    "closure_protocol_commit": "6c5c8b05ca96bab97540aefbde568c6b3d892d2c",
+    "closure_protocol_sha256": "a35879e9dece93b5732e50cb5440970d4917bd4913d56543e4d96edd07493bfc",
+    "diagnostic_manifest_sha256": "8a4ad2f684fdf83101cdf439aaaf5aec66bcde6e431efcb73b76cdda1c4485fc",
+    "final_model_sha256": "0383561e45bcd9f8d84eccc7e9733b2409536f61c39193fa87d08c36c6f6fd65",
+    "phase_07a_sha256": "a820b6c2ed2adbd25011ccf22fa18a0418d8db089ce704bd9a0f60d348723d37",
+    "population_sha256": "cd706f9f4621efcf659fbe890d9a6a0ebfff97c3407095a6db5ea05044c1264d",
+    "starting_commit": "2e43368eecb4ccea38d14afb2fc7f3b615ab38f8"
+  },
+  "closure_outputs": {
+    "formal_closure.json": "ecd941d5ad114e25d9d7dddf4040c47fe4e0326a27d80ae1c52124885b40bea8",
+    "report_canonical_sha256": "17aa6affe7b8958d3e0fba6fb76ed982b641587fc7de8f0a22cd881ecf873f11"
+  },
+  "environment": {
+    "numpy": "2.5.3",
+    "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+    "python": "3.13.15",
+    "scipy": "1.18.1",
+    "uv_lock_sha256": "831e43041d47bbf05d614ee47d87e09f67654de5f7ec44a42bdc0807c36386a7"
+  },
+  "preserved_diagnostic_outputs": {
+    "contribution_summary.json": "59a90b91d2e306489007c06423b94e363ce474b117237de90405ce481c7a67e0",
+    "diagnostic_authority.json": "14fd08544b61c463b925994e1decb35dc3780f8f4a6a1ea4a3460ade82ed2ec0",
+    "diagnostic_summary.json": "707dc65491be8786d17e5df89d78925fcc653acd891a8b9816b1570dfdfdebcb",
+    "feature_disagreement.csv": "734b58ca1fa49877425eb62ad683b2e14c3fd8189b1a6d4935850da00ce3b6a3",
+    "m2_role_summary.json": "0e88266b5a3ebefc0bfd095f54db03f3a45d4508be0bfc3e2e0112b919870ebd",
+    "qc.json": "59538cea35b146d32e7e64990ea00d4e924c4095fd9705370f248a3896c344b5",
+    "review_summary.json": "79f0f8bcc7199655dd7253608231e799ff8ce6fbdaa42addb0610572dade2000",
+    "selected_passage_manifest.json": "90756ef61c09fd0b696df38fb4f680ffecb8885bfd7b81615009450238efda18",
+    "stratified_diagnostics.csv": "2c32706f48cd82975142fc9ca0e45bdf67a846cd215b967b487b7f6be2eb5635"
+  },
+  "report_binding": {
+    "canonicalization": "replace the displayed formal closure manifest SHA-256 in the report with 64 zeroes before hashing",
+    "path": "docs/session_07_construct_validity_diagnostic_report.md"
+  },
+  "schema_version": "1",
+  "status": "session_07_closed_formal_diagnostics_only"
+}

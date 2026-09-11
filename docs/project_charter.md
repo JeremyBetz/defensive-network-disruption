@@ -39,10 +39,11 @@ does not establish validity of the latter. Any broader edge estimand must still
 be specified prospectively before evaluation.
 
 The [Session 6e result](session_06e_corrected_reserved_evaluation_decision_brief.md)
-is the protected empirical foundation. The current
-[Session 7 direction](protocols/phase_07a_human_review_withdrawal.md) is a
-development-only construct/model-behavior audit of the frozen geometry, without
-human-review evidence.
+is the protected empirical foundation. The closed
+[Session 7 diagnostic](session_07_construct_validity_diagnostic_report.md) found
+useful receiver-selection geometry while retaining a weak accessibility
+interpretation. It used development-only in-sample diagnostics and no human-review
+evidence.
 
 ## Two spatial networks
 
