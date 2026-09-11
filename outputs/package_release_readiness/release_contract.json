@@ -1,0 +1,42 @@
+{
+  "allowed_inputs": [
+    "committed_public_artifacts",
+    "repository_source",
+    "synthetic_fixtures"
+  ],
+  "distribution_name": "defensive-network-disruption",
+  "extras": {
+    "dataframe": ["pandas"],
+    "interop": ["kloppy"],
+    "public": ["kloppy", "pandas", "matplotlib", "mplsoccer", "pillow"],
+    "visualization": ["matplotlib", "mplsoccer", "pillow"]
+  },
+  "import_name": "defensive_network_disruption",
+  "license_file": "LICENSE.md",
+  "prohibited_actions": [
+    "empirical_data_access",
+    "fitting",
+    "github_release",
+    "model_change",
+    "provider_data_access",
+    "pypi_publish",
+    "tagging"
+  ],
+  "public_exports": [
+    "OptionState",
+    "FrozenOptionModel",
+    "OptionEdge",
+    "OptionNetwork",
+    "MetricCoordinateContext",
+    "evaluate_options",
+    "compare_options",
+    "option_state_from_kloppy",
+    "plot_option_network",
+    "animate_option_network_comparison"
+  ],
+  "schema_version": "1",
+  "stability": "experimental-pre-1.0",
+  "starting_commit": "506891ace7c7cff5b3e9e5e0e54667252bd91a15",
+  "source_date_epoch": 1789091224,
+  "version": "0.1.0"
+}
