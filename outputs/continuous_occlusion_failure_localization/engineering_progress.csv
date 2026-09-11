@@ -1,0 +1,6 @@
+check_index,fixture,passed,reason,permutations_checked,partition_count
+1,constant,True,,1,2
+2,crossing,True,,2,3
+3,three_constants,True,,6,2
+4,rounded_plateau,True,,2,6
+5,exact_plateau,True,,2,6

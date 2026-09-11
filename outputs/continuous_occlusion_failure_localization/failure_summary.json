@@ -1,0 +1,43 @@
+{
+  "active": {
+    "candidate_family": "engineering_oracle",
+    "check_category": "envelope_contract",
+    "check_index": 6,
+    "completed_checks": 5,
+    "fixture": "multiway_plateau",
+    "function": "mapped_signature",
+    "input_summary": {
+      "is_scalar": false,
+      "python_type": "VerifiedEnvelope"
+    },
+    "stage": "signature_construction",
+    "substage": "baseline_signature"
+  },
+  "classification": "LOCALIZED \u2014 EXACT TYPEERROR SOURCE ESTABLISHED",
+  "completed_checks": 5,
+  "defect_classification": "B \u2014 TYPE NORMALIZATION / CONTAINER DEFECT",
+  "exception_class": "TypeError",
+  "exception_message": "'<' not supported between instances of 'tuple' and 'NoneType'",
+  "expected_contract": "mapped_signature must return order-comparable tuple records",
+  "failing_location": "<REPOSITORY>/src/defensive_network_disruption/geometry/verification_repair.py:294 in mapped_signature",
+  "marker_state": "present",
+  "observed_input": {
+    "is_scalar": false,
+    "python_type": "VerifiedEnvelope"
+  },
+  "sanitized_traceback": "Traceback (most recent call last):\n  File \"<REPOSITORY>/src/defensive_network_disruption/geometry/failure_diagnostics.py\", line 131, in run_engineering_diagnostic\n    signature = mapped_signature(result, identity)\n  File \"<REPOSITORY>/src/defensive_network_disruption/geometry/verification_repair.py\", line 294, in mapped_signature\n    ties = tuple(sorted((boundary(x.start), boundary(x.end), owners(x.owners),\n                 ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n                         tuple(sorted(tuple(sorted((permutation[a], permutation[b]))) for a,b in x.pairs)))\n                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n                        for x in result.tie_intervals))\n                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: '<' not supported between instances of 'tuple' and 'NoneType'\n",
+  "schema_version": 1,
+  "traceback_frames": [
+    {
+      "file": "<REPOSITORY>/src/defensive_network_disruption/geometry/failure_diagnostics.py",
+      "function": "run_engineering_diagnostic",
+      "line": 131
+    },
+    {
+      "file": "<REPOSITORY>/src/defensive_network_disruption/geometry/verification_repair.py",
+      "function": "mapped_signature",
+      "line": 294
+    }
+  ],
+  "typeerror_reproduced": true
+}

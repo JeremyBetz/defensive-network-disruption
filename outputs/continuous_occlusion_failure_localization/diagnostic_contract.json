@@ -1,0 +1,50 @@
+{
+  "environment": {
+    "numpy": "2.5.3",
+    "python": "3.13.15",
+    "scipy": "1.18.1",
+    "uv_lock_sha256": "c9e4da0781770b9e72b8a5b10a7c514f2259b7e63dc1b67604ee481934db0a0c"
+  },
+  "execution_commit": "f464d6006c6d60f33da997e656063b0afb554939",
+  "fixture_order": [
+    "constant",
+    "crossing",
+    "three_constants",
+    "rounded_plateau",
+    "exact_plateau",
+    "multiway_plateau"
+  ],
+  "historical_hashes": {
+    "docs/protocols/phase_14g_production_verification_wiring.md": "7fe93e28afe4076a2028da795bb91e3078eeb0bd9475a68ec6b2e095cd11cc0f",
+    "docs/session_14g_production_verification_wiring.md": "6fbc3acb42801a36d02d98b66dc46891bd125138349671c04d551e2616336b1f",
+    "outputs/continuous_occlusion_production_verification/manifest.json": "7b04ec5d5fff16e949ce072ee799b49906d529e59edc26df5b10e017fad15506",
+    "outputs/continuous_occlusion_production_verification/qc.json": "894a57abf4af8669dd5c36cbf744f1b35849bc7907ef5fbfa8d4a1015507e430",
+    "outputs/continuous_occlusion_production_verification/wiring_checks.json": "3fea647016b4ae53124a2be25596d75bd8fcb0f02afe2435b30777a49ae8972c",
+    "scripts/session_14g_production_verification.py": "eefa5a7796b66be4cfb9764184ae50570c4617412869c832d95b16024a6a5168",
+    "src/defensive_network_disruption/geometry/production_verification.py": "6d4eeddf0c7537ecbea027e1c308e4f573b2cf0f4bb71a0b3b839e2382f75a6c",
+    "src/defensive_network_disruption/geometry/verification_repair.py": "f1a3504c75fa749f32967c3f29f9037364671029022fe2f359fb507a71cc0cd9",
+    "tests/test_session14g_production.py": "57e564937deeee3ef0ac12a52b0257cf5520050ffc0208da4b7981f94bac041a",
+    "uv.lock": "c9e4da0781770b9e72b8a5b10a7c514f2259b7e63dc1b67604ee481934db0a0c"
+  },
+  "implementation_hashes": {
+    "scripts/session_14h_failure_localization.py": "85b3063ebb12bb6dce933aef288173374bf07e055057011c7effba750df0c658",
+    "src/defensive_network_disruption/geometry/failure_diagnostics.py": "86168a0520d17b8a4975eb8c63c0d500a4407752f68cf0792fadcea6a6ebe88d",
+    "tests/test_session14h_diagnostics.py": "80bc7c95dc34c3ac2c085334f1bb1e6cf2589ccfa40723c9051a0419fa41f22e"
+  },
+  "protocol_commit": "41056a54c45a9c268bc82e6875df3b8e74e73ccb",
+  "protocol_sha256": "435cdd2f026b2e41b48607d1a8f82797ea948d626fff0003a94fe47d1c3c8841",
+  "schema_version": 1,
+  "stages": [
+    "fixture_load",
+    "field_evaluation",
+    "switch_detection",
+    "enclosure_validation",
+    "partition_construction",
+    "input_shape_probe",
+    "signature_construction",
+    "permutation_switch_detection",
+    "permutation_signature_comparison",
+    "progress_persistence"
+  ],
+  "starting_head": "661f1beaac7eea9d47500747ddd9f2f36b3e8ed5"
+}

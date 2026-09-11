@@ -843,3 +843,22 @@ share, protected/withheld/pose, xT or progression access; claims and release are
 unchanged. Session 14R remains paused. The sole next action is a separately
 governed synthetic failure-localization and diagnostic-preservation review;
 it was not executed. See the [Session 14g report](session_14g_production_verification_wiring.md).
+
+## 2026-09-11 — Session 14h failure localization
+
+Phase 14h protocol `41056a5` and tested diagnostic tooling `f464d60` preceded
+one governed reproduction of the unchanged Session 14g engineering-check path.
+**LOCALIZED — EXACT TYPEERROR SOURCE ESTABLISHED.** Checks 1–5 completed and
+were preserved. Check 6, `multiway_plateau`, raised `TypeError` during baseline
+`mapped_signature()` construction at `geometry/verification_repair.py:294`:
+the tie-record sort compared a tuple-valued mapped boundary with a `None`
+endpoint boundary. Classification B — type normalization/container defect.
+The full private and sanitized public tracebacks agree. Session 14h changed no
+field, detector, integral, tolerance, reference or readiness rule and did not
+repair or rerun the failure. It executed zero 108-case acceptance cases, zero
+of 366 references and zero of 399 acceptance permutations. No empirical data,
+provider product, target, model, share, protected/withheld/pose, xT or
+progression material was accessed; claims and `v0.1.0` remain unchanged. The
+sole next action is a separately governed bounded `mapped_signature()` ordering
+repair followed by synthetic production-wiring acceptance. Session 14R remains
+paused. See the [Session 14h report](session_14h_failure_localization.md).

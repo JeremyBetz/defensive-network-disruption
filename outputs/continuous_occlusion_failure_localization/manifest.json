@@ -1,0 +1,11 @@
+{
+  "classification": "LOCALIZED \u2014 EXACT TYPEERROR SOURCE ESTABLISHED",
+  "outputs_sha256": {
+    "diagnostic_contract.json": "f510c08d47ed224633331bb1c992518db67e3249cc895bbf172a8ccae75bda99",
+    "engineering_progress.csv": "a2a53a1bbe53e74615718ad4d99317b18645fb644f844a36ea4e28441b9281a0",
+    "failure_summary.json": "365e3fec89ef55a558892116f200a0e2eadf87e2ec612e8c9e2ec40f3b5186d6",
+    "qc.json": "715b8e7d2ef6f6eb5bc07b8c63d2fc35d3c6e47e132d7b9542aae30c2795d19f"
+  },
+  "schema_version": 1,
+  "status": "closed"
+}

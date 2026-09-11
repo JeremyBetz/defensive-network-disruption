@@ -1,0 +1,13 @@
+{
+  "acceptance_cases_executed": 0,
+  "acceptance_permutations_executed": 0,
+  "classification": "LOCALIZED \u2014 EXACT TYPEERROR SOURCE ESTABLISHED",
+  "completed_checks": 5,
+  "empirical_access": false,
+  "expected_checks": 6,
+  "readiness_claimed": false,
+  "references_executed": 0,
+  "schema_version": 1,
+  "status": "closed",
+  "typeerror_reproduced": true
+}
