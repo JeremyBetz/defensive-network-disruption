@@ -1,0 +1,45 @@
+{
+  "counts": {
+    "development_01": 885,
+    "development_02": 801,
+    "development_03": 952,
+    "development_04": 877,
+    "development_05": 861,
+    "development_06": 629,
+    "development_07": 764,
+    "development_08": 734,
+    "development_09": 724
+  },
+  "dimensions_sha256": "ded8721ad91f18b98c09488852481aaadfe3098d7b5f2039f0531e6e4f923c69",
+  "environment": {
+    "lock_sha256": "c9e4da0781770b9e72b8a5b10a7c514f2259b7e63dc1b67604ee481934db0a0c",
+    "python": "3.13.15"
+  },
+  "implementation": {
+    "scripts/session_12c_boundary.py": "92aae34e2d169829a11c581c484d5ba5ea88b8c0f437af5cc8b940028963e9cf",
+    "src/defensive_network_disruption/data/boundary_review.py": "5599c96d62add7d831915cdd4dae5b3a008f28715ecf1118d5cc9f3e9bd1441a",
+    "tests/test_session12c_boundary.py": "feab0a9c168ac0cf55948392e10948ac0bee2936639a16b641d020fb8e9cf7ab"
+  },
+  "local_occurrence_sha256": "de0f1b3b8eaaf6a65e887b05907e6069e6a053fc6a422bcfbd3cace37c38e9a5",
+  "occurrence_counts": {
+    "development_01": 2,
+    "development_02": 1,
+    "development_03": 3,
+    "development_04": 2,
+    "development_05": 1,
+    "development_06": 1,
+    "development_07": 2,
+    "development_08": 0,
+    "development_09": 0
+  },
+  "occurrences": 12,
+  "population_sha256": "cd706f9f4621efcf659fbe890d9a6a0ebfff97c3407095a6db5ea05044c1264d",
+  "previous_authorities": {
+    "manifest.json": "e53062040d7c89914924c50a44b1729c655f7725433a456471c387c94c1b586d",
+    "qc.json": "fd870f22276d1a15c19376abc4e905ac483fefb2124fcff80a9fe9d7c24152dc",
+    "value_surface_authority.json": "03311326e7339ca093e0f50da6b0603e650f53b20df24b6f68501896d0470936"
+  },
+  "protocol_sha256": "3909e8b67db8451688c983bbcd8f64c453b65e786d43886aa20bcbeb8880f1bb",
+  "schema_version": 1,
+  "status": "exact_reproduction"
+}
