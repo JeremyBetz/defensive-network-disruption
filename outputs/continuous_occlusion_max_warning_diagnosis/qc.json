@@ -1,0 +1,11 @@
+{
+  "classification": "G",
+  "empirical_edges_diagnosed": 0,
+  "empirical_states_opened": 1,
+  "failure": "ValueError",
+  "prohibited_access": false,
+  "schema_version": 1,
+  "scientific_partial_results_interpreted": false,
+  "status": "unresolved",
+  "warning_reproduced": false
+}

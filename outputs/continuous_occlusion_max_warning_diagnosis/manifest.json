@@ -1,0 +1,31 @@
+{
+  "environment": {
+    "lock_sha256": "c9e4da0781770b9e72b8a5b10a7c514f2259b7e63dc1b67604ee481934db0a0c",
+    "numpy": "2.5.3",
+    "python": "3.13.15",
+    "scipy": "1.18.1"
+  },
+  "implementation": {
+    "scripts/session_14s_independent_max_warning_diagnosis.py": "a03428de8f8d8b2c14c020a7575264511f531ef8c62214630f60d2265a1b2f74",
+    "src/defensive_network_disruption/geometry/max_warning_diagnosis.py": "0eb6b3306a909336e42f9aa0814d8e7ab962ddbc81e8f6096590f27ef19e1918",
+    "tests/test_session14s_diagnosis.py": "43eb6d18ab53a42f558b1d7a4cda6df204c14316a7f6abc5efdf25815fb1c72e"
+  },
+  "outputs": {
+    "qc.json": "b289ea3564a8878f4c9d51d9a5be6bc6f0e2cbfa32a5a4dd14aadd1ad987b3a4"
+  },
+  "protocol_sha256": "8dedb0b6b41c3e605ee1c7d7b7ab04b6264edc50cf37f0c586b704fe7c7d1d54",
+  "schema_version": 1,
+  "sources": {
+    "population": "cd706f9f4621efcf659fbe890d9a6a0ebfff97c3407095a6db5ea05044c1264d",
+    "prepared": "15a809060f0ba4a8cb3790011dab8008db3dad6e931c287ccb395f61ef1530b0",
+    "session14r_manifest": "8a639f7a2b29a6aec026e176d80d8901b28839b0d2091dd0256751d77b6f70ed"
+  },
+  "start": "3f3952d99987ebb0e753484adc82825d884fe383",
+  "status": "unresolved",
+  "unavailable": [
+    "failure_authority.json",
+    "partition_summary.json",
+    "method_comparison.json",
+    "warning_diagnostics.json"
+  ]
+}

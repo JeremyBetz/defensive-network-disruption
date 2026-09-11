@@ -894,3 +894,20 @@ reserved/withheld/pose data were not accessed. Claims and historical artifacts
 remain unchanged. The sole next action is a separately governed bounded
 diagnosis of the independent-maximum integration warning, not executed here.
 See the [Session 14R report](session_14r_continuous_occlusion_retry_report.md).
+
+## 2026-09-11 — Session 14s warning diagnosis unresolved at state authority
+
+Phase 14s protocol `c44fb6b` and tested diagnostics `4580aa5` preceded one
+governed attempt to reproduce Session 14R's independent-maximum warning. The
+preserved `states_completed=1` record selected canonical row ordinal 1, but its
+restricted canonical projection did not equal the preserved Session 14R
+prepared record under the frozen exact-record gate. The execution preserved the
+failure and stopped before candidate/edge location or any quadrature call; it
+did not inspect the mismatch, repair code, relax equality, open another state or
+rerun. **G — UNRESOLVED; repair readiness 4.** One state was opened for authority
+reconstruction, zero edges were numerically diagnosed, and the warning mechanism
+remains unavailable. Session 14R stays historically blocked. No partial
+scientific result, target, outcome, model, share, protected/reserved/withheld or
+pose data, xT or progression material was accessed. The sole next action is a
+separately governed representation-only audit of the canonical-to-prepared row
+equivalence mismatch. See the [Session 14s report](session_14s_independent_max_warning_diagnosis.md).
