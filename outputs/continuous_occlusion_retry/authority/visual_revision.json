@@ -1,0 +1,11 @@
+{
+  "empirical_access": false,
+  "excluded_functions": [
+    "render_synthetic",
+    "check_binding"
+  ],
+  "nonvisual_runner_ast_sha256": "721e219f23ce590a9ebc4aaaa85eff7d2e96eb28e7c24d0f13c63a92719c4d23",
+  "reason": "pre_access_label_collision_correction",
+  "schema_version": 1,
+  "verified_runner_sha256": "9027dac7099244c8d23ed98ec0364ada39e47fff541e47a82b12061600c2555e"
+}

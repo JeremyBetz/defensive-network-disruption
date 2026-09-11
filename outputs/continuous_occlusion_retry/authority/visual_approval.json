@@ -1,0 +1,19 @@
+{
+  "checks": [
+    "full_frame",
+    "no_clipping",
+    "legible_labels",
+    "equal_geometry",
+    "shared_scale",
+    "deterministic_bytes"
+  ],
+  "implementation": {
+    "scripts/session_14r_occlusion_study.py": "e5875362f9e4d4237ee4ee7e920533effc76348c73cea36ca258859f9a600214",
+    "src/defensive_network_disruption/data/representation_projection.py": "229ff793392c06471ac3a0dd3ee11bbcaaedf6045da3bfe4a484743423029858",
+    "src/defensive_network_disruption/geometry/representation_study.py": "d0957593d9aa092160b5e890c49987ca6096c1429dfc0a7b9d2daa0388c033c9",
+    "tests/test_session14r_study.py": "56e0c0940b3ab636be66f27b9aee1e3d88c62460b4d460d48e1db5f866798ce0"
+  },
+  "schema_version": 1,
+  "status": "approved",
+  "svg_sha256": "dee4ec07bc364662bb4587049f63b5d0406a175dfe62793a40f8b1301154fbe6"
+}
