@@ -596,3 +596,25 @@ reserved/withheld/pose detail or new model computation was accessed. No claim
 status changed. Accessibility remains PROXY ONLY and suppression NOT SUPPORTABLE.
 The single recommendation is separately governed package hardening and release
 preparation; it is not executed here.
+
+## 2026-09-10 — Session 10 package hardening and release readiness
+
+Phase 10 promoted the provider-independent package metadata to experimental
+`0.1.0` and hardened the existing public API without changing M0/M1 mathematics,
+shares, ties, summaries, empirical results or claim status. Public annotations,
+errors, documentation, CI, changelog, contribution guidance and a reusable
+release checklist were added. No tag, GitHub release or PyPI publication occurred.
+
+Two final wheel builds and two canonical source-distribution builds were
+byte-identical. Core, interop, dataframe, visualization and public clean-install
+profiles passed on Python 3.13; the public workflow also passed on Python 3.11.
+The quickstart ran from an empty directory, and the Session 9 SVG/GIF reproduced
+byte-identically. Full tests: 219 passed and 3 retained scaffold skips; focused
+Session 9/10 tests: 21 passed and 0 skipped.
+
+Execution: **VALID**. Release readiness: **A — READY FOR EXPERIMENTAL 0.1.0
+RELEASE**. Portfolio readiness: **1 — STRONG PORTFOLIO ARTIFACT NOW**. No raw,
+provider, empirical, protected, withheld or pose data was opened, and no model or
+scientific analysis ran. Accessibility remains PROXY ONLY and suppression NOT
+SUPPORTABLE. The single recommendation is a separately authorized experimental
+0.1.0 release phase; it was not executed.

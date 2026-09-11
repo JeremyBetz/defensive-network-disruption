@@ -1,0 +1,46 @@
+{
+  "archives_committed": false,
+  "builds": 2,
+  "clean_install_matrix": {
+    "core_python_3_13": "passed",
+    "dataframe_python_3_13": "passed",
+    "interop_python_3_13": "passed",
+    "public_python_3_11": "passed",
+    "public_python_3_13": "passed",
+    "visualization_python_3_13": "passed"
+  },
+  "required_content": {
+    "sdist": [
+      "CHANGELOG.md",
+      "CONTRIBUTING.md",
+      "LICENSE.md",
+      "README.md",
+      "docs/public_api.md",
+      "docs/release_checklist.md",
+      "examples/quickstart.py",
+      "package source",
+      "tests"
+    ],
+    "wheel": [
+      "LICENSE.md",
+      "package metadata",
+      "package source"
+    ]
+  },
+  "schema_version": "1",
+  "sdist": {
+    "bytes": 87204,
+    "file_count": 84,
+    "name": "defensive_network_disruption-0.1.0.tar.gz",
+    "sha256": "329799ebbc895cf2845ca0d7ffef5a8e82a7b8e9b4b3b30dff1a32f0f83179c9"
+  },
+  "source_date_epoch": 1789091224,
+  "status": "passed",
+  "two_builds_byte_identical": true,
+  "wheel": {
+    "bytes": 63566,
+    "file_count": 35,
+    "name": "defensive_network_disruption-0.1.0-py3-none-any.whl",
+    "sha256": "1de87e6befd4df7ba84469642cc16d64f8df53ca88d6622a214ce24248874f42"
+  }
+}

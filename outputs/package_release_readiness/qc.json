@@ -1,0 +1,40 @@
+{
+  "archive_privacy_scan": "passed",
+  "claims_changed": false,
+  "clean_install_profiles_passed": 6,
+  "compilation": "passed",
+  "documentation_links": "passed",
+  "execution_validity": "VALID",
+  "focused_tests": {
+    "passed": 21,
+    "skipped": 0,
+    "total": 21
+  },
+  "full_active_tests": {
+    "passed": 219,
+    "skipped": 3,
+    "total": 222
+  },
+  "performance_sanity": {
+    "evaluations": 1000,
+    "limit_seconds": 10.0,
+    "performance_claim": false,
+    "status": "passed"
+  },
+  "portfolio_readiness": "1 — STRONG PORTFOLIO ARTIFACT NOW",
+  "protected_data_access": false,
+  "public_release_readiness": "A — READY FOR EXPERIMENTAL 0.1.0 RELEASE",
+  "readme": {
+    "image_count": 1,
+    "table_row_count": 0,
+    "word_count": 653
+  },
+  "schema_version": "1",
+  "scientific_analysis": false,
+  "status": "passed",
+  "visual_reproduction": {
+    "animation_sha256": "761c1b88246b6ef7130d8d9437e9d8638f2b1bbfbeed51b85edb87ef55e520b1",
+    "static_sha256": "78568af7e020b430a12184fc9701d8568bf7b70b726430e2c6bd2e6e342b7f1c",
+    "status": "byte-identical"
+  }
+}

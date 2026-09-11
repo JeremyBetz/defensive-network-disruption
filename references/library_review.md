@@ -219,3 +219,17 @@ Upstream contribution assessment: **NO — none established**. The stricter
 coordinate/selection checks and local-star rendering are specific to this
 project's analytical contract. No generic missing Kloppy, mplsoccer or
 matplotvideo primitive was demonstrated, and no upstream change was made.
+
+## Session 10 — Package-readiness review
+
+No dependency was added. NumPy remains the core numerical requirement; Kloppy,
+pandas, Matplotlib, mplsoccer and Pillow remain in their existing optional
+extras at the locked Session 9 versions. The clean-install matrix confirmed that
+each extra supplies its documented workflow and that root-package import remains
+safe without optional packages.
+
+The wheel and source archive vendor none of these dependencies, so their BSD,
+MIT, MIT-CMU and project-specific open-source notices remain with their own
+distributions. `LICENSE.md` is present in both project archives and covers only
+original project code and documentation. SkillCorner data is absent and is not
+relicensed. No new ecosystem gap or upstream contribution target was established.
