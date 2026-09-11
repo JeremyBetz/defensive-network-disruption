@@ -862,3 +862,18 @@ progression material was accessed; claims and `v0.1.0` remain unchanged. The
 sole next action is a separately governed bounded `mapped_signature()` ordering
 repair followed by synthetic production-wiring acceptance. Session 14R remains
 paused. See the [Session 14h report](session_14h_failure_localization.md).
+
+## 2026-09-11 — Session 14i signature repair and production acceptance
+
+Phase 14i protocol `ff9c513` and tested repair `23a432a` preceded one governed
+synthetic audit. **PASS — PRODUCTION VERIFICATION WIRING ACCEPTED; SESSION 14R
+MAY RESUME.** A tagged boundary sort and canonical mapped witness normalized
+`mapped_signature()` without changing returned endpoint semantics or numerical
+results. All 108 frozen cases, 366 references and 399 fixture permutations
+passed; maximum reference error was `4.1576548232002963e-08`. The valid control
+succeeded and all eleven negative pipeline injections blocked acceptance. No
+empirical/provider/target/model/share, protected/withheld/pose, xT or progression
+material was accessed; claims and `v0.1.0` remain unchanged. The public-repository
+audit was already complete at the Session 14i starting authority. The sole next
+action is to resume Session 14R protocol planning under the accepted contract;
+it was not executed. See the [Session 14i report](session_14i_signature_repair_and_acceptance.md).

@@ -1,0 +1,15 @@
+{
+  "classification": "PASS \u2014 PRODUCTION VERIFICATION WIRING ACCEPTED; SESSION 14R MAY RESUME",
+  "outputs_sha256": {
+    "engineering_checks.csv": "63cfdc8dcf72a357b936bd2b696f4a1ded52ef02fbcc18ac1c0aa3ae97008aaa",
+    "failure_injection.json": "052389dda453cd50a34c585b1237889b8c7f73b72f8ad0e196db82eb5b2d5259",
+    "permutation_summary.csv": "29f8af3f9976351157fa60c70dd81bc590f6f5af31d1b38dd7b6f38e66bdd418",
+    "qc.json": "b5f1b7e68dce53662858ee4ab12cd7209e0167b49acd10a56fe5fd47ef2fbd4d",
+    "readiness.json": "b2adbe2ee63d1279c1dfe9c892d345805d29e6929242e8bd8525cfde78524b06",
+    "reference_comparison.csv": "c0f7935a4b728598126f0b5701ad36dedf0981ab20c73b6d5879d9ee38981e56",
+    "repair_summary.json": "d01af61e169b7ab09bef1f2f4d8c1d38b1b60666a14e3b122364d026bc0fa1ac"
+  },
+  "repair_summary_sha256": "d01af61e169b7ab09bef1f2f4d8c1d38b1b60666a14e3b122364d026bc0fa1ac",
+  "schema_version": 1,
+  "status": "closed"
+}

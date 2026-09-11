@@ -1,0 +1,12 @@
+{
+  "cases_completed": 108,
+  "classification": "PASS \u2014 PRODUCTION VERIFICATION WIRING ACCEPTED; SESSION 14R MAY RESUME",
+  "empirical_access": false,
+  "failure": null,
+  "permutations_completed": 399,
+  "references_completed": 366,
+  "schema_version": 1,
+  "status": "closed",
+  "unavailable_cases": 0,
+  "unavailable_references": 0
+}

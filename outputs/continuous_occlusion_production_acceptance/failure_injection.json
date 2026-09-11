@@ -1,0 +1,78 @@
+{
+  "records": [
+    {
+      "accepted_count": 1,
+      "blocked": false,
+      "failure": null,
+      "injection": "valid_control"
+    },
+    {
+      "accepted_count": 0,
+      "blocked": true,
+      "failure": "GateFailure",
+      "injection": "continuity"
+    },
+    {
+      "accepted_count": 0,
+      "blocked": true,
+      "failure": "GateFailure",
+      "injection": "discontinuous_surrogate"
+    },
+    {
+      "accepted_count": 0,
+      "blocked": true,
+      "failure": "GateFailure",
+      "injection": "failed_root"
+    },
+    {
+      "accepted_count": 0,
+      "blocked": true,
+      "failure": "GateFailure",
+      "injection": "malformed_certification"
+    },
+    {
+      "accepted_count": 0,
+      "blocked": true,
+      "failure": "GateFailure",
+      "injection": "nonconvergence"
+    },
+    {
+      "accepted_count": 0,
+      "blocked": true,
+      "failure": "GateFailure",
+      "injection": "permutation_mismatch"
+    },
+    {
+      "accepted_count": 0,
+      "blocked": true,
+      "failure": "GateFailure",
+      "injection": "nondeterminism"
+    },
+    {
+      "accepted_count": 0,
+      "blocked": true,
+      "failure": "IntegrationWarning",
+      "injection": "warning"
+    },
+    {
+      "accepted_count": 0,
+      "blocked": true,
+      "failure": "GateFailure",
+      "injection": "missing_reference"
+    },
+    {
+      "accepted_count": 0,
+      "blocked": true,
+      "failure": "GateFailure",
+      "injection": "integrity_failure"
+    },
+    {
+      "accepted_count": 0,
+      "blocked": true,
+      "failure": "FileExistsError",
+      "injection": "marker_collision"
+    }
+  ],
+  "schema_version": 1,
+  "verified": true
+}

@@ -1,0 +1,7 @@
+fixture,passed,reason,permutations_checked,partition_count,boundary_count,different_sections
+constant,True,,1,2,0,
+crossing,True,,2,3,0,
+three_constants,True,,6,2,0,
+rounded_plateau,True,,2,6,2,
+exact_plateau,True,,2,6,2,
+multiway_plateau,True,,24,6,2,
