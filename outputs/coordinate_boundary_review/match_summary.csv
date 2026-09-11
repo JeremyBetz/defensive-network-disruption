@@ -1,0 +1,10 @@
+match_alias,occurrences,carriers,candidates,detected,extrapolated,unavailable
+development_01,2,0,2,1,1,0
+development_02,1,0,1,0,1,0
+development_03,3,1,2,0,3,0
+development_04,2,0,2,1,1,0
+development_05,1,0,1,0,1,0
+development_06,1,0,1,1,0,0
+development_07,2,0,2,2,0,0
+development_08,0,0,0,0,0,0
+development_09,0,0,0,0,0,0

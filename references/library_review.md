@@ -264,3 +264,16 @@ fields. Synthetic core tests pass, but canonical longitudinal boundary violation
 blocked empirical use of the bounded surface. Keep the interface internal; no
 release or generic upstream gap is claimed. See the
 [Session 12b report](../docs/session_12b_internal_threat_baseline_report.md).
+
+## 2026-09-10 — Session 12c coordinate-support semantics
+
+The pinned SkillCorner README documents centred metres and the detected versus
+extrapolated flag, but does not establish clipping or legitimate coordinate
+support beyond field markings. Session 2's historical observation of out-of-pitch
+positions is not a provider guarantee. The coordinate review used existing pure
+clock, transform and integrity helpers with a separate selective syntax reader;
+no package, external surface or learned parameter was adopted. No ecosystem gap
+or release claim is established. Provider-coordinate support and the analytical
+value domain remain distinct questions. See the
+[Session 12c report](../docs/session_12c_coordinate_boundary_review.md) for the
+F/2 conclusion and bounded clarification recommendation.

@@ -1,0 +1,59 @@
+{
+  "authorized_unique_samples": 60,
+  "boundary_sides": {
+    "negative": 7,
+    "positive": 5
+  },
+  "censored_runs": 12,
+  "detection_excess": {
+    "detected": {
+      "count": 5,
+      "maximum": 1.3299999999999983,
+      "median": 0.9399999999999977,
+      "minimum": 0.20000000000000284
+    },
+    "extrapolated": {
+      "count": 7,
+      "maximum": 4.43,
+      "median": 0.8299999999999983,
+      "minimum": 0.11999999999999744
+    },
+    "unavailable": {
+      "count": 0,
+      "maximum": null,
+      "median": null,
+      "minimum": null
+    }
+  },
+  "detection_status_transitions": 0,
+  "dimension_join": "exactly_verified",
+  "distinct_player_frames": 12,
+  "distinct_players": 10,
+  "excess_metres": {
+    "count": 12,
+    "maximum": 4.43,
+    "median": 0.884999999999998,
+    "minimum": 0.11999999999999744
+  },
+  "interpretation_status": "pending_documentary_interpretation_in_report",
+  "missing_samples": 0,
+  "observed_local_runs": 12,
+  "occurrences": 12,
+  "overlapping_window_pairs": 0,
+  "pitch_length_classes": {
+    "104.0": 3,
+    "105.0": 7,
+    "106.0": 2
+  },
+  "players_with_repeated_occurrences": 1,
+  "repeated_occurrences": 0,
+  "roles": {
+    "candidate": 11,
+    "carrier": 1
+  },
+  "schema_version": 1,
+  "simultaneous_lateral_crossings": 0,
+  "single_observed_sample_runs": 0,
+  "status": "review_complete",
+  "transformation": "exactly_verified"
+}

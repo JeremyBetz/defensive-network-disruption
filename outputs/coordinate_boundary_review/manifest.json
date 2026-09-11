@@ -1,0 +1,19 @@
+{
+  "dimension_sha256": "ded8721ad91f18b98c09488852481aaadfe3098d7b5f2039f0531e6e4f923c69",
+  "implementation": {
+    "scripts/session_12c_boundary.py": "92aae34e2d169829a11c581c484d5ba5ea88b8c0f437af5cc8b940028963e9cf",
+    "src/defensive_network_disruption/data/boundary_review.py": "5599c96d62add7d831915cdd4dae5b3a008f28715ecf1118d5cc9f3e9bd1441a",
+    "tests/test_session12c_boundary.py": "feab0a9c168ac0cf55948392e10948ac0bee2936639a16b641d020fb8e9cf7ab"
+  },
+  "outputs": {
+    "match_summary.csv": "dd6db132429c66122c6a5aec37effaf5f9afa745d10aeb88da127b0701c378fe",
+    "occurrence_authority.json": "ece0ba20a2e35fe070b1ec473cf6172bc50f93a35613c967ebd98168a4796a6a",
+    "occurrence_summary.json": "b1ca0ec4d7e5d9fc723b839f83b4e3e14e0628e2ff3d3b746fd2c6aa7050863b",
+    "qc.json": "32420984c7ffd18e02a99ad54492b375603af4d84dd26c7340c74f89ff7a875a"
+  },
+  "population_sha256": "cd706f9f4621efcf659fbe890d9a6a0ebfff97c3407095a6db5ea05044c1264d",
+  "protocol_sha256": "3909e8b67db8451688c983bbcd8f64c453b65e786d43886aa20bcbeb8880f1bb",
+  "schema_version": 1,
+  "status": "closed",
+  "unavailable": []
+}

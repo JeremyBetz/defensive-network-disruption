@@ -1,0 +1,10 @@
+{
+  "dimension_join_verified": 12,
+  "no_outcome_access": true,
+  "occurrence_reproduction": 12,
+  "partial_detail_sha256": "a8d98ce8cefa7ebd0a16c22ac2253048c2ecba03c6eb5e3f4d695a818e598582",
+  "source_products_verified": 21,
+  "source_receipts_sha256": "a2b94f2a05e95650d19df83ef825de7d7c851173be606484c5acac2224b2b32d",
+  "status": "valid_review",
+  "transformation_verified": 12
+}

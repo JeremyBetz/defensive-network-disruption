@@ -676,3 +676,19 @@ external surface or organizer access. See the
 [Session 12b report](session_12b_internal_threat_baseline_report.md). Exactly one
 later recommendation is a separately governed bounded coordinate-prerequisite
 review; it was not executed.
+
+## 2026-09-10 — Session 12c coordinate boundary review
+
+Protocol `2fd8e1b` and tested implementation `0c27b3f` preceded exact reproduction
+of twelve occurrences; authority `6c5d000` preceded deeper review. All 21 existing
+products passed source integrity; all twelve transformations and dimension joins
+matched exactly. Excess min/median/max: 0.12/0.885/4.43 metres. Five samples were
+flagged detected and seven extrapolated. Twelve distinct player/frame keys form
+twelve censored observed local runs in the bounded windows; complete physical
+excursions and cause remain unresolved. Primary **F — UNRESOLVED**; remedy
+readiness **2 — PROVIDER/DOCUMENTATION CLARIFICATION REQUIRED**. No boundary
+policy was selected. No target/outcome/model/share/horizon, protected-detail,
+withheld/pose or new payload access; no implementation repair or rerun.
+Tests: 18 focused passed; full 277 passed, 3 retained skips. See the
+[Session 12c report](session_12c_coordinate_boundary_review.md). The sole next
+action is separately authorized provider/documentation clarification; not sent.
