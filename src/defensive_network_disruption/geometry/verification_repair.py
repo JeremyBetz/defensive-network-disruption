@@ -284,16 +284,46 @@ def find_verified_envelope(function: Callable[[np.ndarray], np.ndarray], *,
 
 
 def mapped_signature(result: VerifiedEnvelope, permutation: tuple[int, ...]) -> tuple:
+    """Return a permutation-mapped signature with explicit boundary ordering.
+
+    A missing start is the left domain endpoint and a missing end is the right
+    domain endpoint.  Returned records preserve those values as ``None``; only
+    the sorting key tags them so Python never compares heterogeneous values.
+    """
     owners = lambda seq: tuple(sorted(permutation[i] for i in seq))
-    boundary = lambda value: None if value is None else (
-        value.outside, value.inside, value.direction,
-        tuple(sorted(permutation[i] for i in value.pair)), owners(value.owners))
     switches = tuple((x.location, owners(x.owners_before), owners(x.owners_at), owners(x.owners_after),
                       tuple(sorted(tuple(sorted((permutation[a], permutation[b]))) for a,b in x.crossing_pairs)),
                       x.endpoint, x.multiway, x.envelope_value) for x in result.switches)
-    ties = tuple(sorted((boundary(x.start), boundary(x.end), owners(x.owners),
-                         tuple(sorted(tuple(sorted((permutation[a], permutation[b]))) for a,b in x.pairs)))
-                        for x in result.tie_intervals))
+    tie_records = []
+    for item in result.tie_intervals:
+        mapped_pairs = tuple(sorted(
+            tuple(sorted((permutation[a], permutation[b]))) for a, b in item.pairs
+        ))
+        # A merged multiway interval can retain an arbitrary certification-witness
+        # pair on its boundaries.  The complete semantic pair set is mapped above;
+        # use its first pair in the signature so equivalent permutations do not
+        # compare the incidental merge witness.
+        canonical_pair = mapped_pairs[0]
+
+        def boundary(value):
+            return None if value is None else (
+                value.outside, value.inside, value.direction,
+                canonical_pair, owners(value.owners))
+
+        tie_records.append((boundary(item.start), boundary(item.end), owners(item.owners), mapped_pairs))
+    tie_records = tuple(tie_records)
+
+    def boundary_order(value: tuple | None, *, is_start: bool) -> tuple[int, tuple]:
+        if value is None:
+            return (0 if is_start else 2, ())
+        return (1, value)
+
+    ties = tuple(sorted(tie_records, key=lambda record: (
+        boundary_order(record[0], is_start=True),
+        boundary_order(record[1], is_start=False),
+        record[2],
+        record[3],
+    )))
     return switches, ties, owners(result.maximizing_defenders), result.partitions, result.grid_intervals
 
 
