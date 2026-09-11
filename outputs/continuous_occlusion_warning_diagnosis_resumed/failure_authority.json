@@ -1,0 +1,13 @@
+{
+  "candidate": "constant_width",
+  "combination": "maximum",
+  "neutral_edge_key": "development_01_state_000002_receiver_08",
+  "neutral_state_key": "development_01_state_000002",
+  "receiver_ordinal": 7,
+  "schema_version": 1,
+  "session14r_failure_sha256": "66b9207b86adf3be44dfc814aa48a017f30a9ce705d1f240149633681a642ac8",
+  "stable_alias": "development_01",
+  "stage": "strict_piecewise_maximum",
+  "state_integrity_key_sha256": "dc5fb78ae82e6987d5bf574c63b1f944e2b2b5a2f4b1ffcf2264d08826bdeaef",
+  "zero_based_row_ordinal": 1
+}

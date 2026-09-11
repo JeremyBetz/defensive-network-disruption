@@ -1,0 +1,12 @@
+{
+  "comparison_layer": "historical_sorted_json_utf8_bytes",
+  "exact_historical_byte_equality": true,
+  "neutral_state_key": "development_01_state_000002",
+  "numeric_tolerance": null,
+  "preserved_line_sha256": "4e896a6174ea54902a9eeeff813951d49fd53299273a3f6b63a30744edd5a52b",
+  "reproduced_line_sha256": "4e896a6174ea54902a9eeeff813951d49fd53299273a3f6b63a30744edd5a52b",
+  "schema_version": 1,
+  "status": "passed",
+  "tuple_list_normalization": false,
+  "zero_based_row_ordinal": 1
+}

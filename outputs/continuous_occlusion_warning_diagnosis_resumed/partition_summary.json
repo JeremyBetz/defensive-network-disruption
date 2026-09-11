@@ -1,0 +1,41 @@
+{
+  "certified_enclosure_endpoint_count": 0,
+  "continuity": {
+    "analytical_continuity_obligation": true,
+    "finite_step_is_not_continuity_proof": true,
+    "largest_two_sided_finite_step_change": 9.846758011831241e-21,
+    "maximum_oracle_error": 1.7470054537119944e-21,
+    "oracle_comparison_passed": true,
+    "owner_transitions": 0
+  },
+  "defender_count": 11,
+  "onset_count": 7,
+  "partition_valid": true,
+  "piece_width_normalized_t": {
+    "adjacent_float_pieces": 0,
+    "maximum": 0.4435386821485226,
+    "median": 0.029108729827679147,
+    "minimum": 3.3306690738754696e-15,
+    "piece_count": 12
+  },
+  "problematic_piece": {
+    "adjacent_float": false,
+    "index": 5,
+    "lower": 0.8938785182578289,
+    "lower_association": {
+      "onset": false,
+      "switch": false,
+      "tie_enclosure": false
+    },
+    "upper": 0.8938785182578323,
+    "upper_association": {
+      "onset": true,
+      "switch": false,
+      "tie_enclosure": false
+    },
+    "width": 3.3306690738754696e-15
+  },
+  "schema_version": 1,
+  "switch_count": 1,
+  "tie_interval_count": 0
+}

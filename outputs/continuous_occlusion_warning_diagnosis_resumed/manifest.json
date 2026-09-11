@@ -1,0 +1,33 @@
+{
+  "environment": {
+    "lock_sha256": "c9e4da0781770b9e72b8a5b10a7c514f2259b7e63dc1b67604ee481934db0a0c",
+    "numpy": "2.5.3",
+    "python": "3.13.15",
+    "scipy": "1.18.1"
+  },
+  "implementation": {
+    "scripts/session_14u_warning_diagnosis_resumed.py": "f68d0b234e727d82f97af395ceb5111d247c71bc82c8b701528a630797207e89",
+    "src/defensive_network_disruption/data/prepared_equivalence_gate.py": "65b4172caa00e72df3e15c9f710e914638c46b298f0089b791882ad43716ff88",
+    "tests/test_session14u_equivalence_repair.py": "61fa3adc116c40b8886f907a9f6dbaaf3cd9338246037ab5c260deccb562c691"
+  },
+  "outputs": {
+    "equivalence_repair.json": "7bbb4a9cab184e37b7fcc75207d4153c507ef38c72975de1517f6b66e3537dd8",
+    "failure_authority.json": "b04ce13a122ff8f1bdc20db9e10359c034ca66925313869015295b1d77216573",
+    "method_comparison.json": "fb35aa1a368b152dbee4f61b8c3d7990b74459289f06a0660f988fbb5291fca6",
+    "partition_summary.json": "14246a67be5e3a6533df7daea602d2f3be7cb07119ae298869a06c4d8f1f9d03",
+    "qc.json": "3548558ec94bbc1105bb79b80f6b20fb9faffddeddf9c07d7af338b1189998fd",
+    "warning_diagnostics.json": "3ae4b74d686402e14db08a3220525d850e090dae67203fe57b1d6817e2df0fde"
+  },
+  "protocol_sha256": "d53b0ec2e01b0afa012a1124256ef6a1486039624d449a815cd10b73e5fddb8e",
+  "schema_version": 1,
+  "sources": {
+    "canonical_population": "cd706f9f4621efcf659fbe890d9a6a0ebfff97c3407095a6db5ea05044c1264d",
+    "prepared_population": "15a809060f0ba4a8cb3790011dab8008db3dad6e931c287ccb395f61ef1530b0",
+    "session14r_manifest": "8a639f7a2b29a6aec026e176d80d8901b28839b0d2091dd0256751d77b6f70ed",
+    "session14s_manifest": "9bdb96a97e447f834068ca941453d537082a91fcb9653fef1c428ddadc78a61b",
+    "session14t_manifest": "0228ea02567606634c0e6dac3c0004145aa15939e6085c102abe9c07637dc118"
+  },
+  "start": "ed411671920163ec302f3a8cb92a19b8f42ba576",
+  "status": "closed",
+  "unavailable": []
+}

@@ -1,0 +1,15 @@
+{
+  "additional_states_opened": 0,
+  "classification": "B",
+  "empirical_edges_diagnosed": 1,
+  "empirical_states_opened": 1,
+  "failure": null,
+  "ordinal_1_byte_gate_passed": true,
+  "protected_or_withheld_access": false,
+  "repair_readiness": 1,
+  "schema_version": 1,
+  "scientific_partial_results_interpreted": false,
+  "status": "closed",
+  "targets_outcomes_models_shares_accessed": false,
+  "warning_reproduced": true
+}

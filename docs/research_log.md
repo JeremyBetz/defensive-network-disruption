@@ -928,3 +928,21 @@ outcome, protected/withheld data or provider product was accessed. Session 14R
 and Session 14s remain unchanged. The sole next action is a separately governed
 Session 14s gate repair based on exact historical serialized-byte equality. See
 the [Session 14t report](session_14t_row_equivalence_audit.md).
+
+## 2026-09-11 — Session 14u repaired the row gate and diagnosed the warning
+
+Phase 14u protocol `8d32121` and tested strict-byte gate `2ad27f9` preceded one
+resumed diagnosis on the already authorized ordinal-1 state. The reconstruction
+reproduced the preserved prepared line exactly, confirming that Session 14t's
+tuple/list finding required an equivalence-layer repair only. The original
+`IntegrationWarning` then reproduced on the constant-width maximum for receiver
+ordinal 7. Joint Simpson was finite, deterministic and converged at 2,048
+intervals. Six independent maximum estimates agreed within
+`2.394265341543189e-14`; the warning arose on a valid
+`3.3306690738754696e-15`-wide piece ending at an onset, while continuity and
+partition checks passed. **B — piecewise verifier contract too strict/numerically
+fragile; repair readiness 1.** No other state or scientific partial output was
+inspected, and no target, outcome, model, share, provider product or protected
+data was accessed. Session 14R remains paused. The sole next action is a
+separately governed bounded independent-verifier warning-contract repair. See
+the [Session 14u report](session_14u_equivalence_repair_and_warning_diagnosis.md).

@@ -1,0 +1,21 @@
+{
+  "category": "IntegrationWarning",
+  "full_output": {
+    "error": 7.809892280742993e-36,
+    "estimate": 5.427883770296851e-22,
+    "evaluations": 63,
+    "subdivisions": 2,
+    "termination_message": "Extremely bad integrand behavior occurs at some points of the\n  integration interval."
+  },
+  "message": "Extremely bad integrand behavior occurs at some points of the\n  integration interval.",
+  "quad": {
+    "epsabs": 1e-13,
+    "epsrel": 1e-13,
+    "limit": 1000
+  },
+  "returned_error": 7.809892280742993e-36,
+  "returned_estimate": 5.427883770296851e-22,
+  "schema_version": 1,
+  "stack_location": "geometry/production_verification.py:adaptive_maximum",
+  "stage": "strict_piecewise_maximum"
+}
