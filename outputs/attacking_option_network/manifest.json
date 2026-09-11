@@ -1,0 +1,16 @@
+{
+  "implementation_authority_sha256": "a1c5bb5f1b70deb92f2204ea66ebde96843d95b3fd160ed09c0979c6d5f400be",
+  "implementation_commit": "2e0032fe17cc2e77a8a7cda63c9bc270399b7f51",
+  "model_sha256": "0383561e45bcd9f8d84eccc7e9733b2409536f61c39193fa87d08c36c6f6fd65",
+  "output_sha256": {
+    "m0_m1_network_comparison.csv": "6f21afdb8481d4233e1f83f5fa7f6071bd9697c8be751c5d09b0d86dfbb6a2a6",
+    "network_summary.json": "c228509ba1a4de96f4e426e5513fee23b293077c26584924956cd6f4726706ad",
+    "qc.json": "54df18b4a575c21d16ff6715b524c9950069ab67064d2d580d7e242c7f63f56f",
+    "synthetic_options.svg": "190f24a25254782d085e3fb7447b6aeaebf16bcc98970e933656e00f1bf685d1"
+  },
+  "population_sha256": "cd706f9f4621efcf659fbe890d9a6a0ebfff97c3407095a6db5ea05044c1264d",
+  "protocol_sha256": "17831bfb59569e6c23aac233fdcd52006398528e837116553f5577f61eaea732",
+  "schema_version": "1",
+  "starting_commit": "54b56a9900b96a1be0e9e51087a978ffeef6d4f1",
+  "status": "closed"
+}

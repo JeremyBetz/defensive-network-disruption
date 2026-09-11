@@ -1,0 +1,17 @@
+{
+  "fitting": false,
+  "matches": 9,
+  "model_sha256": "0383561e45bcd9f8d84eccc7e9733b2409536f61c39193fa87d08c36c6f6fd65",
+  "models": [
+    "m0",
+    "m1"
+  ],
+  "population_sha256": "cd706f9f4621efcf659fbe890d9a6a0ebfff97c3407095a6db5ea05044c1264d",
+  "pose_access": false,
+  "reserved_detail_access": false,
+  "schema_version": "1",
+  "states": 7227,
+  "status": "validated",
+  "target_analysis": false,
+  "withheld_access": false
+}

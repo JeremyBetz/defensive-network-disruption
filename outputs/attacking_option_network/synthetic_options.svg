@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="510" viewBox="0 0 1000 510">
+<rect width="1000" height="510" fill="#f5f7fb"/>
+<g font-family="sans-serif" fill="#142739">
+<text x="28" y="32" font-size="20">SYNTHETIC — carrier-centred model-implied option shares</text>
+<text x="35" y="65" font-size="17">M0 — attacking geometry</text>
+<line x1="70.0" y1="245.0" x2="190.0" y2="165.0" stroke="#167d9a" stroke-width="3.450372"/>
+<circle cx="190.0" cy="165.0" r="5" fill="#167d9a"/>
+<text x="198.0" y="160.0" font-size="12">A 36.9%</text>
+<line x1="70.0" y1="245.0" x2="290.0" y2="245.0" stroke="#167d9a" stroke-width="2.217086"/>
+<circle cx="290.0" cy="245.0" r="5" fill="#167d9a"/>
+<text x="298.0" y="240.0" font-size="12">B 21.5%</text>
+<line x1="70.0" y1="245.0" x2="170.0" y2="365.0" stroke="#167d9a" stroke-width="3.168828"/>
+<circle cx="170.0" cy="365.0" r="5" fill="#167d9a"/>
+<text x="178.0" y="360.0" font-size="12">C 33.4%</text>
+<line x1="70.0" y1="245.0" x2="370.0" y2="95.0" stroke="#167d9a" stroke-width="1.163714"/>
+<circle cx="370.0" cy="95.0" r="5" fill="#167d9a"/>
+<text x="378.0" y="90.0" font-size="12">D 8.3%</text>
+<circle cx="150.0" cy="215.0" r="5" fill="#bd583e"/>
+<circle cx="230.0" cy="265.0" r="5" fill="#bd583e"/>
+<circle cx="310.0" cy="145.0" r="5" fill="#bd583e"/>
+<circle cx="70.0" cy="245.0" r="6" fill="#142739"/>
+<text x="30.0" y="265.0" font-size="12">Carrier</text>
+<text x="70" y="400" font-size="13">Top share 36.9% · Effective options 3.56</text>
+<path d="M 70,430 h 100" stroke="#142739"/><text x="70" y="450" font-size="11">10 metres</text>
+<text x="220" y="445" font-size="12">Attack →</text>
+<text x="535" y="65" font-size="17">M1 — defense-conditioned geometry</text>
+<line x1="570.0" y1="245.0" x2="690.0" y2="165.0" stroke="#167d9a" stroke-width="1.461790"/>
+<circle cx="690.0" cy="165.0" r="5" fill="#167d9a"/>
+<text x="698.0" y="160.0" font-size="12">A 12.0%</text>
+<line x1="570.0" y1="245.0" x2="790.0" y2="245.0" stroke="#167d9a" stroke-width="1.334015"/>
+<circle cx="790.0" cy="245.0" r="5" fill="#167d9a"/>
+<text x="798.0" y="240.0" font-size="12">B 10.4%</text>
+<line x1="570.0" y1="245.0" x2="670.0" y2="365.0" stroke="#167d9a" stroke-width="6.342019"/>
+<circle cx="670.0" cy="365.0" r="5" fill="#167d9a"/>
+<text x="678.0" y="360.0" font-size="12">C 73.0%</text>
+<line x1="570.0" y1="245.0" x2="870.0" y2="95.0" stroke="#167d9a" stroke-width="0.862176"/>
+<circle cx="870.0" cy="95.0" r="5" fill="#167d9a"/>
+<text x="878.0" y="90.0" font-size="12">D 4.5%</text>
+<circle cx="650.0" cy="215.0" r="5" fill="#bd583e"/>
+<circle cx="730.0" cy="265.0" r="5" fill="#bd583e"/>
+<circle cx="810.0" cy="145.0" r="5" fill="#bd583e"/>
+<circle cx="570.0" cy="245.0" r="6" fill="#142739"/>
+<text x="530.0" y="265.0" font-size="12">Carrier</text>
+<text x="570" y="400" font-size="13">Top share 73.0% · Effective options 2.36</text>
+<path d="M 570,430 h 100" stroke="#142739"/><text x="570" y="450" font-size="11">10 metres</text>
+<text x="720" y="445" font-size="12">Attack →</text>
+<text x="28" y="485" font-size="12">Width = 0.5 + 8 × share. Orange: defenders. Shares are not availability or pass-success probabilities.</text>
+</g></svg>
