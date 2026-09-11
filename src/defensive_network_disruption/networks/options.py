@@ -91,6 +91,7 @@ class OptionEdge:
     utility: float
     option_share: float
     tie_block: int
+    expected_rank: float
 
 
 @dataclass(frozen=True)
@@ -102,10 +103,66 @@ class OptionNetwork:
     top_options: tuple[str, ...]
     summary: object
 
+    @property
+    def option_weights(self):
+        """Immutable receiver-to-share view."""
+        return MappingProxyType({edge.receiver_id: edge.option_share for edge in self.edges})
+
+    @property
+    def top_option(self):
+        """The unique top receiver, or ``None`` when the top utility is tied."""
+        return self.top_options[0] if len(self.top_options) == 1 else None
+
+    @property
+    def top_one_share(self):
+        return self.summary["top_one_share"]
+
+    @property
+    def top_two_share(self):
+        return self.summary["top_two_share"]
+
+    @property
+    def entropy(self):
+        return self.summary["entropy"]
+
+    @property
+    def normalized_entropy(self):
+        return self.summary["normalized_entropy"]
+
+    @property
+    def effective_option_count(self):
+        return self.summary["effective_option_count"]
+
+    @property
+    def utility_range(self):
+        return self.summary["utility_range"]
+
     def to_records(self):
         """Return fresh records; callers control any subsequent publication."""
         return [dict(receiver_id=e.receiver_id, utility=e.utility,
-                     option_share=e.option_share, tie_block=e.tie_block) for e in self.edges]
+                     option_share=e.option_share, expected_rank=e.expected_rank,
+                     tie_block=e.tie_block, is_top_option=e.receiver_id in self.top_options)
+                for e in self.edges]
+
+    def to_pandas(self):
+        """Return detached edge rows as a pandas DataFrame.
+
+        Install ``defensive-network-disruption[dataframe]`` when pandas is not
+        otherwise available.
+        """
+        try:
+            import pandas as pd
+        except ImportError as error:
+            raise ImportError(
+                "to_pandas() requires the 'dataframe' extra: "
+                "pip install 'defensive-network-disruption[dataframe]'"
+            ) from error
+        rows = []
+        for record in self.to_records():
+            rows.append({"carrier_id": self.carrier_id, **record})
+        return pd.DataFrame(rows, columns=(
+            "carrier_id", "receiver_id", "utility", "option_share",
+            "expected_rank", "tie_block", "is_top_option"))
 
 
 def option_distribution(utilities):
@@ -133,8 +190,8 @@ def evaluate_options(state: OptionState, *, model: FrozenOptionModel) -> OptionN
     matrix, _ = choice_features(state, model.name)
     u = ((matrix - np.asarray(model.mean)) / np.asarray(model.scale)) @ np.asarray(model.coefficients)
     p, ranks, summary = option_distribution(u)
-    edges = tuple(OptionEdge(k, float(v), float(s), int(b)) for k, v, s, b in
-                  zip(state.candidate_ids, u, p, ranks["blocks"]))
+    edges = tuple(OptionEdge(k, float(v), float(s), int(b), float(r)) for k, v, s, b, r in
+                  zip(state.candidate_ids, u, p, ranks["blocks"], ranks["ranks"]))
     return OptionNetwork(state.carrier_id, model.name, edges,
                          tuple(sorted(state.candidate_ids[i] for i in ranks["top"])),
                          MappingProxyType(summary))

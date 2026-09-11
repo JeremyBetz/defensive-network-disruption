@@ -1,5 +1,8 @@
 """Optional Kloppy adapter; eligibility and coordinate context are explicit."""
+from __future__ import annotations
+
 from dataclasses import dataclass
+from typing import Iterable
 from defensive_network_disruption.networks.options import OptionState, identity
 
 
@@ -17,14 +20,29 @@ class MetricCoordinateContext:
     attacking_sign: int
 
 
-def option_state_from_kloppy(frame, *, carrier, candidates, defenders, coordinate_context):
+def option_state_from_kloppy(
+    frame,
+    *,
+    carrier,
+    candidates: Iterable,
+    defenders: Iterable,
+    coordinate_context: MetricCoordinateContext,
+) -> OptionState:
+    """Project an explicitly selected Kloppy frame into an ``OptionState``.
+
+    This function validates the supplied selection. It does not decide which
+    players are active or eligible and never guesses the coordinate convention.
+    """
     from kloppy.domain import Frame
     if not isinstance(frame, Frame):
-        raise TypeError("Kloppy Frame required")
+        raise TypeError("frame must be a kloppy.domain.Frame")
     c = coordinate_context
     if not isinstance(c, MetricCoordinateContext) or c.verified is not True or (
         c.units, c.origin, c.y_axis) != ("metres", "centre", "up") or type(c.attacking_sign) is not int or c.attacking_sign not in (-1, 1):
-        raise ValueError("verified supported metric context required")
+        raise ValueError(
+            "coordinate_context must verify centred metres, positive-up y, "
+            "and attacking_sign +1 or -1"
+        )
     candidates, defenders = tuple(candidates), tuple(defenders)
     selected = (carrier, *candidates, *defenders)
     ids = [identity(p.player_id) for p in selected]

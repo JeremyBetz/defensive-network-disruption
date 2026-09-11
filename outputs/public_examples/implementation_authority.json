@@ -1,0 +1,31 @@
+{
+  "environment": {
+    "kloppy": "3.19.0",
+    "matplotlib": "3.11.1",
+    "mplsoccer": "1.8.0",
+    "numpy": "2.5.3",
+    "pandas": "3.0.5",
+    "pillow": "12.3.0",
+    "python": "3.13.15",
+    "uv_lock_sha256": "a36ca608e8ccdcac075b71ab9b78cf3a2919ad306e3a8816bc04c141825cc760"
+  },
+  "implementation_sha256": {
+    "examples/quickstart.py": "f64ba6fa003670bdc873db3a26b151c34392aa0136e5f4d68641b99af9fe2553",
+    "pyproject.toml": "07b2f7f606b9c7f117791d79c667672e05fd01efaf9ad8db1dc20a4094c51a74",
+    "scripts/session_09_public_tooling.py": "f80122768b672507b36db6111cd66a6fefc83dc932827ab9a711753839feb9cc",
+    "src/defensive_network_disruption/__init__.py": "ef27464ca9b10543ba1b12bbee7b6aad4385a0ffb0fea40e1ed9530099bbb172",
+    "src/defensive_network_disruption/data/option_adapter.py": "5561148d0b260be16ffe21afd359175e73fd7e980b4eb0688b6e39e47bdd9de5",
+    "src/defensive_network_disruption/examples.py": "3cf44f07116601aa0277caa7d3fbd917057c9df15042a1305b6b99f6b9c8967b",
+    "src/defensive_network_disruption/networks/__init__.py": "5fe317f6517ab7bc939176ec9d2542e43f37ac8c7f49e78a5ecec5fc49bbf291",
+    "src/defensive_network_disruption/networks/options.py": "b8e87da21211bce98fb8357c3df11f7da45ac7807868b4db3f11e17544a95bb5",
+    "src/defensive_network_disruption/visualization/__init__.py": "8ad44235943c5b14fac576a31cc84045c646baa0e3f76a04f903b4680c7c2f08",
+    "src/defensive_network_disruption/visualization/options.py": "fac319ed014d31f1072f18f4f2d71a649355c502fe5c8e8d91ef8e256c7df241",
+    "tests/test_session9_public.py": "a891715be0baffc2584a1b9830cf35db422aa1147897460a5de079688b8de6fd",
+    "uv.lock": "a36ca608e8ccdcac075b71ab9b78cf3a2919ad306e3a8816bc04c141825cc760"
+  },
+  "model_sha256": "0383561e45bcd9f8d84eccc7e9733b2409536f61c39193fa87d08c36c6f6fd65",
+  "protocol_sha256": "ff52fc19415aa9b78de9f6e1791073dc6b6c1ed3905d7974665448e900a03ffd",
+  "schema_version": "1",
+  "software_contract_sha256": "0a60876a68cc2387e9952c8c334230384d3bdb1c0da00657ac6aa53971fb331f",
+  "starting_commit": "645f282402c4fccf6117186381a1212b56f11be9"
+}
