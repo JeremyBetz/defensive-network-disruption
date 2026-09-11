@@ -38,5 +38,5 @@ jobs:
         with:
           enable-cache: true
       - run: uv sync --locked --all-extras
-      - run: SOURCE_DATE_EPOCH=1789091224 uv build --wheel --sdist --out-dir dist
+      - run: uv run --locked python scripts/build_release_artifacts.py --out-dir dist
       - run: uv run --locked python scripts/session_10_release_readiness.py audit-distributions --dist-dir dist

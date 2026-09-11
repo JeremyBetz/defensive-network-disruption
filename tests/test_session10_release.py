@@ -2,10 +2,13 @@
 from __future__ import annotations
 
 import builtins
+import gzip
+import io
 import importlib.util
 import inspect
 from pathlib import Path
 import tempfile
+import tarfile
 import unittest
 from unittest.mock import patch
 
@@ -18,6 +21,10 @@ SPEC = importlib.util.spec_from_file_location(
     "session10", Path(__file__).parents[1] / "scripts/session_10_release_readiness.py")
 RUNNER = importlib.util.module_from_spec(SPEC)
 SPEC.loader.exec_module(RUNNER)
+BUILD_SPEC = importlib.util.spec_from_file_location(
+    "release_build", Path(__file__).parents[1] / "scripts/build_release_artifacts.py")
+RELEASE_BUILD = importlib.util.module_from_spec(BUILD_SPEC)
+BUILD_SPEC.loader.exec_module(RELEASE_BUILD)
 
 
 class PublicContractTests(unittest.TestCase):
@@ -86,6 +93,26 @@ class DistributionGuardTests(unittest.TestCase):
                 RUNNER._safe_member(name)
         self.assertEqual(str(RUNNER._safe_member("project/src/package.py")),
                          "project/src/package.py")
+        self.assertEqual(str(RUNNER._safe_member(
+            "project/src/defensive_network_disruption/data/option_adapter.py")),
+            "project/src/defensive_network_disruption/data/option_adapter.py")
+
+    def test_canonical_sdist_is_deterministic(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            source = root / "raw.tar.gz"
+            with tarfile.open(source, "w:gz") as archive:
+                for name, payload in (("pkg/b.txt", b"b"), ("pkg/a.txt", b"a")):
+                    member = tarfile.TarInfo(name)
+                    member.size = len(payload)
+                    member.mtime = 123
+                    archive.addfile(member, io.BytesIO(payload))
+            first, second = root / "first.tar.gz", root / "second.tar.gz"
+            RELEASE_BUILD.canonicalize_sdist(source, first)
+            RELEASE_BUILD.canonicalize_sdist(source, second)
+            self.assertEqual(first.read_bytes(), second.read_bytes())
+            with gzip.open(first) as stream:
+                self.assertTrue(stream.read())
 
     def test_runner_has_no_acquisition_or_fitting_command(self):
         choices = ("preflight", "audit-api", "audit-distributions", "publication-check")

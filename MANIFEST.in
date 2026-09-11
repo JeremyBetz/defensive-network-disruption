@@ -5,6 +5,8 @@ include CONTRIBUTING.md
 include docs/public_api.md
 include docs/release_checklist.md
 include examples/quickstart.py
+include scripts/build_release_artifacts.py
+include scripts/session_10_release_readiness.py
 recursive-include src *.py
 recursive-include tests *.py
 global-exclude *.py[cod]

@@ -34,10 +34,11 @@ EXPECTED_EXPORTS = (
 EXPECTED_SDIST = {
     "LICENSE.md", "README.md", "CHANGELOG.md", "CONTRIBUTING.md",
     "docs/public_api.md", "docs/release_checklist.md", "examples/quickstart.py",
-    "pyproject.toml",
+    "pyproject.toml", "scripts/build_release_artifacts.py",
+    "scripts/session_10_release_readiness.py",
 }
 PROHIBITED_PARTS = {
-    ".git", ".venv", "__pycache__", "data", "outputs", "build", "dist",
+    ".git", ".venv", "__pycache__", "outputs", "build", "dist",
 }
 
 
@@ -113,6 +114,10 @@ def _safe_member(name: str) -> PurePosixPath:
     path = PurePosixPath(name)
     if path.is_absolute() or ".." in path.parts or any(part in PROHIBITED_PARTS for part in path.parts):
         raise RuntimeError(f"prohibited distribution member: {name}")
+    if path.parts and (path.parts[0] == "data" or
+                       (len(path.parts) > 1 and path.parts[1] == "data" and
+                        path.parts[0] != "defensive_network_disruption")):
+        raise RuntimeError(f"prohibited repository data member: {name}")
     return path
 
 
