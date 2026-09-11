@@ -1,11 +1,42 @@
 from __future__ import annotations
 
 from dataclasses import FrozenInstanceError
+from contextlib import contextmanager
 import itertools
 import math
+import re
+import unittest
 
 import numpy as np
-import pytest
+try:
+    import pytest
+except ModuleNotFoundError:  # CI's documented full suite uses unittest only.
+    class _Approx:
+        def __init__(self, value, *, abs=1e-12):
+            self.value = value
+            self.tolerance = abs
+
+        def __eq__(self, other):
+            return math.isclose(self.value, other, abs_tol=self.tolerance, rel_tol=1e-12)
+
+    @contextmanager
+    def _raises(error, match=None):
+        with unittest.TestCase().assertRaises(error) as caught:
+            yield caught
+        if match is not None:
+            unittest.TestCase().assertRegex(str(caught.exception), re.compile(match))
+
+    class _Mark:
+        @staticmethod
+        def parametrize(*_args, **_kwargs):
+            return lambda function: function
+
+    class _PytestFallback:
+        approx = staticmethod(lambda value, abs=1e-12: _Approx(value, abs=abs))
+        raises = staticmethod(_raises)
+        mark = _Mark()
+
+    pytest = _PytestFallback()
 from unittest.mock import patch
 
 from defensive_network_disruption.geometry.verification_repair import (

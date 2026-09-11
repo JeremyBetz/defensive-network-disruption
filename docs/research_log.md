@@ -819,4 +819,8 @@ authority is **PASS — CLOSURE REPAIR VALID; SESSION 14e ACCEPTANCE EVIDENCE MA
 BE INHERITED**. No empirical/provider/target/model/share, protected/withheld/
 pose, xT or progression access occurred, and claims remain unchanged. Session
 14R may resume only under the repaired and audited verification contract; it was
-not executed.
+not executed. Initial post-push CI exposed a test-only pytest import unavailable
+in the locked unittest environment. A standard-library fallback repaired that
+CI compatibility path without changing production code, numerical evidence or
+focused pytest behavior; the retained failed CI run is part of the closure
+record.

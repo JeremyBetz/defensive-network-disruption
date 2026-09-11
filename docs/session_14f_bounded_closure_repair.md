@@ -34,7 +34,11 @@ identical repaired source.
 10. Both source versions imported successfully in the locked environment;
     runtime symbol sets and constants matched.
 11. No numerical or verification logic, formula, tolerance, fixture, readiness
-    rule, reference, test, import, docstring, or released API changed.
+    rule, reference, production import, docstring, or released API changed. CI
+    exposed that its unittest-only environment could not import the focused test
+    module's pytest helpers; the protocol-permitted test-only repair adds a
+    standard-library fallback when pytest is absent and leaves pytest behavior
+    unchanged when it is installed.
 12. The Session 14e manifest and all nine pre-manifest evidence files retained
     their recorded SHA-256 values. The historical manifest remains unchanged.
 13. No governed Session 14e numerical audit was rerun. Tests exercised synthetic
