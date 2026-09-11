@@ -1,0 +1,35 @@
+{
+  "environment": {
+    "lock_sha256": "c9e4da0781770b9e72b8a5b10a7c514f2259b7e63dc1b67604ee481934db0a0c",
+    "numpy": "2.5.3",
+    "python": "3.13.15",
+    "scipy": "1.18.1"
+  },
+  "implementation": {
+    "scripts/session_14w_failure_evidence_and_routing_repair.py": "6860a8dc4ad13faf0e16371cab011f347a90fe87bb6c33bde8830411ffb6225e",
+    "src/defensive_network_disruption/geometry/micro_interval_verifier.py": "55389fd78d7c546bb1b4c830cdb434932fce6f67dcc8042a2427e44dc77c2b0e",
+    "tests/test_session14w_failure_evidence.py": "267dc65231d3d169f8317cfec6cebe051507a0f354b814a700eed0ea18082ed8"
+  },
+  "outputs": {
+    "access_accounting_oracles.csv": "8e4307566ca020c7486768adcce20d019e87f1fb7f71505853c068e14b67f6e7",
+    "contract.json": "dd29e2ca452f554ea3a7e924dce55cc69dc8d59244eedac75d6342862d17272e",
+    "failing_edge_regression.json": "190473a717f7c5f3a525981437eb8e2ff511b0eb909d38b78e66f4bb3af9f2cb",
+    "failing_edge_routing.json": "dcc869adca78ca8833c2b5154cc734183db59eda0735023258e5d6a697b437ac",
+    "failure_publication_oracles.json": "af18d8974dfd7bb7630ac7bda05b1bb47424486f651ad358c7a132bcd8903b8c",
+    "qc.json": "7d30b23299fa2fc672a283ae6882b4a5a9a444985f85234fa9b11b9841ceac39",
+    "synthetic_reference_regression.csv": "823fdb49449d85c77a39e4dec76989740918c18c88ad291bad39b4dfd1c0a87b",
+    "synthetic_routing_oracles.csv": "be797329e569ac244d7da7a892abb3aac13c73a8bcd840c546cf47b9809ff0ff"
+  },
+  "protocol_sha256": "11bcd0f3a0e01b31d0f82f2381ecfd51482bfd3c405932b0cc0a5c5cea966640",
+  "schema_version": 1,
+  "sources": {
+    "outputs/continuous_occlusion_production_acceptance/manifest.json": "1c65769260cc6e1b8a79b69129b3b5a227d4a0a41aec93be4533168a042ace88",
+    "outputs/continuous_occlusion_retry/local/prepared.jsonl": "15a809060f0ba4a8cb3790011dab8008db3dad6e931c287ccb395f61ef1530b0",
+    "outputs/continuous_occlusion_retry/manifest.json": "8a639f7a2b29a6aec026e176d80d8901b28839b0d2091dd0256751d77b6f70ed",
+    "outputs/continuous_occlusion_warning_diagnosis_resumed/manifest.json": "fbcef2b81b9adea67cccd68e9db26990ff3e2825f77ce98a4e37b047b488896d",
+    "outputs/receiver_ranking_m0_m1/local/population.jsonl": "cd706f9f4621efcf659fbe890d9a6a0ebfff97c3407095a6db5ea05044c1264d"
+  },
+  "start": "348ccdea71df1fc06df04440ef457f2a87daf849",
+  "status": "closed",
+  "unavailable": []
+}

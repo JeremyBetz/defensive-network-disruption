@@ -1,0 +1,6 @@
+fixture,states,edges,blocked
+before_access,0,0,False
+state_only,1,0,False
+edge_failure,1,1,False
+success,1,1,False
+unauthorized_second,1,1,True

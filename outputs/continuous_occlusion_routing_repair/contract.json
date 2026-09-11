@@ -1,0 +1,14 @@
+{
+  "allocation": "global_budget / positive_structural_piece_count",
+  "eligibility": "upper_bound * realized_float64_width <= allocation",
+  "eligible_piece_interval": "[0, upper_bound * width]",
+  "field_bounds": [
+    0.0,
+    1.0
+  ],
+  "global_residual_budget": 1e-12,
+  "interval_merging": false,
+  "joint_simpson_changed": false,
+  "schema_version": 1,
+  "structural_partitions_preserved": true
+}

@@ -966,3 +966,7 @@ progression material was accessed. Session 14R remains paused. The sole next
 action is a separately governed failure-state evidence repair that records the
 piece split before assertion and supports explicit failure publication. See the
 [Session 14v report](session_14v_micro_interval_verifier.md).
+
+## 2026-09-11 — Session 14w routing and failure-evidence repair passed
+
+Protocol `79491e9` and tested implementation `55815b2` preceded one governed rerun of the same authorized edge. The frozen rule identified two bounded pieces, ten quadrature pieces and a total residual bound of `6.772360450213455e-15`; no warning occurred and unchanged joint Simpson converged at 2,048 intervals. All 108 cases, 366 references and 399 permutations passed. Failure publication and stage-derived access accounting also passed their synthetic oracles. **A — repair succeeds; readiness 1.** One state and one edge were opened, with no additional or prohibited access. Session 14v remains invalid and Session 14R was not resumed. See the [Session 14w report](session_14w_failure_evidence_and_routing_repair.md).

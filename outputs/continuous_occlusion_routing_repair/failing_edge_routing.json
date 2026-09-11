@@ -1,0 +1,16 @@
+{
+  "bounded_residual_piece_count": 2,
+  "bounded_residual_widths": [
+    3.3306690738754696e-15,
+    3.4416913763379853e-15
+  ],
+  "deterministic_routing": true,
+  "eligibility_threshold": 8.333333333333334e-14,
+  "positive_width_piece_count": 12,
+  "quadrature_piece_count": 10,
+  "schema_version": 1,
+  "status": "success",
+  "structural_piece_count": 12,
+  "total_residual_lower": 0.0,
+  "total_residual_upper": 6.772360450213455e-15
+}

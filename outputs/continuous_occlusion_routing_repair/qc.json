@@ -1,0 +1,19 @@
+{
+  "additional_edges_opened": 0,
+  "additional_states_opened": 0,
+  "classification": "A",
+  "classification_text": "Bounded-residual verifier repair succeeds",
+  "empirical_edges_opened": 1,
+  "empirical_states_opened": 1,
+  "failure": null,
+  "integration_warnings": 0,
+  "joint_simpson_changed": false,
+  "permutations_passed": 399,
+  "protected_or_withheld_access": false,
+  "references_passed": 366,
+  "retry_readiness": 1,
+  "schema_version": 1,
+  "status": "closed",
+  "synthetic_cases_passed": 108,
+  "targets_outcomes_models_shares_accessed": false
+}

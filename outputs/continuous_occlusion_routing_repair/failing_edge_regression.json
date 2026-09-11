@@ -1,0 +1,29 @@
+{
+  "additional_edges_opened": 0,
+  "additional_states_opened": 0,
+  "bounded_piece_count": 2,
+  "bounded_residual_widths": [
+    3.3306690738754696e-15,
+    3.4416913763379853e-15
+  ],
+  "candidate": "constant_width",
+  "certified_enclosure_endpoint_count": 0,
+  "eligibility_threshold": 8.333333333333334e-14,
+  "integration_warning_count": 0,
+  "joint_point_to_interval_distance": 9.600902559081526e-09,
+  "joint_simpson_intervals": 2048,
+  "joint_simpson_maximum": 0.023058286606118288,
+  "known_micro_width": 3.3306690738754696e-15,
+  "quadrature_piece_count": 10,
+  "receiver_ordinal": 7,
+  "reference_interval": [
+    0.023058296207020847,
+    0.023058296207027627
+  ],
+  "residual_bound": 6.772360450213455e-15,
+  "schema_version": 1,
+  "structural_piece_count": 12,
+  "switch_count": 1,
+  "tie_interval_count": 0,
+  "zero_based_row_ordinal": 1
+}
