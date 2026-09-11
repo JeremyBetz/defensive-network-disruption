@@ -20,6 +20,8 @@ from test_session6c_reserved import Response, Opener, pointer
 from test_session6_reserved import fixture
 import scripts.session_06e_reserved as r
 
+TEST_TEMP_ROOT = Path(__file__).resolve().parent
+
 
 def dns(*args,**kwargs):
     return [(socket.AF_INET,socket.SOCK_STREAM,6,'',('185.199.108.133',443))]
@@ -50,7 +52,7 @@ class OfficialTransportTests(unittest.TestCase):
         def capture(req,timeout):
             requests.append(req);return original(req,timeout)
         opener.open=capture
-        with tempfile.TemporaryDirectory(dir="/private/tmp") as d:
+        with tempfile.TemporaryDirectory(dir=TEST_TEMP_ROOT) as d:
             result=client.acquire(entry(),Path(d)/'payload',pointer=p,label='reserved_01')
         self.assertEqual(result,{'bytes':8,'lfs_payload_sha256':p.payload_sha256})
         self.assertEqual(json.loads(requests[0].data),{'operation':'download','transfers':['basic'],'objects':[{'oid':p.payload_sha256,'size':8}]})
@@ -101,7 +103,7 @@ class OfficialTransportTests(unittest.TestCase):
         errors += [urllib.error.HTTPError(url,n,'busy',{},None) for n in (500,502,503,504)]
         for error in errors:
             client,opener,p,ledger,waits=setup_client(outcomes=[error,Response(url,b'complete')])
-            with tempfile.TemporaryDirectory(dir="/private/tmp") as d:
+            with tempfile.TemporaryDirectory(dir=TEST_TEMP_ROOT) as d:
                 dest=Path(d)/'p';client.acquire(entry(),dest,pointer=p,label='reserved_01')
                 self.assertEqual(dest.read_bytes(),b'complete');self.assertEqual(list(Path(d).glob('.*.tmp')),[])
             self.assertEqual(waits,[1]);self.assertEqual(opener.urls[1],opener.urls[2])
@@ -109,7 +111,7 @@ class OfficialTransportTests(unittest.TestCase):
 
     def test_exhaustion(self):
         client,opener,p,ledger,waits=setup_client(outcomes=[TimeoutError()]*3)
-        with tempfile.TemporaryDirectory(dir="/private/tmp") as d,self.assertRaises(t.TransportError):client.acquire(entry(),Path(d)/'p',pointer=p,label='reserved_01')
+        with tempfile.TemporaryDirectory(dir=TEST_TEMP_ROOT) as d,self.assertRaises(t.TransportError):client.acquire(entry(),Path(d)/'p',pointer=p,label='reserved_01')
         self.assertEqual(waits,[1,2]);self.assertEqual(len(opener.urls),4)
 
     def test_forbidden_retry_tls_http_integrity(self):
@@ -117,7 +119,7 @@ class OfficialTransportTests(unittest.TestCase):
         errors=[ssl.SSLCertVerificationError('SECRET'),t.IntegrityError('identity'),urllib.error.HTTPError(url,403,'expired',{},None),urllib.error.HTTPError(url,404,'missing',{},None)]
         for error in errors:
             client,opener,p,ledger,waits=setup_client(outcomes=[error,Response(url,b'complete')])
-            with tempfile.TemporaryDirectory(dir="/private/tmp") as d,self.assertRaises(t.IntegrityError) as cm:client.acquire(entry(),Path(d)/'p',pointer=p,label='reserved_01')
+            with tempfile.TemporaryDirectory(dir=TEST_TEMP_ROOT) as d,self.assertRaises(t.IntegrityError) as cm:client.acquire(entry(),Path(d)/'p',pointer=p,label='reserved_01')
             self.assertNotIn('SECRET',str(cm.exception));self.assertEqual(waits,[]);self.assertEqual(len(opener.urls),2)
             self.assertNotIn('SECRET',str(ledger))
 
@@ -125,7 +127,7 @@ class OfficialTransportTests(unittest.TestCase):
         url=envelope(t.LfsPointer('a'*64,8))['objects'][0]['actions']['download']['href']
         for response in (Response(url,b'wrongxxx'),Response(url,b'short'),Response(url,b'complete',declared=9),Response('https://elsewhere.invalid',b'complete')):
             client,opener,p,_,waits=setup_client(outcomes=[response,Response(url,b'complete')])
-            with tempfile.TemporaryDirectory(dir="/private/tmp") as d,self.assertRaises(t.IntegrityError):client.acquire(entry(),Path(d)/'p',pointer=p,label='reserved_01')
+            with tempfile.TemporaryDirectory(dir=TEST_TEMP_ROOT) as d,self.assertRaises(t.IntegrityError):client.acquire(entry(),Path(d)/'p',pointer=p,label='reserved_01')
             self.assertEqual(waits,[]);self.assertEqual(len(opener.urls),2)
 
     def test_interrupted_bytes_not_combined_and_fresh_files(self):
@@ -138,7 +140,7 @@ class OfficialTransportTests(unittest.TestCase):
         names=[];original=t.tempfile.mkstemp
         def capture(*a,**k):
             value=original(*a,**k);names.append(value[1]);return value
-        with tempfile.TemporaryDirectory(dir="/private/tmp") as d,patch.object(t.tempfile,'mkstemp',side_effect=capture):
+        with tempfile.TemporaryDirectory(dir=TEST_TEMP_ROOT) as d,patch.object(t.tempfile,'mkstemp',side_effect=capture):
             dest=Path(d)/'p';client.acquire(entry(),dest,pointer=p,label='reserved_01')
             self.assertEqual(dest.read_bytes(),b'complete');self.assertEqual(len(set(names)),2)
             self.assertTrue(all(not Path(n).exists() for n in names))
@@ -151,7 +153,7 @@ class OfficialTransportTests(unittest.TestCase):
         def capture(req,timeout):requests.append(req);return original(req,timeout)
         opener.open=capture
         c=t.OfficialLfsClient(opener=opener,sleeper=lambda _:None,resolver=dns,clock=lambda:next(ticks))
-        with tempfile.TemporaryDirectory(dir="/private/tmp") as d:c.acquire(entry(),Path(d)/'p',pointer=p,label='reserved_01')
+        with tempfile.TemporaryDirectory(dir=TEST_TEMP_ROOT) as d:c.acquire(entry(),Path(d)/'p',pointer=p,label='reserved_01')
         self.assertEqual(requests[0].data,requests[2].data)
 
     def test_batch_bounds_redirect_tls_and_retry(self):
@@ -165,7 +167,7 @@ class OfficialTransportTests(unittest.TestCase):
 
     def test_no_redownload_and_unsafe_paths(self):
         client,_,p,_,_=setup_client()
-        with tempfile.TemporaryDirectory(dir="/private/tmp") as d:
+        with tempfile.TemporaryDirectory(dir=TEST_TEMP_ROOT) as d:
             dest=Path(d)/'p';dest.write_bytes(b'old')
             with self.assertRaises(t.IntegrityError):client.acquire(entry(),dest,pointer=p,label='reserved_01')
             dest.unlink();dest.symlink_to(Path(d)/'other')
@@ -178,7 +180,7 @@ class OfficialTransportTests(unittest.TestCase):
         body=b'{}';e=t.TreeEntry(t.source_path('1874553','metadata',t.RESERVED),'blob',git_blob_oid(body),len(body))
         url=f'https://raw.githubusercontent.com/{t.OWNER_REPO}/{t.SOURCE_COMMIT}/{e.path}'
         op=Opener([Response(url,body)]);c=t.OfficialLfsClient('secret',opener=op)
-        with tempfile.TemporaryDirectory(dir="/private/tmp") as d:
+        with tempfile.TemporaryDirectory(dir=TEST_TEMP_ROOT) as d:
             self.assertEqual(c.acquire(e,Path(d)/'p',pointer=None,label='reserved_01'),{'git_oid':e.git_oid,'bytes':2})
 
     def test_real_default_tls_context_and_no_science_imports(self):
@@ -238,7 +240,7 @@ class CommandLifecycleTests(unittest.TestCase):
         return stack,models,authority
 
     def test_end_to_end_production_prepare_score_and_closure(self):
-        with tempfile.TemporaryDirectory(dir="/private/tmp") as d:
+        with tempfile.TemporaryDirectory(dir=TEST_TEMP_ROOT) as d:
             stack,models,authority=self.sandbox(d)
             with stack:
                 r.preflight();r.acquire_reserved();r.verify_acquired(authority);r.prepare_reserved()
@@ -253,7 +255,7 @@ class CommandLifecycleTests(unittest.TestCase):
                 with self.assertRaises(FileExistsError):r.create_execution_marker()
 
     def test_acquisition_failure_closes_without_population(self):
-        with tempfile.TemporaryDirectory(dir="/private/tmp") as d:
+        with tempfile.TemporaryDirectory(dir=TEST_TEMP_ROOT) as d:
             stack,_,_=self.sandbox(d)
             with stack,patch.object(r,'OfficialLfsClient',side_effect=t.IntegrityError('synthetic')):
                 r.append_access('rehearsal',1,'started',None)
@@ -263,7 +265,7 @@ class CommandLifecycleTests(unittest.TestCase):
 
     def test_preparation_failure_is_not_repaired_or_scored(self):
         from defensive_network_disruption.data.session6_population import Session6ContractError
-        with tempfile.TemporaryDirectory(dir="/private/tmp") as d:
+        with tempfile.TemporaryDirectory(dir=TEST_TEMP_ROOT) as d:
             stack,_,_=self.sandbox(d)
             with stack:
                 r.acquire_reserved()
@@ -273,7 +275,7 @@ class CommandLifecycleTests(unittest.TestCase):
                 self.assertEqual(m['verified_products'],30);self.assertTrue(m['structural_access_started']);self.assertFalse(m['scoring_started'])
 
     def test_scoring_validation_failure_remains_unclosed(self):
-        with tempfile.TemporaryDirectory(dir="/private/tmp") as d:
+        with tempfile.TemporaryDirectory(dir=TEST_TEMP_ROOT) as d:
             stack,_,_=self.sandbox(d)
             with stack:
                 r.acquire_reserved();r.prepare_reserved()
@@ -285,7 +287,7 @@ class CommandLifecycleTests(unittest.TestCase):
                 with self.assertRaises(RuntimeError):r.dispatch('score')
 
     def test_tampered_output_rejected(self):
-        with tempfile.TemporaryDirectory(dir="/private/tmp") as d:
+        with tempfile.TemporaryDirectory(dir=TEST_TEMP_ROOT) as d:
             stack,_,_=self.sandbox(d)
             with stack:
                 r.acquire_reserved();r.prepare_reserved();r.score()

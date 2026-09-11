@@ -18,6 +18,8 @@ from defensive_network_disruption.validation import construct_diagnostics as c
 from defensive_network_disruption.validation.ranking_metrics import expected_credits
 import scripts.session_07_construct_validity as r
 
+TEST_TEMP_ROOT = Path(__file__).resolve().parent
+
 
 def geometry():return c.Geometry((0.,0.),((5.,0.),(10.,3.),(-8.,4.)),((4.,1.),(8.,2.),(12.,-3.)))
 
@@ -139,7 +141,7 @@ class ReviewAndFirewallTests(unittest.TestCase):
         self.assertFalse(any('session5' in x or 'choice_model' in x for x in imports))
 
     def test_path_escape_and_symlink_rejection(self):
-        with tempfile.TemporaryDirectory(dir='/private/tmp') as d,patch.object(r,'ROOT',Path(d)):
+        with tempfile.TemporaryDirectory(dir=TEST_TEMP_ROOT) as d,patch.object(r,'ROOT',Path(d)):
             with self.assertRaises(PermissionError):r.safe(Path('/etc/passwd'))
             p=Path(d)/'link';p.symlink_to('/etc/passwd')
             with self.assertRaises(PermissionError):r.safe(p)
@@ -151,7 +153,7 @@ class ReviewAndFirewallTests(unittest.TestCase):
         with self.assertRaises(ValueError):r.validate_public('contribution_summary.json',obj)
 
     def test_actual_canonical_reader_firewall_and_projection(self):
-        with tempfile.TemporaryDirectory(dir='/private/tmp') as d:
+        with tempfile.TemporaryDirectory(dir=TEST_TEMP_ROOT) as d:
             root=Path(d);pop=root/'population.jsonl'
             one={'match_id':'1886347','event_id':'synthetic','candidate_ids':['c1'],'candidate_xy':[[1.,2.]],'defender_xy':[[2.,3.]],'carrier_xy':[0.,0.],'target_index':0,'target_outside':False}
             with patch.object(r,'ROOT',root),patch.object(r,'POPULATION',pop),patch.object(r,'log'):
@@ -190,7 +192,7 @@ class LifecycleTests(unittest.TestCase):
         p.write_text(json.dumps(obj));return p
 
     def test_end_to_end_pending_then_human_review_closure(self):
-        with tempfile.TemporaryDirectory(dir='/private/tmp') as d:
+        with tempfile.TemporaryDirectory(dir=TEST_TEMP_ROOT) as d:
             stack=self.sandbox(d)
             with stack:
                 r.preflight();r.prepare_diagnostics();r.summarize();r.select_passages();r.render_passages()
@@ -207,7 +209,7 @@ class LifecycleTests(unittest.TestCase):
                 for name in ('feature_disagreement.csv','stratified_diagnostics.csv'):self.assertNotIn(b'\r',(r.OUTPUT/name).read_bytes())
 
     def test_committed_selection_required_before_render(self):
-        with tempfile.TemporaryDirectory(dir='/private/tmp') as d:
+        with tempfile.TemporaryDirectory(dir=TEST_TEMP_ROOT) as d:
             stack=self.sandbox(d)
             with stack:
                 r.prepare_diagnostics();r.summarize();r.select_passages()
@@ -215,7 +217,7 @@ class LifecycleTests(unittest.TestCase):
                 self.assertFalse((r.LOCAL/'stage_a').exists())
 
     def test_marker_rejects_rerun_and_packet_tampering(self):
-        with tempfile.TemporaryDirectory(dir='/private/tmp') as d:
+        with tempfile.TemporaryDirectory(dir=TEST_TEMP_ROOT) as d:
             stack=self.sandbox(d)
             with stack:
                 r.prepare_diagnostics();r.summarize();r.select_passages();r.render_passages()
@@ -224,7 +226,7 @@ class LifecycleTests(unittest.TestCase):
                 with self.assertRaises(RuntimeError):r.verify_packet()
 
     def test_review_path_and_immutable_locked_answer(self):
-        with tempfile.TemporaryDirectory(dir='/private/tmp') as d:
+        with tempfile.TemporaryDirectory(dir=TEST_TEMP_ROOT) as d:
             stack=self.sandbox(d)
             with stack:
                 r.prepare_diagnostics();r.summarize();r.select_passages();r.render_passages()

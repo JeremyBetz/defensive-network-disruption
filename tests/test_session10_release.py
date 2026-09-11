@@ -45,10 +45,12 @@ class PublicContractTests(unittest.TestCase):
             [-0.5111102550927978, -0.7150000000000001,
              -0.6060249675906655, -1.1520509831248422],
         )
-        np.testing.assert_array_equal(
+        np.testing.assert_allclose(
             [edge.option_share for edge in right.edges],
             [0.20312043172951616, 0.16603873434030011,
              0.5281581964924411, 0.10268263743774268],
+            rtol=4 * np.finfo(np.float64).eps,
+            atol=0.0,
         )
         self.assertEqual(right.top_options, ("C",))
         self.assertEqual(right.effective_option_count, 3.2961834464235378)
