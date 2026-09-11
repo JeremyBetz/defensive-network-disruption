@@ -1,7 +1,18 @@
-# Contributing
+# Feedback and participation
 
-Contributions should improve the provider-independent software or strengthen a
-prospectively governed research question without weakening the evidence record.
+This project is being developed independently for an individual competition
+submission. Issues, questions, bug reports and general feedback are welcome.
+
+To preserve clear independent authorship of the competition entry, external
+code, analysis, methodological work or other substantive contributions intended
+for inclusion in the submission are not being accepted during the competition
+period. This is a project policy based on the competition's individual-entry and
+original-work requirements; it does not restrict discussion or open-source use.
+The released software may still be viewed, used and forked under the MIT License.
+
+The development guidance below records the project's standards and may support
+post-competition participation. It is inactive as an invitation for substantive
+external work during the competition period.
 
 ## Development setup
 
@@ -12,7 +23,7 @@ uv sync --locked --all-extras
 uv run --locked python -m unittest discover -s tests
 ```
 
-Keep changes small, readable and typed where that clarifies public behavior.
+Project changes are kept small, readable and typed where that clarifies public behavior.
 Public functions need concise docstrings and actionable errors. Add synthetic
 tests for supported behavior and run `git diff --check` before proposing a
 change.
@@ -22,10 +33,10 @@ change.
 Prefer neutral, provider-independent geometry, adapters and presentation code.
 Do not add a dependency when the standard library or an existing dependency is
 sufficient. A new ecosystem adapter should document its semantics, version,
-license and reason for inclusion. Public API changes belong in `CHANGELOG.md`.
+license and reason for inclusion. Public API changes are recorded in `CHANGELOG.md`.
 
-Only root-package exports are supported. Proposals to expand that surface should
-explain the user need and compatibility cost.
+Only root-package exports are supported. Any later proposal to expand that
+surface should explain the user need and compatibility cost.
 
 ## Scientific and data changes
 

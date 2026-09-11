@@ -110,7 +110,11 @@ packaging, and release engineering in one reproducible workflow.
 - [`outputs`](https://github.com/JeremyBetz/defensive-network-disruption/tree/main/outputs): reviewed aggregate evidence and synthetic public artifacts.
 
 Run the active suite with `uv run --locked python -m unittest discover -s tests`.
-Contribution expectations are in [`CONTRIBUTING.md`](https://github.com/JeremyBetz/defensive-network-disruption/blob/main/CONTRIBUTING.md).
+Bug reports, questions and general feedback are welcome through
+[GitHub issues](https://github.com/JeremyBetz/defensive-network-disruption/issues).
+The [participation policy](https://github.com/JeremyBetz/defensive-network-disruption/blob/main/CONTRIBUTING.md)
+explains how independent competition authorship is preserved while the released
+software remains available under its open-source license.
 
 ## Limits and reproducibility
 

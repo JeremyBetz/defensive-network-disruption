@@ -153,7 +153,7 @@ image badges would add first-screen clutter and create avoidable ambiguity under
 the competition's combined visual limit. Permanent text links already expose
 those authorities.
 
-## Release, contribution, links and privacy
+## Release, participation, links and privacy
 
 The root package still exports exactly `OptionState`, `FrozenOptionModel`,
 `OptionEdge`, `OptionNetwork`, `MetricCoordinateContext`, `evaluate_options`,
@@ -167,6 +167,17 @@ source installation and the `v0.1.0` GitHub archives are the supported routes.
 `CONTRIBUTING.md` provides setup, tests, API and data-governance guidance. No
 academic citation authority or DOI exists, so no `CITATION.cff` was invented;
 the immutable GitHub release is the current software reference.
+
+After this audit, its contribution-oriented wording was identified as too broad
+for an independently authored individual competition submission. The public
+participation policy was therefore narrowed: issues, questions, bug reports and
+general feedback remain welcome, while external code, analysis, methodological
+work and other substantive contributions intended for inclusion in the
+competition submission are not accepted during the competition period. This is
+a conservative project policy grounded in the recorded individual-entry and
+original-work requirements, not a claim that the rules prohibit feedback,
+discussion, forks or all pull requests. Open-source use rights remain governed
+by the unchanged MIT License.
 
 Repository-local links in changed documents and selected public external links
 were checked. The tracked-public privacy scan found no real machine path,
