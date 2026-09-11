@@ -1,0 +1,10 @@
+{
+  "declared_record_sha256": null,
+  "job_id": 103447311425,
+  "log_sha256": "035fb06bd697868eb41a80cbd76a9ddd3793b8924c79b2482d14f8fbecc845db",
+  "reason": "begin envelope and payload absent from downloadable log; end marker retained",
+  "schema_version": 1,
+  "status": "unavailable",
+  "workflow_conclusion": "success",
+  "workflow_run_id": 34655637144
+}

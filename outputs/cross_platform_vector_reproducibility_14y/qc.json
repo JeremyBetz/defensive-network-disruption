@@ -1,0 +1,19 @@
+{
+  "ci_record_recovered": false,
+  "ci_workflow_conclusion": "success",
+  "ci_workflow_dispatched_once": true,
+  "classification": "H",
+  "comparison_completed": false,
+  "empirical_access": false,
+  "local_component_count": 366,
+  "local_diagnostic_completed": true,
+  "local_historical_exact": true,
+  "local_vector_count": 108,
+  "production_numerics_changed": false,
+  "projection_repair_passed": true,
+  "readiness": 4,
+  "rerun_performed": false,
+  "schema_version": 1,
+  "session14r_partial_outputs_accessed": false,
+  "status": "unresolved"
+}

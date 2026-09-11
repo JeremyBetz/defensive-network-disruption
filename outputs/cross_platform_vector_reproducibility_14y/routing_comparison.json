@@ -1,0 +1,7 @@
+{
+  "ci_routing_available": false,
+  "local_routing_sha256": "5f8971eaa5275d27cf58efb042348b134e67b0af832c20aeda3096c071d78a7e",
+  "local_vector_count": 108,
+  "partition_switch_owner_and_residual_equality": "unavailable",
+  "status": "unavailable_cross_platform"
+}

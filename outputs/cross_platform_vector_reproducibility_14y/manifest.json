@@ -1,0 +1,35 @@
+{
+  "ci_log_sha256": "035fb06bd697868eb41a80cbd76a9ddd3793b8924c79b2482d14f8fbecc845db",
+  "ci_record_sha256": null,
+  "governed_ci_run": 34655637144,
+  "historical_vector_sha256": "c0f7935a4b728598126f0b5701ad36dedf0981ab20c73b6d5879d9ee38981e56",
+  "implementation": {
+    "projection": "617199feb6fc80c3189e3c86a702250877b5239a72303b025fb00eb8e6405227",
+    "runner": "168e23987771351fe572ed35ff56ea3cf2f902513375b50b76c3ccffa1fe2ed8",
+    "tests": "4d26d6906700804aa98ffe9019caa21a7527f367998517fcbb34656e7dff6655",
+    "workflow": "5bc003ecfe6c4d4399b9b68ea3f1300cd7fda7160eaf446b149cb4865613f07d"
+  },
+  "implementation_commit": "cf82b9e",
+  "local_record_sha256": "3faa15e81e4f1913ed28fd45bca4628b209ca66945da47e9a6d2c20117057f70",
+  "outputs": {
+    "ci_diagnostic.json": "f3ced48ed03836947507ac14b493036818ee6ee69afb0c940680b8597842d32f",
+    "environment_comparison.json": "0c0227765e4947b6b2a8d47d8c4f9168a7695c98e6e5700d97f108154d8d2b3b",
+    "equality_contract_review.json": "fb7838d9870b924411a77dae67eaa60b9fced40038d3c84b05ba09752d4483ca",
+    "local_diagnostic.json": "3faa15e81e4f1913ed28fd45bca4628b209ca66945da47e9a6d2c20117057f70",
+    "qc.json": "30e27c5ed1c43560f08d576ad69f7a74e531c6b1901f29da83c45ae3cd46fc68",
+    "repair_summary.json": "f570a1f8282c95b43fa572b2d71f1caac157b9f052dbcd81e4c0713cfd47fd33",
+    "resolution_comparison.csv": "e1a555dd82a6f661de7a4c8f478bc2dadb73b4f86f7b67085a4c9dad6de9836e",
+    "routing_comparison.json": "6026a7fe0a6a51c2d36a5df8888238373c1828f2500f4be7fefa1e33b863eb65",
+    "vector_comparison.csv": "2f7ae6c3f88ccf0935c594d04489fd989c5de6cf028c1cb17bfed0b2f92e7d09"
+  },
+  "protocol_commit": "2665d97",
+  "protocol_sha256": "6fa9bb40e22979f5d83cc446cfaf6e24aaae3234a68446676baeb338cfd8f92e",
+  "schema_version": 1,
+  "start": "890c9142f59e5c3c760d70090e8d18ccc7e0b974",
+  "status": "unresolved",
+  "unavailable": [
+    "CI diagnostic payload",
+    "cross-platform vector comparison",
+    "cross-platform routing comparison"
+  ]
+}

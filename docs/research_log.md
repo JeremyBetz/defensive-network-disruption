@@ -985,3 +985,18 @@ was accessed, and Session 14R remains paused. The sole next action is a
 separately governed bounded repair of the Session 14x switch-record projection,
 followed by a fresh cross-platform reproducibility audit. See the
 [Session 14x report](session_14x_cross_platform_vector_reproducibility.md).
+
+## 2026-09-11 — Session 14y projection repaired; CI evidence transport unresolved
+
+Protocol `2665d97` and tested repair `cf82b9e` preceded one local and one GitHub
+Actions Python 3.13 synthetic diagnostic. The repair projects the real immutable
+`owners_before`, `owners_at`, and `owners_after` fields without changing the
+production type or numerics. The local run reproduced 108 vectors and all 366
+historical components bit for bit. CI run `34655637144` completed, but GitHub
+omitted the single oversized base64 payload line from its downloadable log, so
+the declared record hash and cross-platform vector remained unavailable. No
+second dispatch occurred. **H — unresolved; readiness 4.** No empirical or
+protected material was accessed and Session 14R remains paused. The sole next
+action is a separately governed bounded CI evidence-transport repair followed
+by a fresh cross-platform reproducibility audit. See the
+[Session 14y report](session_14y_switch_projection_repair_and_reproducibility.md).

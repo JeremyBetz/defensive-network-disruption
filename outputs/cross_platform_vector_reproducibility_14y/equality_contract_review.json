@@ -1,0 +1,13 @@
+{
+  "algorithmic_reproducibility": "unavailable",
+  "bitwise_reproducibility": "unavailable",
+  "ci_component_count_available": 0,
+  "classification": "H",
+  "historical_exact_equality_contract": "unresolved",
+  "local_vs_historical_bitwise_differences": 0,
+  "local_vs_historical_maximum_absolute_difference": 0,
+  "numerical_reproducibility": "unavailable",
+  "readiness": 4,
+  "reason": "governed CI payload was not retained in downloadable log",
+  "replacement_tolerance_selected": false
+}

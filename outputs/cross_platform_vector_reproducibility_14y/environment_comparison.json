@@ -1,0 +1,36 @@
+{
+  "ci": {
+    "architecture": "x86_64",
+    "blas": "unavailable_from_retained_log",
+    "installation": "uv-sync-editable",
+    "lapack": "unavailable_from_retained_log",
+    "numpy": "2.5.3",
+    "os": "Linux",
+    "python": "3.13.15",
+    "runner_image": "ubuntu-24.04/20260907.300",
+    "scipy": "1.18.1",
+    "uv_lock_sha256": "c9e4da0781770b9e72b8a5b10a7c514f2259b7e63dc1b67604ee481934db0a0c"
+  },
+  "comparison_status": "partial_environment_only_ci_vector_unavailable",
+  "local": {
+    "architecture": "arm64",
+    "blas": {
+      "name": "accelerate",
+      "version": "unknown"
+    },
+    "implementation": "CPython",
+    "installation": "uv-sync-editable",
+    "lapack": {
+      "name": "accelerate",
+      "version": "unknown"
+    },
+    "libc": " ",
+    "numpy": "2.5.3",
+    "os": "Darwin",
+    "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+    "python": "3.13.15",
+    "python_build": "main Aug 25 2026 13:50:12",
+    "scipy": "1.18.1",
+    "uv_lock_sha256": "c9e4da0781770b9e72b8a5b10a7c514f2259b7e63dc1b67604ee481934db0a0c"
+  }
+}

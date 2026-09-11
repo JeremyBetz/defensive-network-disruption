@@ -1,0 +1,9 @@
+{
+  "production_numerics_modified": false,
+  "production_type_modified": false,
+  "regression_passed": true,
+  "repair": "separate deterministic projection of location, owners_before, owners_at, owners_after, crossing_pairs, endpoint, multiway, envelope_value",
+  "schema_version": 1,
+  "session14x_defect": "nonexistent left_owners/right_owners projection",
+  "status": "passed"
+}
