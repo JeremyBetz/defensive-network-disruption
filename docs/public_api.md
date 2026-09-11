@@ -1,33 +1,55 @@
 # Experimental public API
 
-The public API evaluates one local directed star from a ball carrier to an
-explicit set of candidate receivers. Its edges contain linear model utilities,
-temperature-one softmax shares, expected ranks and tie blocks. The shares are
+Version `0.1.0` evaluates one local directed star from a ball carrier to an
+explicit set of candidate receivers. Its edges contain linear utilities,
+temperature-one softmax shares, expected ranks and tie blocks. Shares are
 **model-implied receiver-option shares**. They are not calibrated accessibility,
 pass-success probability, causal suppression or defender value.
 
 ## Install
 
-The numerical core needs NumPy:
+The package is not yet published. From a repository checkout:
 
 ```sh
-pip install defensive-network-disruption
+uv sync --locked
 ```
 
-Repository users can install every public example dependency with:
+The core requires only NumPy. Optional environments are:
 
 ```sh
-uv sync --locked --all-extras
+uv sync --locked --extra interop        # Kloppy adapter
+uv sync --locked --extra dataframe      # pandas export
+uv sync --locked --extra visualization  # plots and GIF support
+uv sync --locked --extra public         # complete public workflow
 ```
 
-Separate extras are available for `interop`, `dataframe`, and `visualization`.
-The package is version `0.0.0`; its API is deliberately experimental.
+After a separately authorized package release, the corresponding pip syntax will
+be `pip install "defensive-network-disruption[public]"`.
 
-## Evaluate an explicit state
+The API is experimental and pre-1.0. Minor releases may change interfaces; each
+change must be recorded in [the changelog](../CHANGELOG.md). The ten names
+exported by `defensive_network_disruption` are the supported surface. Deep
+research and session modules are internal even though their source ships with the
+research package.
+
+## Core concepts
+
+`OptionState` is immutable selected geometry. Coordinates are finite metres in
+the `metric_attack_x_native_y` convention: positive x points toward attack and y
+retains its physical sign. Callers decide eligibility, active state, teams and
+attacking direction. At least one candidate and one defender are required.
+
+`FrozenOptionModel` contains an explicit M0 or M1 feature order, training means,
+scales and coefficients. It never discovers, fits or loads a model.
+
+`OptionNetwork` contains immutable `OptionEdge` rows, the tied top set and the
+six frozen summaries. `top_option` is a receiver only for a unique top utility;
+otherwise it is `None`.
+
+## Evaluate and compare
 
 ```python
-from defensive_network_disruption import OptionState, evaluate_options
-from defensive_network_disruption.examples import demonstration_models
+from defensive_network_disruption import FrozenOptionModel, OptionState, evaluate_options
 
 state = OptionState(
     carrier_xy=(0, 0),
@@ -36,116 +58,87 @@ state = OptionState(
     defender_xy=((8, 3), (16, -2)),
     carrier_id="carrier",
 )
-_, m1 = demonstration_models()
-network = evaluate_options(state, model=m1)
-
-print(network.top_options)
-print(network.effective_option_count)
-print(network.to_records())
+m0 = FrozenOptionModel(
+    "m0",
+    ("distance", "longitudinal_displacement", "lateral_displacement"),
+    (0, 0, 0), (20, 20, 20), (-1, 0.35, 0),
+)
+network = evaluate_options(state, model=m0)
+print(network.top_options, network.effective_option_count)
 ```
 
-Coordinates must be finite metres with positive `x` pointing toward the
-attacking goal and the native physical `y` sign retained. Candidates are unique,
-aligned with their coordinates and distinct from the carrier. At least one
-candidate and one defender are required. The library does not infer eligibility,
-active intervals, teams, direction or missing coordinates.
+Evaluate a second explicit model on the identical state, then call
+`compare_options(first, second)`. Comparison requires receiver IDs in exactly the
+same order. Its changes include changed shared-feature coefficients as well as
+additional defensive features; they are descriptive model changes, not causal
+defender attribution.
 
-Every call receives a `FrozenOptionModel`. The helper in this example returns
-illustrative coefficients; it is not an empirical authority. Application code
-may construct a model from its own governed parameters. No model is discovered
-or loaded automatically.
-
-`OptionNetwork.edges` preserves candidate order. `top_options` preserves a tied
-top set, while `top_option` returns a receiver only when that set is unique.
-Summary properties expose top-one share, top-two cumulative share, entropy,
-normalized entropy, effective option count and utility range. Entropy and
-effective count are two transformations of the same distribution rather than
-independent evidence.
-
-## Kloppy frames
+## Kloppy interoperability
 
 ```python
-from defensive_network_disruption import (
-    MetricCoordinateContext,
-    option_state_from_kloppy,
-)
+from defensive_network_disruption import MetricCoordinateContext, option_state_from_kloppy
 
 state = option_state_from_kloppy(
-    frame,
-    carrier=carrier,
-    candidates=candidates,
-    defenders=defenders,
+    frame, carrier=carrier, candidates=candidates, defenders=defenders,
     coordinate_context=MetricCoordinateContext(
-        verified=True,
-        units="metres",
-        origin="centre",
-        y_axis="up",
+        verified=True, units="metres", origin="centre", y_axis="up",
         attacking_sign=1,
     ),
 )
 ```
 
-The adapter accepts a real `kloppy.domain.Frame` and explicit Player selections.
-It validates that all selected players are tracked, candidates share the
-carrier's team, defenders belong to one opposing team, and the coordinate
-context is supported. It does not replace Kloppy's dataset, frame, player or
-coordinate abstractions. The complete synthetic workflow is in
-[`examples/quickstart.py`](../examples/quickstart.py).
+The `interop` extra supplies Kloppy. The adapter requires a real Kloppy `Frame`,
+explicit disjoint player selections, one opposing team, currently tracked
+coordinates and verified metric context. It does not infer eligibility or repair
+ambiguous coordinates.
 
 ## Dataframe export
 
-`network.to_pandas()` returns a fresh dataframe with:
+`network.to_pandas()` lazily imports pandas and returns a new dataframe with:
 
 ```text
 carrier_id, receiver_id, utility, option_share, expected_rank,
 tie_block, is_top_option
 ```
 
-Pandas is imported only when the method is called. Without the `dataframe`
-extra, the method raises an installation message; the core remains usable.
+Install the `dataframe` extra if pandas is unavailable. Mutating the returned
+dataframe cannot alter the immutable network.
 
 ## Plot and animate
 
 ```python
-from defensive_network_disruption import (
-    animate_option_network_comparison,
-    plot_option_network,
-)
+from defensive_network_disruption import animate_option_network_comparison, plot_option_network
 
 figure, axis = plot_option_network(
-    state,
-    network,
-    pitch_length=105,
-    pitch_width=68,
-    title="Synthetic option network",
+    state, network, pitch_length=105, pitch_width=68,
 )
-
 animation = animate_option_network_comparison(
-    states,
-    m0_model=m0,
-    m1_model=m1,
-    pitch_length=105,
-    pitch_width=68,
-    fps=10,
+    states, m0_model=m0, m1_model=m1,
+    pitch_length=105, pitch_width=68, fps=10,
 )
 ```
 
-The caller must supply actual pitch dimensions. mplsoccer draws the custom pitch;
-project code owns the option-network encoding. Plotting translates centred
-metric coordinates into that canvas and rejects points outside it. The animation
-returns a Matplotlib `FuncAnimation`; callers choose how and where to save it.
+The `visualization` extra supplies mplsoccer, Matplotlib and Pillow. Pitch
+dimensions are mandatory and every coordinate must lie inside the supplied
+pitch. Plotting validates exact state/network candidate alignment. Animation
+returns a Matplotlib `FuncAnimation`; callers choose whether and where to save it.
 
-The committed [static hero](../outputs/public_examples/synthetic_option_network.svg)
-and [animation](../outputs/public_examples/synthetic_option_network_animation.gif)
-use the same four anonymous candidates and three defenders in both M0 and M1
-panels. They contain no provider data. Moving synthetic players illustrate API
-behavior only; the paths are not a physical or tactical simulation.
+The complete [quickstart](../examples/quickstart.py) constructs a synthetic
+Kloppy frame, evaluates M0/M1, prints bounded summaries and writes a side-by-side
+SVG. The committed [hero](../outputs/public_examples/synthetic_option_network.svg)
+and [GIF](../outputs/public_examples/synthetic_option_network_animation.gif)
+contain no provider data.
 
-## Scientific boundary
+## Errors and limitations
 
-The protected receiver-ranking result supports a narrow association between the
-frozen defensive geometry and a Tier B vendor target. Accessibility remains
-**PROXY ONLY** and suppression **NOT SUPPORTABLE**. The tracking benchmark is
-offline and extrapolated. Neither a strong edge nor a concentrated star proves
-that a pass was impossible, a defender caused an effect, or a team gained value.
-Read the [claim ledger](claim_status.md) before reusing the terms or results.
+Validation errors name the malformed identity, coordinate, selection, model or
+plot argument. Missing optional packages name the extra to install. The library
+does not silently trim identities, infer teams, rescale coordinates, load
+coefficients or discard candidates.
+
+The protected receiver-ranking result supports a narrow association with a Tier
+B vendor target. Accessibility remains **PROXY ONLY** and suppression remains
+**NOT SUPPORTABLE**. The benchmark is offline and extrapolated. A strong edge or
+concentrated star does not establish availability, the best pass, causality,
+defender credit or value. Review the [claim ledger](claim_status.md) before using
+the empirical findings.

@@ -192,6 +192,12 @@ Do not add complexity to rescue a weak interpretation.
 
 ## Software and open-source direction
 
+The public package is prepared at experimental version `0.1.0`. Its supported
+surface is the root-package API documented in `docs/public_api.md`; deeper
+research modules remain internal. This version is release-ready only if the
+latest package-readiness report records all clean-install and distribution gates
+passing. It has not been tagged, published to PyPI, or issued as a GitHub release.
+
 If the science supports it, the project should produce a meaningful open-source
 software contribution. Prefer a reusable, provider-independent Python library or
 API before a web/HTTP service. Build in layers: scientifically warranted geometry

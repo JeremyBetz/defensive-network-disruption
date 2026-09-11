@@ -14,6 +14,7 @@ from kloppy.domain import Frame, Ground, Player, PlayerData, Point, Team
 
 from defensive_network_disruption import (
     MetricCoordinateContext,
+    compare_options,
     evaluate_options,
     option_state_from_kloppy,
     plot_option_network,
@@ -58,17 +59,23 @@ def main():
             attacking_sign=1,
         ),
     )
-    _, model = demonstration_models()
-    network = evaluate_options(state, model=model)
-    dataframe = network.to_pandas()
-    figure, _ = plot_option_network(
-        state, network, pitch_length=105, pitch_width=68,
-        title="Synthetic M1 option network",
-    )
+    m0_model, m1_model = demonstration_models()
+    m0_network = evaluate_options(state, model=m0_model)
+    m1_network = evaluate_options(state, model=m1_model)
+    comparison = compare_options(m0_network, m1_network)
+    dataframe = m1_network.to_pandas()
+    import matplotlib.pyplot as plt
+    figure, axes = plt.subplots(1, 2, figsize=(12, 5), constrained_layout=True)
+    plot_option_network(state, m0_network, pitch_length=105, pitch_width=68,
+                        ax=axes[0], title="Synthetic M0")
+    plot_option_network(state, m1_network, pitch_length=105, pitch_width=68,
+                        ax=axes[1], title="Synthetic M1")
     args.output.parent.mkdir(parents=True, exist_ok=True)
     figure.savefig(args.output, format="svg", metadata={"Date": None})
     print(dataframe.to_string(index=False))
-    print(f"effective_option_count={network.effective_option_count:.3f}")
+    print(f"m0_effective_options={m0_network.effective_option_count:.3f}")
+    print(f"m1_effective_options={m1_network.effective_option_count:.3f}")
+    print(f"top_set_changed={bool(comparison['top_set_changed'])}")
     print(f"saved={args.output}")
 
 

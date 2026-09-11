@@ -83,6 +83,6 @@ Original code and documentation use MIT. No data is included or relicensed.
 Raw and reconstructive competition records stay local; reviewed aggregate
 receiver-ranking results are committed under the repository's publication
 rules. The GitHub repository and governed empirical pipeline now exist. The
-current README has no figures or tables and remains below the recorded word
-limit. A final clean-environment empirical reproduction, submission-ready public
+current README has one synthetic figure, no tables, and remains below the
+recorded word limit, leaving one combined figure/table slot unused. A final clean-environment empirical reproduction, submission-ready public
 audit, one-minute pitch, and submission-portal action remain outstanding.
