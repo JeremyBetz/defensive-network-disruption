@@ -1,0 +1,21 @@
+{
+  "schema_version": "1",
+  "status": "experimental_contract",
+  "input": "OptionState: immutable carrier_xy, candidate_ids, candidate_xy, defender_xy; metric x toward attack, native physical y; optional carrier_id",
+  "model": "FrozenOptionModel: explicit name m0/m1, feature_names, means, positive scales, finite coefficients; no automatic load",
+  "output": "OptionNetwork: immutable edges(receiver_id, utility, option_share, tie_block), top_options, summary, to_records()",
+  "summary": [
+    "top_one_share",
+    "top_two_share",
+    "entropy",
+    "normalized_entropy",
+    "effective_option_count",
+    "utility_range"
+  ],
+  "adapter": "option_state_from_kloppy(frame, carrier, candidates, defenders, coordinate_context); metric centered x/y positive up, verified context, direction +/-1; all selected players tracked and distinct; disjoint teams; explicit eligibility required",
+  "errors": "Reject invalid identity, nonfinite or empty geometry, duplicate selections, model mismatch, unsupported coordinate context. Singleton allowed. Never infer missing context.",
+  "semantics": "Local directed star; model-implied receiver-option shares, not calibrated accessibility or true pass probabilities",
+  "dependencies": "Existing locked NumPy; optional Kloppy 3.19.0; no dependency or lock changes",
+  "synthetic_visual": "One public synthetic paired SVG only",
+  "scope": "No M2, fitting, provider acquisition, targets, time reconstruction, empirical rendering or protected access"
+}
