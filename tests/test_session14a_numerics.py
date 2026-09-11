@@ -75,6 +75,11 @@ class IntegrationReviewTests(unittest.TestCase):
         for forbidden in ("population"+".jsonl","player_"+"targeted_id"):
             self.assertNotIn(forbidden,text)
 
+    def test_preflight_route_guard_is_not_self_referential(self):
+        with patch.object(runner,"verify_history"),patch.object(runner,"committed"), \
+             patch.object(runner,"git",return_value="ignored"):
+            runner.preflight()
+
     def test_safe_paths_and_atomic_outputs(self):
         with tempfile.TemporaryDirectory() as directory,patch.object(runner,"ROOT",Path(directory).resolve()):
             (runner.ROOT/"sym").symlink_to("/tmp")

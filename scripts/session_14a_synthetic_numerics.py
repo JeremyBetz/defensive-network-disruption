@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import argparse
+import ast
 import csv
 from datetime import datetime, timezone
 import hashlib
@@ -146,10 +147,32 @@ def preflight() -> None:
         committed(path)
     if not git("check-ignore", "--", str(OUT / "local" / "probe")):
         raise ValueError("local_storage_not_ignored")
-    forbidden = ("population" + ".jsonl", "Frozen" + "OptionModel", "evaluate_" + "options", "player_" + "targeted_id",
-                 "urlopen", "requests.get", "scipy.optimize", "minimize(")
-    source = safe(Path(__file__).relative_to(ROOT)).read_text() + safe(IMPLEMENTATION[0]).read_text()
-    if any(token in source for token in forbidden):
+    source_paths = (Path(__file__).relative_to(ROOT), Path(IMPLEMENTATION[0]))
+    imported = set()
+    called = set()
+    raw_source = ""
+    for source_path in source_paths:
+        source = safe(source_path).read_text()
+        raw_source += source
+        tree = ast.parse(source)
+        for node in ast.walk(tree):
+            if isinstance(node, ast.Import):
+                imported.update(alias.name for alias in node.names)
+            elif isinstance(node, ast.ImportFrom):
+                imported.add(node.module or "")
+            elif isinstance(node, ast.Call):
+                if isinstance(node.func, ast.Name):
+                    called.add(node.func.id)
+                elif isinstance(node.func, ast.Attribute):
+                    called.add(node.func.attr)
+    forbidden_import_roots = {"requests", "urllib"}
+    forbidden_import_prefixes = ("defensive_network_disruption.models",
+                                 "defensive_network_disruption.modeling")
+    forbidden_calls = {"evaluate_options", "minimize", "urlopen", "open_provider_product"}
+    forbidden_literals = ("population" + ".jsonl", "player_" + "targeted_id")
+    if ({name.split(".")[0] for name in imported} & forbidden_import_roots or
+            any(name.startswith(forbidden_import_prefixes) for name in imported) or
+            called & forbidden_calls or any(token in raw_source for token in forbidden_literals)):
         raise ValueError("forbidden_route_present")
     print("Session 14a preflight passed; synthetic numerics only")
 
