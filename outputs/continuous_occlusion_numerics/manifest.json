@@ -1,0 +1,25 @@
+{
+  "claim_ledger_changed": false,
+  "empirical_access": false,
+  "execution_head": "f449ab0cafbf1aa9a3ad55fd34340e676226b2d8",
+  "failure_record": "ignored append-only execution ledger",
+  "implementation_sha256": {
+    "scripts/session_14a_synthetic_numerics.py": "53fe7090436be3b9ef8ca44150c8ff5c25883b43fbe0fbd71b409397d0f3dacb",
+    "src/defensive_network_disruption/geometry/integration_review.py": "152f688fe6b217dec0c6ede667e611d9d411c43762c0de1ff8d1143919b50f0d",
+    "tests/test_session14a_numerics.py": "f3ad3dd5c6fd64569582931463ced1f32f8ad09d6e51d2bd61654c2f667f2537"
+  },
+  "models_loaded": false,
+  "preserved_outputs_sha256": {
+    "convergence.csv": "fab91419fca9731430baef5f372c6e7eb30e1291b1e06d636520e09b91fff49f",
+    "qc.json": "5c9a6bec7319a61d227f9d94f638eeae489f19348f83f4b98b7fb56c42db1166"
+  },
+  "protocol_sha256": "941e8192e3a83619eba40f95b8c06e53d34851927e32f93f7321f6f81d65ca29",
+  "schema_version": 1,
+  "starting_authority": "2a2ebe571aa85c0c850dc4139ebcd01350856dae",
+  "status": "failure_closed",
+  "unavailable_outputs": [
+    "reference_summary.json",
+    "failing_fixture_diagnostic.csv",
+    "method_summary.json"
+  ]
+}

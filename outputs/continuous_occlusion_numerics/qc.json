@@ -1,0 +1,42 @@
+{
+  "available_reference_count": 362,
+  "candidate_count": 3,
+  "component_reference_count": 366,
+  "convergence_row_count": 2928,
+  "empirical_states_read": 0,
+  "failed_stage": "reference_summary_serialization",
+  "failure_category": "numpy_boolean_not_json_serializable",
+  "fixture_count": 36,
+  "historical_failure_reproduced": true,
+  "models_loaded": 0,
+  "numerical_classification": "F \u2014 UNRESOLVED",
+  "polynomial_oracle_checks_passed": 32,
+  "rerun": false,
+  "retry_readiness": "2 \u2014 READY AFTER SMALL IMPLEMENTATION REPAIR",
+  "schema_version": 1,
+  "status": "invalid_output_serialization",
+  "targets_read": 0,
+  "unavailable_reference_count": 4,
+  "unavailable_references": [
+    {
+      "candidate": "constant_width",
+      "component": "maximum",
+      "fixture": "equal_minimum_three"
+    },
+    {
+      "candidate": "expanding",
+      "component": "maximum",
+      "fixture": "equal_minimum_three"
+    },
+    {
+      "candidate": "expanding",
+      "component": "maximum",
+      "fixture": "star_edge_1"
+    },
+    {
+      "candidate": "expanding",
+      "component": "maximum",
+      "fixture": "star_edge_3"
+    }
+  ]
+}

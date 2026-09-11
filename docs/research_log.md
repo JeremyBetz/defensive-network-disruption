@@ -724,3 +724,18 @@ passed, 3 retained skips. No empirical rows, targets, models, shares, provider,
 reserved/withheld/pose or external-value access. Claims and history preserved.
 One next action: separately governed synthetic numerical-integration review,
 not executed. See the [Session 14 report](session_14_continuous_occlusion_hypothesis_report.md).
+
+## 2026-09-11 — Session 14a synthetic numerical review stopped at serialization
+
+Phase 14a protocol `906b1a2` preceded the synthetic-only review. A first
+committed preflight exposed and corrected a self-referential source guard before
+numerical output. The one governed review then reproduced Session 14's exact
+80/160 discrepancy and completed the frozen convergence matrix, but failed while
+serializing a NumPy boolean after `convergence.csv` had been written. The result
+was preserved without repair or rerun. Four maximum-envelope references were
+already unavailable under the frozen adaptive/fine-grid cross-check. Numerical
+classification **F — UNRESOLVED**; retry readiness **2 — READY AFTER SMALL
+IMPLEMENTATION REPAIR**. No empirical state, target, model, provider product,
+reserved/withheld/pose or external-value data was accessed. Claims and the
+historical Session 14 block remain unchanged. The sole recommendation is a
+separately governed Session 14a implementation repair and synthetic rerun.
