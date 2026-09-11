@@ -1,0 +1,25 @@
+{
+  "counts": {
+    "development_01": 885,
+    "development_02": 801,
+    "development_03": 952,
+    "development_04": 877,
+    "development_05": 861,
+    "development_06": 629,
+    "development_07": 764,
+    "development_08": 734,
+    "development_09": 724
+  },
+  "implementation_sha256": {
+    "scripts/session_13_defender_edges.py": "258863b1f02808f91c2305ffa24019c181c1b0fa2ae2d68843c54b08a3e978f5",
+    "src/defensive_network_disruption/networks/defender_edges.py": "1a19f181d7ab6d84c2cde65fbb6a0e3ebdc8a5157d5136ea5160857723c54bdb",
+    "src/defensive_network_disruption/visualization/defender_edges.py": "dbbbf765be6beb1ac68d5d58b1958a0bff815f5f2731445c276ff177fc11c686",
+    "tests/test_session13_defender_edges.py": "92b567415bcdc7636d1847f9404666b19c9e8ca6d095f3f12017951223394b67"
+  },
+  "population_sha256": "cd706f9f4621efcf659fbe890d9a6a0ebfff97c3407095a6db5ea05044c1264d",
+  "prepared_sha256": "a14643aa28fb4c251e8ddb28aa5d2a032f4e092203ccdce01ac8cf9b47868620",
+  "protocol_sha256": "03811fd9220722836394971af38395c4e683504fb6d591d91fcb8e0399e27b0b",
+  "schema_version": 1,
+  "states": 7227,
+  "status": "prepared_no_relations_or_shares"
+}
