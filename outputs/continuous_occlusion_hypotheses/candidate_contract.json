@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "candidates": ["isotropic", "expanding", "constant_width"],
+  "sigma_metres": 2.0,
+  "onset_metres": 1.0,
+  "half_angle_degrees": 10.0,
+  "directional_origin_tolerance_metres": 1e-9,
+  "origin": "canonical carrier proxy; not measured ball position",
+  "onset": "0 before defender plane; cubic smoothstep over one metre; 1 thereafter",
+  "primary_combination": "bounded_union",
+  "comparator_combination": "maximum",
+  "edge_summaries": ["receiver_field", "normalized_segment_integral"],
+  "quadrature": {"method": "composite_simpson_even_intervals", "coarse_spacing_metres": 0.25, "fine_spacing_metres": 0.125, "absolute_agreement": 1e-6, "retain": "fine", "on_failure": "stop_without_resampling"},
+  "population_sha256": "cd706f9f4621efcf659fbe890d9a6a0ebfff97c3407095a6db5ea05044c1264d",
+  "state_counts": [885, 801, 952, 877, 861, 629, 764, 734, 724],
+  "visual": "static_synthetic_only_1800x800_before_empirical_access",
+  "forbidden": ["targets", "outcomes", "model_loading", "utilities", "option_shares", "fitting", "provider_products", "reserved_detail", "withheld", "pose", "external_value", "empirical_rendering"],
+  "status": "prospective_fixed_contract"
+}
