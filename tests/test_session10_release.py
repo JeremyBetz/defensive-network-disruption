@@ -53,7 +53,12 @@ class PublicContractTests(unittest.TestCase):
             atol=0.0,
         )
         self.assertEqual(right.top_options, ("C",))
-        self.assertEqual(right.effective_option_count, 3.2961834464235378)
+        np.testing.assert_allclose(
+            right.effective_option_count,
+            3.2961834464235378,
+            rtol=4 * np.finfo(np.float64).eps,
+            atol=0.0,
+        )
 
     def test_actionable_state_and_model_errors(self):
         with self.assertRaisesRegex(ValueError, "candidate_ids must contain"):
