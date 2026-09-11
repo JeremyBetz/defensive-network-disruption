@@ -1,0 +1,84 @@
+{
+  "all_failures_block": true,
+  "records": [
+    {
+      "affected": "none",
+      "blocked": false,
+      "injection": "valid_control",
+      "ready": true
+    },
+    {
+      "affected": "continuity_verified",
+      "blocked": true,
+      "injection": "continuity_failure",
+      "ready": false
+    },
+    {
+      "affected": "continuity_verified",
+      "blocked": true,
+      "injection": "discontinuous_surrogate",
+      "ready": false
+    },
+    {
+      "affected": "switching_verified",
+      "blocked": true,
+      "injection": "missed_tiny_sign",
+      "ready": false
+    },
+    {
+      "affected": "switching_verified",
+      "blocked": true,
+      "injection": "uncertified_tie",
+      "ready": false
+    },
+    {
+      "affected": "switching_verified",
+      "blocked": true,
+      "injection": "root_failure",
+      "ready": false
+    },
+    {
+      "affected": "references_complete",
+      "blocked": true,
+      "injection": "unavailable_reference",
+      "ready": false
+    },
+    {
+      "affected": "controlled_integration_verified",
+      "blocked": true,
+      "injection": "controlled_nonconvergence",
+      "ready": false
+    },
+    {
+      "affected": "permutation_verified",
+      "blocked": true,
+      "injection": "permutation_mismatch",
+      "ready": false
+    },
+    {
+      "affected": "deterministic",
+      "blocked": true,
+      "injection": "nondeterminism",
+      "ready": false
+    },
+    {
+      "affected": "blocking_warnings_absent",
+      "blocked": true,
+      "injection": "blocking_warning",
+      "ready": false
+    },
+    {
+      "affected": "integrity_verified",
+      "blocked": true,
+      "injection": "integrity_failure",
+      "ready": false
+    },
+    {
+      "affected": "integrity_verified",
+      "blocked": true,
+      "injection": "marker_collision",
+      "ready": false
+    }
+  ],
+  "schema_version": 1
+}

@@ -787,3 +787,21 @@ Focused tests 59 passed; full suite 345 passed, three retained skips. Claims and
 release unchanged. The sole next action is a separately governed bounded
 verification repair and synthetic acceptance audit; Session 14R remains paused.
 See the [Session 14d report](session_14d_numerical_verification_contract_audit.md).
+
+## 2026-09-11 — Session 14e verification repair and synthetic acceptance
+
+Phase 14e protocol `caa9271` and tested repair `d22f459` preceded the one
+synthetic-only governed audit. Result: **PASS — VERIFICATION CONTRACT REPAIRED;
+SESSION 14R MAY RESUME**. The additive internal verifier replaces raw-sign
+multiplication, certifies exact-equality plateau boundaries to adjacent float64
+points, uses analytical continuity plus independent scalar/max oracles, and
+derives readiness as the immutable conjunction of nine required obligations.
+All 108 frozen cases, 366 references and 399 complete permutation comparisons
+passed; all twelve injected failures blocked readiness. Maximum reference error
+remained `4.1576548232002963e-08` under the unchanged `1e-6` bound. The finite
+grid retains an explicit global-completeness limitation. No empirical/provider/
+target/model/share, protected/withheld/pose, xT or progression access occurred;
+no formula, tolerance, reference, dependency, public API, release or claim
+changed. The sole next action is to resume Session 14R under the repaired
+verification contract; it was not executed. See the
+[Session 14e report](session_14e_verification_repair_and_acceptance.md).

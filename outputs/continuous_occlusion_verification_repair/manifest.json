@@ -1,0 +1,45 @@
+{
+  "classification": "PASS \u2014 VERIFICATION CONTRACT REPAIRED; SESSION 14R MAY RESUME",
+  "empirical_access": false,
+  "environment": {
+    "numpy": "2.5.3",
+    "python": "3.13.15",
+    "scipy": "1.18.1",
+    "uv_lock_sha256": "c9e4da0781770b9e72b8a5b10a7c514f2259b7e63dc1b67604ee481934db0a0c"
+  },
+  "execution_commit": "d22f45946befeae0ded79aa8b0746f53f05a76b7",
+  "historical_inputs_sha256": {
+    "outputs/continuous_occlusion_max_switching/manifest.json": "ee280e8ef0dc589091eada9b143e484922ef64d8a9519e6560141065ba32b717",
+    "outputs/continuous_occlusion_max_switching/unresolved_case_comparison.csv": "b6be72bf55c4616d8179f09eb7d47b893fa53c89e0dbe8015e44d12868f5f5b5",
+    "outputs/continuous_occlusion_numerics_14b/manifest.json": "8858b4bfd2717dae1d250e1647742cc467813170cd2bba9c5b47d407de0990a3",
+    "outputs/continuous_occlusion_numerics_14b/reference_summary.json": "734af21c5ea22bd8e3b472b1a21bfd1de8e27dfb2ecbb4d915103362e5c976ac",
+    "outputs/continuous_occlusion_verification_audit/manifest.json": "1dfe9506aa0e5b10c74877e523f7be779cf75dace9e4ed217bcf50e01c9b6e5d",
+    "scripts/session_14_occlusion_fields.py": "921842723974083431e6deee44c18ad6eda8c1de722e15e79e65612ee83b26ee",
+    "src/defensive_network_disruption/geometry/integration_review.py": "152f688fe6b217dec0c6ede667e611d9d411c43762c0de1ff8d1143919b50f0d",
+    "src/defensive_network_disruption/geometry/maximum_envelope.py": "b6ceb523ffca9e1a969ca7d9e1bfe728635fb02c07785d0e80e24543ae143d9a",
+    "src/defensive_network_disruption/geometry/occlusion_fields.py": "d7fd23bc131d0db2686ef27475a128fdca78aea88616c4494609962c165533aa",
+    "src/defensive_network_disruption/geometry/verification_audit.py": "791cbefc75e49ba4574438c8d3571f3ac26ac8fb776cd83347bdba4ce68ce9f7",
+    "uv.lock": "c9e4da0781770b9e72b8a5b10a7c514f2259b7e63dc1b67604ee481934db0a0c"
+  },
+  "implementation_sha256": {
+    "scripts/session_14e_verification_repair.py": "055d5c6846abdaa1b43e956e1d369a217aff3ec114f11aec1b062434e4e7a38c",
+    "src/defensive_network_disruption/geometry/verification_repair.py": "4af39780b23e13f98a6ec54102b1aba4071d3a72b599ee3ca7ecc820f37118a2",
+    "tests/test_session14e_verification.py": "21181460c4fa1e3fffcc94918b7afda952417a35385b306cc2a54da52392d62c"
+  },
+  "models_loaded": 0,
+  "outputs_sha256": {
+    "continuity_oracles.csv": "6b068a6433a5e69d2e345cd595f4fbae3c428b34dff39da01077b391672f7c77",
+    "controlled_integration.csv": "a85034fd7648cd01e7a32292b80b49b0283414d3173cd1049c6e82856a36c5d6",
+    "failure_injection.json": "1169d577b6082004989465d7da1bb9a8427a0b56264ed2dc2d30890841356cc6",
+    "qc.json": "52107f1270743720a7c5de75c6b153bb0bae3f1b4e953fdb2b820c9f7a95ac82",
+    "readiness_gate.json": "3616cbd6e7b65a17ef29085e3ed43e4b9ce0c64a83a930f02b738aeb2f81f39a",
+    "reference_comparison.csv": "bec2deaff7be5beb9a5d08b6e490540eff102f55b82dab8f5404d9e74ff1da7c",
+    "repair_summary.json": "4a4e5d777143134263971f307b1979f386cebc3581f9870d622d7ef60853237f",
+    "tie_boundary_oracles.csv": "31a82f15a9abefa3484237910b04e280e074aada35996125fa8092b5723dfcc6",
+    "tiny_sign_oracles.csv": "c1e2bf9af7d450e20903ec7a2890b34b5fe27d950894afa0328ebc1a253856c9"
+  },
+  "protocol_sha256": "75b707edbf0412da1c6c8eafc6fc847db27963f0c9e8b033582c8185f32fd43c",
+  "schema_version": 1,
+  "start": "9188222c4270ba1a89963ae1bbdb9003b0bf9f1e",
+  "status": "closed"
+}

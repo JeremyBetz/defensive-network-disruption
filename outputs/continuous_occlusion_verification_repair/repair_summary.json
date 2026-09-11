@@ -1,0 +1,15 @@
+{
+  "classification": "PASS \u2014 VERIFICATION CONTRACT REPAIRED; SESSION 14R MAY RESUME",
+  "component_references": 366,
+  "continuity_oracles": 73,
+  "empirical_access": false,
+  "finite_grid_global_completeness_claim": false,
+  "fixture_cases": 108,
+  "full_permutation_comparisons": 399,
+  "historical_defects_repaired": 4,
+  "models_loaded": 0,
+  "schema_version": 1,
+  "status": "complete",
+  "tie_boundary_oracles": 2,
+  "tiny_sign_oracles": 11
+}

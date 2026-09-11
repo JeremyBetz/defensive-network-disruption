@@ -1,0 +1,12 @@
+fixture,left,right,expected_bracket,observed_bracket
+opposite_1e-08,-1e-08,1e-08,True,True
+same_1e-08,1e-08,1e-08,False,False
+opposite_1e-12,-1e-12,1e-12,True,True
+same_1e-12,1e-12,1e-12,False,False
+opposite_1e-15,-1e-15,1e-15,True,True
+same_1e-15,1e-15,1e-15,False,False
+opposite_1e-200,-1e-200,1e-200,True,True
+same_1e-200,1e-200,1e-200,False,False
+exact_zero,0.0,1.0,False,False
+structural_zero,0.0,0.0,False,False
+adjacent_node,-1e-15,0.0,False,False
