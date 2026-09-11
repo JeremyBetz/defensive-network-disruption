@@ -287,3 +287,13 @@ field model or parameter was adopted. The abstraction remains internal because
 its evidence is development-only and its synthetic renderer failed final
 presentation QA. No generic upstream ecosystem gap is established. See the
 [Session 13 report](../docs/session_13_defender_edge_influence_report.md).
+
+## 2026-09-11 — Session 14 fixed-field prerequisite
+
+The internal geometric fields use locked NumPy 2.5.3 and standard-library
+float64 summation/logarithmic union; no dependency, external model or parameter
+was adopted. The planned locked-Matplotlib visual was not implemented after the
+synthetic Simpson acceptance gate failed. No upstream capability gap, package
+readiness or field-validity claim follows. A separate numerical-contract review
+is recommended before further use. See the
+[Session 14 report](../docs/session_14_continuous_occlusion_hypothesis_report.md).

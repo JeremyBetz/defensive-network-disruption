@@ -1,0 +1,10 @@
+{
+  "category": "quadrature_agreement_failed",
+  "completed_fixture_candidate_checks": 16,
+  "empirical_states_read": 0,
+  "failed_stage": "synthetic-checks",
+  "models_loaded": 0,
+  "rerun": false,
+  "schema_version": 1,
+  "status": "blocked_before_empirical_access"
+}

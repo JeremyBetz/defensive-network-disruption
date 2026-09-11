@@ -708,3 +708,19 @@ native presentation QA after aggregate exposure and remains unedited; no rerun.
 No target/outcome/rank, reserved/withheld/pose/provider or progression access.
 Claims unchanged. See the
 [Session 13 report](session_13_defender_edge_influence_report.md).
+
+## 2026-09-11 — Session 14 synthetic numerical prerequisite stop
+
+Protocol/contract `fa45495` and tested prerequisite implementation `75c16bb`
+preceded the fixed synthetic sequence. Sixteen fixture–candidate checks passed;
+the expanding field at synthetic origin (0,0), receiver (20,0), defender (5,1)
+failed the frozen Simpson agreement: 0.00015414666387381093 difference versus
+1e-6 allowed. Execution stopped; 91 checks and every empirical stage remained
+unexecuted. No spacing/tolerance/formula change or rerun. Candidate D — BLOCKED;
+readiness 3 — numerical evaluation contract needs review. No candidate selected.
+Internal prerequisite implementation only; no renderer or empirical pipeline
+completion claimed. Focused software tests 17 passed; full active suite 303
+passed, 3 retained skips. No empirical rows, targets, models, shares, provider,
+reserved/withheld/pose or external-value access. Claims and history preserved.
+One next action: separately governed synthetic numerical-integration review,
+not executed. See the [Session 14 report](session_14_continuous_occlusion_hypothesis_report.md).

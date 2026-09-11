@@ -1,0 +1,135 @@
+{
+  "completed": [
+    {
+      "candidate": "isotropic",
+      "coarse_intervals": 80,
+      "fine_intervals": 160,
+      "fixture": "axial_1",
+      "maximum_agreement_error": 4.562232001317952e-08
+    },
+    {
+      "candidate": "expanding",
+      "coarse_intervals": 80,
+      "fine_intervals": 160,
+      "fixture": "axial_1",
+      "maximum_agreement_error": 0.0
+    },
+    {
+      "candidate": "constant_width",
+      "coarse_intervals": 80,
+      "fine_intervals": 160,
+      "fixture": "axial_1",
+      "maximum_agreement_error": 0.0
+    },
+    {
+      "candidate": "isotropic",
+      "coarse_intervals": 80,
+      "fine_intervals": 160,
+      "fixture": "axial_2",
+      "maximum_agreement_error": 4.5622320032912e-08
+    },
+    {
+      "candidate": "expanding",
+      "coarse_intervals": 80,
+      "fine_intervals": 160,
+      "fixture": "axial_2",
+      "maximum_agreement_error": 0.0
+    },
+    {
+      "candidate": "constant_width",
+      "coarse_intervals": 80,
+      "fine_intervals": 160,
+      "fixture": "axial_2",
+      "maximum_agreement_error": 0.0
+    },
+    {
+      "candidate": "isotropic",
+      "coarse_intervals": 80,
+      "fine_intervals": 160,
+      "fixture": "axial_3",
+      "maximum_agreement_error": 0.0
+    },
+    {
+      "candidate": "expanding",
+      "coarse_intervals": 80,
+      "fine_intervals": 160,
+      "fixture": "axial_3",
+      "maximum_agreement_error": 0.0
+    },
+    {
+      "candidate": "constant_width",
+      "coarse_intervals": 80,
+      "fine_intervals": 160,
+      "fixture": "axial_3",
+      "maximum_agreement_error": 0.0
+    },
+    {
+      "candidate": "isotropic",
+      "coarse_intervals": 80,
+      "fine_intervals": 160,
+      "fixture": "axial_4",
+      "maximum_agreement_error": 4.562232001317952e-08
+    },
+    {
+      "candidate": "expanding",
+      "coarse_intervals": 80,
+      "fine_intervals": 160,
+      "fixture": "axial_4",
+      "maximum_agreement_error": 0.0
+    },
+    {
+      "candidate": "constant_width",
+      "coarse_intervals": 80,
+      "fine_intervals": 160,
+      "fixture": "axial_4",
+      "maximum_agreement_error": 0.0
+    },
+    {
+      "candidate": "isotropic",
+      "coarse_intervals": 80,
+      "fine_intervals": 160,
+      "fixture": "lateral_x5_y0",
+      "maximum_agreement_error": 4.5622320032912e-08
+    },
+    {
+      "candidate": "expanding",
+      "coarse_intervals": 80,
+      "fine_intervals": 160,
+      "fixture": "lateral_x5_y0",
+      "maximum_agreement_error": 0.0
+    },
+    {
+      "candidate": "constant_width",
+      "coarse_intervals": 80,
+      "fine_intervals": 160,
+      "fixture": "lateral_x5_y0",
+      "maximum_agreement_error": 0.0
+    },
+    {
+      "candidate": "isotropic",
+      "coarse_intervals": 80,
+      "fine_intervals": 160,
+      "fixture": "lateral_x5_y1",
+      "maximum_agreement_error": 4.026155614456073e-08
+    }
+  ],
+  "empirical_access": false,
+  "first_failure": {
+    "absolute_difference": 0.00015414666387381093,
+    "allowed_difference": 1e-06,
+    "candidate": "expanding",
+    "coarse_intervals": 80,
+    "coarse_value": 0.5423405961267106,
+    "component": "individual",
+    "fine_intervals": 160,
+    "fine_value": 0.5424947427905844,
+    "fixture": "lateral_x5_y1"
+  },
+  "implementation_sha256": {
+    "scripts/session_14_occlusion_fields.py": "921842723974083431e6deee44c18ad6eda8c1de722e15e79e65612ee83b26ee",
+    "src/defensive_network_disruption/geometry/occlusion_fields.py": "d7fd23bc131d0db2686ef27475a128fdca78aea88616c4494609962c165533aa",
+    "tests/test_session14_fields.py": "a3a3e9530b45e8dec4391dc8cdf76ac07c8f2216118c0d4dcf367a7b661c49dd"
+  },
+  "schema_version": 1,
+  "status": "blocked_quadrature"
+}

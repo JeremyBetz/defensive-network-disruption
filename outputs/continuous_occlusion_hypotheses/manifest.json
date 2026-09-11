@@ -1,0 +1,32 @@
+{
+  "empirical_access": false,
+  "environment": {
+    "numpy": "2.5.3",
+    "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+    "python": "3.13.15",
+    "uv_lock_sha256": "c9e4da0781770b9e72b8a5b10a7c514f2259b7e63dc1b67604ee481934db0a0c"
+  },
+  "implementation_sha256": {
+    "scripts/session_14_occlusion_fields.py": "921842723974083431e6deee44c18ad6eda8c1de722e15e79e65612ee83b26ee",
+    "src/defensive_network_disruption/geometry/occlusion_fields.py": "d7fd23bc131d0db2686ef27475a128fdca78aea88616c4494609962c165533aa",
+    "tests/test_session14_fields.py": "a3a3e9530b45e8dec4391dc8cdf76ac07c8f2216118c0d4dcf367a7b661c49dd"
+  },
+  "outputs": {
+    "candidate_contract.json": "c19dfad27f9adb1d439ecfd5beb7914d0aadd6ca3bdeec4945525151a42a87df",
+    "implementation_authority.json": "04abc0c9ed4d1d2d02ab5c7a9ee45d09d65573dd168aa133c6d7565d735af9a4",
+    "qc.json": "b9b82932347d440931e8c5a6e422cd0c0770087ef25fcc42be577ff4a8346f98",
+    "synthetic_checks.json": "e6e95f0acd5f83f7601f281ba4a562ba0a733e3a7834ac892621b274f436fb2f"
+  },
+  "protocol_commit": "fa45495c35d7abe56b484d1a62813405fe1201cb",
+  "protocol_sha256": "42067b3b68260ef39936405dce1575b57f4e2275221182a5d1c0dc308a057e69",
+  "schema_version": 1,
+  "start": "9754a03abc5701934313432e815b4bc29e39ee7b",
+  "status": "closed_blocked",
+  "unavailable": [
+    "population_authority.json",
+    "structural_comparison.csv",
+    "overlap_sensitivity.csv",
+    "smoothness_summary.json",
+    "synthetic_occlusion_field.svg"
+  ]
+}
