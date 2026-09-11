@@ -1,0 +1,25 @@
+{
+  "counts": {
+    "development_01": 885,
+    "development_02": 801,
+    "development_03": 952,
+    "development_04": 877,
+    "development_05": 861,
+    "development_06": 629,
+    "development_07": 764,
+    "development_08": 734,
+    "development_09": 724
+  },
+  "implementation": {
+    "scripts/session_14r_occlusion_study.py": "e5875362f9e4d4237ee4ee7e920533effc76348c73cea36ca258859f9a600214",
+    "src/defensive_network_disruption/data/representation_projection.py": "229ff793392c06471ac3a0dd3ee11bbcaaedf6045da3bfe4a484743423029858",
+    "src/defensive_network_disruption/geometry/representation_study.py": "d0957593d9aa092160b5e890c49987ca6096c1429dfc0a7b9d2daa0388c033c9",
+    "tests/test_session14r_study.py": "56e0c0940b3ab636be66f27b9aee1e3d88c62460b4d460d48e1db5f866798ce0"
+  },
+  "population_sha256": "cd706f9f4621efcf659fbe890d9a6a0ebfff97c3407095a6db5ea05044c1264d",
+  "prepared_sha256": "15a809060f0ba4a8cb3790011dab8008db3dad6e931c287ccb395f61ef1530b0",
+  "protocol": "bdf032e2f84563c5f1799b88aa28ceca867fb9fc8b02edd2cc25e244e5e1f698",
+  "schema_version": 1,
+  "states": 7227,
+  "status": "prepared_geometry_only"
+}
