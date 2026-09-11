@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "audit_date": "2026-09-10",
+  "status": "BLOCKED — MULTIPLE PREREQUISITES",
+  "starting_commit": "5b72645a1a6d10b94f4f747e7a34978e98d6e7ba",
+  "protocol_commit": "283ac4a",
+  "protocol_sha256": "d72ad640dccbb4ca4ce71281bfe19255f4760ed7a065d52688acd47dffffdecf",
+  "release_target": "f00690c05d8c1c6db308a65bd311c43f9a8ef2fa",
+  "library": {
+    "name": "socceraction",
+    "version": "1.5.3",
+    "source_commit": "3ca3ce0b0163352b84a0f7665c647fb4f3f9c3ad",
+    "tag_object": "c4849f7eaa4191e2e19a6f8238f84583edb93a2e",
+    "code_license": "MIT",
+    "source_sha256": {
+      "socceraction/xthreat.py": "35ebec9b3e171eccf1db5c519ca133886f65411e8e3fa6754111a4f45cc96453",
+      "socceraction/spadl/config.py": "1c7d9f7e822e2a2844711c5a6f55a1e01f45c504cd6c785c5e2136f93b9ef32b",
+      "socceraction/spadl/utils.py": "59b72a2d88f8afe1d4d1a586ba3d778dfca7c33cefbc83eb1cc0b17f7285f2aa",
+      "socceraction/spadl/schema.py": "28cc40db4a2d4babc7a63d64aa91dce13b7722315783de5ee1785829ba7aa8b3",
+      "pyproject.toml": "d80460a865b3b40a351c60bc443d894084f00fb1e7c90e3fb762725f1939aff5",
+      "LICENSE.rst": "9d797bf10fa078933563dba791f9d04dcf66b1827744e7242eee71b80d717532"
+    },
+    "dependency_compatibility": "incompatible declared Python/NumPy/pandas constraints; no installation attempted"
+  },
+  "surface": {
+    "name": "Karun Singh open_xt_12x8_v1",
+    "shape": "documented by filename; bytes not inspected",
+    "article_context": "2017–18 Premier League; article uses 16-by-12 illustration",
+    "exact_training_lineage": "unavailable",
+    "artifact_revision_and_hash": "unverified; surface values not requested",
+    "redistribution_license": "unresolved; not established by library MIT"
+  },
+  "competition": {
+    "url": "https://pysport.org/analytics-cup/editions/analytics-cup2/rules",
+    "evidence": "rendered official page inspected",
+    "additional_data": "explicitly prohibited",
+    "pretrained_surface_eligibility": "unresolved; no explicit artifact ruling located",
+    "organizer_question_sent": false
+  },
+  "coordinates": {
+    "units_origin": "documented pitch-centred metres",
+    "frozen_transform": "verified code: x prime = s*x; y prime = y",
+    "actual_dimensions": "verified distinct aggregate pairs; per-match mapping unavailable",
+    "lateral_surface_mapping": "ambiguous",
+    "surface_reference_rectangle": "verified library config: 105 by 68 metres",
+    "metadata_follow_up_executed": false
+  },
+  "empirical_items": "not executed in prerequisite audit",
+  "scientific_classification": "not assigned",
+  "software_classification": "not assigned",
+  "accessibility": "PROXY ONLY",
+  "suppression": "NOT SUPPORTABLE",
+  "next_action": "Separately authorized written organizer clarification",
+  "software_tests": "not run: documentation/provenance only"
+}

@@ -233,3 +233,21 @@ MIT, MIT-CMU and project-specific open-source notices remain with their own
 distributions. `LICENSE.md` is present in both project archives and covers only
 original project code and documentation. SkillCorner data is absent and is not
 relicensed. No new ecosystem gap or upstream contribution target was established.
+
+## 2026-09-10 — Session 12a external xT prerequisite audit
+
+Reviewed socceraction 1.5.3 at immutable source
+`3ca3ce0b0163352b84a0f7665c647fb4f3f9c3ad`, without installing it or requesting
+surface values. Its MIT code license does not establish redistribution rights
+for the external Karun Singh 12-by-8 surface linked by its loader. The associated
+article describes 2017–18 Premier League methodology with a different illustrated
+grid resolution; exact artifact lineage and licensing remain unresolved.
+Declared Python/NumPy/pandas constraints conflict with the current environment.
+The library's normalized rectangle and reversed row lookup require an explicit
+mapping from this project's centred, x-only-reflected coordinates. Actual
+per-match dimensions and lateral correspondence are not fully evidenced here.
+Official additional-data restrictions do not explicitly settle pretrained-grid
+eligibility. No alternative model search, code adoption or dependency change.
+See the [Session 12a audit](../docs/session_12a_threat_prerequisite_audit.md) and
+its pinned-source citations for the separate rights, eligibility and geometry
+gates. Result: **BLOCKED — MULTIPLE PREREQUISITES**.

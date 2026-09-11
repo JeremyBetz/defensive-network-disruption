@@ -645,3 +645,17 @@ deferred because no established authenticated publishing path existed. No
 scientific claim changed and no empirical, competition, protected, withheld, or
 pose data was accessed. Classification: **B — GITHUB EXPERIMENTAL RELEASE
 COMPLETE**.
+
+## 2026-09-10 — Session 12a threat prerequisites
+
+Committed Phase 12a before inspecting public sources and committed coordinate
+provenance. Reviewed one socceraction-linked external surface only; no numerical
+surface, population rows, provider products, protected detail or mixed manifests
+were accessed. Code MIT permission is established; artifact-specific lineage,
+surface rights, explicit competition eligibility and full coordinate mapping
+are not. Existing aggregates record several pitch lengths without per-match
+assignment. Result: **BLOCKED — MULTIPLE PREREQUISITES**. The
+[audit](session_12a_threat_prerequisite_audit.md) records algebraic deductions,
+one unsent organizer question and an unexecuted minimal metadata follow-up.
+No empirical computation, installation, implementation, claim change or release
+occurred. Documentation/provenance checks replace software tests for this task.
