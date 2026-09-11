@@ -1,0 +1,18 @@
+{
+  "available_count": 108,
+  "case_count": 108,
+  "classification": "A \u2014 SWITCHING POINTS EXPLAIN THE MAXIMUM-ENVELOPE REFERENCE FAILURES",
+  "control_count": 104,
+  "deterministic": true,
+  "empirical_states_read": 0,
+  "maximum_decision": "1 \u2014 RETAIN MAXIMUM WITH THE PIECEWISE CONTRACT",
+  "models_loaded": 0,
+  "permutation_stable": true,
+  "retry_readiness": "1 \u2014 READY FOR A SEPARATELY FROZEN SESSION 14 RETRY",
+  "schema_version": 1,
+  "status": "closed",
+  "switch_row_count": 14,
+  "synthetic_only": true,
+  "targets_read": 0,
+  "unresolved_count": 4
+}

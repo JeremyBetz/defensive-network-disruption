@@ -754,3 +754,19 @@ ABANDON CANDIDATE**. No future integration contract was adopted. Session 14 and
 product, reserved/withheld/pose or external-value data was accessed. Claims are
 unchanged. The sole next action is a separately governed synthetic
 maximum-envelope reference-contract review.
+
+## 2026-09-11 — Session 14c maximum-envelope switching review
+
+Phase 14c protocol `14da49e` and tested implementation `9ba9453` preceded the
+synthetic-only review of all 108 frozen maximum-envelope cases. All four Session
+14b unresolved cases contained true interior maximizing-defender switches and
+became stable piecewise references; all 104 controls passed the same contract.
+Switch detection was deterministic and permutation-stable, all 14 switches were
+value-continuous, and split/adaptive/direct comparisons met the frozen rules.
+Classification **A — SWITCHING POINTS EXPLAIN THE MAXIMUM-ENVELOPE REFERENCE
+FAILURES**; maximum decision **1 — RETAIN MAXIMUM WITH THE PIECEWISE CONTRACT**;
+Session 14 retry readiness **1**. Sessions 14/14a/14b and claims remain
+unchanged. No empirical state, target, model, provider product,
+reserved/withheld/pose, external xT or progression data was accessed. The sole
+next action is a separately frozen Session 14 retry using the verified numerical
+contract; it was not executed.

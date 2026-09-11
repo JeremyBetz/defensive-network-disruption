@@ -1,0 +1,35 @@
+{
+  "environment": {
+    "numpy": "2.5.3",
+    "python": "3.13.15",
+    "scipy": "1.18.1",
+    "uv_lock_sha256": "c9e4da0781770b9e72b8a5b10a7c514f2259b7e63dc1b67604ee481934db0a0c"
+  },
+  "historical_authority_sha256": {
+    "outputs/continuous_occlusion_hypotheses/manifest.json": "249c4fcb42c472290305356140066383097428432385951aea4803aa39d9e459",
+    "outputs/continuous_occlusion_numerics/manifest.json": "4581de83a6d5bec7c39418578b5ea80e2eed26d0739804f69cc93195666a2859",
+    "outputs/continuous_occlusion_numerics_14b/manifest.json": "8858b4bfd2717dae1d250e1647742cc467813170cd2bba9c5b47d407de0990a3",
+    "outputs/continuous_occlusion_numerics_14b/reference_summary.json": "734af21c5ea22bd8e3b472b1a21bfd1de8e27dfb2ecbb4d915103362e5c976ac",
+    "scripts/session_14_occlusion_fields.py": "921842723974083431e6deee44c18ad6eda8c1de722e15e79e65612ee83b26ee",
+    "src/defensive_network_disruption/geometry/integration_review.py": "152f688fe6b217dec0c6ede667e611d9d411c43762c0de1ff8d1143919b50f0d",
+    "src/defensive_network_disruption/geometry/occlusion_fields.py": "d7fd23bc131d0db2686ef27475a128fdca78aea88616c4494609962c165533aa"
+  },
+  "implementation_sha256": {
+    "scripts/session_14c_maximum_switching.py": "e610da11a4ee4e27dd8b65515b2dc27820e9bd645c7fa010192b53f5c3bf2cd9",
+    "src/defensive_network_disruption/geometry/maximum_envelope.py": "b6ceb523ffca9e1a969ca7d9e1bfe728635fb02c07785d0e80e24543ae143d9a",
+    "tests/test_session14c_switching.py": "186faf3af514dd170b7f55f2b7aa98c495dbc4653778e65526720179d7fd9fd7"
+  },
+  "outputs_sha256": {
+    "control_case_comparison.csv": "2236d2cd19b5f72fc5b564a301b0cd2e6c30179b5447d379e057ce1973c6f3b5",
+    "convergence_by_switch_count.csv": "1f37cba7d15b7e815fc4536ed4cad55eda40bb37d285280ad0d453fdc4841b4b",
+    "method_summary.json": "b7d00404e0bce24cf9f4f890b7239ba413159ffba8835f4833e5b2f141bbf295",
+    "qc.json": "27b72c08aa7d7e7cecec1037e2a9e6c96eb637320b5b678bd15f815307864ae8",
+    "switch_summary.csv": "849741f66b95c508b8e5815845944360c6e364c0951d790d1ee289cf6150cef1",
+    "unresolved_case_comparison.csv": "b6be72bf55c4616d8179f09eb7d47b893fa53c89e0dbe8015e44d12868f5f5b5"
+  },
+  "protocol_sha256": "4554d0eb642d88258bc1d71b2e82ff365d14ebc2c377ee3789b6dee423821fc1",
+  "schema_version": 1,
+  "start": "0918fc7425078269e6d39117af95965971b31561",
+  "status": "closed",
+  "synthetic_only": true
+}

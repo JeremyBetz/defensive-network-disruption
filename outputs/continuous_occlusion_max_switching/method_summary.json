@@ -1,0 +1,29 @@
+{
+  "all_piecewise_cases_available": true,
+  "all_switches_continuous": true,
+  "all_unresolved_cases_have_true_interior_switches": true,
+  "all_unresolved_split_simpson_pass": true,
+  "case_count": 108,
+  "classification": "A \u2014 SWITCHING POINTS EXPLAIN THE MAXIMUM-ENVELOPE REFERENCE FAILURES",
+  "control_case_count": 104,
+  "controlled_simpson_verified_for_all_108_maximum_cases": true,
+  "deterministic": true,
+  "future_integration_contract": {
+    "direct_65536_agreement": 1e-09,
+    "failure": "block without tolerance widening",
+    "maximum_reference": "partition at onsets and verified envelope switches; scalar quad on each piece",
+    "piecewise_repeat_agreement": 1e-10,
+    "repeat_tolerance": 1e-11,
+    "strict_tolerance": 1e-13,
+    "unsplit_agreement": 1e-10
+  },
+  "maximum_decision": "1 \u2014 RETAIN MAXIMUM WITH THE PIECEWISE CONTRACT",
+  "permutation_stable": true,
+  "recommended_next_action": "freeze one separate Session 14 retry using the verified numerical contract",
+  "schema_version": 1,
+  "session_14_retry_readiness": "1 \u2014 READY FOR A SEPARATELY FROZEN SESSION 14 RETRY",
+  "status": "closed",
+  "switch_count": 14,
+  "synthetic_only": true,
+  "unresolved_case_count": 4
+}
