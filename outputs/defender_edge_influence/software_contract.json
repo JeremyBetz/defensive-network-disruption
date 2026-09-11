@@ -1,0 +1,16 @@
+{
+  "aggregation": "equal match then state; relation, defender and edge-pair families normalized within state",
+  "api": "internal immutable DefenderEdgeRelation and DefenderEdgeMap; map_defender_edges(state); summarize_edge_involvement(mapping, network=None)",
+  "identity": "anonymous defender ordinals scoped to one state; no cross-state linkage",
+  "m1_weighting": "secondary segment top-1/2/3 fractional membership weighted by frozen M1 option shares only",
+  "non_claims": "no accessibility truth, suppression, causality, attribution, value, intent, cover-shadow truth or player ranking",
+  "primitives": [
+    "defender-to-receiver Euclidean distance",
+    "defender-to-finite-carrier-receiver-segment distance"
+  ],
+  "ranking": "ascending 1e-12 absolute block-anchor ties; expected block rank; fractional top-1/2/3 membership",
+  "schema_version": 1,
+  "scope": "spent development geometry; target-free; M1 shares secondary; no acquisition, fitting, M0, M2 or empirical rendering",
+  "status": "prospective_internal_contract",
+  "visual": "one deterministic synthetic two-panel defender-edge rank map"
+}
