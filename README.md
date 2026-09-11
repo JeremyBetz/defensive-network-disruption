@@ -77,8 +77,8 @@ coefficients. Callers provide explicit states, models, selections and coordinate
 context. The numerical core requires NumPy; optional extras provide Kloppy
 interoperability, pandas export and mplsoccer/Matplotlib visualization.
 
-The package has not been published. Install the current public workflow from the
-repository:
+The package is not published on PyPI. Install the public workflow from the
+repository or download the verified archives from the GitHub release:
 
 ```sh
 git clone https://github.com/JeremyBetz/defensive-network-disruption.git

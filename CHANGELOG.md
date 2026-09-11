@@ -7,7 +7,7 @@ versioning while remaining pre-1.0 and experimental.
 
 No changes yet.
 
-## 0.1.0 — pending release
+## 0.1.0 — 2026-09-10
 
 - Added the provider-independent `OptionState`, `FrozenOptionModel`,
   `OptionEdge` and `OptionNetwork` contract.
@@ -16,5 +16,5 @@ No changes yet.
 - Added mplsoccer/Matplotlib plotting and deterministic Pillow GIF examples.
 - Documented the experimental API and its scientific limitations.
 
-Version `0.1.0` is prepared but has not been tagged, published to PyPI or issued
-as a GitHub release.
+Version `0.1.0` is the first experimental public GitHub release. PyPI
+publication is deferred.

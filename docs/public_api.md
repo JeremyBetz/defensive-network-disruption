@@ -8,7 +8,7 @@ pass-success probability, causal suppression or defender value.
 
 ## Install
 
-The package is not yet published. From a repository checkout:
+The package is not published on PyPI. From a repository checkout:
 
 ```sh
 uv sync --locked
@@ -23,8 +23,9 @@ uv sync --locked --extra visualization  # plots and GIF support
 uv sync --locked --extra public         # complete public workflow
 ```
 
-After a separately authorized package release, the corresponding pip syntax will
-be `pip install "defensive-network-disruption[public]"`.
+The experimental wheel and source archive are distributed through the GitHub
+release. If a future PyPI publication is separately authorized, the corresponding
+syntax will be `pip install "defensive-network-disruption[public]"`.
 
 The API is experimental and pre-1.0. Minor releases may change interfaces; each
 change must be recorded in [the changelog](../CHANGELOG.md). The ten names
