@@ -1,0 +1,34 @@
+{
+  "downstream_requires": [
+    "validated_context",
+    "matching_environment",
+    "matching_prerequisite",
+    "exclusive_access_marker"
+  ],
+  "empirical_route_present": false,
+  "entrypoint": "uv run --locked python",
+  "environment_binding": [
+    "project_venv",
+    "uv_lock_sha256",
+    "package_versions"
+  ],
+  "prerequisite_fields": [
+    "environment_sha256",
+    "exit_status",
+    "failure_enforcement_passed",
+    "implementation_sha256",
+    "lock_sha256",
+    "producer",
+    "protocol_sha256",
+    "schema_version",
+    "status",
+    "test_command",
+    "test_output_sha256",
+    "tests_passed",
+    "tests_run",
+    "tests_skipped"
+  ],
+  "prerequisite_sha256": "1598a9f9e06067c869292243bf0e27dc9ff4bbe7e189cd13f44a9967b9b14e68",
+  "schema_version": 1,
+  "status": "passed"
+}

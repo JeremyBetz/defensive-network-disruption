@@ -1,0 +1,37 @@
+{
+  "classification": "A",
+  "empirical_access": false,
+  "environment": {
+    "environment_kind": "project_venv",
+    "environment_marker_present": true,
+    "implementation": "CPython",
+    "lock_sha256": "c9e4da0781770b9e72b8a5b10a7c514f2259b7e63dc1b67604ee481934db0a0c",
+    "packages": {
+      "numpy": "2.5.3",
+      "scipy": "1.18.1"
+    },
+    "python": "3.13.15"
+  },
+  "files": {
+    "downstream_call_guards.json": "cf1f71ed347e08f053d1ed4bf01a5ab6d55c583d31a83739414fa399562f6816",
+    "environment_oracles.csv": "b9b6c84f2b1587a9acafcc9b7bc0803eabd7dfbdba866bf046c12f580e9a78ec",
+    "launch_contract.json": "e34fd3eadb867f2eb7f4d4366fd4285908c6e6d53c408b7941ada464e0e8a4d8",
+    "prerequisite_failure_injections.csv": "ccde15c0b1ddce5f4e9a5be246cb7a73645b2feedda0a9af1920a663149fd024",
+    "qc.json": "4fe166838c1392a73717b106fd6750d2adbc86cfb4019284d28a95723a64ae1a",
+    "state_machine.json": "c4ac4be73d950ae3c1b71de6730837b676ff6da03cd520bb9d72a172bc5a5cda",
+    "success_control.json": "8515ea7a99fed134747cd1127378d064319dab7ee37af6ce53d637227d9f87ca"
+  },
+  "historical_session14r2": {
+    "manifest": "feea59032c80422b76e05274a9b84a704d2f2fe3e4050f370c09fe29ce3234b5",
+    "qc": "7ba9c9da8dd59a3532cc4ba69e4ad622257405269469e5a2bb41cdc5e46c62b4",
+    "report": "3273b03397312212b520e75e04a7809e01f9122bd7ad71b1ffdc54dc6c1e95d8",
+    "runner": "7699730cb01a91b7b4f2ce29a9683840cf2277ae93dfb6f736a71147b431a6cd",
+    "tests": "9b56b762bcd4cd16c30dd413ef86763c37121362aff73d9d71dce817d2ca6158"
+  },
+  "implementation_sha256": "19179a49a0db99f8f4ace3738acd946051bc800677d01f34468ba54fb66555a7",
+  "private_execution_recorded": true,
+  "protocol_sha256": "11e9aefb834fcb5dc0f22ec4b23dfbe83d29b97c8f78bf36ef270d25650024ba",
+  "readiness": 1,
+  "schema_version": 1,
+  "status": "closed"
+}

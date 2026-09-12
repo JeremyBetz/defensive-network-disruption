@@ -1,0 +1,11 @@
+{
+  "all_failure_access_calls_zero": true,
+  "all_failure_downstream_calls_zero": true,
+  "automatic_rerun_blocked": true,
+  "direct_entry_blocked": true,
+  "environment_mismatch_blocked": true,
+  "invalid_context_blocked": true,
+  "marker_collision_blocked": true,
+  "prerequisite_digest_mismatch_blocked": true,
+  "schema_version": 1
+}

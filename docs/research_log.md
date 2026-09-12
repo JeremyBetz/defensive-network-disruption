@@ -1097,3 +1097,21 @@ suppression remains NOT SUPPORTABLE. No targets, models, shares, provider
 products, protected/withheld/pose records or historical partial scientific
 results were inspected. The sole recommendation is a separately governed bounded
 diagnosis of this launch/prerequisite-enforcement failure; it is not executed.
+
+## 2026-09-12 — Session 14ad launch prerequisites repaired fail-closed
+
+[Phase 14ad](protocols/phase_14ad_launch_prerequisite_enforcement.md) froze an
+orchestration-only repair after Session 14R2's system-Python prerequisite failure
+was followed by an independently launched verification command. A new single
+top-level path verifies the locked project environment, atomically produces and
+validates its test authority, verifies synthetic readiness, and only then issues
+a one-use authorization capability. Five environment oracles and ten prerequisite
+failure injections all closed with zero downstream calls, zero access calls and
+no access marker; the valid control reached only a sentinel with zero data
+handles, states or edges. Result: **A — launch / prerequisite contract repaired;
+readiness 1**. Focused tests passed 7/7, the relevant subset passed 61/61, and the
+full suite passed 526 with three retained skips (529 run). Session 14R2 and all
+numerical/scientific authority remain unchanged. No empirical geometry, provider
+record, model, target, share, protected material or partial scientific output was
+accessed. The sole recommendation is to separately govern a fresh Session 14R
+empirical representation retry using the repaired single fail-closed launch path.

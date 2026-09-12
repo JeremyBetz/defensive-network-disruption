@@ -1,0 +1,11 @@
+case,mutation,passed,terminal_state,producer_calls,downstream_calls,access_calls,access_marker,error
+producer_exception,producer_exception,True,FAILED_CLOSED,1,0,0,False,RuntimeError:synthetic_producer_failure
+missing,missing,True,FAILED_CLOSED,1,0,0,False,LaunchError:prerequisite_missing
+malformed,malformed,True,FAILED_CLOSED,1,0,0,False,LaunchError:prerequisite_malformed
+wrong_schema,wrong_schema,True,FAILED_CLOSED,1,0,0,False,LaunchError:prerequisite_schema
+wrong_hash,wrong_hash,True,FAILED_CLOSED,1,0,0,False,LaunchError:prerequisite_binding:implementation_sha256
+wrong_environment,wrong_environment,True,FAILED_CLOSED,1,0,0,False,LaunchError:prerequisite_binding:environment_sha256
+stale,stale,True,FAILED_CLOSED,1,0,0,False,LaunchError:prerequisite_binding:protocol_sha256
+unreadable,unreadable,True,FAILED_CLOSED,1,0,0,False,LaunchError:prerequisite_missing
+deleted,deleted,True,FAILED_CLOSED,1,0,0,False,LaunchError:prerequisite_missing
+failed_status,failed_status,True,FAILED_CLOSED,1,0,0,False,LaunchError:prerequisite_binding:status

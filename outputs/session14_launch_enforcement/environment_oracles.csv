@@ -1,0 +1,6 @@
+case,mutation,passed,terminal_state,producer_calls,downstream_calls,access_calls,access_marker,error
+system_python,system_python,True,FAILED_CLOSED,0,0,0,False,LaunchError:environment_not_project_venv
+missing_marker,missing_marker,True,FAILED_CLOSED,0,0,0,False,LaunchError:environment_marker_missing
+missing_dependency,missing_dependency,True,FAILED_CLOSED,0,0,0,False,LaunchError:missing_required_package:scipy
+lock_mismatch,lock_mismatch,True,FAILED_CLOSED,0,0,0,False,LaunchError:lock_hash_mismatch
+stale_environment,stale_environment,True,FAILED_CLOSED,0,0,0,False,LaunchError:environment_fingerprint_mismatch

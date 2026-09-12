@@ -1,0 +1,13 @@
+{
+  "failure_has_outgoing_transition": false,
+  "failure_state": "FAILED_CLOSED",
+  "schema_version": 1,
+  "success_states": [
+    "INITIAL",
+    "ENVIRONMENT_VERIFIED",
+    "PREREQUISITE_CREATED",
+    "PREREQUISITE_VALIDATED",
+    "SYNTHETIC_READINESS_VERIFIED",
+    "EMPIRICAL_ACCESS_AUTHORIZED"
+  ]
+}

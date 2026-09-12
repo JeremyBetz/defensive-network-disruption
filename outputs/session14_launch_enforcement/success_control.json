@@ -1,0 +1,18 @@
+{
+  "access_authorization_calls": 1,
+  "access_marker_created": true,
+  "data_handles_opened": 0,
+  "downstream_calls": 1,
+  "edges_opened": 0,
+  "schema_version": 1,
+  "states_opened": 0,
+  "status": "passed",
+  "transitions": [
+    "INITIAL",
+    "ENVIRONMENT_VERIFIED",
+    "PREREQUISITE_CREATED",
+    "PREREQUISITE_VALIDATED",
+    "SYNTHETIC_READINESS_VERIFIED",
+    "EMPIRICAL_ACCESS_AUTHORIZED"
+  ]
+}

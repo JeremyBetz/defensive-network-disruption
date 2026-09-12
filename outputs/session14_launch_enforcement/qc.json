@@ -1,0 +1,14 @@
+{
+  "all_fail_closed": true,
+  "classification": "A",
+  "edges_opened": 0,
+  "empirical_access": false,
+  "environment_oracles": 5,
+  "historical_session14r2_changed": false,
+  "numerical_contract_changed": false,
+  "prerequisite_injections": 10,
+  "readiness": 1,
+  "schema_version": 1,
+  "states_opened": 0,
+  "status": "valid"
+}
