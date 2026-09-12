@@ -1053,3 +1053,18 @@ or historical test was changed, no empirical or protected material was
 accessed, and Session 14R remains paused. The sole next action is a separately
 governed final-float equivalence-contract review. See the
 [Session 14ab report](session_14ab_canonical_comparison_contract.md).
+
+## 2026-09-11 — Session 14ac final-float equivalence contract validated
+
+Protocol `f2bca62` froze exact canonical structure plus a scale-aware
+`64*epsilon64*max(1,abs(expected),abs(actual))` final-float comparison before
+either historical assertion changed. The closed 366-component reference
+authority has maximum error `4.1576548232002963e-08`; the four supported-platform
+differences remain one ULP with maximum absolute drift
+`5.551115123125783e-17`. All 19 negative controls, 108 vectors, 366 components,
+the full local suite, and ordinary Python 3.11, Python 3.13 and distribution CI
+passed. Production numerics and references remain byte-identical. **A —
+final-float numerical equivalence contract justified and validated; readiness
+1.** No empirical or protected material or Session 14R partial output was
+accessed. Session 14R remains paused pending a fresh separately governed retry.
+See the [Session 14ac report](session_14ac_final_float_equivalence_contract.md).
