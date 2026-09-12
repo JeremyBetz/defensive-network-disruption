@@ -1,0 +1,5 @@
+oracle,synthetic_states_opened,synthetic_edges_opened,expected,observed
+pre_access_zero,0,0,accepted,accepted
+state_open_edge_closed,1,0,accepted,accepted
+partial_failure_preserved,2,4,accepted,accepted
+reset_after_access,0,0,rejected,rejected:journal_view_mismatch

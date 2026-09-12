@@ -1,0 +1,1 @@
+{"launch_state":"EMPIRICAL_ACCESS_AUTHORIZED","partial_failure_validated":true,"real_edges_opened":0,"real_states_opened":0,"schema_version":1,"status":"success","synthetic_edges_opened":4,"synthetic_states_opened":2,"transitions":["INITIAL","ENVIRONMENT_VERIFIED","PREREQUISITE_CREATED","PREREQUISITE_VALIDATED","SYNTHETIC_READINESS_VERIFIED","EMPIRICAL_ACCESS_AUTHORIZED"]}

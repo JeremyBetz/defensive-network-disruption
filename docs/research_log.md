@@ -1164,3 +1164,23 @@ See the [Session 14ae report](session_14ae_state_lifecycle_accounting.md). The
 sole recommendation is to separately govern a fresh Session 14R empirical
 representation retry using the repaired lifecycle-accounting and
 publication-validation contract.
+
+## 2026-09-12 — Session 14af empirical-capable publication authority established
+
+[Phase 14af](protocols/phase_14af_empirical_capable_lifecycle_publication.md)
+prospectively qualified Session 14ae without rewriting it: 14ae established the
+synthetic lifecycle and zero-access pre-empirical behavior, while 14af tested
+empirical-capable publication and partial-failure authority. A private
+hash-chained journal now makes successful access events authoritative; explicit
+pre-access, partial, failure, and success contexts validate lifecycle and access
+without treating nonzero access as inherently invalid. All ten governed
+cross-file mutations were executed through the real validator and rejected.
+Valid pre-access, nonzero-access partial-failure, nonzero-access success,
+unexpected-failure, and R4-style launch controls passed. The governed result is
+**A — EMPIRICAL-CAPABLE LIFECYCLE / PUBLICATION AUTHORITY ESTABLISHED / readiness
+1**. Real state and edge opens were both zero. No empirical material, model,
+target, share, protected record, Session 14R partial scientific output, or
+numerical/scientific contract was accessed or changed. See the
+[Session 14af report](session_14af_empirical_capable_lifecycle_publication.md).
+The sole recommendation is to separately govern a fresh Session 14R empirical
+representation retry using the empirical-capable lifecycle/publication authority.

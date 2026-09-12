@@ -1,0 +1,1 @@
+{"access_authority":"append_only_private_journal","access_independent_of_completion":true,"processing_lifecycle":["discovered","prepared","evaluation_started","evaluation_completed"],"public_counters_derived":true,"real_edges_opened":0,"real_states_opened":0,"schema_version":1,"status":"success"}
