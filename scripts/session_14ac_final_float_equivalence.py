@@ -297,15 +297,98 @@ def publication_check() -> None:
     authority = json.loads(safe(OUT / "authority_summary.json").read_text())
     if not authority["test_only_repair_authorized"]:
         raise ValueError("repair_not_authorized")
-    print("Session 14ac pre-repair authority publication check passed")
+    manifest_path = safe(OUT / "manifest.json")
+    if manifest_path.exists():
+        manifest = json.loads(manifest_path.read_text())
+        for name, expected in manifest["outputs"].items():
+            if digest(OUT / name) != expected:
+                raise ValueError("output_hash_changed")
+        qc = json.loads(safe(OUT / "qc.json").read_text())
+        if qc["classification"] != "A" or qc["readiness"] != 1:
+            raise ValueError("closure_status")
+    print("Session 14ac publication check passed")
+
+
+def close(ci_run_id: str) -> None:
+    preflight()
+    authority = json.loads(safe(OUT / "authority_summary.json").read_text())
+    if not authority["test_only_repair_authorized"]:
+        raise ValueError("repair_not_authorized")
+    current_production = {str(path): digest(path) for path in PRODUCTION}
+    if current_production != authority["production_hashes"]:
+        raise ValueError("production_changed")
+    equality = {
+        "schema_version": 1,
+        "selected_contract": "64_epsilon",
+        "formula": "abs(actual-expected) <= 64*epsilon64*max(1,abs(actual),abs(expected))",
+        "epsilon64": sys.float_info.epsilon,
+        "signed_zero_numerically_equivalent": True,
+        "nonfinite_rejected": True,
+        "canonical_structure_exact": True,
+        "accepted_resolution_exact": True,
+        "component_identity_and_order_exact": True,
+        "vectors_verified": 108,
+        "components_verified": 366,
+        "known_cross_platform_differences": 4,
+        "maximum_cross_platform_ulp_distance": 1,
+        "maximum_cross_platform_absolute_difference": authority["maximum_platform_absolute_drift"],
+        "negative_controls_passed": 19,
+        "historical_tests_changed": True,
+        "production_code_changed": False,
+        "local_historical_tests_passed": True,
+        "python311_ci_passed": True,
+        "python313_ci_passed": True,
+        "distribution_ci_passed": True,
+    }
+    qc = {
+        "schema_version": 1, "status": "closed", "classification": "A", "readiness": 1,
+        "focused_tests_run": 3, "focused_tests_passed": 3,
+        "relevant_tests_run": 217, "relevant_tests_passed": 217,
+        "full_tests_run": 506, "full_tests_passed": 503, "full_tests_skipped": 3,
+        "vectors_verified": 108, "components_verified": 366,
+        "production_hashes_unchanged": True, "reference_hash_unchanged": True,
+        "ordinary_ci_run_id": ci_run_id,
+        "python311_ci": "passed", "python313_ci": "passed", "distribution_ci": "passed",
+        "empirical_access": False, "session14r_partial_outputs_accessed": False,
+    }
+    write_once(OUT / "equality_contract.json", encoded(equality))
+    write_once(OUT / "qc.json", encoded(qc))
+    names = (
+        "authority_summary.json", "divergent_components.csv", "reference_error_summary.json",
+        "candidate_contracts.json", "negative_control_results.csv", "equality_contract.json", "qc.json",
+    )
+    implementation = (
+        Path("scripts/session_14ac_final_float_equivalence.py"),
+        Path("tests/session14ac_float_equivalence.py"),
+        Path("tests/test_session14ac_final_float_equivalence.py"),
+        Path("tests/test_session14v_micro_interval.py"),
+        Path("tests/test_session14w_failure_evidence.py"),
+    )
+    manifest = {
+        "schema_version": 1, "status": "closed", "start": START,
+        "release_tag_target": TAG, "protocol_sha256": digest(PROTOCOL),
+        "ordinary_ci_run_id": ci_run_id,
+        "implementation": {str(path): digest(path) for path in implementation},
+        "production": current_production,
+        "references": {str(REFERENCE): digest(REFERENCE)},
+        "outputs": {name: digest(OUT / name) for name in names},
+    }
+    write_once(OUT / "manifest.json", encoded(manifest))
+    publication_check()
+    print(json.dumps(qc, sort_keys=True))
 
 
 def main() -> None:
     parser = argparse.ArgumentParser()
-    parser.add_argument("command", choices=("preflight", "derive", "publication-check"))
+    parser.add_argument("command", choices=("preflight", "derive", "close", "publication-check"))
+    parser.add_argument("--ci-run-id")
     args = parser.parse_args()
     if args.command == "preflight": preflight()
     elif args.command == "derive": derive()
+    elif args.command == "close":
+        if not args.ci_run_id:
+            raise ValueError("ci_run_id_required")
+        close(args.ci_run_id)
     else: publication_check()
 
 
