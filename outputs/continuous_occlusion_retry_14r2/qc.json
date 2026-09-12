@@ -1,0 +1,11 @@
+{
+  "empirical_access": false,
+  "exception": "FileNotFoundError",
+  "interval_counts": {},
+  "max_joint_change": null,
+  "max_maximum_reference_error": null,
+  "schema_version": 1,
+  "stage": "verify-production",
+  "states_completed": 0,
+  "status": "blocked"
+}

@@ -1068,3 +1068,32 @@ final-float numerical equivalence contract justified and validated; readiness
 1.** No empirical or protected material or Session 14R partial output was
 accessed. Session 14R remains paused pending a fresh separately governed retry.
 See the [Session 14ac report](session_14ac_final_float_equivalence_contract.md).
+
+
+## 2026-09-12 — Session 14R2 blocked before development access
+
+Session 14R2 closed **D — BLOCKED**, readiness 3 qualified as unresolved execution
+prerequisites, from starting `a7899efeff488866203be5310b2c08af0ca02067`.
+[Protocol](protocols/phase_14r2_continuous_occlusion_empirical_retry.md) commit
+`65fb8b9` preceded the new adapter and synthetic checks. The assembled synthetic
+path passed 108 cases, 366 references and 399 mapped permutations in tests.
+A test-evidence creation step used the system interpreter and failed to import
+NumPy; a nonconditional shell launch then started verification without that
+record. The runner discovered its absence only after synthetic calculation and
+closed with FileNotFoundError. The missing prerequisite was not filled in
+retroactively, and no governed rerun or development access occurred.
+
+The [report](session_14r2_continuous_occlusion_empirical_retry.md) preserves this
+launch failure, the late prerequisite check, an initial temporary-path test
+fixture error, and a nonstandard validation-launcher import failure. Final
+standard local validation passed 519 tests with 3 retained skips (522 run);
+Session 14R2's 16 tests and the 233-test Session 14 subset passed.
+The [failure manifest](../outputs/continuous_occlusion_retry_14r2/manifest.json)
+SHA-256 is `feea59032c80422b76e05274a9b84a704d2f2fe3e4050f370c09fe29ce3234b5`.
+Visual approval, population authority and empirical comparisons are unavailable.
+Historical results, claims, software release and all prior tracked files remain
+unchanged except this append-only log entry. Accessibility remains PROXY ONLY;
+suppression remains NOT SUPPORTABLE. No targets, models, shares, provider
+products, protected/withheld/pose records or historical partial scientific
+results were inspected. The sole recommendation is a separately governed bounded
+diagnosis of this launch/prerequisite-enforcement failure; it is not executed.
