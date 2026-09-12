@@ -59,12 +59,14 @@ patterns, not defender attribution or suppression. See the
 
 ## Current research direction
 
-The next scientific question is whether continuous carrier-origin directional
+The current scientific question is whether continuous carrier-origin directional
 fields can compactly describe that multi-edge geometry beyond isotropic
 proximity. These fields remain geometric hypotheses; cover shadows have not been
-validated. The work is paused at synthetic numerical verification after a
-localized internal type-normalization defect, before any empirical field
-comparison. The full stopped and negative history remains in the
+validated. The project has completed substantial synthetic numerical,
+cross-platform reproducibility, canonical partition, failure-handling, lifecycle,
+and exposure-accounting validation. A full development-set structural comparison
+has not yet completed, so there is no empirical field result to interpret. The
+complete stopped and negative history remains in the
 [research log](https://github.com/JeremyBetz/defensive-network-disruption/blob/main/docs/research_log.md).
 
 Conditional future work includes behavioral validation, defensive-configuration
@@ -98,15 +100,16 @@ demonstration models, compares their stars, exports rows, and renders an SVG. Se
 the [public API guide](https://github.com/JeremyBetz/defensive-network-disruption/blob/main/docs/public_api.md)
 for the core, optional extras, plotting, animation, ties, and error behavior.
 The repository combines spatiotemporal data contracts, geometric feature
-engineering, protected evaluation, deterministic numerical checks, CI,
-packaging, and release engineering in one reproducible workflow.
+engineering, protected evaluation, deterministic numerical oracles,
+cross-platform CI, fail-closed research execution, packaging, and release
+engineering in one reproducible workflow.
 
 ## Repository guide
 
 - [`src/defensive_network_disruption`](https://github.com/JeremyBetz/defensive-network-disruption/tree/main/src/defensive_network_disruption): released API and internal research primitives.
 - [`examples/quickstart.py`](https://github.com/JeremyBetz/defensive-network-disruption/blob/main/examples/quickstart.py): proprietary-free runnable example.
 - [`tests`](https://github.com/JeremyBetz/defensive-network-disruption/tree/main/tests): synthetic software, numerical, integrity, and publication tests.
-- [`docs`](https://github.com/JeremyBetz/defensive-network-disruption/tree/main/docs): governance, protocols, reports, and evidence limits.
+- [`docs`](https://github.com/JeremyBetz/defensive-network-disruption/blob/main/docs/README.md): current authority, governance, protocols, reports, and evidence limits.
 - [`outputs`](https://github.com/JeremyBetz/defensive-network-disruption/tree/main/outputs): reviewed aggregate evidence and synthetic public artifacts.
 
 Run the active suite with `uv run --locked python -m unittest discover -s tests`.

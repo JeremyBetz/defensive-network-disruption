@@ -218,3 +218,135 @@ check and is reported in the delivery handoff.
 Exactly one next action is recommended: separately govern the bounded
 `mapped_signature()` ordering repair identified by Session 14h, then resume
 Session 14R planning only if synthetic production-wiring acceptance passes.
+
+## 2026-09-12 follow-up after Session 14ag
+
+This follow-up preserves the 2026-09-11 audit above as historical evidence and
+supersedes only its current-frontier, repository-metadata and next-action
+statements. It began from clean synchronized commit
+`961a0752704f4568ae9f6c3639fc7bba99bfc43d`; annotated `v0.1.0` still peeled to
+`f00690c05d8c1c6db308a65bd311c43f9a8ef2fa`.
+
+### What became stale and what changed
+
+The football, protected-evaluation, Session 13 and released-software narratives
+remained accurate. The README, charter, roadmap, governance status, agent guide
+and output index still described Session 14h's localized type-normalization
+failure as the current frontier. Later authority established synthetic numerical
+integration, cross-platform canonical structure, bounded final-float comparison,
+fail-closed launch, lifecycle, publication and access-accounting controls. The
+latest empirical attempt, Session 14R5, stopped at a required synthetic
+interruption check before development access; Session 14ag repaired that
+prospective projection-to-edge exposure contract with zero real access.
+
+The public narrative now compresses that history into one current status: the
+continuous fields remain unvalidated hypotheses, the supporting numerical and
+execution machinery has been extensively tested, and no complete development-set
+field comparison exists. A new [research navigation map](README.md) separates
+established evidence, current authority, historical stopped attempts, protocols,
+reports and outputs without deleting any record. The outputs index groups the
+Session 14 material by its actual role instead of treating every manifest as an
+end-user result.
+
+The README changed from 886 to 907 whitespace-delimited words. It retains one
+Markdown figure, zero HTML figures, and zero tables: one combined visual/table
+slot under the recorded limits of at most 1,000 words and at most two combined
+figures/tables. Exact Session 6e values remain unchanged. Session 13 remains
+summarized as multi-edge geometry in all 7,227 states, mean maximum segment
+involvement 5.83 edges and approximately 29.3% receiver/corridor nearest-set
+intersection. No changing test count was added to the landing page.
+
+### Reader and portfolio assessment
+
+**Soccer analytics practitioner — clear.** The page leads with the pre-action
+option-network problem, explains receiver versus corridor geometry, states the
+replicated ranking evidence and distinguishes it from accessibility, suppression
+and cover-shadow claims. The pending field comparison is visible without a
+debugging chronology.
+
+**General data scientist — strong.** Protected comparison, transparent models,
+spatial relations, deterministic numerical oracles, cross-platform validation,
+failure preservation and evidence boundaries are visible and linked to authority.
+
+**Software/data hiring manager — strong.** The experimental release, explicit
+ten-symbol API, provider-independent adapters, synthetic quickstart, packaging,
+CI, canonical numerical representations and fail-closed lifecycle/publication
+work show a maintained software and research system rather than an isolated
+notebook.
+
+The major portfolio strengths now visible are the protected receiver-ranking
+result, bounded network abstraction, multi-edge geometry, reusable public API,
+synthetic visual workflow, cross-platform numerical work and unusually explicit
+failure/integrity handling. Remaining weaknesses are the experimental API, absent
+PyPI publication, unfinished continuous-field comparison, no behavioral field
+validation, no dedicated social preview and the unavoidable depth of the retained
+research archive.
+
+### Public software, visuals and participation
+
+The root package still exports exactly `OptionState`, `FrozenOptionModel`,
+`OptionEdge`, `OptionNetwork`, `MetricCoordinateContext`, `evaluate_options`,
+`compare_options`, `option_state_from_kloppy`, `plot_option_network`, and
+`animate_option_network_comparison`. Version, extras and release authority remain
+accurately documented. Session 13/14 abstractions are internal. PyPI remains
+unpublished; source checkout and the GitHub prerelease artifacts remain the
+supported installation routes.
+
+The existing synthetic M0/M1 hero remains the best authorized landing image: it
+quickly explains the released local-star object, is legible on GitHub, and makes
+no continuous-field claim. The linked GIF remains unchanged. No badges are
+added. After successful empirical and behavioral field authority, a later task
+may consider an option-edge-plus-directional-field hero. A separate
+presentation-only task may derive a 1280×640 social preview from already
+authorized synthetic visuals.
+
+The contribution policy remains correct: issues, questions, bug reports and
+general feedback are welcome; substantive external code, analysis or methodology
+will not enter the individual competition submission during the competition
+period; MIT use and forking remain available.
+
+### Stale-document classification and metadata
+
+- **Update now:** README; bounded status text in the charter, roadmap,
+  governance, competition record and agent guide; the outputs index; the public
+  audit; and the new research navigation map.
+- **Historical — preserve:** protocols, session reports, manifests, research-log
+  entries, claim ledger, stopped/invalid results and generated artifacts.
+- **Internal — de-emphasize:** session runners, detailed numerical audit
+  namespaces and the roadmap's original phase table.
+- **Unclear — leave unchanged:** no tracked public document falls in this class.
+
+The authenticated GitHub API supports the authorized low-risk About update. The
+post-commit settings are:
+
+- **Description:** `Experimental Python toolkit and governed football research on how defensive positioning reshapes carrier-to-receiver option networks.`
+- **Topics:** `soccer-analytics`, `football-analytics`, `sports-analytics`,
+  `tracking-data`, `spatial-analysis`, `network-analysis`, `python`,
+  `data-science`, `kloppy`, `mplsoccer`.
+- **Homepage:** `https://github.com/JeremyBetz/defensive-network-disruption/releases/tag/v0.1.0`.
+
+### Validation and deliberate non-changes
+
+The locked synthetic quickstart and root import smoke check passed using
+temporary writable caches and outputs. The latest full-suite result remains the
+Session 14ag authority: 629 run, 626 passed and three retained skips; it is not
+presented as a fresh run. The full local suite is skipped for this documentation
+change because no source, example, configuration, dependency, package metadata
+or generated artifact changed. Ordinary CI remains the post-push software check.
+
+Sixty-eight repository-local links across the changed public documents resolved.
+The selected live release, hero, animation, uv, Kloppy, mplsoccer and official
+competition links returned HTTP 200; the PyPI JSON endpoint returned 404, as
+expected for the unpublished distribution. The rendered competition page still
+states at most 1,000 README words and two combined figures/tables. Root exports,
+participation wording, staged contents and whitespace passed their checks. The
+tracked-public privacy scan found no real machine path, credential, signed URL,
+protected mapping or reconstructive record; the matches were synthetic guard
+literals in tests.
+
+No scientific analysis, empirical runner, protected-data access, claim
+promotion, package change, release action or asset rendering occurs.
+
+Exactly one next action is recommended: return to the scientific branch and
+separately govern a fresh Session 14R empirical representation retry using
+Session 14ag's projection-to-edge exposure-accounting authority.

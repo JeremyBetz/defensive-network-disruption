@@ -1,12 +1,14 @@
 # Project charter
 
-Status: active research, aligned 2026-09-11. The original conceptual foundation
+Status: active research, aligned 2026-09-12. The original conceptual foundation
 below is preserved. Governed work established a narrow receiver-ranking
 benchmark and protected replication, a local carrier-centred option-network
 representation, and recurring multi-edge defender geometry in development data.
 The public provider-independent API was released experimentally as `v0.1.0`.
 Accessibility, continuous occlusion, whole-team network, attribution, and value
-claims remain unresolved.
+claims remain unresolved. Continuous-field work has completed extensive
+synthetic numerical and execution validation, but no full development-set field
+comparison has completed.
 
 ## Context and problem
 

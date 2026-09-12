@@ -1,10 +1,12 @@
 # Research governance
 
 Effective 2026-09-09. Applies to exploratory and confirmatory work, including
-negative results. Current status aligned 2026-09-10: governed development and
-protected receiver-ranking work has been completed through Session 6e. Session
-7 closed as a development-only formal diagnostic under Phase 07b, after the
-human-review branch was withdrawn before responses.
+negative results. Current status aligned 2026-09-12: governed development and
+protected receiver-ranking work has been completed through Session 6e; Session
+7 closed as a development-only formal diagnostic after its human-review branch
+was withdrawn; and Session 13 established recurring development-only multi-edge
+geometry. Continuous-field work remains pre-empirical after Session 14ag repaired
+the prospective exposure-accounting contract that blocked Session 14R5.
 Exposure, partitions, protocols, results, failures, and current non-claims are
 recorded in the research log and linked authorities.
 

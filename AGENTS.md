@@ -33,16 +33,19 @@ not turn it into a session-by-session log.
    manifest. For the current scientific frontier, begin with the
    [Session 13 report](docs/session_13_defender_edge_influence_report.md), the
    [Phase 14 protocol](docs/protocols/phase_14_continuous_occlusion_hypotheses.md),
-   and the latest [Session 14h status](docs/session_14h_failure_localization.md).
-   Read the complete Session 14-series sequence before proposing a repair or
-   retry; later audits qualify earlier readiness conclusions without rewriting
-   them.
+   the stopped [Session 14R5 report](docs/session_14r5_continuous_occlusion_empirical_retry.md),
+   and the latest [Session 14ag authority](docs/session_14ag_projection_edge_exposure_accounting.md).
+   Use the [research navigation map](docs/README.md) to distinguish current
+   authority from the intervening numerical and orchestration history. Read the
+   complete relevant sequence before proposing a retry; later audits qualify
+   earlier readiness conclusions without rewriting them.
 6. Inspect authority manifests when the proposed work depends on an existing
    population, model, or result. Relevant current manifests include the
    [Session 6e result manifest](outputs/reserved_evaluation_v3/manifest.json),
    [Session 7 formal closure manifest](outputs/construct_validity_diagnostics/formal_closure_manifest.json),
-   [Session 13 manifest](outputs/defender_edge_influence/manifest.json), and the
-   latest [Session 14h manifest](outputs/continuous_occlusion_failure_localization/manifest.json).
+   [Session 13 manifest](outputs/defender_edge_influence/manifest.json), the
+   stopped [Session 14R5 manifest](outputs/continuous_occlusion_retry_14r5/manifest.json),
+   and the latest [Session 14ag manifest](outputs/session14_projection_edge_exposure/manifest.json).
 7. State the reconstructed frontier before proposing a new scientific direction:
    latest completed session, current unfinished session, authorized next step,
    spent and protected evidence, and unsupported claims.
@@ -95,7 +98,7 @@ outcomes. Their verifier and transport failures were not erased by the corrected
 Session 6e execution. Read the Session 6e brief and research log for the exact
 chronology and qualifications, including the documented CSV review-order lapse.
 
-## Current frontier after Session 13 and Session 14h
+## Current frontier after Session 13 and Session 14ag
 
 Session 7 is closed as a **development-only formal construct-diagnostic and
 model-behavior audit** of the frozen M0/M1/M2 geometry. Its development target
@@ -134,14 +137,22 @@ segment-nearest roles frequently differed. This justified only a bounded
 continuous-occlusion hypothesis study. It did not establish cover shadows,
 suppression, causality, attribution or value.
 
-The Session 14 branch remains paused before empirical field comparison. Session
-14h localized the current synthetic production-verification failure to
-`mapped_signature()` sorting tie records whose boundary representation mixes
-absent endpoints with tuple-valued endpoints. This is a verification-container
-defect, not evidence for or against an occlusion field. The only authorized next
-direction is a separately governed bounded repair of that ordering defect,
-followed by synthetic production-wiring acceptance. Do not resume Session 14R
-unless that later authority passes.
+The Session 14 branch remains paused before empirical field comparison. Its long
+synthetic sequence established numerical integration, cross-platform canonical
+structure, final-float equivalence, fail-closed launch, lifecycle, publication,
+and access-accounting controls. These engineering results do not provide
+empirical evidence for any field representation.
+
+Session 14R5 is the latest stopped empirical attempt. A required pre-access
+synthetic interruption check showed that full-row receiver projection could
+materialize edge geometry before durable edge receipts, allowing known exposure
+to be reported as zero. No development geometry was opened and no scientific
+comparison occurred. Session 14ag subsequently repaired that prospective
+projection-to-edge accounting contract and closed **A — PROJECTION-TO-EDGE
+EXPOSURE ACCOUNTING REPAIRED / readiness 1**, again with zero real access. The
+only authorized next direction is a separately governed fresh Session 14R retry
+that adopts Session 14ag; do not treat the repair itself as retry authority or
+field evidence.
 
 ## Data and evidence boundaries
 

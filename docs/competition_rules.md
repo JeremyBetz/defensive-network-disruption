@@ -4,7 +4,9 @@ Recorded 2026-09-09 for **PySport Analytics Cup 2.0 — USA region — Football*
 The supplied requirements below were checked against the rendered
 [official Cup 2.0 page](https://pysport.org/analytics-cup/editions/analytics-cup2/rules)
 on 2026-09-09. This is a summary, not a verbatim rulebook or proof of individual
-eligibility. Recheck the official page for later changes.
+eligibility. The rendered official page was rechecked on 2026-09-12; the README
+limit remained 1,000 words and two combined figures/tables. Recheck again before
+submission.
 
 | Requirement | Supplied constraint, confirmed on the official page |
 | --- | --- |
@@ -84,5 +86,7 @@ Raw and reconstructive competition records stay local; reviewed aggregate
 receiver-ranking results are committed under the repository's publication
 rules. The GitHub repository and governed empirical pipeline now exist. The
 current README has one synthetic figure, no tables, and remains below the
-recorded word limit, leaving one combined figure/table slot unused. A final clean-environment empirical reproduction, submission-ready public
-audit, one-minute pitch, and submission-portal action remain outstanding.
+recorded word limit, leaving one combined figure/table slot unused. Public
+repository alignment has been refreshed after the current numerical-validation
+work. A final clean-environment empirical reproduction, final submission audit,
+one-minute pitch, and submission-portal action remain outstanding.
