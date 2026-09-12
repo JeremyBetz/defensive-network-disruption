@@ -1,0 +1,1 @@
+{"canonical_fields":["onsets","certified_switches","owners","tie_enclosures","partitions","routing","residual_bounds","accepted_resolution","component_order","component_bits"],"diagnostic_fields":["raw_solver_result","raw_solver_bits","environment"],"raw_provenance_excluded_from_canonical_equality":true,"schema_version":1}

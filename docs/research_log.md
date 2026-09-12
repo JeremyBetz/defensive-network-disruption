@@ -1037,3 +1037,19 @@ protected material or Session 14R partial result was accessed. The sole next
 action is a separately governed bounded comparison-contract repair separating
 raw solver provenance from canonical structural equality. See the
 [Session 14aa report](session_14aa_cross_platform_root_determinism.md).
+
+## 2026-09-11 — Session 14ab canonical comparator repaired; final-vector drift remains
+
+The protocol-first comparator repair separated canonical production structure
+from retained raw solver provenance. One local and one Python 3.13 GitHub
+diagnostic compared 108 vectors and 366 components. Canonical partitions,
+owners, routing, residuals and accepted resolutions agreed exactly. One raw
+Brent return remained one ULP different while its certified canonical root
+agreed, confirming the intended provenance distinction. Four accepted
+components nevertheless differed by one ULP, with maximum absolute difference
+`5.551115123125783e-17`. The frozen bitwise-final-vector gate therefore failed:
+**C — real final-vector difference; readiness 3.** No tolerance, numerical path
+or historical test was changed, no empirical or protected material was
+accessed, and Session 14R remains paused. The sole next action is a separately
+governed final-float equivalence-contract review. See the
+[Session 14ab report](session_14ab_canonical_comparison_contract.md).
