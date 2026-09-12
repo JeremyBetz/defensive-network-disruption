@@ -9,9 +9,13 @@ import unittest
 
 from defensive_network_disruption.geometry.canonical_comparison import compare_records
 
-from session14ac_float_equivalence import compare_historical_vector, component_tolerance
-
 ROOT = Path(__file__).resolve().parents[1]
+HELPER_SPEC = importlib.util.spec_from_file_location("session14ac_float_equivalence", ROOT / "tests/session14ac_float_equivalence.py")
+HELPER = importlib.util.module_from_spec(HELPER_SPEC)
+assert HELPER_SPEC.loader is not None
+HELPER_SPEC.loader.exec_module(HELPER)
+compare_historical_vector = HELPER.compare_historical_vector
+component_tolerance = HELPER.component_tolerance
 SPEC = importlib.util.spec_from_file_location("session14ac_runner", ROOT / "scripts/session_14ac_final_float_equivalence.py")
 RUNNER = importlib.util.module_from_spec(SPEC)
 assert SPEC.loader is not None

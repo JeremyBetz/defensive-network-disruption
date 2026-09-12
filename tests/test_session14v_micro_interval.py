@@ -16,6 +16,11 @@ from defensive_network_disruption.geometry import micro_interval_verifier as m
 from defensive_network_disruption.geometry import production_verification as p
 
 ROOT = Path(__file__).resolve().parents[1]
+HELPER_SPEC = importlib.util.spec_from_file_location(
+    "session14ac_float_equivalence", ROOT / "tests/session14ac_float_equivalence.py")
+HELPER = importlib.util.module_from_spec(HELPER_SPEC)
+HELPER_SPEC.loader.exec_module(HELPER)
+run_historical_acceptance = HELPER.run_historical_acceptance
 SPEC = importlib.util.spec_from_file_location(
     "session14v_runner", ROOT / "scripts/session_14v_micro_interval_verifier.py")
 RUNNER = importlib.util.module_from_spec(SPEC)
@@ -116,11 +121,12 @@ class Session14vMicroIntervalTests(unittest.TestCase):
                 p.claim_execution(marker)
 
     def test_complete_historical_synthetic_acceptance(self):
-        cases, rows = RUNNER.run_synthetic_acceptance()
+        cases, rows, comparisons = run_historical_acceptance(RUNNER)
         self.assertEqual(len(cases), 108)
         self.assertEqual(len(rows), 366)
         self.assertEqual(sum(case["permutations"] for case in cases), 399)
         self.assertTrue(all(row["passed"] for row in rows))
+        self.assertTrue(all(row["equivalent"] for row in comparisons))
 
     def test_runner_routes_and_oracles(self):
         source = (ROOT / RUNNER.CODE[0]).read_text()

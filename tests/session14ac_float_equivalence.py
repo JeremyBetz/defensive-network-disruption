@@ -5,6 +5,7 @@ import math
 import struct
 import sys
 from collections.abc import Mapping
+from unittest.mock import patch
 
 MULTIPLIER = 64
 EPSILON64 = sys.float_info.epsilon
@@ -97,3 +98,39 @@ def assert_historical_vector_equivalent(*args) -> dict:
     if not result["equivalent"]:
         raise AssertionError(f"historical_vector_changed: {result['failed_component']}: {result}")
     return result
+
+
+def run_historical_acceptance(runner):
+    """Run a frozen runner and apply this contract outside production code."""
+    frozen_cases = list(runner.authority_cases())
+    expected = {
+        (label, case["candidate"]): case["historical_vector"]
+        for label, case in frozen_cases
+    }
+
+    def without_stale_exact_assertion():
+        for label, case in frozen_cases:
+            current = dict(case)
+            current["historical_vector"] = None
+            yield label, current
+
+    with patch.object(runner, "authority_cases", side_effect=without_stale_exact_assertion):
+        cases, rows = runner.run_synthetic_acceptance()
+
+    actual: dict[tuple[str, str], dict] = {}
+    for row in rows:
+        key = (row["fixture"], row["candidate"])
+        item = actual.setdefault(key, {"intervals": row["intervals"], "estimates": {}})
+        if item["intervals"] != row["intervals"]:
+            raise AssertionError(f"historical_vector_changed: accepted_intervals: {key}")
+        item["estimates"][row["component"]] = row["estimate"]
+
+    if tuple(expected) != tuple(actual):
+        raise AssertionError("historical_vector_changed: vector_order")
+    diagnostics = []
+    for key in expected:
+        diagnostics.append(assert_historical_vector_equivalent(
+            expected[key]["intervals"], expected[key]["estimates"],
+            actual[key]["intervals"], actual[key]["estimates"],
+        ))
+    return cases, rows, diagnostics
