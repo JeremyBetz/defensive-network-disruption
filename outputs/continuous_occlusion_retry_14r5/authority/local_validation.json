@@ -1,0 +1,28 @@
+{
+  "compilation": "passed",
+  "focused_enforcement_current": {
+    "log_sha256": "d9993f020d1b6ddf1cd2267f148100e9c64e17b729c89fd66fc3739dff95fc83",
+    "passed": 18,
+    "run": 18,
+    "skipped": 0
+  },
+  "focused_numerical": {
+    "log_sha256": "5ee4c3dc0800e3f24b03de57050f4618658d5f0e08c926c0f7c6eed094a3437f",
+    "passed": 10,
+    "run": 10,
+    "skipped": 0
+  },
+  "focused_wrapper_current": {
+    "log_sha256": "a1f9545164e2985cd7669d292c0da0c81c39de2acf904f9d6f7b313cfc333d7d",
+    "passed": 8,
+    "run": 8,
+    "skipped": 0
+  },
+  "full_local_before_final_added_control": {
+    "log_sha256": "1071d70ddafa0af2a14b87e26ab577cbbcc050cb9cda5a9e50bfd162b521cf9b",
+    "passed": 613,
+    "run": 616,
+    "skipped": 3
+  },
+  "qualification": "The final added synthetic launch control was tested after full-suite collection; exact final checkpoint collection is required in CI and final local validation."
+}

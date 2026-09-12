@@ -1,0 +1,11 @@
+{
+  "ast_identical": true,
+  "empirical_attempt_started": false,
+  "new_sha256": "84c32d859ea093734f8bf05db55bf5c23739aa9b64911062fc3447d89eddec6b",
+  "old_sha256": "da30c15f69bb63fc2c841d156e5256d7dc718f3861d12f6bf372433f35720a02",
+  "removed_trailing_whitespace_lines": [
+    61,
+    62
+  ],
+  "scope": "pre_access_formatting_only"
+}

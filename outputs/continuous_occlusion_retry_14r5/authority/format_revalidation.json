@@ -1,0 +1,11 @@
+{
+  "all_case_records_exact": true,
+  "original_authority_sha256": "408d65470a1e243eae86ddf729d2bf47ec87c86d53267c840e85bf6679cf6bc1",
+  "original_marker_preserved": true,
+  "permutations": 399,
+  "references": 366,
+  "revalidated_authority_sha256": "2a917e19f8ab584abcdb1b938c181e4780f229d6ff12075a917652d39e8de109",
+  "revalidation_cases": 108,
+  "scope": "pre_access_only",
+  "visual_bytes_exact": true
+}
