@@ -1020,3 +1020,20 @@ no empirical or protected material or partial scientific result was accessed.
 The sole next action is a separately governed deterministic cross-platform
 partition/root-coordinate review. See the
 [Session 14z report](session_14z_ci_artifact_transport_and_reproducibility.md).
+
+## 2026-09-11 — Session 14aa canonical roots reproduced; comparison execution invalid
+
+Protocol `a5eb18e` and tested implementation `9a908e9` preceded one local and
+one GitHub Actions Python 3.13 synthetic diagnostic. Governed run `34663747257`
+uploaded the single artifact once; its declared and downloaded SHA-256 both
+equal `5fa002c81e30c9abe463c8d542bef6ebda9fbd99ebcad1b5ba4081ac9be48b4c`.
+Canonical partitions, owners, routing, residuals, accepted resolutions and all
+366 final components agreed bit for bit. The generated comparison nevertheless
+closed as D/readiness 3 because whole-record equality included the intentionally
+retained raw Brent result, which differed by one ULP even though its canonical
+first-post-switch coordinate agreed. This post-exposure comparison defect was
+not repaired or rerun. **H — execution failure; readiness 4.** No empirical or
+protected material or Session 14R partial result was accessed. The sole next
+action is a separately governed bounded comparison-contract repair separating
+raw solver provenance from canonical structural equality. See the
+[Session 14aa report](session_14aa_cross_platform_root_determinism.md).
