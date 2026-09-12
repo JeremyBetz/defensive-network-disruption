@@ -1,0 +1,31 @@
+{
+  "authority_hashes": {
+    "authority/format_revalidation.json": "048144820531b512ae1b36d6d4a068a22d7f43b6f60ffe215a193a2855c3d6c8",
+    "authority/interruption_boundary_check.json": "e4013b39d1a8d8804af1401043a546093bf334a386b0b2b6546a183630dda325",
+    "authority/local_validation.json": "27022511191f75792344c2b5b9639895d5672d06d1532eeb6979d38b25cde737",
+    "authority/production.json": "2a917e19f8ab584abcdb1b938c181e4780f229d6ff12075a917652d39e8de109",
+    "authority/visual_approval.json": "af4b837814f1eebdb86fa7a65760adc51d8a040519ed0642d04259835d73d3cd",
+    "authority/visual_generation.json": "106e7edca3de13951cdfe365bd2d079258c5954c3f31096d00d958d6296645b5"
+  },
+  "checkpoint": "ad761e779df34f772266fa3782e6aa983ff602f5",
+  "empirical_run_invoked": false,
+  "failure_manifest_sha256": "cdaec4c686ae16a69fae3e48144dd28692d3897dc49f6c09167af01031a0dbed",
+  "full_suite": {
+    "exit_status": 0,
+    "log_sha256": "46f754c76f42d0d9580ec31f472c8f5a607580fe4b428a7633b1e60286c6e377",
+    "passed": 614,
+    "run": 617,
+    "skipped": 3
+  },
+  "readiness": 3,
+  "relevant_suite": {
+    "exit_status": 0,
+    "log_sha256": "0d34cd57d5d91943e2de4ccfb23029aabbe49bb8d62bf63434e4a54ed54093e7",
+    "passed": 32,
+    "run": 32,
+    "skipped": 0
+  },
+  "required_interruption_control": "failed",
+  "schema_version": 1,
+  "scientific_classification": "D \u2014 BLOCKED"
+}

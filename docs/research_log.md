@@ -1184,3 +1184,41 @@ numerical/scientific contract was accessed or changed. See the
 [Session 14af report](session_14af_empirical_capable_lifecycle_publication.md).
 The sole recommendation is to separately govern a fresh Session 14R empirical
 representation retry using the empirical-capable lifecycle/publication authority.
+
+## 2026-09-12 — Session 14R5 blocked before access at projection/receipt interruption
+
+[Phase 14R5](protocols/phase_14r5_continuous_occlusion_empirical_retry.md),
+commit `f7b84ea`, preceded a new wrapper around the preserved numerical and
+launcher/lifecycle primitives. Tested checkpoint `ad761e7` passed assembled
+synthetic acceptance of 108 cases, 366 references and 399 mapped permutations;
+the 1800×800 synthetic visual reproduced exactly and passed full-frame review.
+A pre-access trailing-whitespace correction preserved the Python AST; original
+authority/markers were retained and separate revalidation reproduced every case
+record and visual byte. No empirical execution was repeated.
+
+A supplemental required interruption control then exposed a new R5 access-history
+defect: full-row projection had produced two synthetic receiver geometries, but
+interruption immediately after registration left zero recorded edge opens and
+zero unresolved edge exposure. The actual persisted cross-file validator accepted
+that failure package. Registration cleared exposure uncertainty before edge
+receipts were durable. This is distinct from the repaired R3 completion-count
+problem. The checkpoint was preserved without repair or empirical launch.
+
+Result: **D — BLOCKED, readiness 3**. Actual development state/edge opens and
+candidate calls are zero; the real lifecycle was never initialized. The failure
+manifest explicitly marks all seven scientific comparison artifacts unavailable.
+Final exact-checkpoint local validation ran 617 tests: 614 passed and 3 retained
+skips; the relevant subset passed 32/32. Those passing suites do not override
+the independently observed failed interruption control. CI results and closure
+synchronization are verified separately in the final handoff.
+
+The [39-item report](session_14r5_continuous_occlusion_empirical_retry.md) and
+[interruption evidence](../outputs/continuous_occlusion_retry_14r5/authority/interruption_boundary_check.json)
+record the failure without interpreting field validity. Historical authorities,
+claims, README, released APIs, dependencies and tag remain unchanged. No empirical
+population, provider product, target, outcome, fitted model, share, protected,
+withheld, pose, threat/progression material or historical partial scientific
+output was accessed. Accessibility remains PROXY ONLY; suppression remains NOT
+SUPPORTABLE. The sole recommendation is to separately govern a bounded repair
+of projection-to-edge-receipt interruption accounting before another empirical
+retry; it is not executed.

@@ -1,0 +1,56 @@
+{
+  "environment": {
+    "lock": "c9e4da0781770b9e72b8a5b10a7c514f2259b7e63dc1b67604ee481934db0a0c",
+    "matplotlib": "3.11.1",
+    "numpy": "2.5.3",
+    "python": "3.13.15",
+    "scipy": "1.18.1"
+  },
+  "implementation": {
+    "scripts/session_14r5_occlusion_study.py": "84c32d859ea093734f8bf05db55bf5c23739aa9b64911062fc3447d89eddec6b",
+    "src/defensive_network_disruption/validation/r5_persistence.py": "0feda7ee71e7175268e4a5aaf8bcda78e1f68c8c278049caf6bb2799300a9a9d",
+    "tests/test_session14r5_enforcement.py": "1e76714a380778f5428e604ed1d3088218419ab2ff9ef6fd7aea49ae7394b38d",
+    "tests/test_session14r5_study.py": "5569607a57fdce310cbfffa4a7e063a65885b692e16e1cac6cee67973eaa60b2"
+  },
+  "outputs": {
+    "lifecycle_summary.json": "46a7a7146f8526101b5ab8a0e20e734a4697ec54d760d655071da51e7af9fc45",
+    "qc.json": "0cc107faba4d0e2536d5bc0e29120e9c12484a0ce8e478cb44414d5b6684e98a",
+    "synthetic_field_comparison.svg": "aeb79e0f3c31d4c8b9b2ee05c7338346fa9ee36f17d6b811ef4c86821a9dfdc4",
+    "synthetic_stress_summary.json": "1d6c1c86c4bde130508030c1d371fc3f69e3860209ca416c81bf41557a8cd550"
+  },
+  "private_evidence_sha256": "2d5cbd9a16ea18f79a42a0d37a8ccb7a29e2f39645ab8ac41dfbb9a80b02a413",
+  "private_manifest_sha256": "e2db3b3d039b0b6cec791376fe5f8166fce967653550fcaf826481f4ff7564af",
+  "progress_authority": {
+    "access": {
+      "attempts": 0,
+      "edges_opened": 0,
+      "states_opened": 0,
+      "states_with_unresolved_edge_exposure": 0,
+      "unresolved_attempts": 0
+    },
+    "candidate_calls": {
+      "completed": 0,
+      "started": 0
+    },
+    "journal_sha256": null,
+    "lifecycle_initialized": false,
+    "mode": "pre_access",
+    "schema_version": 1,
+    "snapshot": null,
+    "snapshot_sha256": "38e0b9de817f645c4bec37c0d4a3e58baecccb040f5718dc069a72c7385a0bed",
+    "transition_unresolved": false
+  },
+  "protocol": "859d6692bca5ec9cc2faa500a700adba7c55915ecd4c7d505411c8d844a96d30",
+  "schema_version": 1,
+  "start": "557644ccff2255b78311acf3e2e17334d61ddf06",
+  "status": "failure",
+  "unavailable": [
+    "candidate_summary.json",
+    "candidate_pair_comparison.csv",
+    "structural_correspondence.csv",
+    "receiver_segment_divergence.csv",
+    "union_vs_max.csv",
+    "multi_edge_summary.csv",
+    "match_summary.csv"
+  ]
+}
