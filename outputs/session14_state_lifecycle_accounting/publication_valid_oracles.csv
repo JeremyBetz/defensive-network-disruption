@@ -1,0 +1,5 @@
+oracle,expected,observed
+blocked_preparation_only,accepted,accepted
+success_complete,accepted,accepted
+failure_during_evaluation,accepted,accepted
+publication_failure_after_complete,accepted,accepted

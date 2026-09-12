@@ -1,0 +1,4 @@
+oracle,synthetic_states_opened,synthetic_edges_opened,real_states_opened,real_edges_opened,observed
+no_access,0,0,0,0,pass
+state_only,1,0,0,0,pass
+state_and_first_edge,1,1,0,0,pass

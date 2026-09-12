@@ -1,0 +1,7 @@
+injection,status,states_prepared,states_evaluation_started,states_completed,edges_evaluation_started,edges_completed,preserved
+preparation,failure,0,0,0,0,0,yes
+after_preparation,failure,1,0,0,0,0,yes
+evaluation_start,failure,1,1,0,0,0,yes
+mid_edge,failure,1,1,0,1,0,yes
+after_one_edge,failure,1,1,0,2,1,yes
+publication_validation,failure,1,1,1,2,2,yes

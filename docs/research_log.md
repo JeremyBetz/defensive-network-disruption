@@ -1145,3 +1145,22 @@ was accessed. Accessibility remains PROXY ONLY; suppression remains NOT
 SUPPORTABLE. The sole recommendation is a separately governed bounded diagnosis
 of R3 preparation-failure accounting and cross-field publication validation;
 it is not executed.
+
+## 2026-09-12 — Session 14ae lifecycle and publication accounting repaired
+
+[Phase 14ae](protocols/phase_14ae_state_lifecycle_accounting.md) isolated the
+Session 14R3 accounting defect without reopening its execution. The new internal
+progress object derives state, edge, failure, and access counters from explicit
+transitions; a state completes only after every required edge completes. The
+cross-field publication validator rejected all ten impossible records, accepted
+four valid stopped/success records, and rejected every cross-file digest/status
+mismatch. The exact R3 regression now reports one prepared state, zero evaluation
+starts, and zero completions. The governed synthetic audit closed **A —
+STATE-LIFECYCLE ACCOUNTING AND PUBLICATION VALIDATION REPAIRED / readiness 1**.
+Real state and edge opens were both zero. Session 14R3, numerical/scientific
+contracts, claims, dependencies, and released software remain unchanged; no
+empirical or protected material or partial R3 scientific output was accessed.
+See the [Session 14ae report](session_14ae_state_lifecycle_accounting.md). The
+sole recommendation is to separately govern a fresh Session 14R empirical
+representation retry using the repaired lifecycle-accounting and
+publication-validation contract.

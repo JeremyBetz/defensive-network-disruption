@@ -1,0 +1,1 @@
+{"edge_lifecycle":["discovered","evaluation_started","evaluation_completed"],"real_edges_opened":0,"real_states_opened":0,"schema_version":1,"scope":"synthetic_orchestration_only","state_completion":"all_required_edges_completed","state_lifecycle":["discovered","prepared","evaluation_started","evaluation_completed"],"terminal_statuses":["success","failure","blocked"]}

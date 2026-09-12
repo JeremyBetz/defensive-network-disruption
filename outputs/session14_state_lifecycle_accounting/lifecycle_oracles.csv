@@ -1,0 +1,9 @@
+oracle,expected,observed,states_discovered,states_prepared,states_evaluation_started,states_completed,edges_discovered,edges_evaluation_started,edges_completed,state_failures,edge_failures,states_opened,edges_opened
+r3_regression_prepared_not_completed,valid,pass,1,1,0,0,1,0,0,0,0,0,0
+failure_before_preparation,valid,pass,0,0,0,0,0,0,0,0,0,0,0
+failure_after_preparation,valid,pass,1,1,0,0,1,0,0,1,0,0,0
+evaluation_start_failure,valid,pass,1,1,1,0,1,0,0,1,0,0,0
+first_edge_failure,valid,pass,1,1,1,0,1,1,0,1,1,0,0
+partial_edge_completion,valid,pass,1,1,1,0,2,2,1,1,1,0,0
+successful_state,valid,pass,1,1,1,1,2,2,2,0,0,0,0
+successful_multi_state,valid,pass,2,2,2,2,4,4,4,0,0,0,0
