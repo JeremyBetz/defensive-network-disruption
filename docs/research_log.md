@@ -1222,3 +1222,22 @@ output was accessed. Accessibility remains PROXY ONLY; suppression remains NOT
 SUPPORTABLE. The sole recommendation is to separately govern a bounded repair
 of projection-to-edge-receipt interruption accounting before another empirical
 retry; it is not executed.
+
+## 2026-09-12 — Session 14ag projection-to-edge exposure accounting repaired
+
+[Phase 14ag](protocols/phase_14ag_projection_edge_exposure_accounting.md)
+prospectively isolated the synthetic access-accounting defect that blocked
+Session 14R5. A geometric carrier-to-receiver edge now becomes opened when its
+receiver geometry is successfully materialized, recorded through a synchronized
+batch receipt before downstream work. Field-candidate calls remain separate work
+counters. The exact two-edge R5 regression now reports two opened edges, zero
+evaluation starts, zero completions and two unresolved exposed edges. All ten
+interruption oracles, ten actual invalid-package rejections and eight valid
+controls passed. The governed result is **A — PROJECTION-TO-EDGE EXPOSURE
+ACCOUNTING REPAIRED / readiness 1**. Real state and edge opens were both zero.
+Historical Session 14R5 bytes, numerical/scientific contracts, claims,
+dependencies and released software remain unchanged; no empirical data or R5
+scientific output was accessed. See the [Session 14ag report](session_14ag_projection_edge_exposure_accounting.md).
+The sole recommendation is to separately govern a fresh Session 14R empirical
+representation retry using the repaired projection-to-edge exposure accounting
+contract.

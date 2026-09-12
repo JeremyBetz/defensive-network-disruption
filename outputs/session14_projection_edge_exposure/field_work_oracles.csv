@@ -1,0 +1,6 @@
+oracle,expected,observed,states_discovered,states_completed,edges_discovered,edges_opened,edges_evaluation_started,edges_completed,unresolved_exposed_edges,unresolved_projection_attempts,field_evaluations_started,field_evaluations_completed,active_state,active_edge,active_candidate,isotropic_started,isotropic_completed,expanding_started,expanding_completed,constant_width_started,constant_width_completed
+0_fields_completed,accepted,accepted,1,0,1,1,0,0,1,0,0,0,True,True,none,0,0,0,0,0,0
+1_fields_completed,accepted,accepted,1,0,1,1,1,0,1,0,1,1,True,True,none,1,1,0,0,0,0
+2_fields_completed,accepted,accepted,1,0,1,1,1,0,1,0,2,2,True,True,none,1,1,1,1,0,0
+3_fields_completed,accepted,accepted,1,0,1,1,1,0,1,0,3,3,True,True,none,1,1,1,1,1,1
+final_field_failure,accepted,accepted,1,0,1,1,1,0,1,0,3,2,True,True,constant_width,1,1,1,1,1,0

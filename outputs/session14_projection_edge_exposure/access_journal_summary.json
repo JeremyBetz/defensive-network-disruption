@@ -1,0 +1,1 @@
+{"authority":"append_only_hash_chained_journal","batch_receipt_counts_unique_edges":true,"candidate_calls_separate":true,"projection_attempts_distinct_from_receipts":true,"real_journal_entries":0,"schema_version":1,"status":"pass","synthetic_journals":25,"unresolved_attempt_blocks_confirmed_zero":true}

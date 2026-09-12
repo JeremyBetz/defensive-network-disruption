@@ -1,0 +1,11 @@
+oracle,expected,observed,states_discovered,states_completed,edges_discovered,edges_opened,edges_evaluation_started,edges_completed,unresolved_exposed_edges,unresolved_projection_attempts,field_evaluations_started,field_evaluations_completed,active_state,active_edge,active_candidate
+before_edge_discovery,accepted,accepted,0,0,0,0,0,0,0,0,0,0,False,False,none
+after_discovery_before_projection,accepted,accepted,1,0,1,0,0,0,0,0,0,0,True,False,none
+during_projection_before_materialization,accepted,accepted,1,0,1,0,0,0,0,0,0,0,True,False,none
+immediately_after_projection,accepted,accepted,1,0,1,1,0,0,1,0,0,0,True,True,none
+after_first_field_started,accepted,accepted,1,0,1,1,1,0,1,0,1,0,True,True,isotropic
+after_one_field_completed,accepted,accepted,1,0,1,1,1,0,1,0,1,1,True,True,none
+after_two_fields_completed,accepted,accepted,1,0,1,1,1,0,1,0,2,2,True,True,none
+after_all_fields_before_edge_completion,accepted,accepted,1,0,1,1,1,0,1,0,3,3,True,True,none
+after_edge_completion,accepted,accepted,1,0,1,1,1,1,0,0,3,3,True,False,none
+multiple_edges_one_unresolved,accepted,accepted,1,0,2,2,1,1,1,0,3,3,True,False,none

@@ -1,0 +1,1 @@
+{"historical_defect":{"projected_edges":2,"reported_opened_edges":0,"validator_accepted":true},"real_edges_opened":0,"real_states_opened":0,"repaired":{"edges_completed":0,"edges_evaluation_started":0,"edges_opened":2,"unresolved_exposed_edges":2},"schema_version":1,"status":"pass"}
