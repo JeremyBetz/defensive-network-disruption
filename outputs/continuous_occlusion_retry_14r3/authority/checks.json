@@ -1,0 +1,29 @@
+{
+  "checks": [
+    {
+      "log_sha256": "a460c77d03fc7e34f9c53ea80f4c5c5386bbd465f98af5738f85dfc863ce939f",
+      "passed": 552,
+      "run": 555,
+      "scope": "full_preaccess",
+      "skipped": 3
+    },
+    {
+      "log_sha256": "cfb87a9f38ac588bf64b44ef581dec8aba82f9405b69809cafdcb3fea932333c",
+      "passed": 27,
+      "run": 27,
+      "scope": "focused_current",
+      "skipped": 0
+    }
+  ],
+  "implementation": {
+    "scripts/session_14r3_occlusion_study.py": "23e054aabd8bc06ec500cfe2132969754e3824e3776f634370987c71c446a55c",
+    "src/defensive_network_disruption/data/representation_projection.py": "229ff793392c06471ac3a0dd3ee11bbcaaedf6045da3bfe4a484743423029858",
+    "src/defensive_network_disruption/geometry/representation_retry.py": "96dbdfe6030582e69f837a1343fb1e68952ed34992c957f243507bdc5b2c2f99",
+    "src/defensive_network_disruption/geometry/representation_study.py": "d0957593d9aa092160b5e890c49987ca6096c1429dfc0a7b9d2daa0388c033c9",
+    "src/defensive_network_disruption/validation/r3_launch.py": "aa1a9fdbaf128f4954cba3e8d4bf3d54c33fe99c22e6718e4c00387033c88c8a",
+    "tests/test_session14r3_enforcement.py": "f0be107feb6b8d790939ce65db2033ee0fb4fea3ee9c5d0fa01c7c9def3558e3",
+    "tests/test_session14r3_study.py": "116516448aaf1dfcbee703997e18640c4d8ed0a340374c4b8817f1527430637e"
+  },
+  "note": "Full pre-access suite preceded one added wrapper test; current focused suite covers all R3 tests. Mandatory CI exercises the final checkpoint.",
+  "schema_version": 1
+}
