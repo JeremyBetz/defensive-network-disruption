@@ -1115,3 +1115,33 @@ numerical/scientific authority remain unchanged. No empirical geometry, provider
 record, model, target, share, protected material or partial scientific output was
 accessed. The sole recommendation is to separately govern a fresh Session 14R
 empirical representation retry using the repaired single fail-closed launch path.
+
+## 2026-09-12 — Session 14R3 blocked at pre-access failure-accounting review
+
+[Phase 14R3](protocols/phase_14r3_continuous_occlusion_empirical_retry.md), commit
+`2539e15`, preceded a new wrapper around the unchanged numerical primitives and
+GovernedLauncher. The new namespace passed governed synthetic acceptance of
+108 cases, 366 references and 399 permutations; its 1800x800 synthetic visual
+reproduced byte-identically and passed full-frame review. Tested checkpoint
+`820bf40` was pushed for mandatory CI. The 14ad hardcoded-flag and closure
+qualifications remain explicit, with historical bytes preserved.
+
+Before any development access, a supplemental synthetic preparation-failure
+check exposed a new R3 bookkeeping defect: one prepared row was reported as one
+completed state despite zero numerical completions, and publication validation
+accepted the inconsistent counters. The implementation was preserved without a
+post-exposure repair or empirical launch. Result: **D — BLOCKED, readiness 3**;
+no inference about field validity or candidate superiority follows. Actual real
+population opens, prepared/completed states and evaluated edges were all zero.
+The [closed manifest](../outputs/continuous_occlusion_retry_14r3/manifest.json)
+SHA-256 is `860e7a8a066795bfd3fda94d9e3adb4b496ed950c73ef1711ae3cea729efd03b`.
+
+The [36-item report](session_14r3_continuous_occlusion_empirical_retry.md) records
+the successful synthetic gates, test-fixture qualifications, missing empirical
+comparisons and final validation. Claims, released APIs, dependencies, README,
+historical outputs and tag remain unchanged. No provider product, target, model,
+share, protected/withheld/pose material or historical partial scientific output
+was accessed. Accessibility remains PROXY ONLY; suppression remains NOT
+SUPPORTABLE. The sole recommendation is a separately governed bounded diagnosis
+of R3 preparation-failure accounting and cross-field publication validation;
+it is not executed.

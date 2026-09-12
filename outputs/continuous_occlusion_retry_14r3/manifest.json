@@ -1,0 +1,43 @@
+{
+  "authority": {
+    "outputs/continuous_occlusion_retry_14r3/authority/checks.json": "2dabc3a1d048a9e03648d6ec6b00e1ff333c7dbec5c8c8f673eb48a8a7566990",
+    "outputs/continuous_occlusion_retry_14r3/authority/preaccess_failure.json": "7d10eb11930a5a1015e51bbb28ce1b806ada8c9946e7b2c17f84b455b508aaf5",
+    "outputs/continuous_occlusion_retry_14r3/authority/production.json": "981b9347a2d92d8987802b3f977df37ff0c200ecffd2dd530bfefcfc40559004",
+    "outputs/continuous_occlusion_retry_14r3/authority/visual_approval.json": "c078ccd32c0c033a3611483fbed947dbb524043989d9fff976d78a543e2b03ae",
+    "outputs/continuous_occlusion_retry_14r3/authority/visual_generation.json": "aa7e3ee598b495829997271d65dde78039a8ce7aa1ab1c5e847b18b7e1348e6d"
+  },
+  "environment": {
+    "lock": "c9e4da0781770b9e72b8a5b10a7c514f2259b7e63dc1b67604ee481934db0a0c",
+    "matplotlib": "3.11.1",
+    "numpy": "2.5.3",
+    "python": "3.13.15",
+    "scipy": "1.18.1"
+  },
+  "implementation": {
+    "scripts/session_14r3_occlusion_study.py": "23e054aabd8bc06ec500cfe2132969754e3824e3776f634370987c71c446a55c",
+    "src/defensive_network_disruption/data/representation_projection.py": "229ff793392c06471ac3a0dd3ee11bbcaaedf6045da3bfe4a484743423029858",
+    "src/defensive_network_disruption/geometry/representation_retry.py": "96dbdfe6030582e69f837a1343fb1e68952ed34992c957f243507bdc5b2c2f99",
+    "src/defensive_network_disruption/geometry/representation_study.py": "d0957593d9aa092160b5e890c49987ca6096c1429dfc0a7b9d2daa0388c033c9",
+    "src/defensive_network_disruption/validation/r3_launch.py": "aa1a9fdbaf128f4954cba3e8d4bf3d54c33fe99c22e6718e4c00387033c88c8a",
+    "tests/test_session14r3_enforcement.py": "f0be107feb6b8d790939ce65db2033ee0fb4fea3ee9c5d0fa01c7c9def3558e3",
+    "tests/test_session14r3_study.py": "116516448aaf1dfcbee703997e18640c4d8ed0a340374c4b8817f1527430637e"
+  },
+  "outputs": {
+    "qc.json": "215899b57c62dd6fb429fd86cde5205ac2d64f88dce8924d305429bd5b3d6ddc",
+    "synthetic_field_comparison.svg": "3786d1ea2c323b4369a4c8d17108440bad50656d0ae476d87af3dd822618bab2",
+    "synthetic_stress_summary.json": "1d6c1c86c4bde130508030c1d371fc3f69e3860209ca416c81bf41557a8cd550"
+  },
+  "protocol": "26ed59932ebba135c6a1142a2e523ba1af7fb9caf59a978196ba0cfa8a0a965b",
+  "schema_version": 1,
+  "start": "8da64387fe62d5bd15f0a347456252e931988945",
+  "status": "blocked",
+  "unavailable": [
+    "candidate_summary.json",
+    "candidate_pair_comparison.csv",
+    "structural_correspondence.csv",
+    "receiver_segment_divergence.csv",
+    "union_vs_max.csv",
+    "multi_edge_summary.csv",
+    "match_summary.csv"
+  ]
+}

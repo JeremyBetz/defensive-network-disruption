@@ -1,0 +1,14 @@
+{
+  "actual_completed_states": 0,
+  "actual_edges_completed": 0,
+  "actual_edges_started": 0,
+  "actual_prepared_states": 1,
+  "failure_category": "GateFailure",
+  "failure_manifest_status": "blocked",
+  "implementation_sha256": "23e054aabd8bc06ec500cfe2132969754e3824e3776f634370987c71c446a55c",
+  "inconsistent_qc_accepted_by_validator": true,
+  "qc_states_completed": 1,
+  "real_population_access": false,
+  "schema_version": 1,
+  "scope": "synthetic_one_row_preparation_failure"
+}
