@@ -1,0 +1,8 @@
+oracle,metric,observed,expected,passed
+r7_percentile_support,minimum,0.5,0.5,True
+r7_percentile_support,q05,0.5,0.5,True
+r7_percentile_support,q25,0.5,0.5,True
+r7_percentile_support,q50,0.5,0.5,True
+r7_percentile_support,q75,1.0,1.0,True
+r7_percentile_support,q95,1.0,1.0,True
+r7_percentile_support,maximum,1.0,1.0,True

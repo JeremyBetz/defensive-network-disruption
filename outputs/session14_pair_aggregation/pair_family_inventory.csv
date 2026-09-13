@@ -1,0 +1,11 @@
+family,raw_unit,state_unit,match_unit,macro_unit,classification,reducer,percentile_input,status
+candidate_field_difference,aligned_edge_pair,state_pair_mean,match,macro_match,B,state arithmetic mean,state summaries,audited
+candidate_pair_spearman,state,state,match,macro_match,B,already one state correlation,state correlations,audited
+candidate_ordering_categories,unordered_edge_pair,state_pair_proportion,match,macro_match,C,five state proportions,state proportions,audited
+opposing_raw_distance_order,eligible_distance_pair,state_pair_proportion,match,macro_match,C,state disagreement proportion,state proportions,audited
+opposing_field_order,opposing_distance_pair,state_pair_proportion,match,macro_match,C,three state proportions,state proportions,audited
+endpoint_segment_ordering,unordered_edge_pair,state_pair_proportion,match,macro_match,C,five state proportions,state proportions,audited
+endpoint_segment_spearman,state,state,match,macro_match,B,already one state correlation,state correlations,audited
+session13_support_jaccard,unordered_receiver_pair,state_pair_mean,match,macro_match,B,already reduced in state descriptor,state means,audited
+overlap_redundancy_spearman,state_descriptors,match,match,macro_match,B,already one match correlation,match correlations,audited
+empty_or_constant_family,none,unavailable,unavailable,unavailable,D,excluded without zero imputation,none,audited

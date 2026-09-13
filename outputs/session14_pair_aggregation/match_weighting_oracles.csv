@@ -1,0 +1,2 @@
+oracle,macro_mean,pooled_state_mean,expected_macro_mean,represented_matches,states_assessable,passed
+unequal_match_state_counts,0.5,0.9900990099009901,0.5,2,101,True

@@ -1,0 +1,3 @@
+oracle,category,state_equal_mean,raw_pair_proportion,expected,passed
+unequal_category_counts,agreement,0.5,0.9900990099009901,0.5,True
+unequal_category_counts,strict_reversal,0.5,0.009900990099009901,0.5,True

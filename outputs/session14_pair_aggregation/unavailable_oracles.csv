@@ -1,0 +1,2 @@
+oracle,states_total,states_assessable,states_unavailable,observations,source_observations,single_pair_value,expected_mean,observed_mean,passed
+empty_single_multiple,3,2,1,2,3,0.25,0.375,0.375,True

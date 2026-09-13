@@ -1357,3 +1357,29 @@ The sole recommendation is to separately govern a bounded repair of within-state
 pair-summary aggregation and its percentile regression contract before
 considering another empirical representation retry. No repair or retry follows
 automatically.
+
+## 2026-09-13 — Session 14aj within-state pair aggregation repaired
+
+[Phase 14aj](protocols/phase_14aj_within_state_pair_aggregation.md) froze a
+synthetic-only repair of the aggregation defect that blocked Session 14R7. The
+new internal reducer averages eligible pair values within each state before
+match distributions, inverse-ECDF percentiles and equal-match macro summaries.
+Categorical pair outcomes become within-state proportions; Spearman statistics
+that were already state- or match-level remain at those units.
+
+The one governed audit passed the exact R7 regression, unequal pair-count and
+match-size fixtures, adversarial category proportions, unavailable/single-pair
+states, all ten pair-family unit traces, and exact non-pair invariance. One state
+with one `0` pair and another with one hundred `1` pairs now returns `0.5`, not
+the pooled `100/101`. The R7 `[0,1]` and `[1,1]` fixture now returns median
+`0.5`, not `1.0`. Pair eligibility and ordering semantics are unchanged.
+
+Result: **A — WITHIN-STATE PAIR AGGREGATION REPAIRED / readiness 1**. This is
+aggregation authority only; no field comparison or scientific claim was
+produced. Real state and edge opens were both zero. Historical R7, numerical,
+launch, lifecycle, exposure, publication and released software bytes remain
+unchanged. See the [Session 14aj report](session_14aj_within_state_pair_aggregation.md)
+and [manifest](../outputs/session14_pair_aggregation/manifest.json). The sole
+recommendation is to separately govern a fresh Session 14R empirical
+representation retry using the repaired within-state pair-summary aggregation
+contract.
