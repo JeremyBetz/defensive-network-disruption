@@ -1,0 +1,33 @@
+{
+  "acceptance_source_patch_sha256": "41d0cd01c4bcaa2f95230f1248485fb2dbcb258a2f69ebb8488bba05c24a67cf",
+  "aggregation_repaired": false,
+  "defect": "pair_percentiles_before_state_average",
+  "expected": {
+    "maximum": 1.0,
+    "mean": 0.75,
+    "minimum": 0.5,
+    "q05": 0.5,
+    "q25": 0.5,
+    "q50": 0.5,
+    "q75": 1.0,
+    "q95": 1.0
+  },
+  "fixture": "two_state_pair_average",
+  "historical_collector": "scripts/session_14r6_occlusion_study.py",
+  "historical_collector_ast_sha256": "ba1c68da5cef1216d0a83ff893c53bbe141474d9b13914b837e432e79c5f2194",
+  "observed": {
+    "maximum": 1.0,
+    "mean": 0.75,
+    "minimum": 0.0,
+    "q05": 0.0,
+    "q25": 0.0,
+    "q50": 1.0,
+    "q75": 1.0,
+    "q95": 1.0
+  },
+  "passed": false,
+  "production_estimator_unchanged": true,
+  "schema_version": 1,
+  "scope": "synthetic_only",
+  "status": "blocked_before_development_access"
+}
