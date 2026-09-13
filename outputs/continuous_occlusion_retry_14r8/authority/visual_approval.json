@@ -1,0 +1,21 @@
+{
+  "checks": [
+    "full_frame",
+    "no_clipping",
+    "legible_labels",
+    "equal_geometry",
+    "shared_scale",
+    "deterministic_bytes"
+  ],
+  "implementation": {
+    "scripts/session_14r8_occlusion_study.py": "1cfefce27de8d15cba58dd67ad6b9a1142520308c48d6a2f61c5d9ce77590d9d",
+    "src/defensive_network_disruption/geometry/r7_representation.py": "b3de1fb1432ae97617d4a29c11694eba3b88e01dda0ba68be60b410372b8c542",
+    "src/defensive_network_disruption/validation/r7_execution.py": "2000018ad1c411b7e4f9935553be41cc848be89b6d072bc3c3560e5f500ebe54",
+    "src/defensive_network_disruption/validation/r8_aggregation.py": "71dfcedf460ae70046443af3f263882238a72b2d12e097e2d16d9a07878f645b",
+    "tests/test_session14r8_enforcement.py": "00106c71d90a36284891239c583362b901ae2c91d66d716f3c5639ef4074fc75",
+    "tests/test_session14r8_study.py": "4cf887242ef7113416454130a95179fd3ba5bf4af8df305cf52d61935057c79e"
+  },
+  "schema_version": 1,
+  "status": "approved",
+  "svg_sha256": "c22559a8ddc2ebbf052ba84d8e8439f37669288ebafe6419201e30f96f831908"
+}
