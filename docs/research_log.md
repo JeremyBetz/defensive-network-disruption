@@ -1383,3 +1383,28 @@ and [manifest](../outputs/session14_pair_aggregation/manifest.json). The sole
 recommendation is to separately govern a fresh Session 14R empirical
 representation retry using the repaired within-state pair-summary aggregation
 contract.
+
+## 2026-09-13 — Session 14R8 blocked by independent-maximum agreement
+
+[Phase 14R8](protocols/phase_14r8_continuous_occlusion_empirical_retry.md)
+froze a fresh label-free representation attempt. The assembled path passed 108
+synthetic cases, 366 references and 399 mapped permutations. The Session 14aj
+state-first reducer was wired into the actual collector and schemas, the
+deterministic synthetic visual passed full-frame QA, 738 local tests passed with
+three retained skips, and all three checkpoint CI jobs passed.
+
+The one empirical launch verified and prepared all 7,227 development states.
+Four states completed before the constant-width candidate at the fifth state
+failed the unchanged `piecewise_unsplit` independent-maximum agreement gate.
+The long onset-only adaptive call also exposed severe runtime on this geometry.
+The original gate failure was retained privately. Normal failure publication
+was interrupted while replaying the large journal, so no substitute public
+manifest or incomplete scientific rows were created. Partial summaries were not
+inspected and the attempt cannot be rerun.
+
+Result: **Scientific D — BLOCKED / readiness 3**. All R8 structural comparisons
+are unavailable. The claim ledger, released package and historical results are
+unchanged. See the [Session 14R8 report](session_14r8_continuous_occlusion_empirical_retry.md).
+The sole recommendation is a separately governed single-edge diagnosis of the
+constant-width onset-only adaptive comparator disagreement and runtime. No
+diagnosis or retry follows automatically.
