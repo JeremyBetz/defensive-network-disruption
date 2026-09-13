@@ -1,0 +1,7 @@
+{
+  "exact_values_private": true,
+  "private_evidence_sha256": "fb4d4083c9c245176f83a710f4359d8d0a034b4147192f78151f55a865064f7a",
+  "residual_within_frozen_tolerance": true,
+  "root_count": 1,
+  "schema_version": 1
+}

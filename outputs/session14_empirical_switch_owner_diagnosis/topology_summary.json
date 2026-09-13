@@ -1,0 +1,10 @@
+{
+  "classification": "VALID_EMPIRICAL_TOPOLOGY_CURRENT_OWNER_INVARIANT_TOO_NARROW",
+  "detector_and_certifier_probe_locations_differ": true,
+  "finite_tie_interval": false,
+  "multiway": false,
+  "point_tie": true,
+  "readiness": 1,
+  "schema_version": 1,
+  "synthetic_topology_oracle": "documented_not_executed_post_exposure"
+}

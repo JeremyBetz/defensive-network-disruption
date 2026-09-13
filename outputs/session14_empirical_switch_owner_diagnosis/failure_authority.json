@@ -1,0 +1,9 @@
+{
+  "candidate": "constant_width",
+  "failure": "switch_owner_semantics_changed",
+  "only_authorized_edge_opened": true,
+  "private_evidence_sha256": "fb4d4083c9c245176f83a710f4359d8d0a034b4147192f78151f55a865064f7a",
+  "receiver_ordinal": 8,
+  "schema_version": 1,
+  "state_ordinal": 2
+}

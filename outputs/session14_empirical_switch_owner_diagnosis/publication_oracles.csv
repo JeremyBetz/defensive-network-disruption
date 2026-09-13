@@ -1,0 +1,7 @@
+case,expected_acceptance,accepted,passed,error
+valid_r6_diagnostic,True,False,False,field_order
+missing_stage,False,False,True,numerical_stage_detail
+invalid_stage,False,False,True,numerical_stage_value
+wrong_type,False,False,True,numerical_stage_count
+unknown_extra,False,False,True,numerical_stage_detail
+wrong_context,False,False,True,numerical_stage_context

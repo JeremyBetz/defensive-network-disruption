@@ -1,0 +1,22 @@
+{
+  "classification": "VALID_EMPIRICAL_TOPOLOGY_CURRENT_OWNER_INVARIANT_TOO_NARROW",
+  "journal_sha256": "23f3fafa9668ef05926aaf35681e28e41d05fee914ec977a9e2ccd5ab4b3b3a0",
+  "outputs": {
+    "canonical_root_diagnostics.json": "86cce967256a2b4674447c9aebffba240e62455b9e7d8a95dd13115a4ad3affd",
+    "failure_authority.json": "62b529a1fd056e5cc893ef48fce3da1723e452db030a622e0bcdcbb969ce8a0b",
+    "numerical_health.json": "6598b04b5b0e8f74ea272d361672eda1c49ed6135ecc69443a340ac934107136",
+    "onset_relationship.json": "967feb5981b10615bf6601a252e2a4f9aa187f085a3e799b4efbec8dd5d0ee30",
+    "owner_neighborhood.csv": "578261b153b55ce7f35c1a36c0b90735dc89f400834e88ac8fb0c5c3784b63ef",
+    "publication_oracles.csv": "0b5481662992c21d745cf901dc5308f6d4614e9689ec645f0118d460554e5b80",
+    "publication_schema_diagnosis.json": "a2c9aeff9adf5b39c5d3de9144f7f4bc8a218249381e3065e9c18c33ad044655",
+    "qc.json": "32b45b16d7e5fc2da46460e741ed878a9949e608cd1415640cdfeed0c2dc7aeb",
+    "raw_root_diagnostics.json": "1077d7d86d764a4ef4ba872cb11bbd08a99cb13fd7759f802111da76636a2233",
+    "topology_summary.json": "51187f1fdcdf0935164bc736dd0e65b8538b6b18019d33f798b77edb824b9da7"
+  },
+  "private_evidence_sha256": "fb4d4083c9c245176f83a710f4359d8d0a034b4147192f78151f55a865064f7a",
+  "protocol": "d71cabdc257d256c1852b4edda91e99a5ce13285475211d64d7776b399405e69",
+  "readiness": 1,
+  "schema_version": 1,
+  "start": "dcbada1334af9408bdb08a5c7721fb8b4c26c801",
+  "status": "closed"
+}

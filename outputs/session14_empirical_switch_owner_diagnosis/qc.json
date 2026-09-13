@@ -1,0 +1,12 @@
+{
+  "classification": "VALID_EMPIRICAL_TOPOLOGY_CURRENT_OWNER_INVARIANT_TOO_NARROW",
+  "completed_edge_values_inspected": false,
+  "execution_valid": true,
+  "journal_sha256": "23f3fafa9668ef05926aaf35681e28e41d05fee914ec977a9e2ccd5ab4b3b3a0",
+  "only_one_edge_inspected": true,
+  "private_evidence_sha256": "fb4d4083c9c245176f83a710f4359d8d0a034b4147192f78151f55a865064f7a",
+  "publication_oracles_passed": false,
+  "readiness": 1,
+  "schema_version": 1,
+  "status": "closed"
+}

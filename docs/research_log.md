@@ -1270,3 +1270,31 @@ remain unchanged. Accessibility remains **PROXY ONLY** and suppression remains
 **NOT SUPPORTABLE**. The sole recommendation is a separately governed bounded
 diagnosis of the empirical canonical-switch owner-semantics failure and the R6
 diagnostic-event failure-publication incompatibility.
+
+## 2026-09-13 — Session 14ah bounded empirical switch diagnosis
+
+[Phase 14ah](protocols/phase_14ah_empirical_switch_owner_diagnosis.md)
+authorized only the already-exposed R6 location: zero-based prepared state 2,
+receiver 8 and `constant_width`. The one diagnostic reproduced
+`switch_owner_semantics_changed`. The detector's bounded before-probe lay after
+a nearby `ell=0` onset and retained a two-owner tolerance block, while the
+certifier's wider before-witness crossed the onset and had one owner. Values
+remained finite and matched the independent scalar oracle; joint Simpson
+converged at 4,096 intervals. Independent maximum verification remained
+unavailable because unchanged certification did not return a valid partition.
+
+Switch result: **D — ONSET / SWITCH COINCIDENCE CONTRACT DEFECT / readiness 1**.
+Exact geometry, roots, bits, owners and values remain private. No other edge,
+completed R6 summary, target, model, share or scientific comparison was opened.
+
+The prospective diagnostic-event adapter validated the actual 14ah journal,
+but its intended valid synthetic control incorrectly used an ordinary direct
+`constant_width` lifecycle start and failed `field_order`. The publication
+checker did not fail on that false QC flag. These post-exposure defects and the
+preliminary broad topology label remain preserved without repair or rerun.
+Publication compatibility therefore remains blocked. See the
+[Session 14ah report](session_14ah_empirical_switch_owner_diagnosis.md) and
+[manifest](../outputs/session14_empirical_switch_owner_diagnosis/manifest.json).
+Claims remain unchanged. The sole recommendation is one separately governed
+bounded repair of onset-aware owner certification and fail-closed diagnostic
+publication before any fresh representation retry.

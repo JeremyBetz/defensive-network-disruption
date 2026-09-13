@@ -1,0 +1,8 @@
+{
+  "after_owner_semantics_preserved": true,
+  "before_owner_semantics_preserved": false,
+  "certification": "failed",
+  "exact_values_private": true,
+  "returned_canonical_root": false,
+  "schema_version": 1
+}

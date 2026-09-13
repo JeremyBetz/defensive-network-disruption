@@ -1,0 +1,10 @@
+relative_order,owner_count,matches_detector_before,matches_detector_at,matches_detector_after,finite,oracle_match
+-4,1,False,False,False,True,True
+-3,2,True,True,False,True,True
+-2,2,True,True,False,True,True
+-1,2,True,True,False,True,True
+0,2,True,True,False,True,True
+1,2,True,True,False,True,True
+2,2,True,True,False,True,True
+3,1,False,False,True,True,True
+4,1,False,False,True,True,True

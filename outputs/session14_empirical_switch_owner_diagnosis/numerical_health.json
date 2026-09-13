@@ -1,0 +1,8 @@
+{
+  "accepted_intervals": 4096,
+  "independent_maximum": "unavailable_certification_failed",
+  "joint_simpson_converged": true,
+  "joint_simpson_finite": true,
+  "schema_version": 1,
+  "scientific_value_inspected": false
+}

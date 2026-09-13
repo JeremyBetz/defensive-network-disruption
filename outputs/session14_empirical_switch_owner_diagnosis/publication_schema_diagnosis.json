@@ -1,0 +1,8 @@
+{
+  "diagnostic_events_change_counters": false,
+  "emergency_defect": "emergency_snapshot_repeated_the_same_failing_replay",
+  "prospective_adapter": "failed",
+  "r6_defect": "numerical_stage_absent_from_exposure_replay_event_vocabulary",
+  "r6_retroactively_validated": false,
+  "schema_version": 1
+}
