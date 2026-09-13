@@ -1,0 +1,23 @@
+{
+  "active": {
+    "candidate": "constant_width",
+    "edge": "edge_000009",
+    "state": "state_000003"
+  },
+  "candidate_calls": {
+    "completed": 88,
+    "started": 89
+  },
+  "counters": {
+    "edges_completed": 28,
+    "edges_discovered": 72270,
+    "edges_evaluation_started": 30,
+    "states_completed": 2,
+    "states_discovered": 7227,
+    "states_evaluation_started": 3,
+    "states_prepared": 7227
+  },
+  "failure_stage": "canonical_switch_certification",
+  "schema_version": 1,
+  "status": "failure"
+}

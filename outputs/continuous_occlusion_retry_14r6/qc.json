@@ -1,0 +1,40 @@
+{
+  "classification": "D — BLOCKED OR INVALID",
+  "execution_validity": "failed_closed",
+  "failure_checks": [
+    "switch_owner_semantics_changed",
+    "unknown_exposure_event"
+  ],
+  "population": {
+    "expected_sha256": "cd706f9f4621efcf659fbe890d9a6a0ebfff97c3407095a6db5ea05044c1264d",
+    "match_counts": [
+      885,
+      801,
+      952,
+      877,
+      861,
+      629,
+      764,
+      734,
+      724
+    ],
+    "prepared_sha256": "15a809060f0ba4a8cb3790011dab8008db3dad6e931c287ccb395f61ef1530b0",
+    "states": 7227,
+    "verified_before_evaluation": true
+  },
+  "pre_access": {
+    "ci_run": 34725941259,
+    "distribution": "success",
+    "python_3_11": "success",
+    "python_3_13": "success",
+    "synthetic_cases": 108,
+    "synthetic_components": 366,
+    "synthetic_permutations": 399,
+    "visual_byte_identical": true,
+    "visual_review": "approved"
+  },
+  "readiness": 3,
+  "schema_version": 1,
+  "scientific_comparisons_available": false,
+  "status": "failure"
+}

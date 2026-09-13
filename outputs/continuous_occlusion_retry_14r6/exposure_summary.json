@@ -1,0 +1,23 @@
+{
+  "confirmed_zero_exposure": false,
+  "edges_opened": 72270,
+  "field_work_by_candidate": {
+    "constant_width": {
+      "completed": 28,
+      "started": 29
+    },
+    "expanding": {
+      "completed": 30,
+      "started": 30
+    },
+    "isotropic": {
+      "completed": 30,
+      "started": 30
+    }
+  },
+  "projection_attempts": 7227,
+  "schema_version": 1,
+  "states_opened": 7227,
+  "unresolved_exposed_edges": 72242,
+  "unresolved_projection_attempts": 0
+}

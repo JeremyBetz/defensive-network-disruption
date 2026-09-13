@@ -1,0 +1,35 @@
+{
+  "authority": {
+    "failure_execution_sha256": "5413afab0ec6ec1a3295468028c767fe4a72d7461d8c822b9ab75936562aa469",
+    "pre_access_commit": "e6f743c31435bc5727ef0c3f4eb01780cd5a2491",
+    "protocol_sha256": "6d3eb647091c8562836592469d1cbf765c2b164bfb6a506962bec08985899a80"
+  },
+  "classification": "D — BLOCKED OR INVALID",
+  "implementation": {
+    "scripts/session_14r6_occlusion_study.py": "01b06d766cf2bcb1488447ea3ed8bf6fb7cecdb211e278b2d66a6d860b584d25",
+    "src/defensive_network_disruption/validation/r6_execution.py": "6a9f2b3b0a47aeaae5f92fff4fdf52f92bcba01ff8221dad6d6c1a3c04ed8b16",
+    "tests/test_session14r6_enforcement.py": "2fd35c3270c7a5f235bbdf2ded4eae6963a82b040d9d534c1d59530ab0834983",
+    "tests/test_session14r6_study.py": "10879d6ac070ed726ff1148926ca03187b7b3e73e002624b271a2d496d0fe132"
+  },
+  "outputs": {
+    "exposure_summary.json": "908239eb6dcf78b4a9e9ab9ad960db077983ff4ae43443d27bece826e966e246",
+    "lifecycle_summary.json": "87b8fde66855ae66804d4c35c8cc9a5e26a7ea9ffa6e0308daceca312717b6c9",
+    "qc.json": "0cbba7bb831b3bd97a0dbcb75824102e218bcb9c6bc75dac40b32eb287ec36db",
+    "synthetic_field_comparison.svg": "970161a024ac4ebdb4c584f159c8a533f01aaaf40a44c3d0905eb31ec0ecac49",
+    "synthetic_stress_summary.json": "1d6c1c86c4bde130508030c1d371fc3f69e3860209ca416c81bf41557a8cd550"
+  },
+  "readiness": 3,
+  "schema_version": 1,
+  "scientific_comparisons_available": false,
+  "start": "23cea4de5a218b87fdf614ad3bc31a9cae465fd2",
+  "status": "failure",
+  "unavailable": [
+    "candidate_pair_comparison.csv",
+    "candidate_summary.json",
+    "match_summary.csv",
+    "multi_edge_summary.csv",
+    "receiver_segment_divergence.csv",
+    "structural_correspondence.csv",
+    "union_vs_max.csv"
+  ]
+}

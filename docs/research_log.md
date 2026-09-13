@@ -1241,3 +1241,32 @@ scientific output was accessed. See the [Session 14ag report](session_14ag_proje
 The sole recommendation is to separately govern a fresh Session 14R empirical
 representation retry using the repaired projection-to-edge exposure accounting
 contract.
+
+## 2026-09-12 — Session 14R6 stopped during empirical switch certification
+
+[Phase 14R6](protocols/phase_14r6_continuous_occlusion_empirical_retry.md)
+prospectively assembled the accepted numerical, launch, lifecycle, publication
+and projection-exposure authorities. Its tested checkpoint passed 108 synthetic
+cases, 366 references, 399 mapped permutations, a byte-identical three-panel
+visual, 646 local tests with three retained skips, and all three pre-access CI
+jobs.
+
+The single empirical launch verified and prepared all 7,227 development states
+and opened 72,270 receiver edges through durable projection receipts. Numerical
+evaluation then stopped on the third state with
+`switch_owner_semantics_changed`; two states and 28 edges had completed. A
+separate wrapper defect prevented ordinary failure publication because the
+exposure replay rejected the valid `numerical_stage` diagnostic event. The
+complete private journal, prepared authority, launch failure and partial records
+remain preserved. No repair, omission, restart or partial scientific
+interpretation followed.
+
+Result: **Scientific D — BLOCKED OR INVALID / readiness 3**. Every planned
+empirical comparison is unavailable and no field is frozen. The
+[Session 14R6 report](session_14r6_continuous_occlusion_empirical_retry.md) and
+[failure manifest](../outputs/continuous_occlusion_retry_14r6/manifest.json)
+record the bounded closure. Claims, released software and historical authorities
+remain unchanged. Accessibility remains **PROXY ONLY** and suppression remains
+**NOT SUPPORTABLE**. The sole recommendation is a separately governed bounded
+diagnosis of the empirical canonical-switch owner-semantics failure and the R6
+diagnostic-event failure-publication incompatibility.

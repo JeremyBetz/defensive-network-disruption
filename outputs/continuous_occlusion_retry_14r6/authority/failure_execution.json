@@ -1,0 +1,27 @@
+{
+  "active_context": {
+    "candidate": "constant_width",
+    "edge": "edge_000009",
+    "state": "state_000003"
+  },
+  "execution": {
+    "automatic_rerun_permitted": false,
+    "empirical_launches": 1,
+    "status": "failed_closed"
+  },
+  "failure": {
+    "primary_category": "VerificationError",
+    "primary_check": "switch_owner_semantics_changed",
+    "publication_category": "LifecycleError",
+    "publication_check": "unknown_exposure_event"
+  },
+  "private_authority": {
+    "journal_file_sha256": "3f210d54065ab716ab07a6dfe78772189495832be424c0953857217930a9c9a7",
+    "journal_head_sha256": "847d25b8d53280c4c05e1a7703ff730c2dbda3b01a299998c611c3fb8fef48d3",
+    "launch_failure_sha256": "3687db657a4689d13554ea240e826bee06092aff56318926e128d5df5481b0e6",
+    "prepared_population_sha256": "15a809060f0ba4a8cb3790011dab8008db3dad6e931c287ccb395f61ef1530b0"
+  },
+  "schema_version": 1,
+  "scope": "label_free_spent_development_geometry",
+  "scientific_comparisons_available": false
+}
