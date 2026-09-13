@@ -1,0 +1,45 @@
+{
+  "environment": {
+    "lock": "c9e4da0781770b9e72b8a5b10a7c514f2259b7e63dc1b67604ee481934db0a0c",
+    "matplotlib": "3.11.1",
+    "numpy": "2.5.3",
+    "python": "3.13.15",
+    "scipy": "1.18.1"
+  },
+  "implementation": {
+    "scripts/session_14r7_occlusion_study.py": "2bb467f03fc78b44a51ee13fb654813aac58f623c5a14c9f7ebffd42e5f3e00e",
+    "src/defensive_network_disruption/geometry/r7_representation.py": "b3de1fb1432ae97617d4a29c11694eba3b88e01dda0ba68be60b410372b8c542",
+    "src/defensive_network_disruption/validation/r7_execution.py": "2000018ad1c411b7e4f9935553be41cc848be89b6d072bc3c3560e5f500ebe54",
+    "tests/test_session14r7_enforcement.py": "52791b1ccb7b27596eaf018a08790ee411c099812fbeb7acc9f06bac585c444a",
+    "tests/test_session14r7_study.py": "003b0de916717af5345ab52823848ec95a514d470f148a9258a832c99601e1b2"
+  },
+  "outputs": {
+    "exposure_summary.json": "7368893cb07f4390f3455105f57cca38ef73a795b056b72ec70b3c15653709e2",
+    "lifecycle_summary.json": "90ce43cd9abe95b12dfa34c9ec927f321054edd9800db33784e7fbb9511fc2b3",
+    "qc.json": "beaa312f2ae73551ab805e9c468c36e0af27c6647f25b9494e564093c68f3d46",
+    "synthetic_field_comparison.svg": "b1ea62750c29bd2267e9d0b369db922b7ae45eedb65086efd61c962a6eec4575",
+    "synthetic_stress_summary.json": "1d6c1c86c4bde130508030c1d371fc3f69e3860209ca416c81bf41557a8cd550"
+  },
+  "private_evidence_sha256": "92383cd02ba72dbdc55959e4ee2ebace1d2c2c180ff4b0a4ecb7bd0e4cdb7325",
+  "private_manifest_sha256": "749f151dae4ca46b84df4263fbe2fac9821ba71464df17e6544dc6f900c97428",
+  "progress_authority": {
+    "journal_sha256": null,
+    "mode": "pre_access",
+    "schema_version": 2,
+    "snapshot": null,
+    "snapshot_sha256": null
+  },
+  "protocol": "51633a23938f7968adbaa83e513a70225d473c87cb1c1bee67e21988981c11ea",
+  "schema_version": 1,
+  "start": "3bd02c10427bd35d1c45ea1e203c68ccd141bf75",
+  "status": "failure",
+  "unavailable": [
+    "candidate_summary.json",
+    "candidate_pair_comparison.csv",
+    "structural_correspondence.csv",
+    "receiver_segment_divergence.csv",
+    "union_vs_max.csv",
+    "multi_edge_summary.csv",
+    "match_summary.csv"
+  ]
+}

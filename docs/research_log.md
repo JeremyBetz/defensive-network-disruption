@@ -1325,3 +1325,35 @@ scientific representation comparison or automatic retry occurred. The sole
 recommendation is to separately govern a fresh Session 14R empirical representation
 retry using the onset-aware owner-certification and repaired numerical-failure
 publication contracts after the delivery gates pass.
+
+## 2026-09-13 — Session 14R7 blocked by pre-access pair aggregation
+
+[Phase 14R7](protocols/phase_14r7_continuous_occlusion_empirical_retry.md)
+froze a fresh representation execution. The assembled numerical path passed
+108 synthetic cases, 366 references and 399 mapped permutations, and its
+1800×800 synthetic SVG reproduced byte-identically and passed full-frame QA.
+
+A required pre-access aggregation review then demonstrated that the inherited
+collector calculates pair-summary percentiles from individual pair values,
+although the protocol requires averaging eligible pairs within each state first.
+For synthetic states with pair indicators `[0,1]` and `[1,1]`, both means are
+`0.75`, but the inherited median is `1.0` instead of the required `0.5`.
+The collector was not repaired. A regression guard prevents launch on that
+mismatch; accepted numerical evidence remains separate from failed overall
+study authorization.
+
+Result: **Scientific D — BLOCKED BEFORE DEVELOPMENT ACCESS / readiness 3**.
+No empirical launcher, population preparation, development state, receiver edge,
+model, target, share or scientific comparison was accessed. The actual empty
+journal and persisted failure package were validated; seven scientific outputs
+are explicitly unavailable. The numerical acceptance source versions remain
+reconstructable by hash without rebinding the original acceptance record.
+
+See the [R7 report](session_14r7_continuous_occlusion_empirical_retry.md) and
+[closed manifest](../outputs/continuous_occlusion_retry_14r7/manifest.json),
+SHA-256 `4cee379c77e9d5dcea11ff5affb4866834ed1abb6e56fa361dac30787860c9cf`.
+Historical implementations, results, public software and claims remain unchanged.
+The sole recommendation is to separately govern a bounded repair of within-state
+pair-summary aggregation and its percentile regression contract before
+considering another empirical representation retry. No repair or retry follows
+automatically.

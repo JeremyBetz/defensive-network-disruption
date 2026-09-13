@@ -1,0 +1,1 @@
+{"exception":"GateFailure","progress_authority":{"journal_sha256":null,"mode":"pre_access","schema_version":2,"snapshot":null,"snapshot_sha256":null},"schema_version":1,"scientific_comparisons_available":false,"stage":"summary_contract","status":"failure"}
