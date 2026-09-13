@@ -1,0 +1,1 @@
+{"controls":[{"accepted":true,"expected_acceptance":true,"fixture":"valid_failure","passed":true},{"accepted":true,"expected_acceptance":true,"fixture":"valid_success","passed":true},{"accepted":true,"expected_acceptance":true,"fixture":"independent_failure_preservation","passed":true}],"schema_version":1}

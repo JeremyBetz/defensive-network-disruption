@@ -1,0 +1,13 @@
+fixture,expected,observed,passed
+ordinary,accepted,accepted,True
+ell0_after,accepted,accepted,True
+ell1_before,accepted,accepted,True
+ell1_after,accepted,accepted,True
+coincident,coincident_or_unordered_boundary,coincident_or_unordered_boundary,True
+one_ulp,no_interior_float,no_interior_float,True
+few_ulp,partition_owner_semantics_changed,partition_owner_semantics_changed,True
+multiway,accepted,accepted,True
+point_tie,accepted,accepted,True
+neighbor_switch,accepted,accepted,True
+endpoint,accepted,accepted,True
+plateau,accepted,accepted,True

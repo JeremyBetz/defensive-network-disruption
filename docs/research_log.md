@@ -1298,3 +1298,30 @@ Publication compatibility therefore remains blocked. See the
 Claims remain unchanged. The sole recommendation is one separately governed
 bounded repair of onset-aware owner certification and fail-closed diagnostic
 publication before any fresh representation retry.
+
+## 2026-09-13 — Session 14ai bounded owner-certification and publication repair
+
+[Phase 14ai](protocols/phase_14ai_onset_aware_owner_certification.md) froze
+structural-region owner witnesses and fail-closed diagnostic publication before
+implementation. The one governed audit passed 12 synthetic topology oracles,
+108 historical cases / 366 components / 399 permutations, and 21 publication
+controls. Exact coincidence and no-interior-float topologies remain explicit
+rejections; no owner tolerance, field formula, estimator or integration gate changed.
+
+Only the already-authorized state 2 / receiver 8 `constant_width` edge was reopened.
+The repaired certifier returned a valid partition with witnesses contained in its
+structural region. Joint Simpson retained 4,096 intervals; independent maximum
+verification and saved-neighborhood scalar-oracle agreement passed. Exact roots,
+owner ordinals and values remain private. One state and one edge were opened;
+no completed R6 scientific products, other receiver geometry, targets, models,
+shares or protected evidence were accessed.
+
+Closed evidence supports **switch A / readiness 1 / publication P1**, conditional
+on final delivery CI. See the [report](session_14ai_onset_aware_owner_certification.md)
+and [manifest](../outputs/session14_onset_owner_repair/manifest.json), SHA-256
+`f70be884941b908ad8638a5207df5a188f48cb8127223d115c8ebced710be28c`.
+Historical 14ah/R6 failures, public software and claims remain unchanged. No
+scientific representation comparison or automatic retry occurred. The sole
+recommendation is to separately govern a fresh Session 14R empirical representation
+retry using the onset-aware owner-certification and repaired numerical-failure
+publication contracts after the delivery gates pass.

@@ -1,0 +1,1 @@
+{"schema_version":2,"separate_diagnostic_work":true,"stages":["geometry","joint_simpson","envelope","owner_certification","partition_construction","routing","strict_piecewise","repeat_piecewise","onset_adaptive","direct_simpson","accepted"]}
