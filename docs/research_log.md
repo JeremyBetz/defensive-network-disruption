@@ -1479,3 +1479,29 @@ targets, models, shares, or protected products were inspected. No repair or seco
 to separately govern an evidence-only review of the retained 14am numerical
 checks and timed-out journal replay, without reopening geometry or rerunning
 integration. Historical results and the claim ledger remain unchanged.
+
+## 2026-09-14 — Session 14an retained-evidence adjudication
+
+[Phase 14an](protocols/phase_14an_retained_evidence_adjudication.md) governed one
+review of hash-bound 14am evidence without reopening geometry or running any
+numerical diagnosis. Retained production/piecewise checks and internal-reference
+eligibility were supported. Onset-only normal termination and disagreement did
+not establish an adaptive convergence trend or a defective equivalence contract.
+The review therefore closed **H — UNRESOLVED / readiness 4**, preserving 14am's
+historical classification. Repeated prefix reconstruction remained supported by
+retained operation counts: **publication P1**. The smallest conceptual publication
+repair removes repeated reconstruction while preserving chronological checks;
+no combined numerical/publication repair is authorized while numerical H remains.
+
+The thirteen artifacts were closed before interpretation. Exact projected
+values remain private; no R8 scientific summary, geometry, provider product,
+model or share was opened. Synthetic regressions are validation-only and do not
+supply adjudication evidence. See the [report](session_14an_retained_evidence_adjudication.md)
+and [manifest](../outputs/session14an_retained_evidence_adjudication/manifest.json).
+The sole recommendation is to separately govern a narrowly bounded onset-only
+adaptive convergence evidence study for the retained failing edge, capturing
+subdivision and refinement diagnostics to distinguish insufficient convergence
+from a gate-contract defect. No repair or representation retry was executed.
+
+Validation passed: focused 28/28/0, relevant 9/9/0, full suite 796 run /
+793 passed / 3 retained skips. Full regressions remain validation-only.

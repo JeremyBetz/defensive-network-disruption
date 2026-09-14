@@ -1,0 +1,1 @@
+{"checks":{"consistent_with_retained_flag":true,"eligible":true,"partition_valid":true,"retained_final_step_passed":true},"evidence":["partition_audit.json","private:piecewise","production_path.json"],"limitations":["Internal diagnostic reference only; no mathematical truth claim; direct 65536 is not substituted."],"schema_version":1,"status":"reviewed"}
