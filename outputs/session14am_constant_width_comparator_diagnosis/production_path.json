@@ -1,0 +1,1 @@
+{"data":{"accepted_intervals":2048,"checks":{"direct_gate":true,"joint_maximum":true,"piecewise_reference":true,"production_reference":true,"reference_eligible":true,"strict_repeat":true,"unsplit_reference":false},"converged":true,"provisional":true},"reason":null,"schema_version":1,"status":"available"}

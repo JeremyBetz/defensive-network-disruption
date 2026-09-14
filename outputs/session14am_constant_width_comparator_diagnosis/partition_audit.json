@@ -1,0 +1,1 @@
+{"data":{"bounded":0,"checks":{"domain":true,"onsets_present":true,"positive_widths":true,"switches_present":true,"tie_endpoints_preserved":true,"width_sum":true,"witnesses_valid":true},"onset_count":8,"passed":true,"pieces":10,"switch_count":1,"tie_count":0},"reason":null,"schema_version":1,"status":"available"}

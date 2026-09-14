@@ -1451,3 +1451,31 @@ and [manifest](../outputs/session14_verified_envelope_serialization/manifest.jso
 The sole recommendation is to separately govern a fresh diagnosis of retained
 Session 14R8 state ordinal 4, receiver ordinal 7, candidate `constant_width`,
 using the repaired serialization path.
+
+## 2026-09-14 — Session 14am comparator reproduction and bounded replay timeout
+
+[Phase 14am](protocols/phase_14am_constant_width_comparator_diagnosis.md) froze
+one fresh diagnosis using the repaired 14al serializer and R8's actual
+onset-aware verification route. The single retained edge reproduced
+`GateFailure: piecewise_unsplit`. Joint Simpson converged at 2,048 intervals;
+the ten-piece partition and eligible 16,384 structural-piece reference passed
+their frozen checks. Production/piecewise comparisons passed, while the
+onset-only adaptive comparison failed. Exact values remain private. These
+completed findings do not make the provisional production value fully accepted.
+
+Synthetic journal controls established triangular prefix reconstruction work.
+The provider-free historical event-shape replay then reached its 600-second
+operation cap. The runner preserved partial operation counts and closed
+**H — UNRESOLVED / readiness 4**, separately **publication P1**. The global
+3,600-second limit was not reached. Historical 55-minute attribution remains
+unavailable; no runtime curve was extrapolated. See the
+[report](session_14am_constant_width_comparator_diagnosis.md) and
+[manifest](../outputs/session14am_constant_width_comparator_diagnosis/manifest.json).
+
+Focused/relevant checks passed 55/55 with no skips; the full committed-code
+suite passed 768 run / 765 passed / 3 retained skips. Only the authorized
+state/edge/candidate was opened. No other geometry, scientific summaries,
+targets, models, shares, or protected products were inspected. No repair or second execution followed. The sole recommendation is
+to separately govern an evidence-only review of the retained 14am numerical
+checks and timed-out journal replay, without reopening geometry or rerunning
+integration. Historical results and the claim ledger remain unchanged.
