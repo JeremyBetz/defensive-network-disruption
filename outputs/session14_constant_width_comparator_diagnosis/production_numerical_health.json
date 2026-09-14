@@ -1,0 +1,5 @@
+{
+  "available": false,
+  "reason": "governed diagnostic failed before durable exact-evidence closure",
+  "schema_version": 1
+}

@@ -1,0 +1,12 @@
+{
+  "completed_r8_scientific_values_inspected": false,
+  "execution_valid": false,
+  "numerical_classification": "H",
+  "only_authorized_edge_inspected": true,
+  "publication_classification": "P5",
+  "readiness": 4,
+  "real_edges_inspected": 1,
+  "real_states_inspected": 1,
+  "schema_version": 1,
+  "status": "invalid"
+}

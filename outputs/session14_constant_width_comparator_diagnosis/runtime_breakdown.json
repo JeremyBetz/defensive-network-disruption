@@ -1,0 +1,7 @@
+{
+  "available": false,
+  "diagnostic_elapsed_seconds": 48.81889616698027,
+  "historical_55_minute_attribution": "unavailable",
+  "reason": "stage timings were not durably closed",
+  "schema_version": 1
+}

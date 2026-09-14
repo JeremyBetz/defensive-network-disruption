@@ -1,0 +1,23 @@
+{
+  "implementation_commit": "3e200f33942816bd551556b81a7a142c1907ce7d",
+  "outputs": {
+    "agreement_gate_diagnosis.json": "bb8138c653d08c61bab5bf70045e7aefa4810c65134e6ca2b2704ce53d0896e9",
+    "failure_authority.json": "9a408b96146595f810958601b484059fc2095adae3e184c98ad75546e3c74556",
+    "onset_neighborhood.csv": "b859d1be42941573d47970897dffc21cd1594e9e67281590b4fc20a6974684af",
+    "piece_contributions.csv": "b859d1be42941573d47970897dffc21cd1594e9e67281590b4fc20a6974684af",
+    "piecewise_convergence.csv": "b859d1be42941573d47970897dffc21cd1594e9e67281590b4fc20a6974684af",
+    "production_numerical_health.json": "7e8ec11c1ee49f3f7a45d63cb1d7f7df9b19dc86abe870fe7f41cf839c7939f7",
+    "publication_replay_diagnosis.json": "12195ad29d9b6d1fff10ae78b6ddfe3e138f74fc7bd6afe4f7e1d3bf5fa01c09",
+    "publication_scalability_options.json": "c63c95373294780fc82057e33ceb56f8d9d25b47da35471ed9ebe188d75f4ffd",
+    "qc.json": "d5a1feb88ea9185f07830c2098b736fb907097669bb10dd6be6ed9844c73e612",
+    "runtime_breakdown.json": "c1b92f2777f63c70709a3a1388c14483ffb816e4a8f842a00ae024778a98d0ec",
+    "synthetic_reproduction.json": "e13d2d5c76eb34a703ca73b31db0ca2080206367849fa52c74f1b13cdff4c0d4",
+    "topology_summary.json": "7e8ec11c1ee49f3f7a45d63cb1d7f7df9b19dc86abe870fe7f41cf839c7939f7",
+    "unsplit_convergence.csv": "b859d1be42941573d47970897dffc21cd1594e9e67281590b4fc20a6974684af"
+  },
+  "private_emergency_sha256": "fda86bc1e35557ee313d47ffe1c54a44f7fa9893434dc1732fb43c92926b91c8",
+  "protocol_sha256": "7ccd4711a07a1d152c14862eb3d05eab6b2991e947b610adcaf25f3a6c35652a",
+  "schema_version": 1,
+  "start": "0ace3b79d18cdfa9b2f3dd26a7bf1d201cdbfa1f",
+  "status": "invalid"
+}

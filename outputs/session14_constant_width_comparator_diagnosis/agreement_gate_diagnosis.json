@@ -1,0 +1,9 @@
+{
+  "classification": "H",
+  "exact_gate": "piecewise_unsplit",
+  "gate_tolerance": 1e-10,
+  "reason": "invalid diagnostic execution",
+  "readiness": 4,
+  "reproduction_status": "not durably established",
+  "schema_version": 1
+}

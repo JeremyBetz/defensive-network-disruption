@@ -1,0 +1,8 @@
+{
+  "classification": "P5",
+  "historical_journal_bytes": 6533975,
+  "historical_journal_records": 30882,
+  "reason": "synthetic scaling measurements were not durably closed",
+  "schema_version": 1,
+  "source_prefix_replay_identified": true
+}

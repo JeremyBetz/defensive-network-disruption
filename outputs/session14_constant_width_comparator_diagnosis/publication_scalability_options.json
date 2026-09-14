@@ -1,0 +1,10 @@
+{
+  "implemented": false,
+  "options": [
+    "single-pass streaming replay",
+    "authenticated checkpoint plus suffix replay",
+    "incrementally authenticated summary"
+  ],
+  "recommendation_status": "requires separately governed evidence",
+  "schema_version": 1
+}

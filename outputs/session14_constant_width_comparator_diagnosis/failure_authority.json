@@ -1,0 +1,10 @@
+{
+  "candidate": "constant_width",
+  "diagnostic_exception": "TypeError",
+  "diagnostic_stage": "private_evidence_serialization",
+  "emergency_record_sha256": "fda86bc1e35557ee313d47ffe1c54a44f7fa9893434dc1732fb43c92926b91c8",
+  "execution_valid": false,
+  "receiver_ordinal": 7,
+  "schema_version": 1,
+  "state_ordinal": 4
+}

@@ -1408,3 +1408,20 @@ unchanged. See the [Session 14R8 report](session_14r8_continuous_occlusion_empir
 The sole recommendation is a separately governed single-edge diagnosis of the
 constant-width onset-only adaptive comparator disagreement and runtime. No
 diagnosis or retry follows automatically.
+
+## 2026-09-13 — Session 14ak diagnostic execution invalid
+
+[Phase 14ak](protocols/phase_14ak_constant_width_comparator_diagnosis.md)
+prospectively froze a single-edge comparator and failure-publication diagnosis.
+The isolated tooling passed its focused and relevant pre-access tests. The one
+governed execution inspected only state ordinal 4, receiver ordinal 7 and the
+constant-width candidate, then failed while serializing private diagnostic
+evidence because an internal verified-envelope object was not JSON serializable.
+An independent emergency record preserved the location, exception, traceback
+and elapsed time. No post-access repair or rerun occurred.
+
+Result: **H — INVALID EXECUTION / readiness 4** and publication **P5 —
+UNRESOLVED**. Numerical totals and scientific comparisons remain unavailable;
+the four completed R8 state summaries were not inspected. The sole
+recommendation is to separately govern a bounded diagnostic-evidence
+serialization repair and regression before another comparator diagnosis.
