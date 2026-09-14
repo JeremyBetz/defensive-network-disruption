@@ -1,0 +1,9 @@
+fixture,blocked,category
+unsupported_object,True,unsupported_type
+unordered_set,True,unordered_container_unsupported
+nonfinite_nan,True,evidence_float_nonfinite
+nonfinite_positive_infinity,True,evidence_float_nonfinite
+nonfinite_negative_infinity,True,evidence_float_nonfinite
+unsupported_array,True,unsupported_type
+non_string_mapping_key,True,mapping_must_be_plain_string_dict
+malformed_owner_set,True,maximizing_defenders_malformed

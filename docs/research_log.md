@@ -1425,3 +1425,29 @@ UNRESOLVED**. Numerical totals and scientific comparisons remain unavailable;
 the four completed R8 state summaries were not inspected. The sole
 recommendation is to separately govern a bounded diagnostic-evidence
 serialization repair and regression before another comparator diagnosis.
+
+## 2026-09-13 — Session 14al diagnostic serialization repaired
+
+[Phase 14al](protocols/phase_14al_verified_envelope_serialization.md) froze a
+synthetic-only repair for the private evidence defect that invalidated Session
+14ak. A representative synthetic `VerifiedEnvelope` reproduced the old JSON
+type failure. The new internal projector then serialized the envelope, verified
+switches, certified tie boundaries, canonical onsets and root transitions, and
+bounded integral intervals through explicit schemas. The complete 14ak-shaped
+payload closed byte-identically under repeated encoding and passed manifest/hash
+validation.
+
+All eight negative controls failed closed, including arbitrary objects,
+unordered containers, malformed owners and nonfinite floats. The independent
+emergency path continued to preserve the primary exception and traceback without
+creating a false success manifest. Frozen numerical and historical 14ak hashes
+were unchanged, and no field or integration path ran.
+
+Result: **A — VerifiedEnvelope DIAGNOSTIC SERIALIZATION REPAIRED / readiness
+1**. No empirical data, R8 partial product, target, model, share or provider
+record was accessed. Session 14ak remains H/readiness 4/P5 and is not rerun or
+reinterpreted. See the [report](session_14al_verified_envelope_serialization.md)
+and [manifest](../outputs/session14_verified_envelope_serialization/manifest.json).
+The sole recommendation is to separately govern a fresh diagnosis of retained
+Session 14R8 state ordinal 4, receiver ordinal 7, candidate `constant_width`,
+using the repaired serialization path.

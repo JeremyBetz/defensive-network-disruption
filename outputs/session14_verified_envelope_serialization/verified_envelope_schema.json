@@ -1,0 +1,1 @@
+{"json_primitive_only":true,"projection_type":"verified_envelope","required_fields":["grid_intervals","maximizing_defenders","partitions","schema_version","switches","tie_intervals","type"],"round_trip_reconstruction_required":false,"schema_version":1,"semantic_equivalence":true}

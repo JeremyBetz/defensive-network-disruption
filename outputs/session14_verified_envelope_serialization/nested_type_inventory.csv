@@ -1,0 +1,11 @@
+type,classification,projection
+VerifiedEnvelope,A,canonical_structure
+VerifiedSwitch,A,canonical_structure
+CertifiedTieInterval,A,canonical_structure
+CertifiedBoundary,A,canonical_structure
+CertifiedOnset,A,canonical_structure
+CertifiedRootTransition,A/B,canonical_plus_raw_provenance
+IntegralInterval,A,bounded_integral_authority
+raw_solver_result,B,diagnostic_only_not_canonical_equality
+derived_counts,C,retained_where_14ak_payload_requires
+empirical_values,D,not_accessed_or_published
