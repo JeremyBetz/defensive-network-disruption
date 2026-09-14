@@ -1,9 +1,13 @@
 # Session 14ak — Constant-width comparator diagnosis
 
-**Date:** 2026-09-13  
-**Execution:** INVALID  
-**Numerical classification:** **H — INVALID EXECUTION**  
-**Readiness:** **4 — MORE EVIDENCE REQUIRED**  
+**Date:** 2026-09-13
+
+**Execution:** INVALID
+
+**Numerical classification:** **H — INVALID EXECUTION**
+
+**Readiness:** **4 — MORE EVIDENCE REQUIRED**
+
 **Publication classification:** **P5 — UNRESOLVED**
 
 Session 14ak froze and tested a bounded diagnostic for the retained R8 failure.
