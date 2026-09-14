@@ -1505,3 +1505,28 @@ from a gate-contract defect. No repair or representation retry was executed.
 
 Validation passed: focused 28/28/0, relevant 9/9/0, full suite 796 run /
 793 passed / 3 retained skips. Full regressions remain validation-only.
+
+## 2026-09-14 — Session 14ao onset-only adaptive convergence evidence
+
+[Phase 14ao](protocols/phase_14ao_onset_only_adaptive_convergence.md) froze six
+requested tolerances with unchanged onset partitions and scalar maximum, using
+14an's retained reference-eligibility confirmation. The single authorized edge
+reproduced the retained anchor disagreement. Five levels completed with the same
+189 evaluations, nine terminal panels, zero subdivision operations and identical
+trace fingerprints. The sixth returned a blocking warning and stopped the run.
+No timeout occurred. Identical work under tighter requests does not establish
+independent refinement; neither A nor qualified B was earned.
+
+The hash-closed partial package passed publication validation and is **H —
+insufficient, warning-limited evidence / readiness 4**, with execution valid.
+Historical publication P1 remains separate. Only one authorized state/edge was
+opened, with confirmed receipts. No other geometry, scientific summaries,
+production/piecewise recomputation, switch detection, model or share was accessed.
+No repair or rerun followed. See the [report](session_14ao_onset_only_adaptive_convergence.md)
+and [manifest](../outputs/session14ao_onset_only_adaptive_convergence/manifest.json).
+
+The sole recommendation is to separately govern a review of the retained terminal
+subdivision and error evidence from this stopped refinement sequence to identify
+the specific missing convergence evidence; do not rerun or repair the comparator
+automatically. Validation: focused 37/37/0; relevant serialization 9/9/0;
+Full suite: 833 run / 830 passed / 3 retained skips. Synthetic regressions remain validation-only.

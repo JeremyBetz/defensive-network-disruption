@@ -1,0 +1,1 @@
+{"candidate":"constant_width","gate":1e-10,"limit":1000,"no_extra_boundaries":true,"per_level_seconds":600,"schema_version":1,"stability_span":1.0000000000000001e-11,"tolerances":[1e-13,5e-14,2e-14,1e-14,5e-15,2e-15],"total_seconds":3600}
