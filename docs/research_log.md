@@ -1639,3 +1639,18 @@ dependencies, and release tag remain unchanged. The sole recommendation is to
 separately govern a bounded Session 14as acceptance-runner repair that loads the
 synthetic authority in its package context and proves valid failure publication
 before any new acceptance attempt.
+## 2026-09-15 — Session 14at governed acceptance-runner repair
+
+Session 14at repaired only Session 14as's standalone source-module loading and
+its success/failure publication path. The frozen synthetic authority was loaded
+through the installed package context. Focused failure injections preserved the
+historical relative-import error and validated strict failure packages. The one
+governed synthetic acceptance passed 108 cases, 366 references, and 399 mapped
+permutations; the unchanged independent-certificate readiness object returned
+true with one retained adaptive warning, one independent certification, and no
+blocking warnings. Classification: **A — governed acceptance runner repaired;
+certificate contract accepted**. Session 14R readiness: **1**. No empirical
+state or edge was accessed, and the claim ledger is unchanged. The only
+recommendation is to separately govern a fresh Session 14R empirical
+representation retry under the accepted independent-certificate verifier
+contract.
