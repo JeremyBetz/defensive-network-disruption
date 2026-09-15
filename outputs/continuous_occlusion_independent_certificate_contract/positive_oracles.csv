@@ -1,0 +1,2 @@
+fixture,expected,observed,passed,error_category
+governed_positive_oracles,accepted,unavailable,False,ImportError

@@ -1,0 +1,2 @@
+fixture,candidate,passed,components,permutations,error
+governed_acceptance,unavailable,False,0,0,ImportError

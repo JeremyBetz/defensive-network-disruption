@@ -1611,3 +1611,31 @@ rational coefficients, and traces remain private and hash-bound. See the
 [manifest](../outputs/continuous_occlusion_terminal_interval_reference/manifest.json).
 The sole recommendation is to separately govern a verifier-evidence contract
 repair using this independent bound, without rerunning Session 14R yet.
+
+## 2026-09-15 — Session 14as independent-certificate verifier contract
+
+[Phase 14as](protocols/phase_14as_independent_bound_verifier_contract.md) froze
+a narrow prospective rule for independently certifying the exact diagnosed
+roundoff-warning contribution without suppressing the warning or changing the
+production estimate. The internal implementation passed focused contract tests,
+the inherited micro-residual suite, and two complete pre-exposure historical
+numerical replays.
+
+The single governed acceptance failed before its 108-case replay. Its runner
+loaded the package-relative onset-owner authority as a standalone module, and
+Python raised `ImportError: attempted relative import with no known parent
+package`. The create-once marker and traceback were preserved. No repair or
+rerun followed, and incomplete in-memory results were not reconstructed for
+publication. Its success-only publication checker also rejected the preserved
+invalid manifest schema; an independent read-only closure check validated the
+failure package without treating it as accepted. Session 14as therefore closes
+**F — invalid / readiness 4**. See
+the [report](session_14as_independent_bound_verifier_contract.md) and
+[manifest](../outputs/continuous_occlusion_independent_certificate_contract/manifest.json).
+
+Zero empirical states and edges were opened; no scientific output was inspected.
+The claim ledger, Session 14ar evidence, historical verifiers, released API,
+dependencies, and release tag remain unchanged. The sole recommendation is to
+separately govern a bounded Session 14as acceptance-runner repair that loads the
+synthetic authority in its package context and proves valid failure publication
+before any new acceptance attempt.
