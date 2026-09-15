@@ -1553,3 +1553,34 @@ bounded reviewer-integrity repair that fixes per-level tolerance serialization
 and independently validates public rows against the frozen protocol, without
 rerunning numerical integration. Validation passed: focused 33/33, relevant
 65/65, and full suite 866 run / 863 passed / 3 retained skips.
+
+## 2026-09-14 — Session 14aq reviewer-integrity revalidation
+
+[Phase 14aq](protocols/phase_14aq_reviewer_integrity_repair.md) governed one
+standard-library revalidation of the unchanged 68-record Session 14ao evidence
+projection. It repaired Session 14ap's stale-variable output defect in a new
+namespace: each public tolerance now comes directly from its retained level
+record. A separate validator independently mapped raw retained records to the
+public schema. It rejected the historical all-`2e-15` table and every frozen
+corruption oracle before accepting the persisted package.
+
+The corrected evidence closes **C — roundoff/subdivision limitation identified /
+readiness 2**. Five historical completed aggregates and the separately labeled
+reviewer-derived warning-level piece sum were exactly stable, while reported
+errors plateaued. All six levels retained identical callback traces and terminal
+topology, 189 evaluations, nine terminal intervals and zero subdivision
+operations. SciPy's retained `IntegrationWarning` matches the locked 1.18.1
+roundoff termination text. This identifies the integrator's reported condition;
+it does not independently establish true error or numerical accuracy. The
+warning-free and reference-agreement conditions remain unsatisfied.
+
+No field or quadrature function ran, no geometry or empirical record was opened,
+and no Session 14R scientific product was inspected. Session 14ap remains
+historically **G — invalid / readiness 4**. See the
+[report](session_14aq_reviewer_integrity_revalidation.md) and
+[manifest](../outputs/continuous_occlusion_terminal_error_revalidation/manifest.json).
+The sole recommendation is to separately govern acquisition of one independently
+bounded reference for sanitized warning-producing terminal interval 8; do not
+rerun the full edge or alter the comparator automatically.
+Validation passed: focused Session 14aq 8/8, focused plus relevant 41/41, and
+full suite 874 run / 871 passed / 3 retained skips.
