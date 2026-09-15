@@ -1530,3 +1530,26 @@ subdivision and error evidence from this stopped refinement sequence to identify
 the specific missing convergence evidence; do not rerun or repair the comparator
 automatically. Validation: focused 37/37/0; relevant serialization 9/9/0;
 Full suite: 833 run / 830 passed / 3 retained skips. Synthetic regressions remain validation-only.
+
+## 2026-09-14 — Session 14ap terminal error-evidence review
+
+[Phase 14ap](protocols/phase_14ap_terminal_error_evidence_review.md) authorized a
+standard-library review of 68 hash-bound Session 14ao terminal records, with no
+new integration or empirical access. The retained records provisionally showed
+identical returned estimates, errors, traces and terminal topology across all six
+requests, plus SciPy's reported roundoff termination at the sixth request. The
+warning-free and reference-agreement conditions remained unsatisfied.
+
+Post-exposure inspection found that the public level table incorrectly repeated
+`2e-15` for all six tolerances. A stale loop variable caused the defect, and the
+publication checker regenerated the same wrong rows. The emitted package is
+preserved but rejected. Session 14ap therefore closes **G — invalid / readiness
+4**, overriding its emitted provisional C/readiness 2 claim. No repair or rerun
+followed. See the [report](session_14ap_terminal_error_evidence_review.md).
+
+No additional state or edge, Session 14R partial product, target, model, share or
+scientific result was opened. The sole recommendation is to separately govern a
+bounded reviewer-integrity repair that fixes per-level tolerance serialization
+and independently validates public rows against the frozen protocol, without
+rerunning numerical integration. Validation passed: focused 33/33, relevant
+65/65, and full suite 866 run / 863 passed / 3 retained skips.
