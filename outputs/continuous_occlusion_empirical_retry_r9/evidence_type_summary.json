@@ -1,0 +1,7 @@
+{
+  "certificate_orchestration_evidence": "retained_observation",
+  "empirical_geometry_access_before_unlock": 0,
+  "evidence_types_merged": false,
+  "schema_version": 1,
+  "synthetic_numerical_evidence": "evaluated_synthetic_fields"
+}

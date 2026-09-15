@@ -1,0 +1,9 @@
+{
+  "injection": "success",
+  "rerun_rejected": true,
+  "runner_caught": true,
+  "schema_version": 1,
+  "status": "valid_success",
+  "success_derived_from_validator": true,
+  "validator_passed": true
+}
