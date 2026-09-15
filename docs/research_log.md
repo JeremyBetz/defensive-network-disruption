@@ -1584,3 +1584,30 @@ bounded reference for sanitized warning-producing terminal interval 8; do not
 rerun the full edge or alter the comparator automatically.
 Validation passed: focused Session 14aq 8/8, focused plus relevant 41/41, and
 full suite 874 run / 871 passed / 3 retained skips.
+
+## 2026-09-15 — Session 14ar independent terminal-interval bound
+
+[Phase 14ar](protocols/phase_14ar_terminal_interval_reference.md) governed one
+independent reference calculation for sanitized warning-producing terminal
+interval 8. Retained structural authority established one fully activated
+maximum-field owner and no interior onset, switch, or tie boundary. The unchanged
+constant-width field therefore reduced to an exponential quadratic on this
+interval.
+
+An exact-rational Taylor antiderivative with an integrated Lagrange remainder
+produced a rigorous outward-rounded enclosure at order 6. The retained SciPy
+estimate lay inside it, and the enclosure width was below the inherited `1e-10`
+independent-verifier agreement scale. The phase closes **A — independent bound
+confirms retained interval estimate within existing authority / readiness 1**.
+This supports the bounded interpretation that roundoff prevented adaptive
+certification despite an interval estimate accurate under existing authority;
+it does not repair the verifier or validate the full edge.
+
+Only the retained interval-specific sanitized geometry was reconstructed. No
+full edge, additional interval/state/edge, scientific summary, target, model,
+share, provider product, or protected evidence was opened. Exact geometry,
+rational coefficients, and traces remain private and hash-bound. See the
+[report](session_14ar_terminal_interval_reference.md) and
+[manifest](../outputs/continuous_occlusion_terminal_interval_reference/manifest.json).
+The sole recommendation is to separately govern a verifier-evidence contract
+repair using this independent bound, without rerunning Session 14R yet.
