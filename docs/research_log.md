@@ -1654,3 +1654,24 @@ state or edge was accessed, and the claim ledger is unchanged. The only
 recommendation is to separately govern a fresh Session 14R empirical
 representation retry under the accepted independent-certificate verifier
 contract.
+
+## 2026-09-15 — Session 14R9 pre-access publication blockage
+
+[Phase 14R9](protocols/phase_14r9_continuous_occlusion_empirical_retry.md)
+assembled the accepted certificate and numerical authorities in a fresh
+representation-study wrapper. Retained-observation certificate orchestration,
+actual-runner failure controls, 108/366/399 synthetic acceptance, and the
+synthetic visual passed with zero empirical access.
+
+Staged inspection then found that the final publication checker required a
+public `lifecycle_summary.json`, although the frozen nineteen-artifact contract
+kept lifecycle counters inside QC. The governed checker reproduced the missing
+file failure. The phase stopped under its pre-access rule without repair,
+rerunning gates, creating an empirical attempt marker, or opening development
+geometry. Session 14R9 closes **D — BLOCKED / readiness 3**; all scientific
+comparisons remain unavailable. See the
+[report](session_14r9_continuous_occlusion_empirical_retry.md) and
+[manifest](../outputs/continuous_occlusion_empirical_retry_r9/manifest.json).
+The sole recommendation is to separately govern a bounded R9
+publication-contract diagnosis of the mismatch between the frozen public
+artifact schema and final lifecycle validation, without empirical access.

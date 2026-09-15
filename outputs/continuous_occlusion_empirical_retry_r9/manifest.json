@@ -1,0 +1,53 @@
+{
+  "environment": {
+    "lock": "c9e4da0781770b9e72b8a5b10a7c514f2259b7e63dc1b67604ee481934db0a0c",
+    "matplotlib": "3.11.1",
+    "numpy": "2.5.3",
+    "python": "3.13.15",
+    "scipy": "1.18.1"
+  },
+  "implementation": {
+    "scripts/session_14r9_occlusion_study.py": "21d7cb219fcef9884700e119d15e2c9e131fb08485d1d1ed8d271b434cbb7912",
+    "src/defensive_network_disruption/geometry/r7_representation.py": "b3de1fb1432ae97617d4a29c11694eba3b88e01dda0ba68be60b410372b8c542",
+    "src/defensive_network_disruption/validation/r7_execution.py": "2000018ad1c411b7e4f9935553be41cc848be89b6d072bc3c3560e5f500ebe54",
+    "src/defensive_network_disruption/validation/r8_aggregation.py": "71dfcedf460ae70046443af3f263882238a72b2d12e097e2d16d9a07878f645b",
+    "src/defensive_network_disruption/validation/r9_certificate_orchestration.py": "64268899b3e6f146e033dfe78f424d589dedc1101253e27d2b442f36e0f5a66a",
+    "tests/test_session14r9_enforcement.py": "bfdef29390634aac8488939bcedc38fe9ee51235fb19114d2fd870443609fa86",
+    "tests/test_session14r9_study.py": "e4aac13bd057993a93c102c83164a25071ce94b662f929f41db0afcec8dc5f0b"
+  },
+  "outputs": {
+    "evidence_type_summary.json": "86de722e05a17893af06aba96a259e3540fcbb269c7d68b3ba31a9785796df41",
+    "preaccess_contract.json": "ddda6154b493b0acc4e6576a73d30c81011bfc716ae3f812f2cf431801ce6aa0",
+    "qc.json": "c830f7a85685c96e9496a78967db4fe7b9f3dd41a387f83952c3a04249acb46d",
+    "retained_observation_certificate_gate.json": "3f40a16e967d3a3f38f26185517dd692a85bd13797c89cfd4a05a9179c8265c7",
+    "runner_failure_oracles.json": "a6149b7d2e1fa48c9faf3b0a7a49dfed3ec8aa63e6159bed5eafaab7f4735c5f",
+    "runner_success_oracle.json": "99509282e9b1064e10ef5c298147d4d912bfea2dde7bb74881eb492c4309625f",
+    "synthetic_acceptance.json": "05ca51d437f71615d2856c59ffd97be0ba57b83a9eb5ddfba47cf66c4a0b2255",
+    "synthetic_field_comparison.svg": "8ddd9b97223927bfa3f5ebf36c7123d8b85e154fb67f683cd2f598b675c9128f",
+    "synthetic_stress_summary.json": "1d6c1c86c4bde130508030c1d371fc3f69e3860209ca416c81bf41557a8cd550",
+    "visual_qa.json": "3a14eeaa10bdcb68b8eec555408645d3357c8ee23ce3f082f3fa9b50367cdc55"
+  },
+  "private_evidence_sha256": "92383cd02ba72dbdc55959e4ee2ebace1d2c2c180ff4b0a4ecb7bd0e4cdb7325",
+  "private_manifest_sha256": "4b5021f4207013ccd8f39749bcf4d63c37ba679bef5e2f1faa8893bce3e099d5",
+  "progress_authority": {
+    "journal_sha256": null,
+    "mode": "pre_access",
+    "schema_version": 2,
+    "snapshot": null,
+    "snapshot_sha256": null
+  },
+  "protocol": "e0ec4e3a3a92307c98970c8967426c7d908bd523345f8d1e8c5940495944bc61",
+  "schema_version": 1,
+  "start": "d7a66699f133c36a6148303d3f420336473e58ce",
+  "status": "failure",
+  "unavailable": [
+    "candidate_summary.json",
+    "candidate_pair_comparison.csv",
+    "structural_correspondence.csv",
+    "receiver_corridor_ordering.csv",
+    "union_vs_max.csv",
+    "overlap_redundancy.csv",
+    "multi_edge_summary.csv",
+    "match_summary.csv"
+  ]
+}
