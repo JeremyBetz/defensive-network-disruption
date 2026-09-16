@@ -1,0 +1,23 @@
+{
+  "classification": "C \u2014 CHECKER / REPRESENTATION ABSTRACTION MISMATCH",
+  "environment": {
+    "implementation": "CPython",
+    "python": "3.13.15"
+  },
+  "implementation_sha256": "2d90fdc270551caeb99d9184863df137485365818826a9ca26a47df07d27ef1d",
+  "outputs": {
+    "authority_trace.json": "96492d2875999c4cc61b87da4d32309cbea788606c4eb6737252b0f07ca5eb63",
+    "frozen_schema.json": "60a3dfe3c4ed5efa9cf78e8b9be107e161ecb0cd92dacef192b6459b38ec887f",
+    "lifecycle_field_mapping.json": "f20596aff3e93cf9234add2d0fe2eae473cbbbc610290585d0f644543a40f2a5",
+    "publication_oracles.json": "00c13c1e144e64af168ce7913cb9f574931dada272d81225fc5ce6e1bf596280",
+    "qc.json": "d5cf2b30428c482c049d45ae17a6580c10d2b4eda14e6b35cacaf823ec94b112",
+    "revalidation.json": "30e4fe81bcc9806f0cf6417e719f9a7d17c45d7a706e94b08d8cb0b82c9fe2f4"
+  },
+  "protocol_sha256": "902fee5e1a253e6bc04c0a6c2335bb209793489f1d41c8bd7cf16f4c8794cb20",
+  "r9_manifest_sha256": "4673ac2a12847f4b52944e5913ed3b7c8df9fb29f83a19696b40c259b0819d87",
+  "readiness": 1,
+  "schema_version": 1,
+  "start": "a3b2af244978d60c7e5a32ac573bcdc2d6916a2c",
+  "status": "success",
+  "validator_sha256": "348fabac32d1ca0d01c81733b277717622f44fc09f537611580a231f35bf2e52"
+}

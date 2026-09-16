@@ -1,0 +1,104 @@
+{
+  "authoritative_source": "qc.json.progress_authority",
+  "effect_on_primary_diagnosis": "neither missing datum would be supplied by lifecycle_summary.json; requiring that file cannot repair the omission",
+  "existing_r9_preaccess_qc": {
+    "confirmed_edges_opened": 0,
+    "confirmed_states_opened": 0,
+    "mode": "pre_access",
+    "scientific_comparisons_available": false,
+    "snapshot": null
+  },
+  "fields": [
+    {
+      "classification": "present_exactly",
+      "datum": "package_status",
+      "qc_path": "qc.json.status"
+    },
+    {
+      "classification": "present_exactly",
+      "datum": "validation_context",
+      "qc_path": "qc.json.progress_authority.mode"
+    },
+    {
+      "classification": "present_exactly_when_initialized; pre_access represented by mode",
+      "datum": "lifecycle_status",
+      "qc_path": "qc.json.progress_authority.snapshot.status"
+    },
+    {
+      "classification": "present_exactly_when_initialized; false under pre_access",
+      "datum": "empirical_unlock",
+      "qc_path": "qc.json.progress_authority.snapshot.access_authorized"
+    },
+    {
+      "classification": "unavailable_not_present_in_qc_or_legacy_lifecycle_summary",
+      "datum": "empirical_attempt_marker",
+      "qc_path": null
+    },
+    {
+      "classification": "present_exactly_when_initialized",
+      "datum": "states_discovered",
+      "qc_path": "qc.json.progress_authority.snapshot.counters.states_discovered"
+    },
+    {
+      "classification": "not_explicit; confirmed zero under pre_access and derivable for complete success, unavailable for partial packages",
+      "datum": "states_opened",
+      "qc_path": null
+    },
+    {
+      "classification": "present_exactly_when_initialized",
+      "datum": "edges_opened",
+      "qc_path": "qc.json.progress_authority.snapshot.counters.edges_opened"
+    },
+    {
+      "classification": "present_exactly_when_initialized",
+      "datum": "field_evaluations_started",
+      "qc_path": "qc.json.progress_authority.snapshot.counters.field_evaluations_started"
+    },
+    {
+      "classification": "present_exactly_when_initialized",
+      "datum": "field_evaluations_completed",
+      "qc_path": "qc.json.progress_authority.snapshot.counters.field_evaluations_completed"
+    },
+    {
+      "classification": "present_exactly_when_initialized",
+      "datum": "candidate_work",
+      "qc_path": "qc.json.progress_authority.snapshot.field_work_by_candidate"
+    },
+    {
+      "classification": "present_exactly_when_initialized; true under pre_access",
+      "datum": "exposure_level",
+      "qc_path": "qc.json.progress_authority.snapshot.confirmed_zero_exposure"
+    },
+    {
+      "classification": "present_exactly_when_initialized",
+      "datum": "unresolved_projection_attempts",
+      "qc_path": "qc.json.progress_authority.snapshot.counters.unresolved_projection_attempts"
+    },
+    {
+      "classification": "present_exactly_when_initialized",
+      "datum": "unresolved_exposed_edges",
+      "qc_path": "qc.json.progress_authority.snapshot.counters.unresolved_exposed_edges"
+    },
+    {
+      "classification": "present_exactly_when_initialized",
+      "datum": "active_context",
+      "qc_path": "qc.json.progress_authority.snapshot.active"
+    },
+    {
+      "classification": "present_exactly",
+      "datum": "failure_stage",
+      "qc_path": "qc.json.stage and qc.json.progress_authority.snapshot.failure_stage"
+    },
+    {
+      "classification": "present_exactly",
+      "datum": "publication_success_or_failure",
+      "qc_path": "qc.json.status and qc.json.scientific_comparisons_available"
+    }
+  ],
+  "genuinely_missing_from_both_qc_and_legacy_lifecycle_summary": [
+    "empirical_attempt_marker",
+    "states_opened_for_partial_or_failure_packages"
+  ],
+  "intended_legacy_lifecycle_summary_contents": "the same progress_authority object bound in QC and manifest",
+  "schema_version": 1
+}

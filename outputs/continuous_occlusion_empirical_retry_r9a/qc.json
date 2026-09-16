@@ -1,0 +1,12 @@
+{
+  "bounded_repair": "completed",
+  "classification": "C \u2014 CHECKER / REPRESENTATION ABSTRACTION MISMATCH",
+  "empirical_edges_accessed": 0,
+  "empirical_states_accessed": 0,
+  "numerical_gates_rerun": false,
+  "readiness": 1,
+  "schema_version": 1,
+  "scientific_outputs_interpreted": false,
+  "status": "success",
+  "validator_derived": true
+}

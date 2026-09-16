@@ -1675,3 +1675,26 @@ comparisons remain unavailable. See the
 The sole recommendation is to separately govern a bounded R9
 publication-contract diagnosis of the mismatch between the frozen public
 artifact schema and final lifecycle validation, without empirical access.
+
+## 2026-09-15 — Session 14R9a publication-contract reconciliation
+
+[Phase 14R9a](protocols/phase_14r9a_publication_contract_reconciliation.md)
+traced R9's public `lifecycle_summary.json` requirement to a copied R7/R8
+private/public package assertion. R9's later prospective protocol and frozen
+implementation instead define nineteen public artifacts and bind lifecycle
+authority inside `qc.json.progress_authority`.
+
+The new prospective validator reads that QC authority directly, preserves the
+nineteen-artifact schema, accepts a consistent legacy lifecycle record only as
+an optional cross-check, and rejects conflicts. One read-only governed review
+validated all committed R9 output hashes and both available private bindings
+without rerunning certificate or numerical gates. It accessed zero empirical
+states and edges and inspected no scientific output.
+
+Session 14R9a closes **C — CHECKER / REPRESENTATION ABSTRACTION MISMATCH /
+readiness 1**. Historical R9 remains **D — BLOCKED / readiness 3**. See the
+[report](session_14r9a_publication_contract_reconciliation.md) and
+[manifest](../outputs/continuous_occlusion_empirical_retry_r9a/manifest.json).
+The sole recommendation is to separately govern a fresh Session 14R9 empirical
+execution using the already-passed pre-access scientific/numerical evidence
+under the reconciled publication contract.

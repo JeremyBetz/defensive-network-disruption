@@ -1,0 +1,34 @@
+{
+  "bounded_repair": "validate qc.json.progress_authority directly; keep the nineteen-artifact public schema; treat a legacy lifecycle file as optional and reject conflict",
+  "diagnosis": "C \u2014 CHECKER / REPRESENTATION ABSTRACTION MISMATCH",
+  "exact_origin": {
+    "branch": "unconditional after private validate_persisted",
+    "function": "publication_check",
+    "hardcoded": true,
+    "line": 892,
+    "module": "scripts/session_14r9_occlusion_study.py"
+  },
+  "historical_source": {
+    "historical_public_copy": "Session 14R7/R8 copied the private lifecycle record into the public namespace",
+    "module": "src/defensive_network_disruption/validation/r7_execution.py",
+    "private_required_file_line": 220,
+    "private_validator_function": "validate_persisted"
+  },
+  "precedence": [
+    "committed R9 protocol",
+    "committed R9 nineteen-artifact schema",
+    "tested agreeing R9 implementation",
+    "R9 final checker",
+    "historical schemas"
+  ],
+  "r9_inheritance": {
+    "checker_derives_names_from_schema": false,
+    "frozen_public_schema_excludes_lifecycle_summary": true,
+    "private_package_requirement_retained": true,
+    "public_requirement_explicitly_inherited": false,
+    "publisher_filters_private_files_through_FINAL_FILES": true
+  },
+  "requirement": "public lifecycle_summary.json",
+  "schema_version": 1,
+  "verdict": "R9 retained a valid private lifecycle file but its final checker incorrectly required the same representation publicly after the protocol moved public lifecycle authority into QC."
+}

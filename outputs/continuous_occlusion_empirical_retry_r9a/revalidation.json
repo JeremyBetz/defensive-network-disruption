@@ -1,0 +1,72 @@
+{
+  "all_committed_outputs_matched": true,
+  "checked_public_hashes": {
+    "evidence_type_summary.json": {
+      "matched": true,
+      "sha256": "86de722e05a17893af06aba96a259e3540fcbb269c7d68b3ba31a9785796df41"
+    },
+    "preaccess_contract.json": {
+      "matched": true,
+      "sha256": "ddda6154b493b0acc4e6576a73d30c81011bfc716ae3f812f2cf431801ce6aa0"
+    },
+    "qc.json": {
+      "matched": true,
+      "sha256": "c830f7a85685c96e9496a78967db4fe7b9f3dd41a387f83952c3a04249acb46d"
+    },
+    "retained_observation_certificate_gate.json": {
+      "matched": true,
+      "sha256": "3f40a16e967d3a3f38f26185517dd692a85bd13797c89cfd4a05a9179c8265c7"
+    },
+    "runner_failure_oracles.json": {
+      "matched": true,
+      "sha256": "a6149b7d2e1fa48c9faf3b0a7a49dfed3ec8aa63e6159bed5eafaab7f4735c5f"
+    },
+    "runner_success_oracle.json": {
+      "matched": true,
+      "sha256": "99509282e9b1064e10ef5c298147d4d912bfea2dde7bb74881eb492c4309625f"
+    },
+    "synthetic_acceptance.json": {
+      "matched": true,
+      "sha256": "05ca51d437f71615d2856c59ffd97be0ba57b83a9eb5ddfba47cf66c4a0b2255"
+    },
+    "synthetic_field_comparison.svg": {
+      "matched": true,
+      "sha256": "8ddd9b97223927bfa3f5ebf36c7123d8b85e154fb67f683cd2f598b675c9128f"
+    },
+    "synthetic_stress_summary.json": {
+      "matched": true,
+      "sha256": "1d6c1c86c4bde130508030c1d371fc3f69e3860209ca416c81bf41557a8cd550"
+    },
+    "visual_qa.json": {
+      "matched": true,
+      "sha256": "3a14eeaa10bdcb68b8eec555408645d3357c8ee23ce3f082f3fa9b50367cdc55"
+    }
+  },
+  "empirical_edges_accessed": 0,
+  "empirical_states_accessed": 0,
+  "preaccess_evidence_revalidated_without_recomputation": true,
+  "private_bindings": {
+    "private_evidence_sha256": {
+      "available": true,
+      "matched": true
+    },
+    "private_manifest_sha256": {
+      "available": true,
+      "matched": true
+    }
+  },
+  "private_bindings_matched_when_available": true,
+  "r9_classification_unchanged": "D \u2014 BLOCKED / readiness 3",
+  "r9_historical_status": "failure",
+  "schema_version": 1,
+  "scientific_outputs_interpreted": false,
+  "validator_receipt": {
+    "artifact_count": 19,
+    "lifecycle_representation_source": "qc.json.progress_authority",
+    "optional_legacy_lifecycle_checked": true,
+    "package_status": "failure",
+    "result": "valid",
+    "schema_id": "session14r9_public_artifacts_v1",
+    "schema_version": 1
+  }
+}

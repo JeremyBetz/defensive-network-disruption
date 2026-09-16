@@ -1,0 +1,41 @@
+{
+  "all_passed": true,
+  "numerical_or_scientific_execution": false,
+  "records": [
+    {
+      "oracle": "r9_failure_nineteen_schema",
+      "passed": true,
+      "result": "valid"
+    },
+    {
+      "oracle": "optional_consistent_legacy_lifecycle",
+      "passed": true,
+      "result": "valid"
+    },
+    {
+      "oracle": "conflicting_legacy_lifecycle",
+      "passed": true,
+      "result": {
+        "blocked": true,
+        "category": "legacy_lifecycle_conflict",
+        "exception": "PublicationContractError"
+      }
+    },
+    {
+      "oracle": "missing_qc_lifecycle_field",
+      "passed": true,
+      "result": {
+        "blocked": true,
+        "category": "progress_authority_schema",
+        "exception": "PublicationContractError"
+      }
+    },
+    {
+      "oracle": "stale_twentieth_file_not_required",
+      "passed": true,
+      "result": "nineteen_artifacts"
+    }
+  ],
+  "schema_version": 1,
+  "success_is_validator_derived": true
+}
