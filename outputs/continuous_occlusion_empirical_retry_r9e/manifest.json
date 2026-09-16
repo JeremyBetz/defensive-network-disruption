@@ -1,0 +1,50 @@
+{
+  "environment": {
+    "checkpoint_ci_run_id": 35096976539,
+    "distribution_ci": "success",
+    "lock_sha256": "c9e4da0781770b9e72b8a5b10a7c514f2259b7e63dc1b67604ee481934db0a0c",
+    "python_3_11_ci": "failure",
+    "python_3_13_ci": "failure"
+  },
+  "implementation": {
+    "scripts/session_14r9e_empirical_execution.py": "16e009e9a11d86c6ad6da10d8316c629abbcb9f69361f8ff62a85b5cfc66ea99",
+    "src/defensive_network_disruption/geometry/r9e_representation.py": "3695d2f2f97558d7203db4c16363025adc199480427f88786307a335da997fa9",
+    "src/defensive_network_disruption/validation/r9e_publication.py": "77ec96e2fcd547df1dbd7d093f4a59fef4919cf67fbca8f597555a05257590c3",
+    "tests/test_session14r9e.py": "11172b8500a4cc74dbe83d39b647f4c940509aefcc4a30c54fe5a256adf3d85a"
+  },
+  "outputs": {
+    "qc.json": "d5a727accd3b1ed964351c71620fde7ba70b0617f77263e5b695438890c8550e"
+  },
+  "private_evidence_sha256": "a85f9f2a10ec919c0e0d555c9d6dca2df15962c58e1a5d1fddc566fb98335c1e",
+  "private_manifest_sha256": "756e8f5f55bd6fd63d771ff26576cb34275c2e682714c80fd706fc3b59158a03",
+  "progress_authority": {
+    "journal_sha256": null,
+    "mode": "pre_access",
+    "schema_version": 2,
+    "snapshot": null,
+    "snapshot_sha256": null
+  },
+  "protocol": "baaf970fadeef279e7370124cd05c269ea7a1b7186c4f9993544ad1433b5c67f",
+  "schema_version": 1,
+  "start": "fc7a4da62a64e597acbeccd790f825b6fd35e26c",
+  "status": "blocked",
+  "unavailable": [
+    "preaccess_contract.json",
+    "retained_observation_certificate_gate.json",
+    "runner_failure_oracles.json",
+    "runner_success_oracle.json",
+    "synthetic_acceptance.json",
+    "evidence_type_summary.json",
+    "visual_qa.json",
+    "candidate_summary.json",
+    "structural_correspondence.csv",
+    "candidate_pair_comparison.csv",
+    "receiver_corridor_ordering.csv",
+    "union_vs_max.csv",
+    "overlap_redundancy.csv",
+    "multi_edge_summary.csv",
+    "match_summary.csv",
+    "synthetic_stress_summary.json",
+    "synthetic_field_comparison.svg"
+  ]
+}

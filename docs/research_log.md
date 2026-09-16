@@ -1698,3 +1698,27 @@ readiness 1**. Historical R9 remains **D — BLOCKED / readiness 3**. See the
 The sole recommendation is to separately govern a fresh Session 14R9 empirical
 execution using the already-passed pre-access scientific/numerical evidence
 under the reconciled publication contract.
+
+## 2026-09-16 — Session 14R9E blocked at pre-access CI
+
+[Phase 14R9E](protocols/phase_14r9e_empirical_execution.md) prospectively wired
+the independent-certificate verifier into the empirical maximum path and added
+persisted journal, lifecycle, exposure, and private-evidence validation. Local
+focused, relevant, and full validation passed, including 955 full-suite tests
+with three retained skips.
+
+The required pushed checkpoint failed on both Python 3.11 and Python 3.13. Three
+new R9E tests depended on ignored private Session 14am/14ao records that are not
+present in a clean GitHub checkout. Each CI Python job ran 955 tests and closed
+with 949 passes, three skips, and three `FileNotFoundError` errors; distribution
+CI passed. The frozen pre-access stop rule therefore prevented runner invocation.
+No R9E attempt, preparation, or execution marker was created, and zero empirical
+states and edges were opened.
+
+Session 14R9E closes **D — blocked or invalid / readiness 4**. Scientific
+comparisons are unavailable. R9, R9a, historical numerical authority, field
+formulas, claims, dependencies, released APIs, and `v0.1.0` remain unchanged.
+See the [report](session_14r9e_empirical_execution.md) and
+[manifest](../outputs/continuous_occlusion_empirical_retry_r9e/manifest.json).
+The sole recommendation is to separately govern a bounded diagnosis of
+CI-portable retained-authority fixtures for the R9E pre-access tests.
