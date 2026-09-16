@@ -1722,3 +1722,11 @@ See the [report](session_14r9e_empirical_execution.md) and
 [manifest](../outputs/continuous_occlusion_empirical_retry_r9e/manifest.json).
 The sole recommendation is to separately govern a bounded diagnosis of
 CI-portable retained-authority fixtures for the R9E pre-access tests.
+
+## 2026-09-16 — Session 14R9F CI-portable retained authority
+
+[Phase 14R9F](protocols/phase_14r9f_ci_portable_authority_fixtures.md) traced the three R9E CI failures to two observed ignored records and one latent ignored structural record. It retained empirical identity through committed Session 14ar hashes and added one deterministic hash-only fixture for the exact structural semantics R9E compares. Geometry-to-fingerprint behavior is tested separately with an explicitly synthetic identity; no synthetic value bears empirical certificate identifiers.
+
+Tracked-only archive validation passed 13 tests with all three ignored records absent. The full local suite passed 959 tests with three retained skips, and GitHub Actions Python 3.11, Python 3.13, and distribution all passed. No R9E runner was invoked and empirical access remained zero states and zero edges.
+
+Session 14R9F closes **B — minimal sanitized committed authority fixture required and valid / readiness 1**. Historical R9E remains D/readiness 4. See the [report](session_14r9f_ci_portable_authority_fixtures.md) and [manifest](../outputs/continuous_occlusion_ci_portability/manifest.json). The sole recommendation is to separately govern a fresh R9E empirical execution using the now-CI-portable pre-access tests and existing numerical/publication authority.
