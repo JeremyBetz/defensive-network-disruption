@@ -21,6 +21,7 @@ from .representation_study import VerifiedEdge
 from .verification_audit import controlled_vector
 from .verification_repair import mapped_signature
 from ..validation import independent_certificate_verifier as certificates
+from ..validation import r9f_portable_authority as portable
 
 
 def _canonical(value: object) -> bytes:
@@ -37,6 +38,14 @@ def _warning_identity(item: warnings.WarningMessage) -> tuple[str, str]:
     return f"{cls.__module__}.{cls.__name__}", _sha(str(item.message).encode())
 
 
+def _certify_observation(root: Path, estimate: float, warning_class: str,
+                         warning_hash: str, request: certificates.IntegralRequest):
+    registered, _, _ = certificates.load_session14ar_certificate(root)
+    return certificates.certify_warning(
+        certificates.AdaptiveObservation(float(estimate), warning_class, warning_hash, request),
+        registered)
+
+
 def _runtime_request(root: Path, *, candidate: str, context: dict, lower: float,
                      upper: float, partitions: tuple[float, ...], onsets,
                      switches) -> certificates.IntegralRequest:
@@ -46,13 +55,8 @@ def _runtime_request(root: Path, *, candidate: str, context: dict, lower: float,
     canonical-structure equivalence. No proximity or ordinal-only match exists.
     """
     registered, _, authority = certificates.load_session14ar_certificate(root)
-    selected = {
-        "alias": context["alias"],
-        "carrier": list(map(float, context["origin"])),
-        "defenders": [list(map(float, item)) for item in context["defenders"]],
-        "receiver": list(map(float, context["receiver"])),
-    }
-    selected_hash = _sha(_canonical(selected))
+    fixture = portable.load_fixture(root)
+    selected_hash = portable.selected_geometry_hash(context)
     expected_selected = authority["integrand_specification"]["selected_geometry_authority_hash"]
     if selected_hash != expected_selected:
         raise certificates.CertificateError("authority_mismatch:selected_geometry")
@@ -63,27 +67,8 @@ def _runtime_request(root: Path, *, candidate: str, context: dict, lower: float,
     if certificates.float_bits(float(upper)) != registered.right_endpoint_binary64:
         raise certificates.CertificateError("authority_mismatch:right_endpoint")
 
-    retained = json.loads((root / "outputs/session14am_constant_width_comparator_diagnosis/local/000020_structure.json").read_text())
-    if tuple(retained["partitions"]) != tuple(partitions):
-        raise certificates.CertificateError("authority_mismatch:partitions")
-    observed_onsets = tuple((x.defender_index, x.branch, x.last_pre_branch,
-                             x.first_post_branch, x.raw_scalar_result) for x in onsets)
-    expected_onsets = tuple((x["defender_index"], x["branch"], x["last_pre_branch"],
-                             x["first_post_branch"], x["raw_scalar_result"])
-                            for x in retained["onsets"])
-    if observed_onsets != expected_onsets:
-        raise certificates.CertificateError("authority_mismatch:onsets")
-    observed_switches = tuple((x.last_pre_switch, x.exact_zero_start, x.exact_zero_end,
-                               x.first_post_switch, x.owners_before, x.owners_at,
-                               x.owners_after, x.crossing_pairs) for x in switches)
-    expected_switches = tuple((x["last_pre_switch"], x["exact_zero_start"],
-                               x["exact_zero_end"], x["first_post_switch"],
-                               tuple(x["owners_before"]), tuple(x["owners_at"]),
-                               tuple(x["owners_after"]),
-                               tuple(tuple(pair) for pair in x["crossing_pairs"]))
-                              for x in retained["switches"])
-    if observed_switches != expected_switches:
-        raise certificates.CertificateError("authority_mismatch:switches")
+    if portable.semantic_projection_hash(partitions, onsets, switches) != fixture["semantic_projection_sha256"]:
+        raise certificates.CertificateError("authority_mismatch:structure_semantics")
 
     spec = {
         "interval_identity": "sanitized_terminal_interval_8",
@@ -127,10 +112,7 @@ def _piece(function, lower: float, upper: float, tolerance: float, *, root: Path
     request = _runtime_request(root, candidate=candidate, context=context,
                                lower=lower, upper=upper, partitions=partitions,
                                onsets=onsets, switches=switches)
-    observation = certificates.AdaptiveObservation(float(value), warning_class,
-                                                    warning_hash, request)
-    registered, _, _ = certificates.load_session14ar_certificate(root)
-    return certificates.certify_warning(observation, registered)
+    return _certify_observation(root, float(value), warning_class, warning_hash, request)
 
 
 def _integrate(function, partitions, tolerance, *, root: Path, candidate: str,

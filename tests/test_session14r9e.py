@@ -2,21 +2,16 @@
 from __future__ import annotations
 
 import importlib.util
-import json
 from pathlib import Path
 import tempfile
 import unittest
 from unittest.mock import patch
-import warnings
-
 import numpy as np
-from scipy.integrate import IntegrationWarning
 
-from defensive_network_disruption.geometry import onset_owner_certification as owner
-from defensive_network_disruption.geometry.occlusion_fields import CarrierOriginField
 from defensive_network_disruption.geometry import r7_representation as historical
 from defensive_network_disruption.geometry import r9e_representation as repaired
 from defensive_network_disruption.validation import independent_certificate_verifier as certificate
+from defensive_network_disruption.validation import r9f_portable_authority as portable
 from defensive_network_disruption.validation.r7_execution import Journal, Progress
 from defensive_network_disruption.validation import r9e_publication as publication
 
@@ -27,27 +22,6 @@ SPEC = importlib.util.spec_from_file_location(
 RUNNER = importlib.util.module_from_spec(SPEC)
 assert SPEC.loader is not None
 SPEC.loader.exec_module(RUNNER)
-
-
-def retained_geometry():
-    path = ROOT / "outputs/session14am_constant_width_comparator_diagnosis/local/000010_selected_geometry.json"
-    return json.loads(path.read_text())
-
-
-def retained_structure():
-    record = retained_geometry()
-    base = np.asarray(record["carrier"], dtype=np.float64)
-    end = np.asarray(record["receiver"], dtype=np.float64)
-    defenders = np.asarray(record["defenders"], dtype=np.float64)
-    field = CarrierOriginField("constant_width")
-
-    def function(t):
-        return field.individual_values(
-            base, defenders, base[None, :] + t[:, None] * (end - base)[None, :])
-
-    structure = owner.canonical_geometry(
-        "constant_width", base, end, defenders, function)
-    return record, base, end, defenders, function, structure
 
 
 class Session14R9ETests(unittest.TestCase):
@@ -65,67 +39,47 @@ class Session14R9ETests(unittest.TestCase):
         self.assertEqual(evidence["certificate_evidence"]["strict"]["independently_certified_count"], 0)
 
     def test_runtime_request_is_derived_from_exact_geometry(self):
-        record, base, end, defenders, _, structure = retained_structure()
-        onsets, _, partitions, switches, _ = structure
-        request = repaired._runtime_request(
-            ROOT, candidate="constant_width",
-            context={"alias": record["alias"], "origin": base,
-                     "receiver": end, "defenders": defenders},
-            lower=partitions[-2], upper=partitions[-1],
-            partitions=partitions, onsets=onsets, switches=switches)
-        registered, _, _ = certificate.load_session14ar_certificate(ROOT)
-        self.assertEqual(request.integrand_specification_hash,
-                         registered.integrand_specification_hash)
-        changed = dict(record); changed["receiver"] = [record["receiver"][0] + 1e-12,
-                                                       record["receiver"][1]]
-        with self.assertRaisesRegex(certificate.CertificateError, "selected_geometry"):
-            repaired._runtime_request(
-                ROOT, candidate="constant_width",
-                context={"alias": changed["alias"], "origin": changed["carrier"],
-                         "receiver": changed["receiver"], "defenders": changed["defenders"]},
-                lower=partitions[-2], upper=partitions[-1],
-                partitions=partitions, onsets=onsets, switches=switches)
+        fixture = portable.load_fixture(ROOT)
+        registered, observation, authority = certificate.load_session14ar_certificate(ROOT)
+        self.assertEqual(fixture["selected_geometry_authority_hash"],
+                         authority["integrand_specification"]["selected_geometry_authority_hash"])
+        self.assertEqual(observation.request, certificate.IntegralRequest(
+            registered.interval_identity, registered.left_endpoint_binary64,
+            registered.right_endpoint_binary64, registered.field_family,
+            registered.frozen_parameters, registered.combination,
+            registered.integrand_specification_hash,
+            registered.structural_partition_authority_hash, registered.method_id,
+            registered.provenance_hash, registered.governing_tolerance))
+        synthetic = {"alias": "synthetic", "origin": (0.0, 0.0),
+                     "receiver": (1.0, 0.0), "defenders": ((2.0, 1.0),)}
+        first = portable.selected_geometry_hash(synthetic)
+        changed = {**synthetic, "receiver": (1.0 + 1e-12, 0.0)}
+        self.assertNotEqual(first, portable.selected_geometry_hash(changed))
 
     def test_exact_warning_uses_registered_certificate(self):
-        record, base, end, defenders, function, structure = retained_structure()
-        onsets, _, partitions, switches, _ = structure
         _, retained, _ = certificate.load_session14ar_certificate(ROOT)
-
-        historical_message = json.loads((
-            ROOT / "outputs/session14ao_onset_only_adaptive_convergence/local/000121_piece.json"
-        ).read_text())["message"]
-
-        def warned(*args, **kwargs):
-            warnings.warn(historical_message, IntegrationWarning)
-            return retained.estimate, 2.3e-15
-
-        with patch.object(repaired, "quad", side_effect=warned):
-            result = repaired._piece(
-                function, partitions[-2], partitions[-1], 1e-13, root=ROOT,
-                candidate="constant_width",
-                context={"alias": record["alias"], "origin": base,
-                         "receiver": end, "defenders": defenders},
-                partitions=partitions, onsets=onsets, switches=switches)
+        result = repaired._certify_observation(
+            ROOT, retained.estimate, retained.warning_class,
+            retained.warning_message_sha256, retained.request)
         self.assertEqual(result.status, certificate.SUCCESS_STATUS)
         self.assertEqual((result.adaptive_warning_count,
                           result.independently_certified_count,
                           result.blocking_warning_count), (1, 1, 0))
 
     def test_unmatched_warning_blocks(self):
-        historical_message = json.loads((
-            ROOT / "outputs/session14ao_onset_only_adaptive_convergence/local/000121_piece.json"
-        ).read_text())["message"]
-        def warned(*args, **kwargs):
-            warnings.warn(historical_message, IntegrationWarning)
-            return 0.2, 1e-15
-        with patch.object(repaired, "quad", side_effect=warned), \
-             self.assertRaises(certificate.CertificateError):
-            repaired._piece(
-                lambda t: np.ones((len(t), 1)), 0.0, 1.0, 1e-13, root=ROOT,
-                candidate="isotropic",
-                context={"alias": "synthetic", "origin": (0.0, 0.0),
-                         "receiver": (1.0, 0.0), "defenders": ((2.0, 0.0),)},
-                partitions=(0.0, 1.0), onsets=(), switches=())
+        _, retained, _ = certificate.load_session14ar_certificate(ROOT)
+        wrong = certificate.IntegralRequest(
+            "synthetic", retained.request.left_endpoint_binary64,
+            retained.request.right_endpoint_binary64, retained.request.field_family,
+            retained.request.frozen_parameters, retained.request.combination,
+            retained.request.integrand_specification_hash,
+            retained.request.structural_partition_authority_hash,
+            retained.request.method_id, retained.request.provenance_hash,
+            retained.request.governing_tolerance)
+        with self.assertRaises(certificate.CertificateError):
+            repaired._certify_observation(
+                ROOT, retained.estimate, retained.warning_class,
+                retained.warning_message_sha256, wrong)
 
     def test_progress_derives_state_exposure_from_receipts(self):
         with tempfile.TemporaryDirectory(dir=ROOT) as folder:
