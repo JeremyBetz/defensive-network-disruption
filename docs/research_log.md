@@ -1730,3 +1730,29 @@ CI-portable retained-authority fixtures for the R9E pre-access tests.
 Tracked-only archive validation passed 13 tests with all three ignored records absent. The full local suite passed 959 tests with three retained skips, and GitHub Actions Python 3.11, Python 3.13, and distribution all passed. No R9E runner was invoked and empirical access remained zero states and zero edges.
 
 Session 14R9F closes **B — minimal sanitized committed authority fixture required and valid / readiness 1**. Historical R9E remains D/readiness 4. See the [report](session_14r9f_ci_portable_authority_fixtures.md) and [manifest](../outputs/continuous_occlusion_ci_portability/manifest.json). The sole recommendation is to separately govern a fresh R9E empirical execution using the now-CI-portable pre-access tests and existing numerical/publication authority.
+
+## 2026-09-16 — Session 14R9G blocked by incomplete runtime authority context
+
+[Phase 14R9G](protocols/phase_14r9g_empirical_execution.md) assembled a fresh
+execution namespace after the R9F portability repair. All inherited R9, R9a,
+R9F, certificate, visual, environment, and release hashes matched; focused,
+relevant, full, and tracked-only validation passed.
+
+Before development access, observation of the actual inherited runner boundary
+showed that it passes only alias, state, and edge into the numerical adapter.
+The exact portable certificate matcher requires origin, receiver, and defenders
+to derive its runtime selected-geometry fingerprint. An eligible warning would
+therefore fail authority derivation before exact certificate matching. R9G
+stopped under its implementation-freshness rule. No empirical-attempt,
+preparation, execution, or journal record was created, and zero states and edges
+were opened.
+
+Session 14R9G closes **D — INVALID / BLOCKED / readiness 4**. This is an
+orchestration failure, not evidence about the field representations. Scientific
+comparisons remain unavailable; README, claim ledger, numerical contracts,
+released API, dependencies, and `v0.1.0` remain unchanged. See the
+[report](session_14r9g_empirical_execution.md) and
+[manifest](../outputs/continuous_occlusion_empirical_retry_r9g/manifest.json).
+The sole recommendation is to separately govern a bounded runner
+authority-context wiring diagnosis and repair before any further empirical
+representation retry.

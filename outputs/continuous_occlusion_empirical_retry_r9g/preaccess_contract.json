@@ -1,0 +1,16 @@
+{
+  "certificate_scope": "terminal_interval_8_only",
+  "ready": true,
+  "requirements": {
+    "actual_runner_failure_publication": true,
+    "import_failure_publication": true,
+    "integrity": true,
+    "retained_observation_certificate_orchestration": true,
+    "synthetic_108_366_399": true,
+    "validator_derived_success": true,
+    "zero_empirical_access": true
+  },
+  "schema_version": 1,
+  "status": "passed",
+  "whole_integral_gates_unchanged": true
+}
