@@ -1,0 +1,1 @@
+{"claim_ledger_changed":false,"classification":"A","empirical_access":{"edges":0,"states":0},"existing_wiring_confirmed":true,"mutation_oracles":{"passed":5,"run":5},"no_geometry_reopening":true,"production_repair_required":false,"publication_regression":"passed","readiness":1,"retained_r9g_classification":"D_INVALID_BLOCKED","schema_version":1,"status":"passed"}

@@ -1,0 +1,1 @@
+{"blocking":true,"certificate_lookup_succeeded":false,"failure":"authority_mismatch:interval_identity","fallback_certificate":false,"readiness":false,"request_kind":"synthetic_authority_mutation","schema_version":1,"warning_preserved":true}

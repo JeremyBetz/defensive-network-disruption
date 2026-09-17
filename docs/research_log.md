@@ -1756,3 +1756,30 @@ released API, dependencies, and `v0.1.0` remain unchanged. See the
 The sole recommendation is to separately govern a bounded runner
 authority-context wiring diagnosis and repair before any further empirical
 representation retry.
+
+## 2026-09-16 — Session 14R9H runtime authority-context diagnosis
+
+[Phase 14R9H](protocols/phase_14r9h_runner_authority_context.md) traced the
+actual runner-to-certificate route. R9G had inspected the identifier-only
+metadata argument supplied by `calculate_edge`, but the unchanged lower-level
+evaluator separately receives the numerical geometry, validates it as float64,
+and joins origin, receiver, and ordered defenders into `runtime_context` before
+the independent maximum verifier and authority builder.
+
+One synthetic-only governed acceptance observed that complete join, proved
+identity between calculation and authority geometry, rejected origin, receiver,
+defender, defender-order, and identifier-only false matches, preserved the
+retained Session 14ar warning and exact certificate success, and kept an
+unmatched warning blocking. Failure publication, rerun rejection, and tracked
+checkout portability passed. No production numerical or context repair was
+needed.
+
+Session 14R9H closes **A — RUNNER AUTHORITY CONTEXT CORRECTLY WIRED; FRESH
+EMPIRICAL RETRY AUTHORIZED / readiness 1**. Historical R9G remains **D — invalid
+/ blocked, readiness 4**. Zero empirical states and edges were opened, and no
+scientific result or claim change occurred. See the
+[report](session_14r9h_runner_authority_context.md) and
+[manifest](../outputs/continuous_occlusion_runner_authority_context/manifest.json).
+The sole recommendation is to separately govern a fresh empirical R9 execution
+using the verified runtime authority-context wiring and existing numerical and
+publication authority.

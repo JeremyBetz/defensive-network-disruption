@@ -1,0 +1,6 @@
+oracle,alias_state_edge_unchanged,fingerprint_changed,exact_match_rejected,status
+origin_coordinate,True,True,True,passed
+receiver_coordinate,True,True,True,passed
+defender_coordinate,True,True,True,passed
+defender_order,True,True,True,passed
+identifier_only_false_match,True,True,True,passed
