@@ -1783,3 +1783,28 @@ scientific result or claim change occurred. See the
 The sole recommendation is to separately govern a fresh empirical R9 execution
 using the verified runtime authority-context wiring and existing numerical and
 publication authority.
+
+## 2026-09-17 — Session 14R9I stopped empirical execution
+
+[Phase 14R9I](protocols/phase_14r9i_empirical_execution.md) passed its locked
+pre-access authority, test, clean-checkout, and three-job CI gates, then executed
+once on the already-spent nine-match development geometry. The frozen population
+hash, 7,227-state total, nine match counts, and target-free prepared hash matched.
+All states and 72,270 receiver edges were durably materialized before evaluation.
+
+The run stopped during the fifth state after four states and 40 geometric edges
+completed. The 148th candidate call, `constant_width` on the eighth receiver,
+raised the preserved whole-integral `GateFailure: piecewise_unsplit`; 147 calls
+had completed. No scientific comparison was interpreted. Normal failure
+publication then remained in the previously identified quadratic prefix-replay
+path for more than eight hours total execution and was interrupted under the
+session's stop rule. Independent emergency records retain the original numerical
+exception and the publication interruption, while normal QC and manifest closure
+remain unavailable.
+
+Session 14R9I closes **D — blocked or invalid / readiness 4**. It does not select
+a directional field or change any claim, API, dependency, tolerance, certificate,
+or release. See the [report](session_14r9i_empirical_execution.md). The sole
+recommendation is to separately govern one bounded R9I blocker diagnosis covering
+the recurring whole-integral comparator failure and non-terminating failure-
+publication replay before another empirical representation run.

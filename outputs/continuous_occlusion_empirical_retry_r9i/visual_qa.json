@@ -1,0 +1,15 @@
+{
+  "byte_identical": true,
+  "checks": [
+    "full_frame",
+    "no_clipping",
+    "no_overlapping_headings",
+    "legible_scale",
+    "consistent_extents"
+  ],
+  "height": 800,
+  "schema_version": 1,
+  "status": "approved",
+  "svg_sha256": "8ddd9b97223927bfa3f5ebf36c7123d8b85e154fb67f683cd2f598b675c9128f",
+  "width": 1800
+}
