@@ -93,9 +93,14 @@ def _require_string(value: object, name: str) -> str:
 
 
 def _job_record(job: Mapping[str, object]) -> dict:
-    expected = {"databaseId", "name", "status", "conclusion", "startedAt", "completedAt", "url"}
+    # ``gh run view --json jobs`` returns the documented job summary together
+    # with a steps array.  Steps are deliberately ignored: required job identity
+    # and terminal conclusion are the frozen authority.
+    expected = {"databaseId", "name", "status", "conclusion", "startedAt", "completedAt", "url", "steps"}
     if set(job) != expected:
         raise ValueError("ci_capture_job_schema")
+    if type(job["steps"]) is not list:
+        raise ValueError("ci_capture_steps_schema")
     if type(job["databaseId"]) is not int or job["databaseId"] <= 0:
         raise ValueError("ci_capture_job_id")
     return {

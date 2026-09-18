@@ -23,7 +23,7 @@ def github_run(commit="a" * 40):
     for index, name in enumerate(("distribution", "test (3.11)", "test (3.13)"), 1):
         jobs.append({"databaseId": index, "name": name, "status": "completed", "conclusion": "success",
                      "startedAt": "2026-09-18T00:00:00Z", "completedAt": "2026-09-18T00:01:00Z",
-                     "url": "https://example.invalid/job/" + str(index)})
+                     "url": "https://example.invalid/job/" + str(index), "steps": []})
     return {"databaseId": 10, "headSha": commit, "name": "CI", "workflowName": "CI",
             "status": "completed", "conclusion": "success", "createdAt": "2026-09-18T00:00:00Z",
             "updatedAt": "2026-09-18T00:02:00Z", "url": "https://example.invalid/run/10", "jobs": jobs}
@@ -101,6 +101,11 @@ class ReceiptTests(unittest.TestCase):
                 capture_github_receipt(target, 10, expectation(), command=lambda _: json.dumps(run).encode(),
                                        captured_at="2026-09-18T00:03:00Z")
             self.assertFalse(target.exists())
+
+    def test_capture_rejects_missing_steps_shape(self):
+        run = github_run(); del run["jobs"][0]["steps"]
+        with self.assertRaisesRegex(ValueError, "job_schema"):
+            receipt_from_github(run, expectation(), captured_at="2026-09-18T00:03:00Z")
 
     def test_live_network_failure_does_not_invalidate(self):
         with tempfile.TemporaryDirectory() as d:
