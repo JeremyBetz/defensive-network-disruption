@@ -1808,3 +1808,35 @@ or release. See the [report](session_14r9i_empirical_execution.md). The sole
 recommendation is to separately govern one bounded R9I blocker diagnosis covering
 the recurring whole-integral comparator failure and non-terminating failure-
 publication replay before another empirical representation run.
+
+## 2026-09-18 — Session 14R9J numerical blocker and linear publication diagnosis
+
+[Phase 14R9J](protocols/phase_14r9j_r9i_blocker_diagnosis.md) separated the
+whole-integral numerical failure from failure-publication complexity. One
+authorized linear review verified the retained 30,881-record R9I journal in
+0.507 seconds and recovered the required materialization authority. Only the
+previously exposed retained edge was reopened; no canonical population, provider
+files, other receiver geometry or scientific summaries were inspected.
+
+The unchanged numerical route reproduced `piecewise_unsplit` at
+`onset_adaptive`. A diagnostic-only rigorous interval/Taylor reference established
+production and structural-piece accuracy under their existing gates, and
+onset-only inaccuracy. The discrepancy localizes to an onset interval containing
+a certified switch omitted from that comparator's partition. No warning or
+certificate participated. Numerical classification is **NA**; no numerical
+repair, tolerance change or new certificate was implemented.
+
+The prospective linear publication validator preserved complete authority
+objects, prefix behavior, failure semantics and legacy hash meanings on frozen
+controls. Source counts and synthetic benchmarks demonstrate triangular prefix
+work compounded by cubic projection scans in the historical path; the new path
+uses indexed incremental validation. Publication classification is **PA**, with
+overall **readiness 3** because the numerical blocker remains operationally
+unresolved. R9I remains D/readiness 4; its interrupted publication establishes
+neither natural completion time nor nontermination, and its missing normal
+package remains unavailable. See the [report](session_14r9j_r9i_blocker_diagnosis.md)
+and [manifest](../outputs/continuous_occlusion_r9i_blocker_diagnosis/manifest.json).
+The sole recommendation is to separately govern a bounded onset-only comparator
+repair using certified switch/tie partition authority, preserving production
+estimates and existing agreement tolerances, with the proven linear publication
+validator. No empirical retry or scientific claim change occurred.
