@@ -228,7 +228,6 @@ def governed(folder):
         publication_wall=time.perf_counter()-pstart
         publication_io=evidence.io-pio
         qc.update(publication="PA",readiness=3)
-        e.record(public,"authority.json",flags={"retained_inputs":True})
         stage="numerical"
         try:
             nstart=time.perf_counter();nio=evidence.io
@@ -236,6 +235,7 @@ def governed(folder):
             qc["numerical"]=decision
             if reason=="completed_diagnosis":qc["status"]="complete"
             evidence.save("numerical_closure",{"decision":decision,"reason":reason})
+            e.record(public,"authority.json",flags={"retained_inputs":qc["edges_reopened"]==1})
             numerical_wall=time.perf_counter()-nstart
             numerical_io=evidence.io-nio
         except BaseException as error:
@@ -266,7 +266,12 @@ def main(argv=None):
         from defensive_network_disruption.validation.r9j_evidence import publication_check
         result=publication_check(OUT)
     # No exact empirical values or exception messages are printed.
-    print(json.dumps({"command":args.command,"status":"passed"},sort_keys=True))
+    summary={"command":args.command,"status":"valid"}
+    if args.command=="diagnose":
+        # Valid publication of a failure is not successful numerical execution.
+        q=json.loads((OUT/'qc.json').read_bytes())
+        summary.update({k:q[k] for k in ('status','execution_valid','numerical','publication','readiness')})
+    print(json.dumps(summary,sort_keys=True))
     return result
 
 
