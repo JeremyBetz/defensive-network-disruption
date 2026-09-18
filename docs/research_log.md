@@ -1866,3 +1866,16 @@ the [report](session_14r9k_onset_only_comparator_repair.md) and
 The sole recommendation is to separately govern one fresh empirical
 continuous-occlusion representation retry using the repaired comparator and
 proven linear publication validator.
+
+## 2026-09-18 — Session 14R9L blocked before empirical access
+
+[Phase 14R9L](protocols/phase_14r9l_empirical_representation_retry.md) passed
+its checkpoint CI and frozen population checks. Its single reserved attempt then
+failed when the launcher's internal pre-access GitHub lookup could not connect to
+`api.github.com`. Normal failure validation separately rejected a missing
+traceback binding; independent emergency evidence preserved both exceptions.
+Zero states, edges or candidate calls were opened. Scientific comparisons remain
+unavailable and no candidate was selected. R9L closes **D / readiness 4**. See
+the [report](session_14r9l_empirical_representation_retry.md). The sole
+recommendation is a bounded diagnosis of the pre-access CI lookup and
+failure-traceback publication binding.
