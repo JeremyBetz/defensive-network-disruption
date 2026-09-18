@@ -1840,3 +1840,29 @@ The sole recommendation is to separately govern a bounded onset-only comparator
 repair using certified switch/tie partition authority, preserving production
 estimates and existing agreement tolerances, with the proven linear publication
 validator. No empirical retry or scientific claim change occurred.
+
+## 2026-09-18 — Session 14R9K onset-only comparator repair
+
+[Phase 14R9K](protocols/phase_14r9k_onset_only_comparator_repair.md) replaced the
+prospective onset-only whole-integral comparator with an independent adaptive
+calculation over the complete certified structural partition. Production,
+strict/repeat piecewise verification, certificates, tolerances and historical
+files remain unchanged. Nine analytic controls passed, eleven negative controls
+blocked, and the full 108-case / 366-component / 399-permutation synthetic
+authority remained valid.
+
+After checkpoint CI passed, one governed acceptance reopened only retained R9I
+state 4, receiver 7. Isotropic, expanding and constant-width all passed once;
+the constant-width comparator now includes the certified switch omitted by the
+historical onset-only partition. No comparator certificate or warning
+suppression participated. One linear replay of the 30,881-entry R9I journal
+matched R9J's PA receipt, and later checks used the persisted receipt without
+rereading the journal.
+
+Session 14R9K closes **A — comparator repair valid / readiness 1**. It is
+numerical repair evidence, not a scientific result or candidate selection. See
+the [report](session_14r9k_onset_only_comparator_repair.md) and
+[manifest](../outputs/continuous_occlusion_onset_comparator_repair/manifest.json).
+The sole recommendation is to separately govern one fresh empirical
+continuous-occlusion representation retry using the repaired comparator and
+proven linear publication validator.
