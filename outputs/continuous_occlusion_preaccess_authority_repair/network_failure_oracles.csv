@@ -1,0 +1,12 @@
+case,expected,observed,exception,correct
+valid_offline,pass,pass,,true
+missing_receipt,block,block,FileNotFoundError,true
+wrong_commit,block,block,ValueError,true
+wrong_workflow,block,block,ValueError,true
+pending_run,block,block,ValueError,true
+failed_job,block,block,ValueError,true
+cancelled_job,block,block,ValueError,true
+tampered_binding,block,block,ValueError,true
+missing_job,block,block,ValueError,true
+tampered_receipt,block,block,ValueError,true
+noncanonical_receipt,block,block,ValueError,true

@@ -1,0 +1,12 @@
+case,exception,stage_preserved,traceback_bound,emergency_valid,states_opened,edges_opened,correct
+network_connection,ConnectionError,true,true,true,0,0,true
+dns_failure,OSError,true,true,true,0,0,true
+network_timeout,TimeoutError,true,true,true,0,0,true
+malformed_ci_receipt,ValueError,true,true,true,0,0,true
+wrong_commit_receipt,PermissionError,true,true,true,0,0,true
+marker_collision,FileExistsError,true,true,true,0,0,true
+import_failure,ImportError,true,true,true,0,0,true
+source_integrity,RuntimeError,true,true,true,0,0,true
+population_mismatch,LookupError,true,true,true,0,0,true
+publication_init,ArithmeticError,true,true,true,0,0,true
+failure_publisher,OSError,true,true,true,0,0,true

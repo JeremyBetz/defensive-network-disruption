@@ -1879,3 +1879,26 @@ unavailable and no candidate was selected. R9L closes **D / readiness 4**. See
 the [report](session_14r9l_empirical_representation_retry.md). The sole
 recommendation is a bounded diagnosis of the pre-access CI lookup and
 failure-traceback publication binding.
+
+## 2026-09-18 — Session 14R9M pre-access authority and traceback repair
+
+[Phase 14R9M](protocols/phase_14r9m_preaccess_authority_traceback_repair.md)
+separated authenticated checkpoint-CI acquisition from offline run-time
+validation and bound every prospective pre-access failure to a create-once
+private traceback before lifecycle or publication handling. Eleven CI-receipt
+controls and eleven traceback controls passed. An R9L-style network failure
+closed through the unchanged R9J linear validator with zero states and edges
+opened and valid independent emergency evidence.
+
+The first authenticated receipt acquisition exposed a pre-audit GitHub CLI
+payload-shape defect: job details include a steps array. No receipt or audit
+marker had been written. The narrow parser correction was preserved in a new
+commit and passed fresh Python 3.11, Python 3.13 and distribution CI before the
+single governed synthetic audit. R9M closes **A — BOTH PRE-ACCESS DEFECTS
+REPAIRED / readiness 1**. R9L remains D/readiness 4; R9J PA and R9K
+A/readiness 1 remain unchanged; empirical exposure was 0/0. See the
+[report](session_14r9m_preaccess_authority_traceback_repair.md) and
+[manifest](../outputs/continuous_occlusion_preaccess_authority_repair/manifest.json).
+The sole recommendation is to separately govern one fresh empirical R9 retry
+using the frozen local checkpoint-CI authority, hardened traceback binding, R9K
+comparator and R9J linear validator.

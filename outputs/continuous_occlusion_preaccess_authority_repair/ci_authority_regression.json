@@ -1,0 +1,1 @@
+{"checkpoint_commit":"3605334eeae6bf427690339b177332cb8a997fa4","live_comparison_required":false,"offline_validation":true,"receipt_sha256":"313ac49557978900dc0cb1453657317d532df9a11245b1ec091b537c4c12141b","required_jobs":["distribution","test (3.11)","test (3.13)"],"run_id":35402000325,"schema_version":1,"status":"pass"}
