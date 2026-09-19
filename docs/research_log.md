@@ -1902,3 +1902,22 @@ A/readiness 1 remain unchanged; empirical exposure was 0/0. See the
 The sole recommendation is to separately govern one fresh empirical R9 retry
 using the frozen local checkpoint-CI authority, hardened traceback binding, R9K
 comparator and R9J linear validator.
+
+## 2026-09-19 — Session 14R9N blocked during empirical execution
+
+[Phase 14R9N](protocols/phase_14r9n_empirical_representation_retry.md) passed
+its implementation, checkpoint CI, offline CI-authority, population and
+preparation gates. All 7,227 states and 72,270 edges were durably materialized
+without target access. Evaluation completed five states, 50 edges and 168
+candidate calls before a new expanding-field owner-certification failure:
+`nonzero_inside_switch_equality_interval`. The earlier repaired R9I edge had
+already passed.
+
+R9M preserved the original exception and traceback. Normal failure publication
+did not complete because the wrapper's `Progress.failure()` path still invoked
+historical prefix replay; a separate publication-failure traceback was
+preserved. No partial scientific result is interpreted. R9N closes **D —
+INVALID / BLOCKED, readiness 4**. See the
+[report](session_14r9n_empirical_representation_retry.md). The sole
+recommendation is one bounded diagnosis of the new expanding-field
+switch-equality certification failure and the non-linear failure-closure path.
