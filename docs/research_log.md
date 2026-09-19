@@ -1921,3 +1921,18 @@ INVALID / BLOCKED, readiness 4**. See the
 [report](session_14r9n_empirical_representation_retry.md). The sole
 recommendation is one bounded diagnosis of the new expanding-field
 switch-equality certification failure and the non-linear failure-closure path.
+
+## 2026-09-19 — Session 14R9O stopped at journal-count authority
+
+[Phase 14R9O](protocols/phase_14r9o_switch_equality_failure_diagnosis.md)
+committed diagnostic tooling and a prospective linear terminal adapter before
+one governed retained-journal review. The R9N raw hash and chain validated, but
+the journal contained 31,161 records against the protocol's required 30,881.
+The shared authority gate stopped both branches before geometry or governed
+controls. No count correction or rerun occurred. R9O closes **NF / PD / readiness
+4**, with zero states and edges reopened; R9N remains D/readiness 4. Development
+tests support the prospective adapter, but no governed PA claim is made. The
+[report](session_14r9o_switch_equality_failure_diagnosis.md) records the validation
+counts and unavailable findings. The sole recommendation is a separately
+governed bounded reconciliation of R9O's journal-count authority with the
+hash-verified R9N evidence before authorizing another diagnosis.
