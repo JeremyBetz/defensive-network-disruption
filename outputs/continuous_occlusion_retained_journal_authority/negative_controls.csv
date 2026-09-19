@@ -1,0 +1,10 @@
+fixture,status,blocked,reason
+correct_count_wrong_hash,blocked,true,LifecycleError
+tampered_record,blocked,true,LifecycleError
+truncated_journal,blocked,true,LifecycleError
+appended_record,blocked,true,LifecycleError
+broken_chain,blocked,true,LifecycleError
+wrong_terminal_failure,blocked,true,LifecycleError
+wrong_traceback,blocked,true,LifecycleError
+missing_receipt,blocked,true,LifecycleError
+supplied_count_override,blocked,true,TypeError

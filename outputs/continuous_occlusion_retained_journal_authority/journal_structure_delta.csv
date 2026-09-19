@@ -1,0 +1,14 @@
+action,r9i_count,r9n_count,delta,explanation
+access_authorized,1,1,0,unchanged_lifecycle_structure
+edge_completed,40,50,10,additional_completed_work
+failure,1,1,0,unchanged_lifecycle_structure
+field_completed,147,168,21,additional_candidate_work
+field_started,148,169,21,additional_candidate_work
+initialized,1,1,0,unchanged_lifecycle_structure
+numerical_stage,1626,1852,226,additional_completed_evaluation_work
+projection_attempt,7227,7227,0,unchanged_lifecycle_structure
+projection_materialized,7227,7227,0,unchanged_lifecycle_structure
+state_completed,4,5,1,additional_completed_work
+state_discovered,7227,7227,0,unchanged_lifecycle_structure
+state_evaluation_started,5,6,1,additional_started_work
+state_prepared,7227,7227,0,unchanged_lifecycle_structure

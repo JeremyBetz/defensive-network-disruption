@@ -1936,3 +1936,29 @@ tests support the prospective adapter, but no governed PA claim is made. The
 counts and unavailable findings. The sole recommendation is a separately
 governed bounded reconciliation of R9O's journal-count authority with the
 hash-verified R9N evidence before authorizing another diagnosis.
+
+## 2026-09-19 — Session 14R9P retained-journal authority reconciliation
+
+[Phase 14R9P](protocols/phase_14r9p_retained_journal_authority_reconciliation.md)
+resolved R9O's count mismatch through one metadata-only review. The count
+30,881 was traced to R9I and was not asserted as R9N count authority by either
+the R9N protocol or report. Separate immutable descriptors then validated the
+exact R9I and R9N raw hashes, canonical encoding, sequence, hash chains,
+terminal contexts, traceback bindings, materialization receipts and derived
+lifecycle authority using R9J's single-pass reviewer.
+
+The R9N journal contains 31,161 records. Its exact 280-record increase over R9I
+is 226 numerical-stage events, 21 candidate starts, 21 candidate completions,
+10 edge completions, one state completion and one state-evaluation start. No
+other safe action count changed and no unexplained duplicate remained. Record
+count is prospectively **CB — derived consistency fact**, not a caller-supplied
+access gate. Nine negative controls blocked and persisted publication validation
+passed.
+
+R9P closes **A — authority reconciled; R9N journal valid for retained-edge
+diagnosis / readiness 1** with zero empirical states or edges opened and no
+numerical or scientific work. R9O remains NF/PD/readiness 4. See the
+[report](session_14r9p_retained_journal_authority_reconciliation.md) and
+[manifest](../outputs/continuous_occlusion_retained_journal_authority/manifest.json).
+The sole recommendation is to separately govern the bounded R9N expanding-field
+switch-equality diagnosis using the reconciled retained-journal authority.
