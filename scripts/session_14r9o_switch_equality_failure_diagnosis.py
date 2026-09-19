@@ -127,6 +127,15 @@ def diagnose(folder=OUT):
     try:
         from defensive_network_disruption.validation.r9j_linear_publication import review
         from defensive_network_disruption.geometry import r9o_diagnosis as d
+        retained={
+            'original_failure.json':'12a8fbf3e61fdc7f5197458bef2303148dbbf6eba77d0e884dee7ee54c7aeee9',
+            'numerical_traceback.txt':'6d8cf23e2486fd161878260501975e9ec4409eab27bf91ee811be78e0bc3834c',
+            'emergency_failure.json':'8acf7a829c83858888bedd8c26655c4383676c280fa04143e8926c1f76cfdc6a',
+            'publication_failure.json':'0107fbf0237287f836c43685a797adf5835eb2b990139703bf6a8eaec8b862d5',
+            'publication_traceback.txt':'21d1b6cdd701879d5bed4131265345781b63a5416008143e3fb28f5ecc4feb65',
+        }
+        for name,expected in retained.items():
+            if sha(OLD/name)!=expected:raise RuntimeError('retained_failure_hash')
         authority=review(OLD/'journal.jsonl',expected_sha256=JOURNAL,select=('5','8'))
         h=save('retained_review',authority.record())
         count=authority.records
