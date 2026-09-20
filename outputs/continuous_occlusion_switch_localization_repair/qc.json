@@ -1,0 +1,1 @@
+{"classification":"D","counts":{"cases_passed":108,"cases_run":108,"negative_blocked":9,"permutations_passed":399,"references_passed":366,"references_requested":366,"topology_passed":14},"edges_reopened":1,"execution_valid":true,"exposure_uncertain":false,"readiness":3,"reason":"retained_unresolved","schema_version":1,"states_reopened":1,"status":"blocked"}

@@ -1995,3 +1995,38 @@ The sole recommendation is to separately govern a bounded repair of switch
 localization's non-monotone binary64 sign assumptions while preserving the
 existing prospective linear terminal adapter. No repair or empirical retry was
 executed.
+
+## 2026-09-19 — Session 14R9R switch-localization repair
+
+[Phase 14R9R](protocols/phase_14r9r_switch_localization_repair.md) froze a
+prospective localization adapter separating mathematical root evidence from
+production binary64 transition records. The protocol preceded implementation;
+the tested checkpoint passed distribution, Python 3.11 and Python 3.13 CI before
+its immutable local receipt authorized the single governed acceptance.
+
+All 14 topology controls and nine negative controls passed their specified
+outcomes. The actual adapter preserved 108 historical cases, 366 references and
+399 mapped permutations. It then reopened only R9Q's authorized retained edge
+and invoked the expanding candidate once. A candidate region received mathematical
+class B, but ordered inspection of 65 production floats stopped with
+`binary64_nonmonotone_unresolved` at owner certification. No canonical transition
+or complete retained candidate result was accepted. Downstream verification and
+the explicit R9Q root-free-region comparison remain unavailable. No repair,
+second edge, alternate candidate or rerun followed exposure.
+
+The original traceback and failure were preserved. The unchanged terminal adapter
+used one linear review of the new diagnostic journal; five publication controls
+and the actual persisted failure package passed without legacy replay. Nine public
+artifacts and their private index passed publication checking. Exposure was one
+retained state and one edge, with no uncertainty. Missing ordered production-sign
+traces and isolation-iteration counts were recorded as limitations, not rebuilt.
+
+R9R closes **D / execution valid / operational readiness 3**. R9Q remains
+NC / topology I / PA / readiness 3; earlier classifications and historical bytes
+remain unchanged. No scientific result, claim, tolerance, certificate, dependency
+or released API changed. See the
+[report](session_14r9r_switch_localization_repair.md) and
+[manifest](../outputs/continuous_occlusion_switch_localization_repair/manifest.json).
+The sole recommendation is to separately govern a bounded binary64-transition
+diagnosis that retains every inspected float/sign and resolves compatibility with
+the frozen first-post-transition convention. No next phase was executed.
