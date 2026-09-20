@@ -2030,3 +2030,43 @@ or released API changed. See the
 The sole recommendation is to separately govern a bounded binary64-transition
 diagnosis that retains every inspected float/sign and resolves compatibility with
 the frozen first-post-transition convention. No next phase was executed.
+
+
+## 2026-09-20 — Session 14R9S binary64 transition trace diagnosis
+
+[Phase 14R9S](protocols/phase_14r9s_binary64_transition_trace_diagnosis.md)
+froze one unchanged transition inspection using retained R9R authority, without
+full-candidate evaluation, localization, integration or reference recomputation.
+Before access, the user authorized a fourth commit in the phase chronology for a
+bounded authority-reader correction. Published implementation history was
+preserved. The corrected checkpoint passed Python 3.11, Python 3.13 and
+distribution CI; its immutable local receipt and offline preflight preceded the
+single diagnosis.
+
+Ten synthetic trace controls and five publication controls passed. The retained
+inspection reopened one state and edge and reproduced
+`binary64_nonmonotone_unresolved` with a complete 65-probe trace, one exact zero,
+three strict sign reversals and five ternary-state changes. Pattern F establishes
+local production-transition ambiguity; it does not establish extra mathematical
+roots, mathematical interval equality or a rounding cause. R9Q's smaller
+root-free-region authority and R9R's mathematical crossing evidence remain
+separate. The final inspected window is complete; the outer structural region
+was not exhaustively probed.
+
+The unchanged terminal adapter preserved the original rejection and traceback,
+used one R9J linear review of the new ten-record journal, and reused its immutable
+authority. No historical replay occurred. Nine public artifacts and 234 private
+hash-bound records passed persisted publication validation. No exposure receipt
+is unresolved; zero completed candidate calls or geometric edges are claimed.
+No repair, alternate candidate, second edge or rerun followed exposure.
+
+R9S closes **BC / pattern F / PA / execution valid / diagnostic readiness 1**.
+Operational repair remains unresolved. R9R remains D/readiness 3; all historical
+artifacts, claims, tolerances, certificates, dependencies and released API remain
+unchanged. See the
+[report](session_14r9s_binary64_transition_trace_diagnosis.md) and
+[manifest](../outputs/continuous_occlusion_binary64_transition_trace/manifest.json).
+The sole recommendation is to separately govern a binary64-transition contract
+repair for oscillatory production-sign neighborhoods, preserving mathematical
+root authority and fail-closed structural certification. No recommendation or
+empirical retry was executed.
