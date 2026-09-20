@@ -39,6 +39,17 @@ class AuthorityTests(unittest.TestCase):
         with patch.object(authority,'SOURCES',sources),patch.object(old.PairAuthority,'bounds',side_effect=AssertionError('new_reference')):
             args,ref,structures=authority.context(source_records())
             self.assertEqual((args['before'],args['after']),(-1,1));self.assertTrue(ref['one_crossing']);self.assertEqual(structures['status'],'uncertified')
+    def test_enclosure_overlap_is_not_a_root_assertion(self):
+        sources=dict(authority.SOURCES)
+        for k in ('selected','attempt','review'):sources[k]=('synthetic','synthetic','synthetic_'+k)
+        records=source_records()
+        records['root']['value']=[primitive(F(49,100)),primitive(F(51,100))]
+        records['excluded']['left']=primitive(F(48,100));records['excluded']['right']=primitive(F(1,2))
+        with patch.object(authority,'SOURCES',sources):
+            args,ref,structures=authority.context(records)
+            self.assertTrue(t.relation(.5,ref)['excluded_region'])
+            self.assertEqual(t.relation(.5,ref)['root_relation'],'inside')
+
     def test_missing_inconsistent_authority(self):
         sources=dict(authority.SOURCES)
         for k in ('selected','attempt','review'):sources[k]=('synthetic','synthetic','synthetic_'+k)

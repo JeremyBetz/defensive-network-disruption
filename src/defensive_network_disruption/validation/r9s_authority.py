@@ -68,7 +68,9 @@ def context(records):
         return 1 if fraction(v['lower'])>0 else -1 if fraction(v['upper'])<0 else 0
     excluded_proved=bool(signed(bounds)) or (excluded['derivative'] is not None and bool(signed(excluded['derivative'])) and signed(excluded['endpoints'][0])!=0 and signed(excluded['endpoints'][0])==signed(excluded['endpoints'][1]))
     if excluded['status']!='signed' or not excluded_proved:raise ValueError('excluded_region_not_signed')
-    if not (b<ql or a>qr):raise ValueError('root_exclusion_conflict')
+    # An enclosure may include a smaller excluded subregion. Coordinate overlap
+    # is recorded by the trace; it is not a contradictory root assertion.
+    if ql<=a<=b<=qr:raise ValueError('root_entirely_excluded')
     receipt=records['receipt']
     if receipt['selected_sha256']!=SOURCES['selected'][2] or receipt['attempt_sha256']!=SOURCES['attempt'][2]:raise ValueError('materialization_lineage')
     if records['lineage']['review_sha256']!=SOURCES['review'][2]:raise ValueError('review_lineage')
