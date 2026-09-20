@@ -1962,3 +1962,36 @@ numerical or scientific work. R9O remains NF/PD/readiness 4. See the
 [manifest](../outputs/continuous_occlusion_retained_journal_authority/manifest.json).
 The sole recommendation is to separately govern the bounded R9N expanding-field
 switch-equality diagnosis using the reconciled retained-journal authority.
+
+## 2026-09-19 — Session 14R9Q expanding switch-equality diagnosis
+
+[Phase 14R9Q](protocols/phase_14r9q_expanding_switch_equality_diagnosis.md)
+validated the retained R9N journal once through the R9P descriptor, matched its
+immutable receipt, and reopened only the authorized retained state and edge.
+The unchanged R9K expanding route reproduced
+`nonzero_inside_switch_equality_interval` at owner certification. The original
+exception and traceback were preserved.
+
+Observed binary64 probes refuted the monotonicity assumption used by the
+before-sign search. Independent exact-input interval arithmetic excluded every
+mathematical root from the attempted equality region in one signed cell, with
+no unresolved cells. The attempted canonical record remained uncertified; no
+replacement root, point-to-interval promotion, or downstream scientific result
+was inferred. Eleven frozen synthetic controls passed before retained access.
+
+Five governed publication controls verified the unchanged prospective R9O
+terminal adapter: synchronized traceback, one terminal event, one R9J linear
+review, immutable authority reuse, independent publication-failure preservation
+and rejection of repeated execution. Legacy replay tripwires were never reached.
+The nine public artifacts and private index passed persisted publication checks.
+
+R9Q closes **NC / topology I / PA / execution valid / operational readiness 3**.
+Exposure was one retained state and edge, without uncertainty. R9N, R9O and R9P
+historical classifications remain unchanged. Numerical code, tolerances,
+certificates, claims and released software remain unchanged. See the
+[report](session_14r9q_expanding_switch_equality_diagnosis.md) and
+[manifest](../outputs/continuous_occlusion_expanding_switch_equality_diagnosis/manifest.json).
+The sole recommendation is to separately govern a bounded repair of switch
+localization's non-monotone binary64 sign assumptions while preserving the
+existing prospective linear terminal adapter. No repair or empirical retry was
+executed.
