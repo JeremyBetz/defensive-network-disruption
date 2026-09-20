@@ -2070,3 +2070,42 @@ The sole recommendation is to separately govern a binary64-transition contract
 repair for oscillatory production-sign neighborhoods, preserving mathematical
 root authority and fail-closed structural certification. No recommendation or
 empirical retry was executed.
+
+
+## 2026-09-20 — Session 14R9T canonical binary64 transition contract repair
+
+[Phase 14R9T](protocols/phase_14r9t_binary64_transition_contract_repair.md)
+froze a complete terminal-suffix convention requiring at least two strict
+post-crossing floats, valid mathematical pre-side authority and strict structural
+confirmation. Historical mathematical localization, production estimation,
+owner certification, R9K verification, tolerances and certificates were preserved.
+The tested implementation passed full local and clean tracked-only validation
+and all three checkpoint CI jobs before an immutable local CI receipt and
+offline preflight enabled the single governed acceptance.
+
+All 15 synthetic trace controls and 10 negative controls passed. The actual R9T
+adapter preserved 108 cases, 366 references and 399 mapped permutations against
+unchanged R9R/R9K authority. The complete retained 65-probe R9S trace resolved
+with a 21-float terminal suffix and zero additional trace probes. Only then was
+one retained state/edge materialized with a durable receipt. The sole expanding
+invocation completed its unchanged downstream gates and matched the saved
+canonicalization. No adaptive warning, certificate use or exposure uncertainty
+occurred. No other edge, candidate, population, target or scientific product was
+opened, and no repair or rerun followed exposure.
+
+Five publication controls passed. Diagnostic success used one R9J linear review
+and immutable authority reuse; ordinary three-candidate edge/state completion
+counts remain zero. Ten public artifacts and 521 hash-bound private records
+passed persisted publication validation. Governed wall time was 447.526924
+seconds. The result supports **A / readiness 1 / execution valid**, subject to
+the final delivery gates recorded in the handoff. It supplies a finite binary64
+representation convention, not stability beyond the inspected window or a
+scientific field-comparison result. R9S and all earlier classifications remain
+historical and unchanged.
+
+See the [report](session_14r9t_binary64_transition_contract_repair.md) and
+[manifest](../outputs/continuous_occlusion_binary64_transition_contract_repair/manifest.json).
+The sole recommendation is to separately govern one fresh empirical
+continuous-occlusion representation retry using the repaired switch localization
+and canonical binary64 transition contract, R9K comparator, R9J linear publication
+validator, and R9M local checkpoint-CI authority. No recommendation was executed.
