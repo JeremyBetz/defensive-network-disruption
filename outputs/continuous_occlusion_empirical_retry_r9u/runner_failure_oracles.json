@@ -1,0 +1,34 @@
+{
+  "all_valid": true,
+  "records": [
+    {
+      "injection": "package_import",
+      "rerun_rejected": true,
+      "runner_caught": true,
+      "status": "valid_failure",
+      "validator_passed": true
+    },
+    {
+      "injection": "post_marker",
+      "rerun_rejected": true,
+      "runner_caught": true,
+      "status": "valid_failure",
+      "validator_passed": true
+    },
+    {
+      "injection": "certificate_authority",
+      "rerun_rejected": true,
+      "runner_caught": true,
+      "status": "valid_failure",
+      "validator_passed": true
+    },
+    {
+      "injection": "publication",
+      "rerun_rejected": true,
+      "runner_caught": true,
+      "status": "valid_failure",
+      "validator_passed": true
+    }
+  ],
+  "schema_version": 1
+}

@@ -2109,3 +2109,31 @@ The sole recommendation is to separately govern one fresh empirical
 continuous-occlusion representation retry using the repaired switch localization
 and canonical binary64 transition contract, R9K comparator, R9J linear publication
 validator, and R9M local checkpoint-CI authority. No recommendation was executed.
+
+
+## 2026-09-21 — Session 14R9U empirical representation retry
+
+[Phase 14R9U](protocols/phase_14r9u_empirical_representation_retry.md) froze one
+fresh label-free development run using the R9T canonical transition contract,
+R9R localization, R9K comparator, R9J linear publication and R9M offline CI and
+traceback authority. Tested orchestration commit `866ed46` passed distribution,
+Python 3.11 and Python 3.13 checkpoint CI before its create-once receipt enabled
+offline preflight and the single empirical attempt.
+
+Target-free preparation durably opened all 7,227 states and 72,270 edges with no
+unresolved projection receipt. The run completed 10 states, 100 edges and 322
+candidate calls before stopping at the first new failure,
+`VerificationError: tie_boundary_not_maximal`, during constant-width owner
+certification. R9M preserved the original traceback and R9J completed one linear
+review. Normal failure publication then failed independently with
+`FileExistsError: immutable_record_exists`; its separate traceback and emergency
+evidence were preserved. The frozen checker found no manifest, so missing
+failure artifacts were not regenerated.
+
+R9U closes **D — blocked / invalid, readiness 4**. No scientific rows are
+interpreted and no candidate is selected. Accessibility remains **PROXY ONLY**
+and suppression **NOT SUPPORTABLE**. See the
+[report](session_14r9u_empirical_representation_retry.md). The sole
+recommendation is a separately governed bounded diagnosis of the new
+tie-boundary failure and the independent immutable-record publication failure.
+No diagnosis or retry was executed.
