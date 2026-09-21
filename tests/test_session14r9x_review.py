@@ -26,8 +26,26 @@ class RetentionReviewTests(unittest.TestCase):
                 raise AssertionError("selected_edge_opened")
             return original(path, *args, **kwargs)
 
-        with patch.object(Path, "open", guarded):
-            result = runner._metadata_review()
+        with tempfile.TemporaryDirectory(dir=ROOT / "outputs") as temporary:
+            fixture = Path(temporary)
+            local = fixture / "local"
+            local.mkdir(parents=True)
+            files = {
+                "boundary_capture.json": "1" * 64,
+                "selected_edge.json": "2" * 64,
+                "reference_result.json": "3" * 64,
+            }
+            statuses = (["maximum"] * 36 + ["dominated"] * 44 + ["unresolved"])
+            for ordinal, status in enumerate(statuses):
+                name = f"reference_reference_cell_{ordinal:03d}.json"
+                path = local / name
+                path.write_bytes(runner.canonical({"ordinal": ordinal, "depth": 80,
+                    "pair_status": "equal", "maximum_status": status}))
+                files[name] = runner.sha(path)
+            (local / "private_index.json").write_bytes(runner.canonical(
+                {"schema_version": 1, "files": files}))
+            with patch.object(runner, "R9V", fixture), patch.object(Path, "open", guarded):
+                result = runner._metadata_review()
         self.assertEqual(result["cells"], 81)
         self.assertEqual(result["counts"], {"maximum": 36, "dominated": 44,
                                              "unresolved": 1})
