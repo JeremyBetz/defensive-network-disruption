@@ -1,0 +1,1 @@
+{"counts":{"journal_records":33223},"evidence_sha256":"2abe5f916265275a94c157bd1a93c55f96d352863cbdce618a40418af3a2ebc6","flags":{"bindings_valid":true,"journal_valid":true,"receipt_match":true,"terminal_match":true,"traceback_match":true},"reason":"retained_authority_valid","schema_version":1,"status":"complete","timings":{}}

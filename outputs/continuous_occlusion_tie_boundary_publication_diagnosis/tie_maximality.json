@@ -1,0 +1,1 @@
+{"counts":{"cells":81,"dominated_cells":44,"unresolved_cells":1},"evidence_sha256":"2abe5f916265275a94c157bd1a93c55f96d352863cbdce618a40418af3a2ebc6","flags":{"complete":false,"extension_available":false,"globally_maximal":true,"pair_equal":true,"third_defender_dominance":true},"reason":"independent_reference","schema_version":1,"status":"partial","timings":{}}

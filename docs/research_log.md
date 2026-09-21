@@ -2137,3 +2137,26 @@ and suppression **NOT SUPPORTABLE**. See the
 recommendation is a separately governed bounded diagnosis of the new
 tie-boundary failure and the independent immutable-record publication failure.
 No diagnosis or retry was executed.
+
+
+## 2026-09-21 — Session 14R9V tie-boundary and publication diagnosis
+
+[Phase 14R9V](protocols/phase_14r9v_tie_boundary_and_publication_diagnosis.md)
+authorized one retained constant-width edge and an independent prospective
+publication repair. The exact R9U `tie_boundary_not_maximal` failure reproduced
+through the unchanged R9T route. Exact-input interval evidence established both
+third-defender-dominated and globally maximal portions, but one depth-80 cell
+remained unresolved, so the numerical branch closes **NF — insufficient
+evidence** without repair or rerun.
+
+The publication traceback confirmed duplicate ownership of
+`linear_authority.json`. The prospective single-writer adapter passed all nine
+success, failure and ownership controls with one R9J review and read-only
+package validation, earning **PA**. R9V closes execution-valid at **readiness
+3** after reopening one retained state/edge with confirmed exposure. No
+scientific result was interpreted. See the
+[report](session_14r9v_tie_boundary_and_publication_diagnosis.md) and
+[manifest](../outputs/continuous_occlusion_tie_boundary_publication_diagnosis/manifest.json).
+The sole recommendation is a separately governed interval-only independent
+bound for the one unresolved terminal cell, without another field invocation
+or empirical retry. No recommendation was executed.
