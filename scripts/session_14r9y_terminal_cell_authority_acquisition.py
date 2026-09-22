@@ -35,7 +35,10 @@ def preflight(folder=OUT):
     for name in ("review.marker","access.marker","authority.marker","closure.marker"):
         if (local/name).exists(): raise FileExistsError("governed_attempt_exists")
     from defensive_network_disruption.validation.checkpoint_ci_authority import validate_receipt
-    receipt=local/"checkpoint_ci.json"; sidecar=local/"checkpoint_ci.sha256"
+    # The generic capture tool appends ``.sha256`` to the complete receipt
+    # filename.  Use a new create-once name so the superseded checkpoint
+    # receipt remains immutable after a corrected implementation commit.
+    receipt=local/"checkpoint_ci_v2.json"; sidecar=local/"checkpoint_ci_v2.json.sha256"
     ci=validate_receipt(receipt,expectation(),expected_sha256=sidecar.read_text().strip())
     return {"head":git("rev-parse","HEAD"),"protocol_sha256":sha(PROTOCOL),
             "runner_sha256":sha(Path(__file__)),"ci_receipt_sha256":ci.receipt_sha256}

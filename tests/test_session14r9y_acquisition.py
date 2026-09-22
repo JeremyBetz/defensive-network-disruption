@@ -62,4 +62,10 @@ class R9YTests(unittest.TestCase):
         for token in ("classify_terminal(",".bounds(","evaluate_edge(","prepared.jsonl","provider"):
             self.assertNotIn(token,source)
 
+    def test_runner_uses_capture_tool_sidecar_and_preserves_old_receipt(self):
+        source=(ROOT/"scripts/session_14r9y_terminal_cell_authority_acquisition.py").read_text()
+        self.assertIn('receipt=local/"checkpoint_ci_v2.json"',source)
+        self.assertIn('sidecar=local/"checkpoint_ci_v2.json.sha256"',source)
+        self.assertNotIn('sidecar=local/"checkpoint_ci.sha256"',source)
+
 if __name__=="__main__": unittest.main()
