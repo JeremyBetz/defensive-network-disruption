@@ -1,0 +1,6 @@
+control,expected,observed,ordered,retains_both,passed
+exact_duplicate,symbolic_identity,symbolic_identity,true,false,true
+common_inactive_branch,common_inactive_branch,common_inactive_branch,true,true,true
+distinct_unresolved,unresolved_distinct,unresolved_distinct,true,true,true
+tolerance_only,unresolved_tolerance_only,unresolved_tolerance_only,true,true,true
+collapse_loses_distinct_authority,loss_detected,loss_detected,true,false,true

@@ -2208,3 +2208,31 @@ passed persisted publication validation. See the
 The sole recommendation is to separately govern one bounded diagnosis of the
 terminal-cell pair-authority identity mismatch using the retained R9Y evidence,
 with zero further empirical reopening. No recommendation was executed.
+
+
+## 2026-09-22 — Session 14R9Z pair-authority and failure-evidence diagnosis
+
+[Phase 14R9Z](protocols/phase_14r9z_pair_authority_failure_evidence_diagnosis.md)
+performed one metadata-only diagnosis of the two R9Y execution defects. The
+review established that R9X's frozen schema required two pair references while
+both version-1 creation and loading imposed exact coefficient-hash identity.
+Provider-free exact-rational controls confirmed that distinct functions can be
+equal on a common inactive branch and that collapsing their references loses
+authority. R9Y's exception establishes only that its two hashes differed; the
+coefficient values, reason, tolerance relationship and terminal topology remain
+unavailable.
+
+The review also established that R9Y constructed blocked QC state and re-raised
+without the hardened failure controller or synchronized traceback. The exact
+historical traceback remains unavailable and was not recreated. Six synthetic
+failure stages validated a bounded prospective traceback-capture contract.
+
+R9Z closes **A / readiness 1 / execution valid** with zero states and zero edges
+reopened and no empirical or numerical computation. All five pair controls and
+ten access and evidence controls passed. See the
+[report](session_14r9z_pair_authority_failure_evidence_diagnosis.md) and
+[manifest](../outputs/continuous_occlusion_pair_authority_diagnosis/manifest.json).
+The sole recommendation is to separately govern one bounded repair of the
+TerminalCellAuthority pair-equality schema and failure-traceback capture, with
+zero empirical reopening, then stop before another acquisition. No repair or
+acquisition was executed.

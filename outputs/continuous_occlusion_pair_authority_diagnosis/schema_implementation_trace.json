@@ -1,0 +1,1 @@
+{"counts":{"implementation_restrictions":2},"evidence_sha256":"646071f2fa08af5db347f998b38dd80f6adbf85b1efa6e76bcb1f12dcfd15304","flags":{"create_restricts_identity":true,"frozen_schema_did_not_require_identity":true,"load_restricts_identity":true,"repair_specification_complete":true},"schema_version":1,"status":"complete"}

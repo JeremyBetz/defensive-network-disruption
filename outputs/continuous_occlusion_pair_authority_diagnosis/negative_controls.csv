@@ -1,0 +1,11 @@
+control,expected,observed,passed
+selected_record_access,blocked,blocked,true
+boundary_geometry_access,blocked,blocked,true
+prepared_population_access,blocked,blocked,true
+field_evaluation,blocked,blocked,true
+bound_evaluation,blocked,blocked,true
+refinement,blocked,blocked,true
+classification,blocked,blocked,true
+historical_traceback_recreation,blocked,blocked,true
+missing_pair_reference,blocked,blocked,true
+tampered_failure_hash,blocked,blocked,true
