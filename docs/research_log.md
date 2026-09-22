@@ -2184,3 +2184,27 @@ The sole recommendation is to separately govern one bounded retained-edge
 evidence-acquisition phase that captures only the missing terminal-cell
 mathematical authority, then stop before refinement. No recommendation was
 executed.
+
+
+## 2026-09-22 — Session 14R9Y bounded terminal-cell authority acquisition
+
+[Phase 14R9Y](protocols/phase_14r9y_terminal_cell_authority_acquisition.md)
+authorized one immutable authority acquisition from the retained R9V
+selected-edge copy. A bounded pre-access receipt-sidecar defect was corrected in
+a separate commit before access; all three checkpoint CI jobs passed on the
+corrected exact commit and its offline receipt validated.
+
+The single governed acquisition validated the R9V lineage, reopened one
+previously exposed state and edge, and derived the unresolved cell bounds. It
+then stopped at `ValueError: pair_authority` because authority construction
+required exact symbolic identity for the tied pair. No private authority was
+created, and no repair or rerun followed. Field evaluation, refinement and
+classification counts remained zero, with zero new population exposure.
+
+R9Y closes **D / readiness 4 / execution invalid**. The six-file blocked package
+passed persisted publication validation. See the
+[report](session_14r9y_terminal_cell_authority_acquisition.md) and
+[manifest](../outputs/continuous_occlusion_terminal_cell_authority_acquisition/manifest.json).
+The sole recommendation is to separately govern one bounded diagnosis of the
+terminal-cell pair-authority identity mismatch using the retained R9Y evidence,
+with zero further empirical reopening. No recommendation was executed.
