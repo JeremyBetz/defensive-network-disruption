@@ -2160,3 +2160,27 @@ scientific result was interpreted. See the
 The sole recommendation is a separately governed interval-only independent
 bound for the one unresolved terminal cell, without another field invocation
 or empirical retry. No recommendation was executed.
+
+
+## 2026-09-21 — Session 14R9X terminal-cell evidence-retention review
+
+[Phase 14R9X](protocols/phase_14r9x_terminal_cell_evidence_retention_review.md)
+performed one metadata-only review of R9V's evidence loss. The review traced
+exact cell bounds, field authority, pair authority and enclosures to the
+`reference_cell` serialization boundary, where only ordinal, depth and status
+were retained. It defined a coefficient-only `TerminalCellAuthority` and proved
+its geometry-free sufficiency across five reference outcomes and seven negative
+controls.
+
+R9X closes **A / readiness 1 / execution valid** with zero empirical states,
+zero empirical edges and no empirical computation. R9V remains NF/PA/readiness
+3; the uncommitted R9W read-only stop is recorded as TE/NF/readiness 4. The
+future acquisition is bounded to one already exposed state and edge, reads only
+the retained selected-edge copy, derives coefficients and leaf bounds, writes
+one immutable authority, and stops before refinement. See the
+[report](session_14r9x_terminal_cell_evidence_retention_review.md) and
+[manifest](../outputs/continuous_occlusion_terminal_cell_evidence_retention/manifest.json).
+The sole recommendation is to separately govern one bounded retained-edge
+evidence-acquisition phase that captures only the missing terminal-cell
+mathematical authority, then stop before refinement. No recommendation was
+executed.
