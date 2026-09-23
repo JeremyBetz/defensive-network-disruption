@@ -2263,3 +2263,26 @@ computation. See the
 The sole recommendation is to separately govern one bounded
 TerminalCellAuthority acquisition using the repaired pair schema, then stop
 before terminal-cell refinement. No acquisition was executed.
+
+## 2026-09-23 — Session 14R9AB terminal-cell authority v2 acquisition
+
+[Phase 14R9AB](protocols/phase_14r9ab_terminal_cell_authority_v2_acquisition.md)
+authorized one bounded authority acquisition from the retained R9V selected-edge
+copy. The tested checkpoint passed distribution, Python 3.11 and Python 3.13 CI
+before the offline receipt authorized access.
+
+The single governed acquisition reopened one previously exposed state and edge,
+with zero new population exposure. It captured one canonical version-2
+`TerminalCellAuthority` containing distinct ordered pair references and every
+non-pair competitor under the frozen common inactive-branch lineage. Canonical
+loading, provenance, competitor completeness and byte-identical round-trip
+validation passed. Candidate and field evaluations, refinement and maximality
+classification all remained zero.
+
+R9AB closes **A / readiness 1 / execution valid**. The seven-file public package
+passed persisted validation. See the
+[report](session_14r9ab_terminal_cell_authority_v2_acquisition.md) and
+[manifest](../outputs/continuous_occlusion_terminal_cell_authority_v2_acquisition/manifest.json).
+The sole recommendation is to separately govern the terminal-cell independent
+bound using only the persisted TerminalCellAuthority v2, with zero empirical
+reopening. The bound was not executed.
