@@ -30,7 +30,7 @@ def expectation():
 
 def preflight():
     from defensive_network_disruption.validation.r9ac_authority import verify_bindings,metadata,TAG
-    from defensive_network_disruption.validation.checkpoint_ci_authority import validate_receipt
+    from defensive_network_disruption.validation.checkpoint_ci_authority_v2 import validate_selected
     if git('status','--porcelain'):raise RuntimeError('dirty_tree')
     if git('rev-parse','HEAD')!=git('rev-parse','origin/main'):raise RuntimeError('tracking_mismatch')
     if git('rev-parse','v0.1.0^{}')!=TAG:raise RuntimeError('release_tag')
@@ -42,7 +42,7 @@ def preflight():
     if (OUT/'local/attempt.marker').exists():raise FileExistsError('governed_attempt_exists')
     if any(p.is_file() for p in OUT.glob('*')):raise FileExistsError('public_namespace_exists')
     receipt=OUT/'local/checkpoint_ci.json'
-    authority=validate_receipt(receipt,expectation(),expected_sha256=receipt.with_suffix('.json.sha256').read_text().strip())
+    authority=validate_selected(receipt,expectation(),expected_sha256=receipt.with_suffix('.json.sha256').read_text().strip())
     return {'head':authority.checkpoint_commit,'receipt_sha256':authority.receipt_sha256,'preflight_valid':True}
 
 

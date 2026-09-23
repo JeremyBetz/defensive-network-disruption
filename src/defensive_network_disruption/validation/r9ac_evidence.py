@@ -64,13 +64,14 @@ def inspect_private(local):
     from .r9ac_authority import OUTPUT, AUTHORITY_HASH, PARTITION, inventory
     if local.parent.name==Path(OUTPUT).name and binding['kind']!='retained':raise ValueError('retained_namespace')
     if binding['kind']=='retained':
-        from .checkpoint_ci_authority import CIExpectation,validate_receipt
+        from .checkpoint_ci_authority import CIExpectation
+        from .checkpoint_ci_authority_v2 import validate_selected
         root=Path(__file__).resolve().parents[3]; inherited=inventory(root)
         if binding['source_authority_sha256']!=AUTHORITY_HASH or binding['historical_status_sha256']!=PARTITION:
             raise ValueError('retained_binding')
         expected=CIExpectation(binding['checkpoint_commit'],binding['protocol_sha256'],binding['runner_sha256'],
                                inherited['uv.lock'],inherited['.github/workflows/ci.yml'])
-        validate_receipt(local/'checkpoint_ci.json',expected,expected_sha256=binding['ci_receipt_sha256'])
+        validate_selected(local/'checkpoint_ci.json',expected,expected_sha256=binding['ci_receipt_sha256'])
     linear=load(local/'linear_authority.json')
     if linear['records']!=0 or linear['legacy'] is not None or linear['failure'] is not None or linear['raw_sha256']!=hashlib.sha256(b'').hexdigest():raise ValueError('zero_exposure_authority')
     if (local/'empirical_journal.jsonl').read_bytes()!=b'':raise ValueError('unexpected_empirical_events')

@@ -327,7 +327,7 @@ class AdditionalAuthorityTests(unittest.TestCase):
             def source(root):order.append('source');return record,rows
             with (patch.object(module,'preflight',preflight),patch.object(authority,'retained',source),
                   patch.object(authority,'AUTHORITY_HASH',digest(record)),patch.object(authority,'PARTITION',digest(rows)),
-                  patch('defensive_network_disruption.validation.checkpoint_ci_authority.validate_receipt',return_value=None)):
+                  patch('defensive_network_disruption.validation.checkpoint_ci_authority_v2.validate_selected',return_value=None)):
                 result=module.governed()
             self.assertEqual(order,['gate','source']);self.assertTrue(result['publication_valid'])
 
