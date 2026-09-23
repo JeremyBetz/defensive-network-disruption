@@ -1,0 +1,10 @@
+control,expected,observed,passed
+lineage_review,capture_qc_publish,capture_qc_publish,True
+materialization,capture_qc_publish,capture_qc_publish,True
+coefficient_derivation,capture_qc_publish,capture_qc_publish,True
+authority_construction,capture_qc_publish,capture_qc_publish,True
+validation,capture_qc_publish,capture_qc_publish,True
+publication_initialization,capture_qc_publish,capture_qc_publish,True
+blocked_qc_failure,secondary_preserved,secondary_preserved,True
+publisher_failure,secondary_preserved,secondary_preserved,True
+reraise,original_reraised,original_reraised,True

@@ -2236,3 +2236,30 @@ The sole recommendation is to separately govern one bounded repair of the
 TerminalCellAuthority pair-equality schema and failure-traceback capture, with
 zero empirical reopening, then stop before another acquisition. No repair or
 acquisition was executed.
+
+## 2026-09-22 — Session 14R9AA pair-schema and traceback repair
+
+[Phase 14R9AA](protocols/phase_14r9aa_terminal_cell_pair_schema_traceback_repair.md)
+implemented the bounded repair authorized by R9Z. A new internal version-2
+`TerminalCellAuthority` preserves two ordered function references and binds an
+interval-scoped tie authority for symbolic identity, common inactive-branch
+equality or tolerance certification. Historical version-1 bytes and behavior
+remain unchanged. The geometry-free bound evaluates both pair functions and
+every competitor independently.
+
+The new acquisition-failure boundary durably captures and validates the
+original traceback before blocked-QC or publication callbacks. Secondary
+callback failures are preserved separately, and re-raise retains the original
+exception and traceback. The historical R9Y traceback remains unavailable.
+
+R9AA closes **A / readiness 1 / execution valid** after all 17 pair-schema and
+bound controls and all nine traceback controls passed. The active and clean
+tracked-only suites each ran 1,310 tests: 1,307 passed and three retained skips.
+The session reopened zero states and zero edges and performed no acquisition,
+field evaluation, refinement, maximality classification or empirical
+computation. See the
+[report](session_14r9aa_terminal_cell_pair_schema_traceback_repair.md) and
+[manifest](../outputs/continuous_occlusion_terminal_cell_pair_schema_repair/manifest.json).
+The sole recommendation is to separately govern one bounded
+TerminalCellAuthority acquisition using the repaired pair schema, then stop
+before terminal-cell refinement. No acquisition was executed.

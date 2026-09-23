@@ -1,0 +1,4 @@
+version,pair_relation,result
+v1,exact_duplicate,accepted_unchanged
+v1,distinct,blocked_unchanged
+v2,distinct_with_interval_authority,accepted
