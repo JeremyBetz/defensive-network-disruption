@@ -2286,3 +2286,29 @@ passed persisted validation. See the
 The sole recommendation is to separately govern the terminal-cell independent
 bound using only the persisted TerminalCellAuthority v2, with zero empirical
 reopening. The bound was not executed.
+
+## 2026-09-23 — Session 14R9AC-CI2 checkpoint attempt-binding repair
+
+The [frozen CI2 protocol](protocols/phase_14r9ac_ci_attempt_binding_repair.md)
+authorized an explicit-attempt CI receipt and receipt-only wiring of both
+R9AC gates. Historical R9M v1 code, receipts and behavior remain unchanged.
+The tested checkpoint passed distribution, Python 3.11 and Python 3.13 CI
+before one authenticated validation capture of historical run 35878553378,
+attempt 2. Its three specified job IDs validated offline; the receipt rejected
+the newer repair checkpoint. Attempt 1 remains cancelled, without an
+established cancelling actor or cause.
+
+The governed synthetic audit passed 15/15. Local and clean tracked-checkout
+full suites each ran 1,369 tests: 1,366 passed and three retained skips. Both
+checkpoint Python jobs returned the same counts. The six-file package passed
+persisted validation. See the
+[report](session_14r9ac_ci_attempt_binding_repair.md) and
+[manifest](../outputs/continuous_occlusion_checkpoint_attempt_binding_repair/manifest.json).
+Technical acceptance is A/readiness 1, with final green CI and synchronized
+delivery required before final handoff. No empirical records were opened,
+terminal authority decoded, bound invoked, or operational R9AC receipt or
+execution marker created.
+
+The sole recommendation is to resume R9AC at v2 checkpoint-receipt capture and
+frozen preflight, then execute the single terminal-cell bound if all gates
+pass. CI2 did not execute that recommendation.
