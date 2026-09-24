@@ -2312,3 +2312,33 @@ execution marker created.
 The sole recommendation is to resume R9AC at v2 checkpoint-receipt capture and
 frozen preflight, then execute the single terminal-cell bound if all gates
 pass. CI2 did not execute that recommendation.
+
+## 2026-09-24 — Session 14R9AC terminal-cell independent bound
+
+The [frozen R9AC protocol](protocols/phase_14r9ac_terminal_cell_independent_bound.md)
+was resumed after CI2 and the separately authorized fresh checkpoint
+`ec061e920a5d71f75c908f7bfe0ee6b956f89ade`. Run 35950363831 attempt 1 passed
+distribution and both required Python jobs. One fresh operational v2 receipt
+validated offline; preflight passed before the single retained bound invocation.
+The historical CI2 validation receipt was not reused.
+
+R9AC returned **TC / ND / execution valid / diagnostic readiness 1**. Seven
+nodes and four leaves at three additional levels established a change from pair
+maximality to strict competitor dominance, with pair equality independently
+proved. One leaf remains unresolved; no unique crossing or strict winner
+reversal is claimed. The prior 36 maximum and 44 dominated cells reconcile with
+the newly analyzed terminal cell. Exact values and widths remain private.
+
+The nine-file package validated through one zero-exposure linear review and
+immutable single-writer authority. Zero states or edges were opened/reopened;
+no production field or candidate evaluation, empirical retry or repair occurred.
+Post-run focused tests passed 38/38 and relevant regressions 121/121. Local and
+clean tracked-only suites each ran 1,369 tests: 1,366 passed and three retained
+skips. Final green CI and clean synchronized delivery remain required before the
+final handoff. See the [report](session_14r9ac_terminal_cell_independent_bound.md)
+and [manifest](../outputs/continuous_occlusion_terminal_cell_independent_bound/manifest.json).
+
+Operational repair remains unresolved. The sole recommendation is to separately
+govern one bounded numerical repair for the established tie-boundary mechanism,
+then stop before another empirical population retry. The report specifies only
+a prospective global-maximality restriction; no repair was implemented.

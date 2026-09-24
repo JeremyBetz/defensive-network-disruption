@@ -1,0 +1,11 @@
+control,expected,observed,passed
+pair_maximal,TA,TA,True
+competitor_dominant,TB,TB,True
+dominance_switch,TC,TC,True
+interior_equality,TD,TD,True
+unresolved_overlap,TE,TE,True
+distinct_pair,TA,TA,True
+symbolic_identity,TA,TA,True
+common_inactive,TA,TA,True
+tampered_authority,rejected,rejected,True
+missing_competitor,rejected,rejected,True
