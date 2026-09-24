@@ -2342,3 +2342,38 @@ Operational repair remains unresolved. The sole recommendation is to separately
 govern one bounded numerical repair for the established tie-boundary mechanism,
 then stop before another empirical population retry. The report specifies only
 a prospective global-maximality restriction; no repair was implemented.
+
+## 2026-09-24 — Session 14R9AD bounded tie-boundary mechanism repair
+
+The [frozen protocol](protocols/phase_14r9ad_tie_boundary_mechanism_repair.md)
+preceded new internal equality/maximality separation and explicit adapter
+implementation. Checkpoint `d90f378d7c6140942a325a43bdac9156d1da90c9` passed
+run 36063107155 attempt 1 for distribution and both Python versions. One fresh
+attempt-bound v2 receipt validated offline; frozen preflight passed.
+
+The one governed acceptance passed 14 topology controls, ten blocking negative
+families, nine publication controls and the complete 108/366/399 historical
+authority. It then reopened only the R9V selected-edge copy: one previously
+exposed state and edge, zero new exposure, no uncertainty. The single
+constant-width invocation stopped at owner certification with
+`tie_maximality_unresolved`. Its complete 81-cell frontier retained one unresolved
+cell at depth 80. No downstream candidate completion, repair, rerun or population
+retry followed. Exact values and traces remain private.
+
+R9AD closes **D / readiness 3**, with valid bounded rejection and failure
+publication. One R9J review and immutable single-writer authority closed the
+nine-file package after capture-first traceback preservation. R9AC remains
+TC/ND/diagnostic readiness 1; no unique crossing, displaced boundary or
+owner-tolerance defect is inferred. Scientific claims remain unchanged.
+
+Post-run focused and relevant tests passed 28/28 and 245/245. Local and clean
+tracked-only full suites each ran 1,397 tests: 1,394 passed and three retained
+skips. These were validation replays. Publication, privacy, links, hashes,
+historical preservation and diff checks passed; final green CI and synchronized
+delivery remain required before final handoff. See the
+[report](session_14r9ad_tie_boundary_mechanism_repair.md) and
+[manifest](../outputs/continuous_occlusion_tie_boundary_mechanism_repair/manifest.json).
+
+The sole recommendation is to separately govern one bounded diagnosis of the
+unresolved maximality region using retained R9AD proof evidence, without reopening
+geometry. That recommendation was not executed.
