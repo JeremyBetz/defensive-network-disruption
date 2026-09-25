@@ -1,6 +1,6 @@
 # Research roadmap
 
-Status: active and conditional, aligned 2026-09-12. The numbered phases below
+Status: paused and conditional, aligned 2026-09-24. The numbered phases below
 remain scientific gates rather than a claim that later governed sessions mapped
 one-to-one onto the original sequence.
 
@@ -18,13 +18,26 @@ carrier-centred option-network abstraction, synthetic visualization, hardened
 provider-independent software, and the experimental `v0.1.0` GitHub release.
 Session 13 found recurring, non-degenerate multi-edge defender geometry in every
 development match and authorized only a bounded continuous-occlusion hypothesis
-study. The Session 14 branch has since completed extensive synthetic numerical,
-cross-platform reproducibility, fail-closed launch, lifecycle, publication and
-exposure-accounting work. Its latest empirical attempt, Session 14R5, stopped at
-a required pre-access interruption check without opening development geometry.
-Session 14ag repaired that prospective exposure-accounting contract, but a full
-development-set field comparison still requires a fresh protocol and has not
-completed. Listing this frontier does not authorize it.
+study. The Session 14 branch has since hardened its numerical, canonicalization,
+failure, lifecycle, publication and exposure-accounting machinery. Session
+14R9AD nevertheless stopped one retained constant-width path at
+`tie_maximality_unresolved`, depth 80. The full continuous-occlusion empirical
+representation run is therefore paused and has produced no field comparison to
+interpret. The [resume checkpoint](resume_after_pause.md) is the current restart
+guide; listing this frontier does not authorize execution.
+
+Current work status:
+
+- **Done:** receiver-selection geometry; the local option network; the
+  experimental public API; multi-edge defender structure; and numerical and
+  publication hardening through R9AD.
+- **Paused:** the full continuous-occlusion empirical representation run.
+- **Next:** one bounded diagnosis of R9AD's unresolved maximality region using
+  retained proof evidence, followed by a fresh full empirical retry only if the
+  blocker is resolved under new authority.
+- **Later:** behavioral receiver-choice validation beyond M1, polished
+  analyst-facing notebooks and visuals, and threat/value work only after the
+  representation is validated.
 
 **Do not add PageRank, graph neural networks, community detection, or similar
 machinery simply because players can be drawn as a graph. The project first

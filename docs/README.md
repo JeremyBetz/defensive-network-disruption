@@ -24,21 +24,17 @@ research record currently governs a result or proposed continuation.
 Continuous carrier-origin defensive fields are unvalidated geometric hypotheses.
 The Session 14 series has built and tested numerical integration, canonical
 switching and partition records, cross-platform comparison, fail-closed launch,
-lifecycle, publication and exposure-accounting machinery. It has not completed
-the planned full development-set comparison of directional fields with isotropic
-proximity.
+lifecycle, publication and exposure-accounting machinery. The latest authority,
+[Session 14R9AD](session_14r9ad_tie_boundary_mechanism_repair.md), stopped one
+retained constant-width path at `tie_maximality_unresolved`, depth 80. Its
+classification is D/readiness 3. This is a numerical/certification blocker, not
+a scientific field result, and the full development comparison remains paused.
 
-[Session 14R5](session_14r5_continuous_occlusion_empirical_retry.md) is the latest
-stopped empirical attempt. It halted at a required synthetic interruption check
-before development access. [Session 14ag](session_14ag_projection_edge_exposure_accounting.md)
-is the latest prospective repair authority: it makes receiver-edge materialization
-durable and distinguishes geometric-edge exposure from field-evaluation work.
-It authorizes no automatic retry and supplies no evidence that a field works.
-
-For a future retry, read the original [Phase 14 protocol](protocols/phase_14_continuous_occlusion_hypotheses.md),
-the proposed retry protocol, the complete intervening Session 14 authority chain,
-the stopped R5 report, and Session 14ag before freezing new work. Later reports
-qualify earlier PASS or readiness statements without rewriting them.
+Use the concise [resume checkpoint](resume_after_pause.md) after the pause. The
+next governed action is one bounded diagnosis using retained R9AD proof evidence,
+without reopening geometry. A population retry remains unauthorized until that
+blocker is resolved. Later reports qualify earlier PASS or readiness statements
+without rewriting them.
 
 ## Authority and history
 

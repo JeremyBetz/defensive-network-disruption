@@ -57,16 +57,17 @@ geometry are often different relationships. These are aggregate geometric
 patterns, not defender attribution or suppression. See the
 [Session 13 report](https://github.com/JeremyBetz/defensive-network-disruption/blob/main/docs/session_13_defender_edge_influence_report.md).
 
-## Current research direction
+## Current representation work
 
 The current scientific question is whether continuous carrier-origin directional
 fields can compactly describe that multi-edge geometry beyond isotropic
-proximity. These fields remain geometric hypotheses; cover shadows have not been
-validated. The project has completed substantial synthetic numerical,
-cross-platform reproducibility, canonical partition, failure-handling, lifecycle,
-and exposure-accounting validation. A full development-set structural comparison
-has not yet completed, so there is no empirical field result to interpret. The
-complete stopped and negative history remains in the
+proximity. The representation work is numerically hardened but not yet fully
+completed on the full development population. Its remaining blocker is in
+certifying one retained tie-maximality region; this is not a scientific field
+result. These fields remain geometric hypotheses, and cover shadows have not
+been validated. The practical restart point is the
+[pause checkpoint](https://github.com/JeremyBetz/defensive-network-disruption/blob/main/docs/resume_after_pause.md);
+the complete stopped and negative history remains in the
 [research log](https://github.com/JeremyBetz/defensive-network-disruption/blob/main/docs/research_log.md).
 
 Conditional future work includes behavioral validation, defensive-configuration

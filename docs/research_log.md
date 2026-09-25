@@ -2377,3 +2377,18 @@ delivery remain required before final handoff. See the
 The sole recommendation is to separately govern one bounded diagnosis of the
 unresolved maximality region using retained R9AD proof evidence, without reopening
 geometry. That recommendation was not executed.
+
+## 2026-09-24 — Project 2 one-week pause checkpoint
+
+Project 2 is intentionally paused for approximately one week so Project 1 can
+receive priority. The pause starts from synchronized
+`73c56c043934f8f5099561dd087df70961f6e57b`. Session 14R9AD remains **D /
+readiness 3**: its single retained constant-width invocation stopped at
+`tie_maximality_unresolved`, depth 80, with one previously exposed state/edge
+reopened and zero new population exposure. This is a numerical/certification
+blocker, not a scientific result, and no new population retry is authorized.
+
+The practical restart guide is [resume_after_pause.md](resume_after_pause.md).
+On resume, separately govern one bounded diagnosis of the unresolved maximality
+region using retained R9AD proof evidence, without reopening geometry. Do not
+launch a full population retry until that diagnosis closes.
